@@ -119,6 +119,7 @@
     width: 100%;
     
   }
+  /* css popup */
   .modal {
     position: fixed;
     top: 50%;
@@ -149,10 +150,9 @@
   }
   
   .modal-header .title {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     color: var(--text-color);
-    filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   }
   
   .modal-header .close-button {
@@ -165,12 +165,11 @@
     font-size: 25px;
     font-weight: bold;
     color: var(--text-color);
-    filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   }
   
   .modal-body {
     padding: 10px 15px;
-    color: var(--text-color-alt);
+    color: var(--text-color);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
