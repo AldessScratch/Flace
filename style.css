@@ -47,6 +47,13 @@
     color: white;
     filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   }
+  .title p {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+  }
 
 .cards{
     height: 300px;
@@ -68,11 +75,19 @@
   	-webkit-box-shadow: 4px 3px 8px 1px #96969633;
       animation-name: fadeIn;
       animation-duration: 1.5s;
+      overflow: hidden;
+    
 }
 .cards .card h1 {
+    position: absolute;
     text-align: center;
     font-size: 20px;
     font-weight: 500;
     color: white;
     filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+  }
+  .cards .card img {
+    height: 300px;
+    width: 100%;
+    
   }
