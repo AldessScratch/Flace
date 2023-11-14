@@ -38,9 +38,7 @@
         <div class="modal" id="modal">
             <div class="modal-header">
               <div id="subtitle" class="title"></div>
-            <script>
-                document.getElementById('subtitle').innerHTML = sessionStorage.getItem('matiere')
-            </script>
+            
               <i data-close-button class="bx bx-x close-button"></i>
             </div>
             <div class="modal-body">
@@ -48,6 +46,10 @@
           </div>   
           <div id="overlay" class="popupoverlay"></div>
     </div>
+    <!-- Script pour appliquer le nom de la matière pour le popup -->
+    <script>
+        document.getElementById('subtitle').innerHTML = sessionStorage.getItem('matiere')
+    </script>
     <!-- Script pour l'heure -->
     <script>
                 const timeElement = document.querySelector(".time");
