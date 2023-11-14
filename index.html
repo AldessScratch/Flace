@@ -20,13 +20,14 @@
         </div>
     </div>
     <div class="home">
-        <div class="title">
+        <!-- Banniere -->
+        <div class="banniere" style="background-image: url('');">
             <h5>Bienvenue sur Flace</h5>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
         </div>
          <!-- Les matières -->
         <div class="cards">
-            <div class="card">
+            <div data-modal-target="#modal" class="card" onclick="popup('Mathématiques')">
                 <img src="https://img.freepik.com/photos-gratuite/vue-dessus-assortiment-elements-nature-morte-retour-ecole_23-2148969111.jpg" alt="fonddemath">
                 <h1>Mathématiques</h1>
             </div>
@@ -34,6 +35,18 @@
             <div class="card"></div>
             <div class="card"></div>
         </div>
+        <div class="modal" id="modal">
+            <div class="modal-header">
+              <div id="subtitle" class="title"></div>
+            <script>
+                document.getElementById('subtitle').innerHTML = sessionStorage.getItem('matiere')
+            </script>
+              <i data-close-button class="bx bx-x close-button"></i>
+            </div>
+            <div class="modal-body">
+            </div>
+          </div>   
+          <div id="overlay" class="popupoverlay"></div>
     </div>
     <!-- Script pour l'heure -->
     <script>
@@ -56,5 +69,8 @@ setInterval(() => {
 }, 200);
 
     </script>
+    <!-- Script pour le popup -->
+    <script src="js/modal.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
