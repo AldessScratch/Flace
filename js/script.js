@@ -1,3 +1,3 @@
 function popup(matiere){
-    sessionStorage.setItem('matiere', matiere)
+    document.getElementById('subtitle').innerHTML = matiere
 }
