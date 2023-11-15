@@ -69,6 +69,15 @@ body {
   animation-name: fadeIn;
     animation-duration: 1.5s;
 }
+.home p {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 12px;
+  animation-name: fadeIn;
+    animation-duration: 1.5s;
+    width: 700px;
+    text-align: center;
+}
 
 /*  animation stylé idk */
   @keyframes fadeIn {
