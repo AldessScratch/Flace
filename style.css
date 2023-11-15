@@ -165,8 +165,27 @@ body {
   transform: scaleY(0);
   transition: .5s;
 }
-
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.content button {
+  border: 0;
+  padding: 7px;
+  border-radius: 10px;
+  margin: 10px;
+  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+}
 .item:hover .details{
   transform: scaleY(1);
   
+}
+.content h5 {
+  margin: 10px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
 }
