@@ -15,11 +15,24 @@
         <div class="brand">
             <img src="img/logo.png" alt="flacelogo">
         </div>
-        <div class="time">
-
+        <div class="right">
+            <i class='bx bx-info-circle'></i>
+            <div class="time"></div>
         </div>
     </div>
     <div class="home">
+        <ul class="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+    </ul>
         <!-- Banniere -->
         <div class="banniere" style="background-image: url('');">
             <h5>Bienvenue sur Flace</h5>
@@ -27,7 +40,8 @@
         </div>
          <!-- Les matières -->
         <div class="cards">
-            <div data-modal-target="#modal" class="card" onclick="popup('Mathématiques')">
+            <!-- card: utiliser le modèle suivant avec la fonction -->
+            <div data-modal-target="#modal" class="card" onclick="popup('Mathématiques', 'math')">
                 <img src="https://img.freepik.com/photos-gratuite/vue-dessus-assortiment-elements-nature-morte-retour-ecole_23-2148969111.jpg" alt="fonddemath">
                 <h1>Mathématiques</h1>
             </div>
@@ -38,10 +52,20 @@
         <div class="modal" id="modal">
             <div class="modal-header">
               <div id="subtitle" class="title"></div>
-            
               <i data-close-button class="bx bx-x close-button"></i>
             </div>
             <div class="modal-body">
+                <h2>Que voulez vous faire</h2>
+                <div class="cards">
+                    <div class="card">
+                        <img src="https://img.freepik.com/photos-gratuite/vue-dessus-assortiment-elements-nature-morte-retour-ecole_23-2148969111.jpg" alt="fonddemath">
+                        <h1>Apprendre</h1>
+                    </div>
+                    <div class="card">
+                        <img src="https://img.freepik.com/photos-gratuite/vue-dessus-assortiment-elements-nature-morte-retour-ecole_23-2148969111.jpg" alt="fonddemath">
+                        <h1>S'entrainer</h1>
+                    </div>
+                </div>
             </div>
           </div>   
           <div id="overlay" class="popupoverlay"></div>
