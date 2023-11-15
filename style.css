@@ -142,6 +142,8 @@ body {
     background-color: transparent;
     border: none;
     left: 100px;
+    display: flex;
+    justify-content: center;
 }
 
 #next{
