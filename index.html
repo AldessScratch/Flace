@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Flace | Accueil</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
@@ -13,62 +14,42 @@
 <body>
     <div class="navbar">
         <div class="brand">
-            <img src="img/logo.png" alt="flacelogo">
+            <!-- <img src="" alt="flacelogo"> -->
+            <div class="brandname">Fla?e</div>
         </div>
         <div class="right">
             <i class='bx bx-info-circle'></i>
             <div class="time"></div>
         </div>
     </div>
+    
     <div class="home">
-        <ul class="circles">
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-    </ul>
-        <!-- Banniere -->
-        <div class="banniere" style="background-image: url('');">
-            <h5>Bienvenue sur Flace</h5>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-        </div>
-         <!-- Les matières -->
-        <div class="cards">
-            <!-- card: utiliser le modèle suivant avec la fonction -->
-            <div data-modal-target="#modal" class="card" onclick="popup('Mathématiques', 'math')">
-                <img src="https://img.freepik.com/photos-gratuite/vue-dessus-assortiment-elements-nature-morte-retour-ecole_23-2148969111.jpg" alt="fonddemath">
-                <h1>Mathématiques</h1>
-            </div>
-            <div class="card"></div>
-            <div class="card"></div>
-            <div class="card"></div>
-        </div>
-        <div class="modal" id="modal">
-            <div class="modal-header">
-              <div id="subtitle" class="title"></div>
-              <i data-close-button class="bx bx-x close-button"></i>
-            </div>
-            <div class="modal-body">
-                <h2>Que voulez vous faire</h2>
-                <div class="cards">
-                    <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/vue-dessus-assortiment-elements-nature-morte-retour-ecole_23-2148969111.jpg" alt="fonddemath">
-                        <h1>Apprendre</h1>
-                    </div>
-                    <div class="card">
-                        <img src="https://img.freepik.com/photos-gratuite/vue-dessus-assortiment-elements-nature-morte-retour-ecole_23-2148969111.jpg" alt="fonddemath">
-                        <h1>S'entrainer</h1>
+        <h1>Bienvenue sur Flace 😀</h1>
+        <!-- Slider by lundev -->
+
+       
+        <div class="slider">
+             <!-- Début d'une slide -->
+            <div class="item">
+                <img src="https://img.freepik.com/photos-gratuite/vue-dessus-assortiment-elements-nature-morte-retour-ecole_23-2148969111.jpg">
+                <h2>Mathématiques</h2>
+                <div class="details">
+                    <div class="content">
+                        <h5>Que voulez vous faire</h5>
+                        <button onclick="" class="n">Apprendre</button>
+                        <button onclick="" class="n">S'entrainer</button>
                     </div>
                 </div>
             </div>
-          </div>   
-          <div id="overlay" class="popupoverlay"></div>
+            <!-- Fin d'une slide -->
+            <!-- Début d'une slide -->
+            <div class="item">
+                
+            </div>
+            <!-- Fin d'une slide -->
+            <button id="next"><i class="bx bx-chevron-right"></i></button>
+            <button id="prev"><i class="bx bx-chevron-left"></i></button>
+        </div>
     </div>
     <!-- Script pour l'heure -->
     <script>
@@ -91,8 +72,6 @@ setInterval(() => {
 }, 200);
 
     </script>
-    <!-- Script pour le popup -->
-    <script src="js/modal.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>
