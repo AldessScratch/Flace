@@ -116,6 +116,7 @@ body {
     top: 0;
     overflow: hidden;
     perspective: 1500px;
+    -webkit-perspective: 1500px;
     box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
 }
