@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
     width: 100%;
 }
 
@@ -68,15 +68,22 @@ body {
   font-size: 32px;
   animation-name: fadeIn;
     animation-duration: 1.5s;
+    text-align: center;
 }
 .home p {
   color: var(--text-color);
+  margin: 10px;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 13px;
   animation-name: fadeIn;
     animation-duration: 1.5s;
     width: 700px;
     text-align: center;
+}
+
+.home a {
+  color: var(--text-color);
+  text-decoration: underline;
 }
 
 /*  animation stylé idk */
@@ -94,29 +101,69 @@ body {
     
     position: relative;
     width: 100%;
-    height: 370px;
+    height: 400px;
     overflow: hidden;
     margin-top: 50px;
     
 }
 .item{
-    position: absolute;
+  position: absolute;
     width: 220px;
     height: 360px;
-    text-align: justify;
-    background-color: #74747494;
     border-radius: 10px;
-    padding: 20px;
     transition: 0.5s;
     left: calc(50% - 110px);
     top: 0;
-    filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.4));
-    display: flex;
-    justify-content: center;
-    align-items: center;
     overflow: hidden;
+    perspective: 1500px;
+    box-shadow: 4px 3px 8px 1px #42424233;
+  	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
 }
-.item h2 {
+.item.n{
+  background-color: #74747494;
+}
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.item:hover .inner {
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.front img {
+  height: 360px;
+  width: auto;
+}
+
+.front {
+  background-color: #ffffff;
+}
+
+.back {
+  background-image: url('./img/texture.png');
+  background-color: #ffffff;
+  color: #000000;
+  transform: rotateY(180deg);
+}
+
+.front h2 {
   position: absolute;
   text-align: center;
   color: #fff;
@@ -124,10 +171,11 @@ body {
   font-size: 23px;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
 }
-.item img{
-  filter: brightness(80%);
-  width: auto;
-  height: 370px;
+.back h5 {
+  margin: 10px;
+  color: #000000;
+  font-weight: 500;
+  font-size: 16px;
 }
 .slider i {
   color: var(--text-color);
@@ -139,11 +187,7 @@ body {
   z-index: 5;
     position: absolute;
     top: 40%;
-    background-color: transparent;
-    border: none;
     left: 100px;
-    display: flex;
-    justify-content: center;
 }
 
 #next{
@@ -151,43 +195,35 @@ body {
     right: 100px;
 }
 
-.item .details{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  bottom: 0px;
-  right: 0px;
-  background: #00000000;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border-radius: 20px;
-  transform: scaleY(0);
-  transition: .5s;
-}
-.content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.content button {
+.back button {
   border: 0;
   padding: 7px;
   border-radius: 10px;
   margin: 10px;
-  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
-}
-.item:hover .details{
-  transform: scaleY(1);
-  
-}
-.content h5 {
-  margin: 10px;
   color: #fff;
-  font-weight: 500;
-  font-size: 16px;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+.back button.learn {
+  background-color: #22b145;
+}
+.back button:hover {
+  transform: scale(1.1);
+}
+.back button:not(:hover){
+  transition-delay: .1s;
+}
+
+@media screen and (max-width: 750px) {
+
+  .home p {
+    width: 80%;
+  }
+  #next {
+    right: 10px;
+  }
+  #prev {
+    left: 10px;
+  }
 }
