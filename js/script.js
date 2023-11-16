@@ -36,3 +36,8 @@ prev.onclick = function(){
 }
 
 
+
+function openlearn(url){
+    sessionStorage.setItem('iframeurl', url)
+    location.href = 'learn'
+}

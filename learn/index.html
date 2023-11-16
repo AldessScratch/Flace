@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Flace | Accueil</title>
+    <title>Flace | Apprendre</title>
     <link rel="stylesheet" href="../style.css">
     <link rel="icon" type="image/x-icon" href="../img/logo.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
@@ -24,10 +24,11 @@
     </div>
     
     <div class="home">
-
-       
-        
+        <iframe id="iframe" src="" style="height: 99vh;width: 100%;border: 0;position: absolute;"></iframe>
     </div>
+    <script>
+        document.getElementById('iframe').src = sessionStorage.getItem('iframeurl')
+    </script>
     <!-- Script pour l'heure -->
     <script>
                 const timeElement = document.querySelector(".time");
