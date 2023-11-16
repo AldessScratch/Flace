@@ -16,6 +16,10 @@
         <div class="brand">
             <!-- <img src="" alt="flacelogo"> -->
             <div onclick="location.href = '../'" class="brandname">Fla?e <sup>Beta</sup></div>
+            <i onclick="location.href = '../'" class='bx bx-home'></i>
+        </div>
+        <div class="center">
+            <div class="matiere" id="matiere"></div>
         </div>
         <div class="right">
             <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
@@ -24,10 +28,13 @@
     </div>
     
     <div class="home">
-        <iframe id="iframe" src="" style="height: 99vh;width: 100%;border: 0;position: absolute;"></iframe>
+         <!-- Iframe qui contient la vrai page pour quon ait pas a refaire la navbar pour chaque page -->
+        <iframe id="iframe" src="" style="height: 100vh;width: 100%;border: 0;position: absolute;"></iframe>
     </div>
     <script>
+        // URL de l'iframe appliqué et le titre de la matière grace a la fonction openlearn() script.js
         document.getElementById('iframe').src = sessionStorage.getItem('iframeurl')
+        document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')
     </script>
     <!-- Script pour l'heure -->
     <script>

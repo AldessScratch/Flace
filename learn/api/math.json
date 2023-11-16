@@ -1,0 +1,19 @@
+[
+    {
+        "type": "Définition",
+        "title": "Multiples & Diviseurs",
+        "content": "Lorsque le reste de la division euclidienne d’un nombre entier a par un nombre entier b non nul est égal à zéro, on dit que : a est un multiple de b et b est un diviseur de a.",
+        "theme": "1",
+        "sequence": "1",
+        "img": ""
+    },
+    {
+        "type": "Méthode",
+        "title": "Critère de divisibilité par 2",
+        "content": "Un nombre entier est divisible par 2 si son chiffre des unités est 0 ; 2 ; 4 ; 6 ou 8.",
+        "theme": "1",
+        "sequence": "1",
+        "img": ""
+    }
+
+]
