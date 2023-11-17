@@ -242,6 +242,7 @@ body {
 }
 /* css des flashcards */
 .cards {
+  margin-top: 100px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -343,9 +344,9 @@ body {
   position: absolute;
   font-weight: 400;
   color: #000;
-  font-size: 28px;
+  font-size: 25px;
   text-align: center;
-
+  margin: 20px;
 }
 
 /* css de l'overlay */
