@@ -36,12 +36,6 @@ body {
       -webkit-filter: invert(100%);
       filter: invert(100%);
     }
-    .modal img {
-      -webkit-filter: invert(100%);
-      filter: invert(100%);
-      height: 100%;
-      width: auto;
-    }
   }
 /* css navbar */
 .navbar {
@@ -86,13 +80,13 @@ body {
   color: var(--text-color);
 }
 .home h1 {
-  margin-top: 100px;
   color: var(--text-color);
   font-weight: 500;
   font-size: 32px;
   animation-name: fadeIn;
     animation-duration: 1.5s;
     text-align: center;
+    margin-top: 60px;
 }
 .home p {
   color: var(--text-color);
@@ -122,7 +116,7 @@ body {
     }
   }
   .slider{
-    
+    display: flex;
     position: relative;
     width: 100%;
     height: 400px;
@@ -131,19 +125,18 @@ body {
     
 }
 .item{
+  background-color: #74747494;
+  margin-top: 50px;
   position: absolute;
-    width: 220px;
-    height: 360px;
+    width: 480px;
+    height: 270px;
     border-radius: 10px;
     transition: 0.5s;
-    left: calc(50% - 110px);
+    left: calc(50% - 240px);
     top: 0;
     overflow: hidden;
     box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
-}
-.item.n{
-  background-color: #74747494;
 }
 .inner {
   position: relative;
@@ -171,8 +164,8 @@ body {
 }
 
 .front img {
-  height: 360px;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
 .front {
@@ -191,18 +184,18 @@ body {
   text-align: center;
   color: #fff;
   font-weight: 500;
-  font-size: 23px;
+  font-size: 30px;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
 }
 .back h5 {
   margin: 10px;
   color: #000000;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 25px;
 }
 .slider i {
   color: var(--text-color);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
 }
@@ -220,10 +213,11 @@ body {
 
 .back button {
   border: 0;
-  padding: 7px;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 12px;
   margin: 10px;
   color: #fff;
+  font-size: 15px;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   transition: all 0.2s ease-in-out;
   transform: scale(1);
@@ -239,7 +233,7 @@ body {
 }
 
 @media screen and (max-width: 750px) {
-
+  
   .home p {
     width: 80%;
   }
@@ -250,11 +244,19 @@ body {
     left: 10px;
   }
 }
+@media screen and (max-width: 500px) {
+  .navbar .brand {
+    display: none;
+  }
+  .searchcard {
+    width: 80vw;
+  }
+}
 /* css des flashcards */
 .cards {
-  margin-top: 100px;
+  margin-top: 20px;
   width: 100%;
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -265,14 +267,12 @@ body {
   align-items: center;
   flex-direction: column;
   background-image: url('./img/texture.png');
-  height: 173px;
-  width: 310px;
+  height: 180px;
+  width: 320px;
   border-radius: 10px;
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
     margin: 10px;
-    animation-name: fadeIn;
-    animation-duration: 1.5s;
 }
 
 .card h2 {
@@ -285,10 +285,10 @@ body {
 .card h5 {
   text-align: center;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 20px;
   color: #000;
-  
 }
+
 .innercard {
   width: 100%;
 }
@@ -303,10 +303,9 @@ body {
   border-radius: 10px;
   z-index: 10;
   background-color: var(--bg);
-  width: 1000px;
   max-width: 90%;
-  height: 360px;
-  width: 640px;
+  height: 450px;
+  width: 800px;
   filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.4));
 }
 
@@ -323,6 +322,7 @@ body {
 }
 
 .modal-header .title {
+  text-align: center;
   font-size: 25px;
   font-weight: 600;
   color: var(--text-color);
@@ -341,13 +341,14 @@ body {
 }
 
 .modal-body {
-  height: 250px;
+  height: 350px;
  display: flex;
  justify-content: center;
  align-items: center;
 }
 .modal img {
-  height: 100%;
+  position: absolute;
+  height: 300px;
   width: auto;
 }
 .content {
@@ -373,8 +374,88 @@ body {
 }
 .overlay.active {
   backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(20px);
   z-index: 1;
   opacity: 1;
   pointer-events: all;
+}
+.searchsection {
+  margin-top: 70px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+
+::placeholder{
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+}
+
+ #searchInput {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: inherit;
+  border: 0;
+  outline: 0;
+  font-size: 15px;
+   color: #fff;
+   width: 300px;
+   text-align: center;
+ }
+ .searchcard {
+  display: flex;
+  align-items: center;
+  padding: 0px 17px;
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: #55555571;
+  box-shadow: 4px 3px 8px 1px #42424233;
+  	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
+  backdrop-filter: blur(5px);
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
+  -webkit-backdrop-filter: blur(5px);
+}
+.searchcard i {
+  font-size: 15px;
+  color: #fff;
+}
+
+/* flashcards random de la page math.html */
+.flashcard {
+  background-image: url('./img/texture.png');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  position: absolute;
+  width: 480px;
+  height: 270px;
+  border-radius: 10px;
+  transition: 0.5s;
+  left: calc(50% - 240px);
+  top: 0;
+  overflow: hidden;
+  box-shadow: 4px 3px 8px 1px #42424233;
+  -webkit-box-shadow: 4px 3px 8px 1px #42424233;
+}
+.innerflashcard {
+  width: 100%;
+}
+.flashcard h2 {
+  font-style: italic;
+  font-size: 25px;
+  margin-left: 10px;
+  color: #000;
+  font-weight: 400;
+}
+.flashcard h5 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 30px;
+  color: #000;
 }

@@ -14,11 +14,25 @@
 <body>
     
     <div class="home">
-        <!-- container des flashcards -->
-        <div class="cards" id="cardscontainer">
-           
+       <!-- searchbar -->
+      <div class="searchsection">
+            <div class="searchcard">
+                <i class='bx bx-search'></i>
+                <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Rechercher une flashcard...">
+            </div>
         </div>
+        <!-- container des flashcards -->
+        <div class="cards" id="cardscontainer"></div>
+        <!-- container des flashcards random en grande-->
+        <div id="cardslider" class="slider">
+         <i id="next" class="bx bx-chevron-right"></i>
+         <i id="prev" class="bx bx-chevron-left"></i>
+        </div>
+        
+     </div>
     </div>
+
+    <!-- popup -->
     <div class="modal" id="modal">
         <div class="modal-header">
           <div id="popuptitle" class="title"></div>
@@ -26,7 +40,7 @@
         </div>
         <div class="modal-body">
             <div id="popupcontent" class="content">
-                Un nombre entier est divisible <strong>par</strong> 2 si son chiffre des unités est 0; 2; 4; 6 ou 8
+        
             </div>
             <img id="popupimg" src="">
         </div>
@@ -37,51 +51,132 @@
     <script>
         function setuppopup(popuptitle, popupcontent, img){
             document.getElementById('popuptitle').innerHTML = popuptitle
-              document.getElementById('popupcontent').innerHTML = popupcontent
-              if (img){
-                document.getElementById('popupimg').src = img
-              }else{
-                document.getElementById('popupimg').style.display = 'none'
-              }
+            document.getElementById('popupcontent').innerHTML = popupcontent
+            document.getElementById('popupimg').src = img
               document.getElementById('modal').classList.add('active')
               document.getElementById('overlay').classList.add('active')
         }
     </script>
-    <!-- js du modal -->
-    <script src="../js/modal.js"></script>
+    <script>
+      var input = document.getElementById("searchInput");
+      input.addEventListener("input", function() {
+  if (input.value == "") {
+    document.getElementById('cardscontainer').style.display = 'none'
+    document.getElementById('cardslider').style.display = 'flex'
+  } else {
+    document.getElementById('cardscontainer').style.display = 'flex'
+    document.getElementById('cardslider').style.display = 'none'
+  }
+});
+
+    </script>
+    <script>
+      function searchFunction() {
+          let input = document.getElementById('searchInput');
+          let filter = input.value.toUpperCase();
+          let cards = document.getElementsByClassName('card');
+          for (i = 0; i < cards.length; i++) {
+              let title = cards[i].getElementsByTagName('h5')[0];
+              let type = cards[i].getElementsByTagName('h2')[0];
+              let txtValue = title.textContent || title.innerText;
+              let typeValue = type.textContent || type.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1 || typeValue.toUpperCase().indexOf(filter) > -1) {
+                  cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
+          }
+        
+      }
+          </script>
     <!-- code pour fetch le json et creer une flashcard -->
     <script>
         // Le code recupère les données depuis le .json
         const jsonUrl = './api/math.json';
         fetch(jsonUrl).then(response => response.json()).then(data => {
           const cardscontainer = document.getElementById('cardscontainer');
+          const cardslider = document.getElementById('cardslider');
           const rendercards = (cards) => {
-            // quand il a recup les données, il crée un flashcard
+            // quand il a recup les données, il crée des flashcards
             cards.forEach(cards => {
               const card = document.createElement('div');
               const innercard = document.createElement('div');
               const type = document.createElement('h2');
               const title = document.createElement('h5');
-              const popuptitle = cards.title
-              const popupcontent = cards.content
-              const popupimg = cards.img
+
               
-              title.setAttribute('id', 'title')
-              type.setAttribute('id', 'type')
               title.innerHTML = cards.title.toUpperCase()
               type.innerHTML = cards.type + ' :'
               card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
               card.classList.add('card');
               innercard.classList.add('innercard');
 
-              cardscontainer.appendChild(card);
+              cardscontainer.appendChild(card)
               card.appendChild(innercard);
               innercard.appendChild(type);
               innercard.appendChild(title);
+              
+              const flashcard = document.createElement('div');
+              const innerflashcard = document.createElement('div');
+              const flashtype = document.createElement('h2');
+              const flashtitle = document.createElement('h5');
+              
+              flashcard.classList.add('flashcard')
+              flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
+              innerflashcard.classList.add('innerflashcard')
+              flashtitle.innerHTML = cards.title.toUpperCase()
+              flashtype.innerHTML = cards.type + ' :'
+
+              cardslider.appendChild(flashcard);
+              flashcard.appendChild(innerflashcard);
+              innerflashcard.appendChild(flashtype);
+              innerflashcard.appendChild(flashtitle);
+
+              // Le code du slider
+      let items = document.querySelectorAll('.slider .flashcard');
+let active = 0;
+function loadShow(){
+    items[active].style.transform = `none`;
+    items[active].style.zIndex = 1;
+    items[active].style.filter = 'none';
+    items[active].style.opacity = 1;
+    // show after
+    let stt = 0;
+    for(var i = active + 1; i < items.length; i ++){
+        stt++;
+        items[i].style.transform = `translateX(${120*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(-1deg)`;
+        items[i].style.zIndex = -stt;
+        items[i].style.filter = 'blur(5px)';
+        items[i].style.opacity = stt > 2 ? 0 : 0.6;
+    }
+     stt = 0;
+    for(var i = (active - 1); i >= 0; i --){
+        stt++;
+        items[i].style.transform = `translateX(${-120*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(1deg)`;
+        items[i].style.zIndex = -stt;
+        items[i].style.filter = 'blur(5px)';
+        items[i].style.opacity = stt > 2 ? 0 : 0.6;
+    }
+}
+loadShow();
+let next = document.getElementById('next');
+let prev = document.getElementById('prev');
+next.onclick = function(){
+   active = active + 1 < items.length ?  active + 1 : active;
+   loadShow();
+}
+prev.onclick = function(){
+    active = active - 1 >= 0 ? active -1 : active;
+    loadShow();
+}
             });
           };
           rendercards(data);
         }).catch(error => console.error('Error fetching cards:', error));
       </script>
+      
+      <!-- js du modal -->
+    <script src="../js/modal.js"></script>
+    <!-- js du truc au mileu les flashcards -->
 </body>
 </html>

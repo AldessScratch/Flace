@@ -5,7 +5,7 @@
         "content": "",
         "theme": "1",
         "sequence": "1",
-        "img": "https://flace.netlify.app/img/math/vocdivision.png"
+        "img": "../img/math/vocdivision.png"
     },
     {
         "type": "Définition",
@@ -76,6 +76,38 @@
         "type": "Liste",
         "title": "Nombre premiers inférieurs à 100",
         "content": "Les nombres premiers inférieurs à 100 sont 2 ; 3 ; 5 ; 7 ; 11 ; 13 ; 17 ; 19 ; 23 ; 29 ; 31 ; 37 ; 41 ; 43 ; 47 ; 53 ; 59 ; 61 ; 71 ; 73 ; 79 ; 83 ; 89 et 97",
+        "theme": "1",
+        "sequence": "1",
+        "img": ""
+    },
+    {
+        "type": "Méthode",
+        "title": "Décomposition en facteurs premiers en ligne de 1400",
+        "content": "",
+        "theme": "1",
+        "sequence": "1",
+        "img": ""
+    },
+    {
+        "type": "Méthode",
+        "title": "Décomposition en facteurs premiers en colonne de 1400",
+        "content": "",
+        "theme": "1",
+        "sequence": "1",
+        "img": ""
+    },
+    {
+        "type": "Définition",
+        "title": "Deux nombres premier entre eux",
+        "content": "",
+        "theme": "1",
+        "sequence": "1",
+        "img": ""
+    },
+    {
+        "type": "Définition",
+        "title": "Fractions irréductibles",
+        "content": "",
         "theme": "1",
         "sequence": "1",
         "img": ""
