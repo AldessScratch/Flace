@@ -32,6 +32,16 @@ body {
         --bg: #171717;
         --text-color: #fff;
     }
+    .card {
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+    }
+    .modal img {
+      -webkit-filter: invert(100%);
+      filter: invert(100%);
+      height: 100%;
+      width: auto;
+    }
   }
 /* css navbar */
 .navbar {
@@ -292,7 +302,7 @@ body {
   transition: 200ms ease-in-out;
   border-radius: 10px;
   z-index: 10;
-  background-color: #fff;
+  background-color: var(--bg);
   width: 1000px;
   max-width: 90%;
   height: 360px;
@@ -315,7 +325,7 @@ body {
 .modal-header .title {
   font-size: 25px;
   font-weight: 600;
-  color: #000;
+  color: var(--text-color);
 }
 
 .modal-header .close-button {
@@ -343,7 +353,7 @@ body {
 .content {
   position: absolute;
   font-weight: 400;
-  color: #000;
+  color: var(--text-color);
   font-size: 25px;
   text-align: center;
   margin: 20px;
