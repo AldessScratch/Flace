@@ -352,8 +352,7 @@ body {
   width: auto;
 }
 .content {
-  top: 0;
-  left: 0;
+  width: 90%;
   position: absolute;
   font-weight: 400;
   color: var(--text-color);
