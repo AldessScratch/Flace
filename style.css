@@ -318,6 +318,7 @@ body {
 }
 
 .modal-header .title {
+  width: 700px;
   text-align: center;
   font-size: 25px;
   font-weight: 600;

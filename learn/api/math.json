@@ -83,7 +83,7 @@
     {
         "type": "Méthode",
         "title": "Décomposition en facteurs premiers en ligne de 1400",
-        "content": "",
+        "content": "1400 = 2 x 700<br>1400 = 2 x 2 x 350<br>1400 = 2 x 2 x 2 x 175<br>1400 = 2 x 2 x 2 x 5 x 35<br>1400 = 2 x 2 x 2 x 5 x 5 x 7<br><strong>1400 = 23 x 52 x 7</strong>",
         "theme": "1",
         "sequence": "1",
         "img": ""
@@ -94,7 +94,7 @@
         "content": "",
         "theme": "1",
         "sequence": "1",
-        "img": ""
+        "img": "../img/math/facteurspremier.png"
     },
     {
         "type": "Définition",
@@ -102,7 +102,7 @@
         "content": "",
         "theme": "1",
         "sequence": "1",
-        "img": ""
+        "img": "Deux nombres sont <strong>premiers</strong> entre eux si leur seul <strong>diviseur commun</strong> est 1."
     },
     {
         "type": "Définition",
@@ -110,6 +110,6 @@
         "content": "",
         "theme": "1",
         "sequence": "1",
-        "img": ""
+        "img": "Une fraction A sur B est <strong>irréductible</strong> si les nombre entier A et B sont <strong>entier entre eux.</strong>"
     }
 ]
