@@ -32,10 +32,6 @@ body {
         --bg: #171717;
         --text-color: #fff;
     }
-    .card {
-      -webkit-filter: invert(100%);
-      filter: invert(100%);
-    }
   }
 /* css navbar */
 .navbar {
