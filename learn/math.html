@@ -104,9 +104,22 @@
     
         </div>
       </div>   
+      <div class="modal" id="modal2">
+        <div class="modal-header">
+          <div id="popuptitle2" class="title"></div>
+          <i id="closebutton" data-close-button class="bx bx-x close-button"></i>
+        </div>
+        <div class="modal-body">
+            <div id="popupcontent2" class="content">
+        
+            </div>
+            <img id="popupimg2" src="">
+    
+        </div>
+      </div>   
     <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
     <div id="overlay" class="overlay"></div>
-    
+    <div id="overlay2" class="overlay"></div>
     <script>
         function setuppopup(popuptitle, popupcontent, img){
             document.getElementById('popuptitle').innerHTML = popuptitle
@@ -114,6 +127,13 @@
             document.getElementById('popupimg').src = img
               document.getElementById('modal').classList.add('active')
               document.getElementById('overlay').classList.add('active')
+        }
+        function setuppopup2(popuptitle, popupcontent, img){
+            document.getElementById('popuptitle2').innerHTML = popuptitle
+            document.getElementById('popupcontent2').innerHTML = popupcontent
+            document.getElementById('popupimg2').src = img
+              document.getElementById('modal2').classList.add('active')
+              document.getElementById('overlay2').classList.add('active')
         }
     </script>
     <script>
@@ -137,9 +157,11 @@
           for (i = 0; i < cards.length; i++) {
               let title = cards[i].getElementsByTagName('h5')[0];
               let type = cards[i].getElementsByTagName('h2')[0];
+              let seq = cards[i].getElementsByTagName('h3')[0];
               let txtValue = title.textContent || title.innerText;
               let typeValue = type.textContent || type.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1 || typeValue.toUpperCase().indexOf(filter) > -1) {
+              let seqnameValue = seq.textContent || seq.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1 || typeValue.toUpperCase().indexOf(filter) > -1 || seqnameValue.toUpperCase().indexOf(filter) > -1) {
                   cards[i].style.display = "";
                 } else {
                     cards[i].style.display = "none";
@@ -163,24 +185,33 @@
               const innercard = document.createElement('div');
               const type = document.createElement('h2');
               const title = document.createElement('h5');
+              const seq = document.createElement('h3');
 
               
               title.innerHTML = cards.title.toUpperCase()
               type.innerHTML = cards.type + ' :'
-              card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
+              seq.innerHTML = cards.seqname
+              card.setAttribute('onclick', `setuppopup2('${cards.title}', '${cards.content}', '${cards.img}')`)
               card.classList.add('card');
               innercard.classList.add('innercard');
+              
 
               cardscontainer.appendChild(card)
               card.appendChild(innercard);
+              innercard.appendChild(seq);
               innercard.appendChild(type);
               innercard.appendChild(title);
+              
               
               const flashcard = document.createElement('div');
               const innerflashcard = document.createElement('div');
               const flashtype = document.createElement('h2');
               const flashtitle = document.createElement('h5');
+              const flashseq = document.createElement('h3');
+              const flashseqname = document.createElement('h4');
               
+              flashseq.innerHTML = "T" + cards.theme + "S" + cards.sequence
+              flashseqname.innerHTML = cards.seqname
               flashcard.classList.add('flashcard')
               flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
               innerflashcard.classList.add('innerflashcard')
@@ -189,6 +220,8 @@
 
               cardslider.appendChild(flashcard);
               flashcard.appendChild(innerflashcard);
+              innerflashcard.appendChild(flashseq);
+              innerflashcard.appendChild(flashseqname);
               innerflashcard.appendChild(flashtype);
               innerflashcard.appendChild(flashtitle);
 

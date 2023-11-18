@@ -288,6 +288,14 @@ body {
   color: #000;
   font-weight: 400;
 }
+.innercard h3 {
+  font-size: 13px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  color: #000;
+  font-weight: 400;
+  text-decoration: underline;
+}
 .card h5 {
   text-align: center;
   font-weight: 700;
@@ -357,14 +365,15 @@ body {
   position: absolute;
   height: 300px;
   width: auto;
+  border: 0;
 }
 .content {
   width: 90%;
   position: absolute;
   font-weight: 400;
   color: var(--text-color);
-  font-size: 25px;
-  text-align: center;
+  font-size: 23px;
+  text-align: left;
   margin: 20px;
 }
 
@@ -415,11 +424,12 @@ body {
    text-align: center;
  }
  .searchcard {
+  opacity: .1;
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 0px 17px;
   height: 40px;
-  width: 400px;
+  width: 350px;
   border-radius: 10px;
   background-color: #55555571;
   box-shadow: 4px 3px 8px 1px #42424233;
@@ -429,7 +439,20 @@ body {
   animation-duration: 1.5s;
   -webkit-backdrop-filter: blur(5px);
 }
+.searchcard:hover {
+  opacity: 1;
+  width: 500px;
+  transition: ease-in-out;
+  transition-duration: .5s;
+}
+.searchcard:not(:hover){
+  opacity: .1;
+  transition-duration: .5s;
+}
 .searchcard i {
+  position: absolute;
+  left: 0;
+  margin-left: 20px;
   font-size: 15px;
   color: #fff;
 }
@@ -467,4 +490,25 @@ body {
   font-weight: 700;
   font-size: 32px;
   color: #000;
+}
+.flashcard h3 {
+  position: absolute;
+  margin: 20px;
+  top: 0;
+  font-size: 20px;
+  color: #000;
+  font-weight: 400;
+}
+.flashcard h4 {
+  position: absolute;
+  margin: 20px;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: underline;
+}
+strong {
+  text-decoration: underline;
 }

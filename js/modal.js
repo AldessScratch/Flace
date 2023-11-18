@@ -2,6 +2,7 @@
 const openModalButtons = document.querySelectorAll('[data-modal-target]')
 const closeModalButtons = document.querySelectorAll('[data-close-button]')
 const overlay = document.getElementById('overlay')
+const overlay2 = document.getElementById('overlay2')
 
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
@@ -11,6 +12,12 @@ openModalButtons.forEach(button => {
 })
 
 overlay.addEventListener('click', () => {
+  const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
+})
+overlay2.addEventListener('click', () => {
   const modals = document.querySelectorAll('.modal.active')
   modals.forEach(modal => {
     closeModal(modal)
@@ -34,4 +41,5 @@ function closeModal(modal) {
   if (modal == null) return
   modal.classList.remove('active')
   overlay.classList.remove('active')
+  overlay2.classList.remove('active')
 }
