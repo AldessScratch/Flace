@@ -99,17 +99,17 @@
     {
         "type": "Définition",
         "title": "Deux nombres premier entre eux",
-        "content": "",
+        "content": "Deux nombres sont <strong>premiers</strong> entre eux si leur seul <strong>diviseur commun</strong> est 1.",
         "theme": "1",
         "sequence": "1",
-        "img": "Deux nombres sont <strong>premiers</strong> entre eux si leur seul <strong>diviseur commun</strong> est 1."
+        "img": ""
     },
     {
         "type": "Définition",
         "title": "Fractions irréductibles",
-        "content": "",
+        "content": "Une fraction A sur B est <strong>irréductible</strong> si les nombre entier A et B sont <strong>entier entre eux.</strong>",
         "theme": "1",
         "sequence": "1",
-        "img": "Une fraction A sur B est <strong>irréductible</strong> si les nombre entier A et B sont <strong>entier entre eux.</strong>"
+        "img": ""
     }
 ]

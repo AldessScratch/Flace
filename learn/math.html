@@ -12,7 +12,67 @@
     <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards préparées aux préalable dans toutes les matières. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
 </head>
 <body>
-    
+    <style>
+      /* code pour s'adapter au petit ecrans/ telephone */
+    @media screen and (max-width: 700px) {
+      .flashcard {
+        width: 320px;
+        height: 180px;
+        left: calc(50% - 160px);
+      }
+      .searchcard {
+    height: 40px;
+    width: 80%;
+  }
+  #next {
+    margin-top: 50px;
+    right: 50px;
+  }
+  #prev {
+    margin-top: 50px;
+    left: 50px;
+  }
+  .slider i {
+    font-size: 50px;
+  }
+  .modal img {
+  position: absolute;
+  height: auto;
+  width: 100%;
+}
+.flashcard h2 {
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #000;
+  font-weight: 400;
+}
+.flashcard h5 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+    }
+    @media screen and (max-width: 450px) {
+.modal-header .title {
+  width: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.content {
+  width: 90%;
+  position: absolute;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+    }
+    </style>
     <div class="home">
        <!-- searchbar -->
       <div class="searchsection">
@@ -25,8 +85,6 @@
         <div class="cards" id="cardscontainer"></div>
         <!-- container des flashcards random en grande-->
         <div id="cardslider" class="slider">
-          <button id="next"><i class="bx bx-chevron-right"></i></button>
-          <button id="prev"><i class="bx bx-chevron-left"></i></button>
         </div>
         
      </div>
@@ -36,7 +94,7 @@
     <div class="modal" id="modal">
         <div class="modal-header">
           <div id="popuptitle" class="title"></div>
-          <i data-close-button class="bx bx-x close-button"></i>
+          <i id="closebutton" data-close-button class="bx bx-x close-button"></i>
         </div>
         <div class="modal-body">
             <div id="popupcontent" class="content">
@@ -95,6 +153,7 @@
         // Le code recupère les données depuis le .json
         const jsonUrl = './api/math.json';
         fetch(jsonUrl).then(response => response.json()).then(data => {
+        
           const cardscontainer = document.getElementById('cardscontainer');
           const cardslider = document.getElementById('cardslider');
           const rendercards = (cards) => {
@@ -134,7 +193,7 @@
               innerflashcard.appendChild(flashtitle);
 
               // Le code du slider
-      let items = document.querySelectorAll('.slider .flashcard');
+              let items = document.querySelectorAll('.slider .flashcard');
 let active = 0;
 function loadShow(){
     items[active].style.transform = `none`;
@@ -145,7 +204,7 @@ function loadShow(){
     let stt = 0;
     for(var i = active + 1; i < items.length; i ++){
         stt++;
-        items[i].style.transform = `translateX(${120*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(-1deg)`;
+        items[i].style.transform = `translateX(${0*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(-1deg)`;
         items[i].style.zIndex = -stt;
         items[i].style.filter = 'blur(5px)';
         items[i].style.opacity = stt > 2 ? 0 : 0.6;
@@ -153,23 +212,25 @@ function loadShow(){
      stt = 0;
     for(var i = (active - 1); i >= 0; i --){
         stt++;
-        items[i].style.transform = `translateX(${-120*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(1deg)`;
+        items[i].style.transform = `translateX(${0*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(1deg)`;
         items[i].style.zIndex = -stt;
         items[i].style.filter = 'blur(5px)';
         items[i].style.opacity = stt > 2 ? 0 : 0.6;
     }
 }
 loadShow();
-let next = document.getElementById('next');
-let prev = document.getElementById('prev');
+let next = document.getElementById('closebutton');
+let next2 = document.getElementById('overlay');
 next.onclick = function(){
    active = active + 1 < items.length ?  active + 1 : active;
    loadShow();
 }
-prev.onclick = function(){
-    active = active - 1 >= 0 ? active -1 : active;
-    loadShow();
+next2.onclick = function(){
+   active = active + 1 < items.length ?  active + 1 : active;
+   loadShow();
+   
 }
+
             });
           };
           rendercards(data);
