@@ -194,8 +194,8 @@
 
     {
         "type": "Définition",
-        "title": "Additionner ou soustraire des nombres relatifs",
-        "content": "a étant un nombre relatif et n un nombre entier positif non nul, a<sup>n</sup> désigne le produit de n facteurs tous égaux à a<br>a<sup>n</sup> désigne le p ",
+        "title": "Les puissances",
+        "content": "a étant un nombre relatif et n un nombre entier positif non nul, a<sup>n</sup> désigne le produit de n facteurs tous égaux à a<br>a<sup>n</sup> = a x a x ..... x a x a",
         "theme": "1",
         "sequence": "3",
         "img": "",

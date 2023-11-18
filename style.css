@@ -178,7 +178,7 @@ body {
   text-align: center;
   color: #fff;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 25px;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
 }
 .back h5 {
@@ -511,4 +511,7 @@ body {
 }
 strong {
   text-decoration: underline;
+}
+no {
+  text-decoration: line-through;
 }
