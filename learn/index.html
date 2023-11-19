@@ -30,11 +30,15 @@
     <div class="home">
          <!-- Iframe qui contient la vrai page pour quon ait pas a refaire la navbar pour chaque page -->
         <iframe id="iframe" src="" style="height: 100vh;width: 100%;border: 0;position: absolute;"></iframe>
+        <div id="end" class="end" style="display: none;">
+            <h1>Vous vous êtes entrainé sur <div id="cardsnumber" class="cardsnumber"></div> flashcards</h1>
+        </div>
     </div>
     <script>
         // URL de l'iframe appliqué et le titre de la matière grace a la fonction openlearn() script.js
         document.getElementById('iframe').src = sessionStorage.getItem('iframeurl')
         document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')
+        document.getElementById('cardsnumber').innerHTML = sessionStorage.getItem('cardsnumber')
     </script>
     <!-- Script pour l'heure -->
     <script>

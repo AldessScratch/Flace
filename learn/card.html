@@ -139,7 +139,7 @@
               const flashseq = document.createElement('h3');
               const flashseqname = document.createElement('h4');
               
-              flashseq.innerHTML = "T" + cards.theme + "S" + cards.sequence
+              flashseq.innerHTML = cards.theme
               flashseqname.innerHTML = cards.seqname
               flashcard.classList.add('flashcard')
               flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
@@ -158,6 +158,7 @@
               let items = document.querySelectorAll('.slider .flashcard');
 let active = 0;
 document.getElementById('restant').innerHTML = items.length - active
+sessionStorage.setItem('cardsnumber', items.length)
 function loadShow(){
     items[active].style.transform = `none`;
     items[active].style.zIndex = 1;
@@ -186,7 +187,7 @@ let next = document.getElementById('closebutton');
 let next2 = document.getElementById('overlay');
 next.onclick = function(){
   if (items.length === active + 1){
-    alert('Aucune flashcard restante')
+    window.parent.document.getElementById('end').style.display = 'flex'
    }
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
@@ -195,7 +196,7 @@ next.onclick = function(){
 
 next2.onclick = function(){
   if (items.length === active + 1){
-    alert('Aucune flashcard restante')
+    window.parent.document.getElementById('end').style.display = 'flex'
    }
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
