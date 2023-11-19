@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards préparées aux préalable dans toutes les matières. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
+</head>
+<body>
+    <style>
+      /* code pour s'adapter au petit ecrans/ telephone */
+    @media screen and (max-width: 700px) {
+      .searchcard {
+    height: 40px;
+    width: 70%;
+  }
+  .searchcard:hover {
+  width: 90%;
+  transition: ease-in-out;
+  transition-duration: .5s;
+}
+.searchcard:not(:hover){
+  transition-duration: .5s;
+}
+.modal img {
+  position: absolute;
+  height: auto;
+  width: 100%;
+}
+  }
+  @media screen and (max-width: 450px) {
+.modal-header .title {
+  width: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.content {
+  width: 90%;
+  position: absolute;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+    }
+    </style>
+    <div class="home">
+       <!-- searchbar -->
+      <div class="searchsection">
+            <div class="searchcard">
+                <i class='bx bx-search'></i>
+                <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Rechercher une flashcard...">
+            </div>
+        </div>
+        <!-- container des flashcards -->
+        <div class="cards" id="cardscontainer"></div>
+     </div>
+    </div>
+
+    <!-- popup -->
+      
+      <div class="modal" id="modal">
+        <div class="modal-header">
+          <div id="popuptitle" class="title"></div>
+          <i id="closebutton" data-close-button class="bx bx-x close-button"></i>
+        </div>
+        <div class="modal-body">
+            <div id="popupcontent" class="content">
+        
+            </div>
+            <img id="popupimg" src="">
+    
+        </div>
+      </div>  
+    <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
+    <div id="overlay" class="overlay"></div>
+    <script>
+        function setuppopup(popuptitle, popupcontent, img){
+            document.getElementById('popuptitle').innerHTML = popuptitle
+            document.getElementById('popupcontent').innerHTML = popupcontent
+            document.getElementById('popupimg').src = img
+              document.getElementById('modal').classList.add('active')
+              document.getElementById('overlay').classList.add('active')
+        }
+    </script>
+    <script>
+      function searchFunction() {
+          let input = document.getElementById('searchInput');
+          let filter = input.value.toUpperCase();
+          let cards = document.getElementsByClassName('card');
+          for (i = 0; i < cards.length; i++) {
+              let title = cards[i].getElementsByTagName('h5')[0];
+              let type = cards[i].getElementsByTagName('h2')[0];
+              let seq = cards[i].getElementsByTagName('h3')[0];
+              let txtValue = title.textContent || title.innerText;
+              let typeValue = type.textContent || type.innerText;
+              let seqnameValue = seq.textContent || seq.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1 || typeValue.toUpperCase().indexOf(filter) > -1 || seqnameValue.toUpperCase().indexOf(filter) > -1) {
+                  cards[i].style.display = "";
+                } else {
+                    cards[i].style.display = "none";
+                }
+          }
+        
+      }
+          </script>
+    <!-- code pour fetch le json et creer une flashcard -->
+    <script>
+        // Le code recupère les données depuis le .json
+        const jsonUrl = './api/' + sessionStorage.getItem('api') + '.json';
+        fetch(jsonUrl).then(response => response.json()).then(data => {
+          const cardscontainer = document.getElementById('cardscontainer');
+          const rendercards = (cards) => {
+            // quand il a recup les données, il crée des flashcards
+            cards.forEach(cards => {
+              const card = document.createElement('div');
+              const innercard = document.createElement('div');
+              const type = document.createElement('h2');
+              const title = document.createElement('h5');
+              const seq = document.createElement('h3');
+
+              
+              title.innerHTML = cards.title.toUpperCase()
+              type.innerHTML = cards.type + ' :'
+              seq.innerHTML = cards.seqname
+              card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
+              card.classList.add('card');
+              innercard.classList.add('innercard');
+              
+
+              cardscontainer.appendChild(card)
+              card.appendChild(innercard);
+              innercard.appendChild(seq);
+              innercard.appendChild(type);
+              innercard.appendChild(title);
+             
+        })};
+          rendercards(data);
+        }).catch(error => console.error('Error fetching cards:', error));
+      </script>
+      
+      <!-- js du modal -->
+    <script src="../js/modal.js"></script>
+    <!-- js du truc au mileu les flashcards -->
+</body>
+</html>

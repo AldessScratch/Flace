@@ -38,7 +38,14 @@ prev.onclick = function(){
 
 
 function openlearn(url, matiere){
-    sessionStorage.setItem('iframeurl', url)
+    sessionStorage.setItem('iframeurl', 'card.html')
+    sessionStorage.setItem('api', url)
+    sessionStorage.setItem('matiere', matiere)
+    location.href = 'learn'
+}
+function openlib(url, matiere){
+    sessionStorage.setItem('iframeurl', 'library.html')
+    sessionStorage.setItem('api', url)
     sessionStorage.setItem('matiere', matiere)
     location.href = 'learn'
 }

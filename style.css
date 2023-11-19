@@ -94,6 +94,10 @@ body {
     width: 700px;
     text-align: center;
 }
+.home h5 {
+  font-size: 20px;
+  font-weight: 500;
+}
 
 .home a {
   color: var(--text-color);
@@ -143,8 +147,11 @@ body {
   transform-style: preserve-3d;
 }
 
-
-
+.item:hover{
+  .inner{
+    transform: rotateY(180deg);
+  }
+}
 .front, .back {
   display: flex;
   justify-content: center;
@@ -216,7 +223,7 @@ body {
 
 .back button {
   border: 0;
-  padding: 10px;
+  padding: 8px;
   border-radius: 12px;
   margin: 10px;
   color: #fff;
@@ -226,7 +233,10 @@ body {
   transform: scale(1);
 }
 .back button.learn {
-  background-color: #22b145;
+  background-color: #3cb371;
+}
+.back button.lib {
+  background-color: #5f9fe3;
 }
 .back button:hover {
   transform: scale(1.1);
@@ -262,7 +272,7 @@ body {
 .cards {
   margin-top: 20px;
   width: 100%;
-  display: none;
+  display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -424,7 +434,6 @@ body {
    text-align: center;
  }
  .searchcard {
-  opacity: .1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -440,13 +449,11 @@ body {
   -webkit-backdrop-filter: blur(5px);
 }
 .searchcard:hover {
-  opacity: 1;
   width: 500px;
   transition: ease-in-out;
   transition-duration: .5s;
 }
 .searchcard:not(:hover){
-  opacity: .1;
   transition-duration: .5s;
 }
 .searchcard i {
