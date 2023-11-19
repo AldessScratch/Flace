@@ -1,4 +1,4 @@
 # Flace
 ## Todo
-- [ ] Bibliothèque
+- [x] Bibliothèque
 - [ ] Système de réussite ou non réussite
