@@ -105,6 +105,7 @@
         </div>
       </div>   
     <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
+    <div id="overlay2" class="overlay"></div>
     <div id="overlay" class="overlay"></div>
     <script>
         function setuppopup(popuptitle, popupcontent, img){
@@ -112,7 +113,7 @@
             document.getElementById('popupcontent').innerHTML = popupcontent
             document.getElementById('popupimg').src = img
               document.getElementById('modal').classList.add('active')
-              document.getElementById('overlay').classList.add('active')
+              document.getElementById('overlay2').classList.add('active')
         }
     </script>
     <!-- code pour fetch le json et creer une flashcard -->
@@ -191,7 +192,9 @@ let reussi = document.getElementById('reussi');
 rate.onclick = function(){
   if (items.length === active + 1){
     window.parent.document.getElementById('end').style.display = 'flex'
+    window.parent.document.getElementById('cardsnumber').innerHTML = sessionStorage.getItem('cardsnumber')
     window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
+    
    }
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
