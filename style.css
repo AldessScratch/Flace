@@ -32,6 +32,10 @@ body {
         --bg: #171717;
         --text-color: #fff;
     }
+
+    .card, .modal img {
+      filter: invert(100%);
+    }
   }
 /* css navbar */
 .navbar {
@@ -362,7 +366,7 @@ body {
   background: none;
   font-size: 25px;
   font-weight: bold;
-  color: #000;
+  color: var(--text-color);
 }
 
 .modal-body {
@@ -396,7 +400,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: #00000080;
   pointer-events: none;
 }
 .overlay.active {
