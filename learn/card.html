@@ -92,14 +92,16 @@
     <div class="modal" id="modal">
         <div class="modal-header">
           <div id="popuptitle" class="title"></div>
-          <i id="closebutton" data-close-button class="bx bx-x close-button"></i>
         </div>
         <div class="modal-body">
             <div id="popupcontent" class="content">
         
             </div>
             <img id="popupimg" src="">
-    
+          <div class="buttons">
+            <button id="reussi">J'ai réussi</button>
+            <button id="rate">Je n'ai pas réussi</button>
+          </div>
         </div>
       </div>   
     <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
@@ -157,8 +159,9 @@
               // Le code du slider
               let items = document.querySelectorAll('.slider .flashcard');
 let active = 0;
-document.getElementById('restant').innerHTML = items.length - active
 sessionStorage.setItem('cardsnumber', items.length)
+document.getElementById('restant').innerHTML = items.length - active
+sessionStorage.setItem('reussi', 0)
 function loadShow(){
     items[active].style.transform = `none`;
     items[active].style.zIndex = 1;
@@ -183,21 +186,26 @@ function loadShow(){
     }
 }
 loadShow();
-let next = document.getElementById('closebutton');
-let next2 = document.getElementById('overlay');
-next.onclick = function(){
+let rate = document.getElementById('rate');
+let reussi = document.getElementById('reussi');
+rate.onclick = function(){
   if (items.length === active + 1){
     window.parent.document.getElementById('end').style.display = 'flex'
+    window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
    }
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
    loadShow();
 }
 
-next2.onclick = function(){
+reussi.onclick = function(){
   if (items.length === active + 1){
     window.parent.document.getElementById('end').style.display = 'flex'
+    window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
    }
+   const reussi = parseInt(sessionStorage.getItem("reussi"));
+const newreussi = reussi + 1;
+   sessionStorage.setItem('reussi', newreussi)
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
    loadShow();

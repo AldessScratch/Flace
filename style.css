@@ -373,7 +373,7 @@ body {
 }
 .modal img {
   position: absolute;
-  height: 300px;
+  height: 250px;
   width: auto;
   border: 0;
 }
@@ -532,4 +532,36 @@ no {
   background-color: #fff;
   position: absolute;
   z-index: 1;
+}
+.modal .buttons {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  bottom: 0;
+}
+.modal .buttons button {
+  border: 0;
+  padding: 8px;
+  border-radius: 12px;
+  margin: 10px;
+  color: #fff;
+  font-size: 15px;
+  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+.buttons button:not(:hover){
+  transition-delay: .1s;
+}
+.buttons button:hover {
+  transition-duration: .2s;
+  transform: scale(1.1);
+}
+button#rate {
+  background-color: #cd5c5c;
+}
+button#reussi {
+  background-color: #3cb371;
 }
