@@ -252,10 +252,10 @@
     {
         "type": "Définition",
         "title": " une expression littérale ",:
-        "content": "une expression litterale est une expression dans laquelle <strong>un ou plusieurs nombre</strong> est designé par des lettres.",
+        "content": "Une expression litterale est une expression dans laquelle <strong>un ou plusieurs nombre</strong> sont designés par des lettres.",
         "theme": "T1S4",
         "img": "",
-        "seqname": "calcul littéral partie 1",
+        "seqname": "Calcul littéral",
         "id": "MAT-CAL-0001"
     
-]
+    }
