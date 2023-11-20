@@ -146,6 +146,7 @@
               flashseqname.innerHTML = cards.seqname
               flashcard.classList.add('flashcard')
               flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
+              flashcard.setAttribute('id', cards.id)
               innerflashcard.classList.add('innerflashcard')
               flashtitle.innerHTML = cards.title.toUpperCase()
               flashtype.innerHTML = cards.type + ' :'
@@ -163,6 +164,7 @@ let active = 0;
 sessionStorage.setItem('cardsnumber', items.length)
 document.getElementById('restant').innerHTML = items.length - active
 sessionStorage.setItem('reussi', 0)
+window.parent.document.getElementById('cardsnumber').innerHTML = items.length
 function loadShow(){
     items[active].style.transform = `none`;
     items[active].style.zIndex = 1;
@@ -191,10 +193,8 @@ let rate = document.getElementById('rate');
 let reussi = document.getElementById('reussi');
 rate.onclick = function(){
   if (items.length === active + 1){
-    window.parent.document.getElementById('end').style.display = 'flex'
-    window.parent.document.getElementById('cardsnumber').innerHTML = sessionStorage.getItem('cardsnumber')
     window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
-    
+    window.parent.document.getElementById('end').style.display = 'flex'
    }
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
@@ -203,8 +203,8 @@ rate.onclick = function(){
 
 reussi.onclick = function(){
   if (items.length === active + 1){
-    window.parent.document.getElementById('end').style.display = 'flex'
     window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
+    window.parent.document.getElementById('end').style.display = 'flex'
    }
    const reussi = parseInt(sessionStorage.getItem("reussi"));
 const newreussi = reussi + 1;
@@ -223,8 +223,7 @@ const newreussi = reussi + 1;
         
       </script>
       
-      <!-- js du modal -->
+      <!-- js du popup -->
     <script src="../js/modal.js"></script>
-    <!-- js du truc au mileu les flashcards -->
 </body>
 </html>

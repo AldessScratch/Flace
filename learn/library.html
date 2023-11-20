@@ -133,6 +133,7 @@
               seq.innerHTML = cards.seqname
               card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
               card.classList.add('card');
+              card.setAttribute('id', cards.id)
               innercard.classList.add('innercard');
               
 

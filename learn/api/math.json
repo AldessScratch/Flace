@@ -111,7 +111,7 @@
     },
     {
         "type": "Définition",
-        "title": "Deux nombres premier entre eux",
+        "title": "Deux nombres premiers entre eux",
         "content": "Deux nombres sont <strong>premiers</strong> entre eux si leur seul <strong>diviseur commun</strong> est 1.",
         "theme": "T1S1",
         "img": "",
@@ -171,7 +171,7 @@
     },
     {
         "type": "Propriété (admise)",
-        "title": "Signe d un quotient",
+        "title": "Signe d´un quotient",
         "content": "a) Le quotien de deux nombres relatifs de <strong>signes contraires est négatif</strong>. La distance à zéro de ce quotient est le quotient des distances à zéro.<br>b) Le quotient de deux nombres relatifs de <strong>même signe est positif</strong>. La distance à zéro de ce quotient est le quotient des distances à zéro.",
         "theme": "T1S2",
         "img": "",
@@ -195,10 +195,49 @@
     {
         "type": "Définition",
         "title": "Les puissances",
-        "content": "a étant un nombre relatif et n un nombre entier positif non nul, a<sup>n</sup> désigne le produit de n facteurs tous égaux à a",
+        "content": "a étant un nombre relatif et n un nombre entier positif non nul, a<sup>n</sup> désigne le produit de n facteurs tous égaux à a.",
         "theme": "T1S3",
         "img": "",
         "seqname": "Les puissances",
-        "id": "MAT-PUI-0006"
+        "id": "MAT-PUI-0001"
+    },
+    {
+        "type": "Définition",
+        "title": "Ecriture scientifique",
+        "content": "Un nombre décimal peut s´écrire à l´aide d´une puissance de 10 de l´exposant entier.<br>L´écriture scientifique est de la forme a x 10<sup>n</sup> avec a un nombre décimal avec un seul chiffre différent de 0 avant la virgule et n un nombre entier relatif.",
+        "theme": "T1S3",
+        "img": "",
+        "seqname": "Les puissances",
+        "id": "MAT-PUI-0002"
+    },
+    
+
+
+    {
+        "type": "Définition",
+        "title": "Notion de fonction",
+        "content": "Une fonction est un <strong>processus mathématiques</strong> qui, à un nombre donné, associe un unique autre nombre.",
+        "theme": "T2S1",
+        "img": "",
+        "seqname": "Fonctions générales",
+        "id": "MAT-FON-0001"
+    },
+    {
+        "type": "Définition",
+        "title": "Image d´une fonction",
+        "content": "A un nombre x, une fonction f associe un seul nombre, noté f(x). On dit que f(x) est <strong>l´image</strong> de x par la fonction f.",
+        "theme": "T2S1",
+        "img": "",
+        "seqname": "Fonctions générales",
+        "id": "MAT-FON-0002"
+    },
+    {
+        "type": "Définition",
+        "title": "Antécédant d´une fonction",
+        "content": "Lorsque l´image d´un nombre x par une fonction f est un nombre y, c´est-à-dire f(x)=y, on dit que x est un <strong>antécédant</strong> de y par la fonction f.",
+        "theme": "T2S1",
+        "img": "",
+        "seqname": "Fonctions générales",
+        "id": "MAT-FON-0003"
     }
 ]
