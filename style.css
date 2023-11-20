@@ -32,10 +32,6 @@ body {
         --bg: #171717;
         --text-color: #fff;
     }
-
-    .card, .modal img {
-      filter: invert(100%);
-    }
   }
 /* css navbar */
 .navbar {
@@ -80,6 +76,7 @@ body {
   color: var(--text-color);
 }
 .home h1 {
+  display: flex;
   color: var(--text-color);
   font-weight: 500;
   font-size: 32px;
@@ -209,8 +206,8 @@ body {
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
 }
 #next, #prev{
-  height: 100vh;
-  width: 100px;
+  height: 100%;
+  width: 30%;
   border: 0;
   background-color: transparent;
   z-index: 5;
@@ -331,7 +328,8 @@ body {
   transition: 200ms ease-in-out;
   border-radius: 10px;
   z-index: 10;
-  background-color: var(--bg);
+  background-color: #fff;
+  background-image: url('./img/texture.png');
   max-width: 90%;
   height: 450px;
   width: 800px;
@@ -355,7 +353,7 @@ body {
   text-align: center;
   font-size: 25px;
   font-weight: 600;
-  color: var(--text-color);
+  color: #000;
 }
 
 .modal-header .close-button {
@@ -571,4 +569,8 @@ button#rate {
 }
 button#reussi {
   background-color: #3cb371;
+}
+.var {
+  margin-left: 10px;
+  margin-right: 10px;
 }

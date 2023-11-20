@@ -18,19 +18,6 @@ closeModalButtons.forEach(button => {
   })
 })
 
-reussi.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal.active')
-  modals.forEach(modal => {
-    closeModal(modal)
-  })
-})
-rate.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal.active')
-  modals.forEach(modal => {
-    closeModal(modal)
-  })
-})
-
 
 function openModal(modal) {
   if (modal == null) return
