@@ -242,8 +242,8 @@
     },
     {
         "type": "Définition",
-        "title": "Représentation graphique d'une fonction",
-        "content": "Dans un repère, la représentation graphiques d'une fonction f est <strong>l°ensemble des points de coordonnées (x; f(x))</strong>. Cette représentation graphiques est également appelé courbe représentative de la fonction f.",
+        "title": "Représentation graphique d´une fonction",
+        "content": "Dans un repère, la représentation graphiques d'une fonction f est <strong>l´ensemble des points de coordonnées (x; f(x))</strong>. Cette représentation graphiques est également appelé courbe représentative de la fonction f.",
         "theme": "T2S1",
         "img": "",
         "seqname": "Fonctions générales",
