@@ -4,7 +4,7 @@
         "title": "Division euclidienne",
         "content": "",
         "theme": "T1S1",
-        "img": "../img/math/vocdivision.png",
+        "img": "../img/math/MAT-ARI-0001.png",
         "seqname": "Arithmétique",
         "id": "MAT-ARI-0001"
     },
@@ -105,7 +105,7 @@
         "title": "Décomposition en facteurs premiers en colonne de 1400",
         "content": "",
         "theme": "T1S1",
-        "img": "../img/math/facteurspremier.png",
+        "img": "../img/math/MAT-ARI-0011.png",
         "seqname": "Arithmétique",
         "id": "MAT-ARI-0011"
     },
@@ -251,7 +251,7 @@
     },
     {
         "type": "Définition",
-        "title": " Une expression littérale ",
+        "title": "Une expression littérale",
         "content": "Une expression litterale est une expression dans laquelle <strong>un ou plusieurs nombre</strong> sont designés par des lettres.",
         "theme": "T1S4",
         "img": "",
@@ -262,11 +262,21 @@
     {
         "type": "Propriété",
         "title": "Distributivité simple",
-        "content": "<strong>Pour tout nombres relatifs a, b et k:</strong><br>Développer<br>------------><br>k(a+b)=ka+kb<br>k(a-b)=ka-kb<br><------------ <br>Factoriser",
+        "content": "<strong>Pour tout nombres relatifs a, b et k:</strong><br>Développer<br>------------><br>k(a + b) = ka + kb<br>k(a - b) = ka - kb<br><------------ <br>Factoriser",
         "theme": "T1S4",
         "img": "",
         "seqname": "Calcul littéral",
         "id": "MAT-CAL-0002"
+    
+    },
+    {
+        "type": "Propriété",
+        "title": "Distributivité simple",
+        "content": "<strong>Pour tout nombres relatifs a, b, c et d:</strong><br>Développer<br>------------><br>(a + b)(c + b) = a(c + d) + b(c + d)<br>(a + b)(c + b) = ac + ad + bc + bd<br><------------ <br>Factoriser",
+        "theme": "T1S4",
+        "img": "",
+        "seqname": "Calcul littéral",
+        "id": "MAT-CAL-0003"
     
     }
 ]
