@@ -142,7 +142,6 @@ body {
     overflow: hidden;
     box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
-    cursor: pointer;
 }
 .inner {
   position: relative;
@@ -153,12 +152,11 @@ body {
   transform-style: preserve-3d;
 }
 
-.item:hover{
-  .inner{
+
+  .inner:hover{
     transform: rotateY(180deg);
-      
   }
-}
+
 .front, .back {
   display: flex;
   justify-content: center;
