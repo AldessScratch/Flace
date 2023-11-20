@@ -193,25 +193,40 @@ let rate = document.getElementById('rate');
 let reussi = document.getElementById('reussi');
 rate.onclick = function(){
   if (items.length === active + 1){
-    window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
-    window.parent.document.getElementById('end').style.display = 'flex'
+    setTimeout(() => {
+  window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
+  window.parent.document.getElementById('end').style.display = 'flex'
+}, 500);
    }
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
    loadShow();
+   const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
 }
 
 reussi.onclick = function(){
-  if (items.length === active + 1){
-    window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
-    window.parent.document.getElementById('end').style.display = 'flex'
+  if (items.length === active + 1){ 
+setTimeout(() => {
+  window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
+  window.parent.document.getElementById('end').style.display = 'flex'
+}, 500);
+    
    }
    const reussi = parseInt(sessionStorage.getItem("reussi"));
-const newreussi = reussi + 1;
+   const newreussi = reussi + 1;
+
    sessionStorage.setItem('reussi', newreussi)
+   
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
    loadShow();
+   const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
 }
 
             });
