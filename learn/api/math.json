@@ -248,5 +248,14 @@
         "img": "",
         "seqname": "Fonctions générales",
         "id": "MAT-FON-0004"
-    }
+    },
+    {
+        "type": "Définition",
+        "title": " une expression littérale ",:
+        "content": "une expression litterale est une expression dans laquelle <strong>un ou plusieurs nombre</strong> est designé par des lettres.",
+        "theme": "T1S4",
+        "img": "",
+        "seqname": "calcul littéral partie 1",
+        "id": "MAT-CAL-0001"
+    
 ]
