@@ -1,11 +1,11 @@
 [
     {
-        "type": "",
-        "title": "",
-        "content": "",
+        "type": "vocabulaire",
+        "title": "se pencher",
+        "content": "bend over <br> James dropped his pen, so he bent over to pick it up. ",
         "theme": "",
         "img": "",
-        "seqname": "",
-        "id": ""
+        "seqname": "phrasal verb",
+        "id": "ANG-PHV-0001"
     }
 ]
