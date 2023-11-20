@@ -258,5 +258,15 @@
         "seqname": "Calcul littéral",
         "id": "MAT-CAL-0001"
     
+    },
+    {
+        "type": "Propriété",
+        "title": "Distributivité simple",
+        "content": "<strong>Pour tout nombres relatifs a, b et k:</strong><br>Développer<br>------------><br>k(a+b)=ka+kb<br>k(a-b)=ka-kb<br><------------ <br>Factoriser",
+        "theme": "T1S4",
+        "img": "",
+        "seqname": "Calcul littéral",
+        "id": "MAT-CAL-0002"
+    
     }
 ]
