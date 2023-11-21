@@ -1,4 +1,7 @@
 # Flace
+
+Attention le dossier de l'api a été move a /api au lieu de learn/api
+
 ## Todo
 
 hello leopold
