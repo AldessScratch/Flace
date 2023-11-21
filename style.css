@@ -64,10 +64,14 @@ body {
     display: flex;
 }
 .navbar .time, i, .brandname{
+    display: flex;
     margin-right: 30px;
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color);
+}
+.question {
+    margin-top: 2px;
 }
 .navbar .matiere{
   margin-right: 30px;
