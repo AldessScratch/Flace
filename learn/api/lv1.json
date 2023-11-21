@@ -7,5 +7,14 @@
         "img": "",
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0001"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Souffler",
+        "content": "<strong>Blow out</strong> <br><strong>Exemple:</strong> She blew out all the candles. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0002"
     }
 ]

@@ -271,7 +271,7 @@
     },
     {
         "type": "Propriété",
-        "title": "Distributivité simple",
+        "title": "Distributivité double",
         "content": "<strong>Pour tout nombres relatifs a, b, c et d:</strong><br>Développer<br>------------><br>(a + b)(c + b) = a(c + d) + b(c + d)<br>(a + b)(c + b) = ac + ad + bc + bd<br><------------ <br>Factoriser",
         "theme": "T1S4",
         "img": "",

@@ -207,7 +207,7 @@ body {
 }
 #next, #prev{
   height: 100%;
-  width: 30%;
+  width: 25%;
   border: 0;
   background-color: transparent;
   z-index: 5;
