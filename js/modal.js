@@ -17,6 +17,18 @@ closeModalButtons.forEach(button => {
     closeModal(modal)
   })
 })
+rate.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.modal')
+    closeModal(modal)
+  })
+})
+reussi.forEach(button => {
+  button.addEventListener('click', () => {
+    const modal = button.closest('.modal')
+    closeModal(modal)
+  })
+})
 
 
 function openModal(modal) {

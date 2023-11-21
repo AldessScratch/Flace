@@ -106,7 +106,7 @@
       </div>   
     <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
     <div id="overlay2" class="overlay"></div>
-    <div id="overlay" class="overlay"></div>
+     <div id="overlay" class="overlay"></div>
     <div class="shapes">
       <div class="shape-color1"></div>
       <div class="shape-color2"></div>
@@ -200,15 +200,17 @@ rate.onclick = function(){
     setTimeout(() => {
   window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
   window.parent.document.getElementById('end').style.display = 'flex'
+  window.parent.document.getElementById('iframe').style.display = 'none'
 }, 500);
    }
-   active = active + 1 < items.length ?  active + 1 : active;
-   document.getElementById('restant').innerHTML = items.length - active
-   loadShow();
    const modals = document.querySelectorAll('.modal.active')
   modals.forEach(modal => {
     closeModal(modal)
   })
+   active = active + 1 < items.length ?  active + 1 : active;
+   document.getElementById('restant').innerHTML = items.length - active
+   loadShow();
+   
 }
 
 reussi.onclick = function(){
@@ -216,9 +218,14 @@ reussi.onclick = function(){
 setTimeout(() => {
   window.parent.document.getElementById('reussi').innerHTML = sessionStorage.getItem('reussi')
   window.parent.document.getElementById('end').style.display = 'flex'
+  window.parent.document.getElementById('iframe').style.display = 'none'
 }, 500);
     
    }
+   const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
    const reussi = parseInt(sessionStorage.getItem("reussi"));
    const newreussi = reussi + 1;
 
@@ -227,10 +234,7 @@ setTimeout(() => {
    active = active + 1 < items.length ?  active + 1 : active;
    document.getElementById('restant').innerHTML = items.length - active
    loadShow();
-   const modals = document.querySelectorAll('.modal.active')
-  modals.forEach(modal => {
-    closeModal(modal)
-  })
+   
 }
 
             });
