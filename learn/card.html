@@ -119,7 +119,7 @@
     <!-- code pour fetch le json et creer une flashcard -->
     <script>
         // Le code recupère les données depuis le .json
-        const jsonUrl = './api/' + sessionStorage.getItem('api') + '.json';
+        const jsonUrl = '../api/' + sessionStorage.getItem('api') + '.json';
         fetch(jsonUrl).then(response => response.json()).then(data => {
 
 

@@ -32,6 +32,9 @@ body {
         --bg: #171717;
         --text-color: #fff;
     }
+    .navbar .time, i, .brandname, .matiere {
+      filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+    }
   }
 /* css navbar */
 .navbar {
@@ -64,14 +67,14 @@ body {
     display: flex;
 }
 .navbar .time, i, .brandname{
-    display: flex;
+   display: flex;
     margin-right: 30px;
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color);
 }
 .question {
-    margin-top: 2px;
+  margin-top: 3px
 }
 .navbar .matiere{
   margin-right: 30px;
