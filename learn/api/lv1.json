@@ -16,17 +16,24 @@
         "img": "",
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0002"
-    },
-    {
+    },{
         "type": "Vocabulaire",
-        "title": "Entrer par effraction",
-        "content": "<strong>Break in</strong> <br><strong>Exemple:</strong> Thieves broke in and raided the safe. ",
+        "title": "entrer en effraction",
+        "content": "<strong>break in </strong> <br><strong>Exemple:</strong>  Thieves broke in and raided the safe. ",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0003"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "inspirer ",
+        "content": "<strong>breathe in </strong> <br><strong>Exemple:</strong>Don't breathe in: there may be toxic fumes in the air. . ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0004"
+        
     }
-
-
     
-]
+    
