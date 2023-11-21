@@ -16,5 +16,17 @@
         "img": "",
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0002"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Entrer par effraction",
+        "content": "<strong>Break in</strong> <br><strong>Exemple:</strong> Thieves broke in and raided the safe. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0003"
     }
+
+
+    
 ]
