@@ -43,7 +43,34 @@
         "img": "",
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0005"
-    }
-]
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Rapporter/ramener",
+        "content": "<strong>Bring back</strong> <br><strong>Exemple:</strong> The teacher asked him to bring back the homework. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0006"
+    },
+     {
+        "type": "Vocabulaire",
+        "title": "Rencontrer par hasard/rentrer dans",
+        "content": "<strong>Bump into</strong> <br><strong>Exemple:</strong> I bumped into him while walking to school. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0007"
+     },
+      {
+        "type": "Vocabulaire",
+        "title": "Eclater/fondre (en larmes)",
+        "content": "<strong>Burst into</strong> <br><strong>Exemple:</strong> My friend burst into tears after finding out his last history grade. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0008"
+      }
+    ]
     
     
