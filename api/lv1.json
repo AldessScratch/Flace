@@ -142,6 +142,24 @@
         "img": "",
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0016" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Chasser",
+        "content": "<strong>Chase away</strong> <br><strong>Exemple:</strong> Chase away that dog before it eats your food.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0017" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se présenter à l´enregistrement / la réception",
+        "content": "<strong>Check in</strong> <br><strong>Exemple:</strong> What time may we check in to our hotel room?",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0018" 
        }
 ]
     
