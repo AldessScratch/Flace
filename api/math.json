@@ -5,7 +5,10 @@
         "content": "",
         "theme": "T1S1",
         "img": "../img/math/MAT-ARI-0001.png",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0001"
     },
     {
@@ -14,7 +17,10 @@
         "content": "Lorsque le reste de la division euclidienne d’un nombre entier a par un nombre entier b non nul est <strong>égal à zéro</strong>, on dit que : a est un <strong>multiple</strong> de b et b est un <strong>diviseur</strong> de a.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0002"
     },
     {
@@ -23,7 +29,10 @@
         "content": "Un nombre entier est divisible <strong>par 2</strong> si son chiffre des unités est 0; 2; 4; 6 ou 8.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0003"
     },
     {
@@ -32,7 +41,10 @@
         "content": "Un nombre entier est divisible <strong>par 3</strong> si la somme de ses chiffres forme un nombre divisible par 3.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0004"
     },
     {
@@ -41,7 +53,10 @@
         "content": "Un nombre entier est divisible <strong>par 4</strong> si ses deux derniers chiffres forment un nombre divisible par 4.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0005"
     },
     {
@@ -50,7 +65,10 @@
         "content": "Un nombre entier est divisible <strong>par 5</strong> si son chiffre des unités est 5 ou 0.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0005"
     },
     {
@@ -70,7 +88,10 @@
         "content": "Un nombre entier est divisible <strong>par 10</strong> si son chiffre des unités est 0.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0007"
     },
     {
@@ -79,7 +100,10 @@
         "content": "Pour tout nombre entier n, supérieur ou égal à 2, n est un <strong>nombre premier</strong> si ses seuls diviseurs sont 1 et lui-même.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0008"
     },
     {
@@ -88,7 +112,10 @@
         "content": "Les nombres premiers inférieurs à 100 sont 2 ; 3 ; 5 ; 7 ; 11 ; 13 ; 17 ; 19 ; 23 ; 29 ; 31 ; 37 ; 41 ; 43 ; 47 ; 53 ; 59 ; 61 ; 71 ; 73 ; 79 ; 83 ; 89 et 97",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0009"
     },
     {
@@ -97,7 +124,10 @@
         "content": "1400 = 2 x 700<br>1400 = 2 x 2 x 350<br>1400 = 2 x 2 x 2 x 175<br>1400 = 2 x 2 x 2 x 5 x 35<br>1400 = 2 x 2 x 2 x 5 x 5 x 7<br><strong>1400 = 23 x 52 x 7</strong>",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0010"
     },
     {
@@ -106,7 +136,10 @@
         "content": "",
         "theme": "T1S1",
         "img": "../img/math/MAT-ARI-0011.png",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0011"
     },
     {
@@ -115,7 +148,10 @@
         "content": "Deux nombres sont <strong>premiers</strong> entre eux si leur seul <strong>diviseur commun</strong> est 1.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0012"
     },
     {
@@ -124,7 +160,10 @@
         "content": "Une fraction A sur B est <strong>irréductible</strong> si les nombre entier A et B sont <strong>entier entre eux.</strong>",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique",
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0013"
     },
 
@@ -139,7 +178,10 @@
         "content": "Pour <strong>additionner deux nombres de même signe</strong>, on garde le signe commun et on additionne leur distance à zéro.",
         "theme": "T1S2",
         "img": "",
-        "seqname": "Nombres relatifs et fractions",
+        "seqname": [
+            "Nombres relatifs et fractions",
+            "Tout"
+        ],
         "id": "MAT-NRF-0001"
     },
     {
@@ -148,7 +190,10 @@
         "content": "Pour <strong>additionner deux nombres de signe contraires</strong>, le signe du résultat est le signe de celui qui a la plus grande distance à zéro et on soustrait leur distance à zéro.",
         "theme": "T1S2",
         "img": "",
-        "seqname": "Nombres relatifs et fractions",
+        "seqname": [
+            "Nombres relatifs et fractions",
+            "Tout"
+        ],
         "id": "MAT-NRF-0002"
     },
     {
@@ -157,7 +202,10 @@
         "content": "<strong>Soustraire</strong> un nombre revient à ajouter son opposé.",
         "theme": "T1S2",
         "img": "",
-        "seqname": "Nombres relatifs et fractions",
+        "seqname": [
+            "Nombres relatifs et fractions",
+            "Tout"
+        ],
         "id": "MAT-NRF-0003"
     },
     {
@@ -166,7 +214,10 @@
         "content": "Pour <strong>multiplier plusieurs nombres relatifs</strong>, il faut déterminer le signe du produit et callculer le produit des distances à zéro. Pour déterminer le signe du produit, on distingue deux cas :<br><br>a) Si le nombre de facteurs négatifs est un nombre <strong>pair</strong>, alors le signe du produit est <strong>positif</strong>.<br>b) Si le nombre de facteurs négatifs est un nombre <strong>impair</strong>, alors le signe du produit est <strong>négatif</strong>.",
         "theme": "T1S2",
         "img": "",
-        "seqname": "Nombres relatifs et fractions",
+        "seqname": [
+            "Nombres relatifs et fractions",
+            "Tout"
+        ],
         "id": "MAT-NRF-0004"
     },
     {
@@ -175,7 +226,10 @@
         "content": "a) Le quotien de deux nombres relatifs de <strong>signes contraires est négatif</strong>. La distance à zéro de ce quotient est le quotient des distances à zéro.<br>b) Le quotient de deux nombres relatifs de <strong>même signe est positif</strong>. La distance à zéro de ce quotient est le quotient des distances à zéro.",
         "theme": "T1S2",
         "img": "",
-        "seqname": "Nombres relatifs et fractions",
+        "seqname": [
+            "Nombres relatifs et fractions",
+            "Tout"
+        ],
         "id": "MAT-NRF-0005"
     },
     {
@@ -184,7 +238,10 @@
         "content": "Pour <strong>additionner ou soustraire des nombres relatifs</strong> en écriture fractionnaire ayant des dénominateurs différents, on commence par <strong>réduire au même dénominateur</strong>.",
         "theme": "T1S2",
         "img": "",
-        "seqname": "Nombres relatifs et fractions",
+        "seqname": [
+            "Nombres relatifs et fractions",
+            "Tout"
+        ],
         "id": "MAT-NRF-0006"
     },
 
@@ -198,7 +255,10 @@
         "content": "a étant un nombre relatif et n un nombre entier positif non nul, a<sup>n</sup> désigne le produit de n facteurs tous égaux à a.",
         "theme": "T1S3",
         "img": "",
-        "seqname": "Les puissances",
+        "seqname": [
+            "Les puissances",
+            "Tout"
+        ],
         "id": "MAT-PUI-0001"
     },
     {
@@ -207,7 +267,10 @@
         "content": "Un nombre décimal peut s´écrire à l´aide d´une puissance de 10 de l´exposant entier.<br>L´écriture scientifique est de la forme a x 10<sup>n</sup> avec a un nombre décimal avec un seul chiffre différent de 0 avant la virgule et n un nombre entier relatif.",
         "theme": "T1S3",
         "img": "",
-        "seqname": "Les puissances",
+        "seqname": [
+            "Les puissances",
+            "Tout"
+        ],
         "id": "MAT-PUI-0002"
     },
     
@@ -219,7 +282,10 @@
         "content": "Une fonction est un <strong>processus mathématiques</strong> qui, à un nombre donné, associe un unique autre nombre.",
         "theme": "T2S1",
         "img": "",
-        "seqname": "Fonctions générales",
+        "seqname": [
+            "Fonctions générales",
+            "Tout"
+        ],
         "id": "MAT-FON-0001"
     },
     {
@@ -228,7 +294,10 @@
         "content": "A un nombre x, une fonction f associe un seul nombre, noté f(x). On dit que f(x) est <strong>l´image</strong> de x par la fonction f.",
         "theme": "T2S1",
         "img": "",
-        "seqname": "Fonctions générales",
+        "seqname": [
+            "Fonctions générales",
+            "Tout"
+        ],
         "id": "MAT-FON-0002"
     },
     {
@@ -237,7 +306,10 @@
         "content": "Lorsque l´image d´un nombre x par une fonction f est un nombre y, c´est-à-dire f(x)=y, on dit que x est un <strong>antécédant</strong> de y par la fonction f.",
         "theme": "T2S1",
         "img": "",
-        "seqname": "Fonctions générales",
+        "seqname": [
+            "Fonctions générales",
+            "Tout"
+        ],
         "id": "MAT-FON-0003"
     },
     {
@@ -246,7 +318,10 @@
         "content": "Dans un repère, la représentation graphiques d´une fonction f est <strong>l´ensemble des points de coordonnées (x; f(x))</strong>. Cette représentation graphique est également appelé courbe représentative de la fonction f.",
         "theme": "T2S1",
         "img": "",
-        "seqname": "Fonctions générales",
+        "seqname": [
+            "Fonctions générales",
+            "Tout"
+        ],
         "id": "MAT-FON-0004"
     },
     {
@@ -255,7 +330,10 @@
         "content": "Une expression litterale est une expression dans laquelle <strong>un ou plusieurs nombre</strong> sont designés par des lettres.",
         "theme": "T1S4",
         "img": "",
-        "seqname": "Calcul littéral",
+        "seqname": [
+            "Calcul littéral",
+            "Tout"
+        ],
         "id": "MAT-CAL-0001"
     
     },
@@ -265,7 +343,10 @@
         "content": "<strong>Pour tout nombres relatifs a, b et k:</strong><br>Développer<br>------------><br>k(a + b) = ka + kb<br>k(a - b) = ka - kb<br><------------ <br>Factoriser",
         "theme": "T1S4",
         "img": "",
-        "seqname": "Calcul littéral",
+        "seqname": [
+            "Calcul littéral",
+            "Tout"
+        ],
         "id": "MAT-CAL-0002"
     
     },
@@ -275,7 +356,10 @@
         "content": "<strong>Pour tout nombres relatifs a, b, c et d:</strong><br>Développer<br>------------><br>(a + b)(c + b) = a(c + d) + b(c + d)<br>(a + b)(c + b) = ac + ad + bc + bd<br><------------ <br>Factoriser",
         "theme": "T1S4",
         "img": "",
-        "seqname": "Calcul littéral",
+        "seqname": [
+            "Calcul littéral",
+            "Tout"
+        ],
         "id": "MAT-CAL-0003"
     
     }
