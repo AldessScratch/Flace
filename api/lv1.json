@@ -88,6 +88,60 @@
         "img": "",
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0010" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Rendre visite à",
+        "content": "<strong>Call on</strong> <br><strong>Exemple:</strong> John called on his friends for support. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0011" 
+       },
+        {
+        "type": "Vocabulaire",
+        "title": "Passer",
+        "content": "<strong>Call round</strong> <br><strong>Exemple:</strong> Peter said that he would call round sometime this afternoon. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0012" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se soucier de",
+        "content": "<strong>Care about</strong> <br><strong>Exemple:</strong> I care about the issue of global warming. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0013" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S'occuper de / aimer",
+        "content": "<strong>Care for</strong> <br><strong>Exemple:</strong> Juliana still cares for Simon after all these years. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0014" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Continuer",
+        "content": "<strong>Carry on</strong> <br><strong>Exemple:</strong> She carried on as if nothing had happened.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0015" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Courrir après",
+        "content": "<strong>Chase after</strong> <br><strong>Exemple:</strong> The police chased after the burglar and caught him in my neighbour´s garden.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0016" 
        }
 ]
     
