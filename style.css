@@ -45,8 +45,8 @@ body {
     width: 100%;
     height: 60px;
     justify-content: center;
-    backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
 }
 .navbar .brand {
   margin-left: 30px;
@@ -85,12 +85,21 @@ body {
 .home h1 {
   display: flex;
   color: var(--text-color);
-  font-weight: 500;
-  font-size: 32px;
+  font-weight: 600;
+  font-size: 40px;
   animation-name: fadeIn;
     animation-duration: 1.5s;
     text-align: center;
     margin-top: 60px;
+}
+.home #develop {
+  color: var(--text-color);
+  font-size: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.home #develop.active{
+  transform: rotate(180deg);
 }
 .home p {
   color: var(--text-color);
@@ -101,6 +110,10 @@ body {
     animation-duration: 1.5s;
     width: 700px;
     text-align: center;
+    display: none;
+}
+.home p.active {
+  display: block;;
 }
 .home h5 {
   color: var(--text-color);
@@ -117,7 +130,7 @@ body {
   @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translateY(10%);
+        transform: translateY(30%);
     }
     to {
       opacity: 1;
@@ -134,11 +147,10 @@ body {
     
 }
 .item{
-  background-color: #74747494;
   margin-top: 50px;
   position: absolute;
     width: 480px;
-    height: 270px;
+    height: 290px;
     border-radius: 10px;
     transition: 0.5s;
     left: calc(50% - 240px);
@@ -203,6 +215,10 @@ body {
   font-weight: 500;
   font-size: 20px;
 }
+
+
+
+/* les truc pour controler le slide */
 .slider i {
   margin: 40px;
   text-align: center;
@@ -210,7 +226,6 @@ body {
   color: var(--text-color);
   font-size: 30px;
   font-weight: 500;
-  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
 }
 #next, #prev{
   height: 100%;
@@ -224,22 +239,25 @@ body {
   display: flex;
   justify-content: center;
 }
-
 #next{
     left: unset;
     right: 50px;
 }
 
+
+
+
 .back button {
+  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
   padding: 8px;
   border-radius: 12px;
   margin: 10px;
   color: #fff;
   font-size: 15px;
-  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   transition: all 0.2s ease-in-out;
   transform: scale(1);
+
 }
 .back button.learn {
   background-color: #3cb371;
@@ -292,7 +310,7 @@ body {
   align-items: center;
   flex-direction: column;
   background-image: url('./img/texture.png');
-  height: 180px;
+  height: 190px;
   width: 320px;
   border-radius: 10px;
   box-shadow: 4px 3px 8px 1px #42424233;
@@ -581,6 +599,13 @@ button#reussi {
   margin-right: 10px;
 }
 
+
+
+
+
+
+/* taches dencre */
+
 .shapes{
   position: fixed;
   right: 20rem;
@@ -588,27 +613,38 @@ button#reussi {
   transform: rotate(-45deg);
   display: flex;
   align-items: end;
-  gap: 1rem;
+  gap: 5rem;
   z-index: -5;
 }
-.shape-color1,
-.shape-color2{
+.shape{
   mix-blend-mode: multiply;
   filter: blur(60px);
 }
 
-.shapes .shape-color1{
-  height: 25rem;
-  width: 50px;
-/*   background-color: #12C0DD; */
-  background-color: #116bf1;
+.shapes .shape.color2{
+  height: 23rem;
+  width: 100px;
+  background-color: #2411f1;
   z-index: -1;
+  animation-name: fadeIn;
+  animation-duration: 20s;
 }
 
-.shapes .shape-color2{
-/*   background-color: #BE07FF; */
-  background-color: #4A00E0;
-  height: 13rem;
+.shapes .shape.color3{
+  background-color: #8600e0;
+  height: 17rem;
   width: 80px;
   z-index: -1;
+  animation-name: fadeIn;
+  animation-duration: 10s;
 }
+.shapes .shape.color1{
+    
+    background-color: #0065e0;
+    height: 30rem;
+    width: 80px;
+    z-index: -1;
+    animation-name: fadeIn;
+    animation-duration: 30s;
+  }
+  

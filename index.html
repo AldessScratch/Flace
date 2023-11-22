@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards préparées aux préalable dans toutes les matières. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
 </head>
@@ -29,7 +28,8 @@
     
     <div class="home" id="home">
         <h1>Bienvenue sur Flace 😃</h1>
-        <p>Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</p>
+        <i onclick="document.getElementById('desc').classList.toggle('active');document.getElementById('develop').classList.toggle('active');document.getElementById('develop').classList.remove('bx-tada')" class="bx bxs-chevron-down bx-tada" id="develop"></i>
+        <p id="desc">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</p>
         <!-- Slider by lundev -->
   
         <div class="slider">
@@ -64,13 +64,15 @@
             </div>
             <!-- Fin d'une slide -->
             
-            <button id="next"><i class="bx bx-chevron-right"></i></button>
-            <button id="prev"><i class="bx bx-chevron-left"></i></button>
+            <button id="next"><i class='bx bx-right-arrow-alt'></i></button>
+            <button id="prev"><i class='bx bx-left-arrow-alt'></i></button>
             
         </div>
+        <!-- taches d'encre stylé -->
         <div class="shapes">
-            <div class="shape-color1"></div>
-            <div class="shape-color2"></div>
+            <div class="shape color1"></div>
+            <div class="shape color2"></div>
+            <div class="shape color3"></div>
           </div>
           
     </div>
