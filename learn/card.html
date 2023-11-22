@@ -99,8 +99,8 @@
             </div>
             <img id="popupimg" src="">
           <div class="buttons">
-            <button id="reussi">J'ai réussi</button>
-            <button id="rate">Je n'ai pas réussi</button>
+            <button class="modalbutton" id="reussi">J'ai réussi</button>
+            <button class="modalbutton" id="rate">Je n'ai pas réussi</button>
           </div>
         </div>
       </div>   
@@ -139,14 +139,12 @@
         // Le code recupère les données depuis le .json
         const jsonUrl = '../api/' + sessionStorage.getItem('api') + '.json';
         fetch(jsonUrl).then(response => response.json()).then(data => {
-
-
-
           // randomize l'ordre des cards
           for (let i = data.length - 1; i > 0; i--) {
-      let j = Math.floor(Math.random() * (i + 1));
-      [data[i], data[j]] = [data[j], data[i]];
-    }
+              let j = Math.floor(Math.random() * (i + 1));
+              [data[i], data[j]] = [data[j], data[i]];
+            }     
+
           const cardscontainer = document.getElementById('cardscontainer');
           const cardslider = document.getElementById('cardslider');
           const rendercards = (cards) => {
@@ -161,7 +159,7 @@
               const flashseqname = document.createElement('h4');
               
               flashseq.innerHTML = cards.theme
-              flashseqname.innerHTML = cards.seqname
+              flashseqname.innerHTML = cards.seqname[0]
               flashcard.classList.add('flashcard')
               flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
               flashcard.setAttribute('id', cards.id)

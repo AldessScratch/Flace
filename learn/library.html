@@ -149,7 +149,7 @@
               
               title.innerHTML = cards.title.toUpperCase()
               type.innerHTML = cards.type + ' :'
-              seq.innerHTML = cards.seqname
+              seq.innerHTML = cards.seqname[0]
               card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
               card.classList.add('card');
               card.setAttribute('id', cards.id)
