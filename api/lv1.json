@@ -70,7 +70,24 @@
         "img": "",
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0008"
-      }
-    ]
+      },
+       {
+        "type": "Vocabulaire",
+        "title": "Rappeler ",
+        "content": "<strong>Call back'</strong> <br><strong>Exemple:</strong>I'll call back when I can. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0009"
+      },
+       {
+        "type": "Vocabulaire",
+        "title": "Annuler ",
+        "content": "<strong>Call off </strong> <br><strong>Exemple:</strong> The town's annual picnic was called off due to rain. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0010" 
+    
     
     
