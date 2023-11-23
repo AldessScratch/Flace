@@ -286,6 +286,162 @@
             "Tout"
         ],
         "id": "ANG-PHV-0024" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Venir / Reprendre connaissance / se raviser (changer d´avis)",
+        "content": "<strong>Come around</strong> <br><strong>Exemple:</strong> The patient came around soon after his operation.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0025" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Revenir",
+        "content": "<strong>Come back</strong> <br><strong>Exemple:</strong> I came back from the office at about 6.30pm.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0026" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Entrer",
+        "content": "<strong>Come in</strong> <br><strong>Exemple:</strong> Please come in; the door is open.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0027" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se détacher",
+        "content": "<strong>Come off</strong> <br><strong>Exemple:</strong> Once they are firmly stuck on, the labels won´t come off.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0028" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Sortir / partir",
+        "content": "<strong>Come out</strong> <br><strong>Exemple:</strong> Did you ask your mom if you can come out and play?",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0029" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Venir",
+        "content": "<strong>Come over</strong> <br><strong>Exemple:</strong> If you come over this evening we´ll watch a movie together.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0030" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Reprendre connaissance",
+        "content": "<strong>Come to</strong> <br><strong>Exemple:</strong> When he came to, he was in hospital.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0031" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Rayer",
+        "content": "<strong>Cross off</strong> <br><strong>Exemple:</strong> Make a list of things to do and cross off each item once you have completed it.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0032" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Barrer",
+        "content": "<strong>Cross out</strong> <br><strong>Exemple:</strong> With a pencil you can erase; with a pen you have to cross out your mistakes. Cross out the wrong answers.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0033" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Traverser",
+        "content": "<strong>Cross over</strong> <br><strong>Exemple:</strong> I want to cross over the river.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0034" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Pousser un cri",
+        "content": "<strong>Cry out</strong> <br><strong>Exemple:</strong> Laura cried out in pain when she twisted her ankle.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0035" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Couper",
+        "content": "<strong>Cut off</strong> <br><strong>Exemple:</strong> His leg was so badly damaged, the doctors had to cut it off.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0036" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Découper",
+        "content": "<strong>Cut out</strong> <br><strong>Exemple:</strong> When I was little, I loved cutting out pictures from magazines.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0037" 
        }
 ]
     
