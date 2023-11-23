@@ -77,8 +77,10 @@
         "content": "Un nombre entier est divisible <strong>par 9</strong> si la somme de ses chiffres forme un nombre divisible par 9.",
         "theme": "T1S1",
         "img": "",
-        "seqname": "Arithmétique"
-        ,
+        "seqname": [
+            "Arithmétique",
+            "Tout"
+        ],
         "id": "MAT-ARI-0006"
     }
     ,
