@@ -9,7 +9,9 @@
     <link rel="icon" type="image/x-icon" href="./img/logo.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards préparées aux préalable dans toutes les matières. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
+    <meta property="og:image" content="/img/logo.png">
+    <meta content="#ffffff" data-react-helmet="true" name="theme-color">
+    <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
 </head>
 <body>
     
@@ -19,7 +21,7 @@
             <div onclick="location.href = './'" class="brandname">Fla<div class="question">?</div>e <sup>Beta</sup></div>
         </div>
         <div class="right">
-            <i onclick="location.href = './'" class='bx bx-home'></i>
+            <i onclick="location.href = './'" class='bx bxs-home'></i>
             <i onclick="location.href = ''" class='bx bx-cog'></i>
             <i onclick="location.href = ''" class='bx bx-info-circle'></i>
             <div class="time"></div>
@@ -28,7 +30,7 @@
     
     <div class="home" id="home">
         <h1>Bienvenue sur Flace 😃</h1>
-        <i onclick="document.getElementById('desc').classList.toggle('active');document.getElementById('develop').classList.toggle('active');" class="bx bxs-chevron-down" id="develop"></i>
+        <i onclick="document.getElementById('desc').classList.toggle('active');document.getElementById('develop').classList.toggle('active')" class="bx bxs-chevron-down" id="develop"></i>
         <p id="desc">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</p>
         <!-- Slider by lundev -->
   
@@ -42,8 +44,8 @@
                     </div>  
                     <div class="back">
                         <h5>Que voulez vous faire ?</h5>
-                        <button class="learn" onclick="openlearn('math', 'Mathématiques')">S'entrainer</button>
-                        <button class="lib" onclick="openlib('math', 'Mathématiques')">Bibliothèque</button>
+                        <button class="learn" onclick="openlearn('math', 'Mathématiques')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="lib" onclick="openlib('math', 'Mathématiques')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
                     </div>
                 </div>
             </div>
@@ -57,8 +59,8 @@
                     </div>  
                     <div class="back">
                         <h5>Que voulez vous faire ?</h5>
-                        <button class="learn" onclick="openlearn('lv1', 'Anglais')">S'entrainer</button>
-                        <button class="lib" onclick="openlib('lv1', 'Anglais')">Bibliothèque</button>
+                        <button class="learn" onclick="openlearn('lv1', 'Anglais')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="lib" onclick="openlib('lv1', 'Anglais')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
                     </div>
                 </div>
             </div>
@@ -69,20 +71,29 @@
             
         </div>
 
+        <!-- footer -->
+        <div class="footer">
+            <div class="footer-text">Flace/main</div>
+        </div>
+
+
         <!-- popup pour les options -->
-        <div class="modal" id="modal">
+        <div class="modal" id="modal2">
             <div class="modal-header">
               <div class="title">Option de l'entrainement</div>
               <i data-close-button class="bx bx-x close-button"></i>
             </div>
             <div class="modal-body">
-                <div id="popupcontent" class="content">
-            
+                <div class="optiongrid">
+                    <div class="option"></div>
+                    <div class="option"></div>
                 </div>
-                <img id="popupimg" src="">
-        
+                <div class="buttons">
+                    <button class="modalbutton" id="reussi">Débuter l'entrainement libre</button>
+                  </div>
             </div>
           </div>  
+
           <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
     <div id="overlay" class="overlay"></div>
 

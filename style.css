@@ -119,10 +119,15 @@ button, i, .brandname {
 .home p.active {
   display: block;;
 }
-.home h5 {
+.home h5.restant {
   color: var(--text-color);
   font-size: 20px;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+#restant {
+  margin-right: 10px;
 }
 
 .home a {
@@ -223,7 +228,7 @@ button, i, .brandname {
 
 
 /* les truc pour controler le slide */
-.slider i {
+.slider #next i, #prev i {
   margin: 40px;
   text-align: center;
   height: 100vh;
@@ -252,6 +257,9 @@ button, i, .brandname {
 
 
 .back button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
   padding: 8px;
@@ -261,7 +269,10 @@ button, i, .brandname {
   font-size: 15px;
   transition: all 0.2s ease-in-out;
   transform: scale(1);
-
+}
+.back button i {
+  color: #fff;
+  margin-right: 5px;
 }
 .back button.learn {
   background-color: #3cb371;
@@ -276,8 +287,10 @@ button, i, .brandname {
   transition-delay: .1s;
 }
 
-@media screen and (max-width: 850px) {
-  
+@media screen and (max-width: 880px) {
+  #modal2{
+    overflow-y: scroll;
+  }
   .home p {
     width: 80%;
   }
@@ -287,8 +300,13 @@ button, i, .brandname {
   #prev {
     left: 0px;
   }
+  
 }
+
 @media screen and (max-width: 500px) {
+  .brandname {
+    display: none;
+  }
   .searchcard {
     width: 80vw;
   }
@@ -307,6 +325,7 @@ button, i, .brandname {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 20px;
 }
 .cards .card {
   display: flex;
@@ -348,7 +367,7 @@ button, i, .brandname {
   width: 100%;
 }
 /* css du popup */
-.modal {
+#modal {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -365,7 +384,7 @@ button, i, .brandname {
   filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.4));
 }
 
-.modal.active {
+#modal.active {
   transform: translate(-50%, -50%) scale(1);
   visibility: visible;
 }
@@ -398,12 +417,13 @@ button, i, .brandname {
 }
 
 .modal-body {
-  height: 350px;
+  min-height: 350px;
  display: flex;
  justify-content: center;
  align-items: center;
+ flex-direction: column;
 }
-.modal img {
+#modal img {
   position: absolute;
   height: 250px;
   width: auto;
@@ -481,7 +501,7 @@ button, i, .brandname {
   -webkit-backdrop-filter: blur(5px);
 }
 .searchcard:hover {
-  width: 500px;
+  width: 550px;
   transition: ease-in-out;
   transition-duration: .5s;
 }
@@ -567,12 +587,9 @@ no {
 
 /* css des boutons sur le popup */
 .modal .buttons {
-  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10px;
-  bottom: 0;
 }
 .modal .buttons button {
   border: 0;
@@ -651,3 +668,59 @@ button#reussi {
     animation-name: fadeIn;
     animation-duration: 30s;
   }
+
+
+/* footer */
+.footer {
+  width: 100%;
+  position: static;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+}
+
+.footer .footer-text {
+  color: var(--text-color);
+  margin-bottom: 20px;
+}
+
+/* option de l'accueil */
+#modal2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  visibility: hidden;
+  transition: 200ms ease-in-out;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: #fff;
+  max-width: 90%;
+  height: 450px;
+  width: 800px;
+  filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.4));
+  
+}
+#modal2.active {
+  transform: translate(-50%, -50%) scale(1);
+  visibility: visible;
+}
+.optiongrid {
+  width: 100%;
+  min-height: 280px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.optiongrid .option {
+  height: 250px;
+  width: 370px;
+  margin: 10px;
+  border-radius: 10px;
+ background-image: url('./img/texture.png');
+  box-shadow: 4px 3px 8px 1px #42424233;
+  -webkit-box-shadow: 4px 3px 8px 1px #42424233;
+}
