@@ -214,6 +214,78 @@
             "Tout"
         ],
         "id": "ANG-PHV-0018" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Régler sa note / regarder",
+        "content": "<strong>Check out</strong> <br><strong>Exemple:</strong> The inspector checked out the suspect´s alibi by questioning his friends.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0019" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Vérifier / Examiner",
+        "content": "<strong>Check over</strong> <br><strong>Exemple:</strong> I always check over the engine carefully before a long car journey.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0020" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Dégager / Filer",
+        "content": "<strong>Clear off</strong> <br><strong>Exemple:</strong> I´m busy now - clear off!",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0021" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Vider",
+        "content": "<strong>Clear out</strong> <br><strong>Exemple:</strong> Anita cleared out all the closets in preparation for the move.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0022" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Passer par-dessus",
+        "content": "<strong>Climb over</strong> <br><strong>Exemple:</strong> Even if you manage to climb over the prison fence, the dogs will be waiting on the other side.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0023" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se couvrir / s´assombrir",
+        "content": "<strong>Cloud over</strong> <br><strong>Exemple:</strong> The day started fine and sunny, but by midday it began to cloud over, and by late afternoon it was raining hard.",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Phrasal verb",
+            "Tout"
+        ],
+        "id": "ANG-PHV-0024" 
        }
 ]
     
