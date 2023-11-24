@@ -326,6 +326,10 @@
         ],
         "id": "MAT-FON-0004"
     },
+
+
+
+    
     {
         "type": "Définition",
         "title": "Une expression littérale",
@@ -364,5 +368,30 @@
         ],
         "id": "MAT-CAL-0003"
     
+    },
+    {
+        "type": "Propriété",
+        "title": "Réduire une expression",
+        "content": "<strong>Réduire</strong> une expression revient à l´écrire avec le moins de termes possibles.",
+        "theme": "T1S4",
+        "img": "",
+        "seqname": [
+            "Calcul littéral",
+            "Tout"
+        ],
+        "id": "MAT-CAL-0004"
+    
+    },
+    {
+        "type": "Propriété",
+        "title": "Ordonner une expression",
+        "content": "<strong>Ordonner</strong> une expression revient à l´écrire mettant en premier les termes avec des lettres, du plus grand exposant au plus petit, puis les nombres.",
+        "theme": "T1S4",
+        "img": "",
+        "seqname": [
+            "Calcul littéral",
+            "Tout"
+        ],
+        "id": "MAT-CAL-0005"
     }
 ]
