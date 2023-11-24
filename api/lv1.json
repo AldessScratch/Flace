@@ -442,6 +442,18 @@
             "Tout"
         ],
         "id": "ANG-PHV-0037" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "A lot",
+        "content": "<strong>A LOT</strong> (adverb)<br>plenty, numerous, countless, a great deal, a large amount",
+        "theme": "",
+        "img": "",
+        "seqname": [
+            "Boring word",
+            "Tout"
+        ],
+        "id": "ANG-BGW-0001" 
        }
 ]
     
