@@ -103,7 +103,17 @@
                     <div class="option">
                         <h5>Nombre de flashcard</h5>
                         <h6>Le nombre de flashcards affichées lors de l'entrainement</h6>
-                        <input type="number" name="" id="">
+                        <input type="number" name="number" id="number">
+                        <script>
+                            sessionStorage.setItem("number", 0)
+                            function initinput(){
+                                let number = document.getElementById('number')
+                                number.addEventListener("input", () => {
+                                sessionStorage.setItem("number", number.value)
+                            })
+                            }
+                            initinput()
+                        </script>
                     </div>
                 </div>
                 <div class="buttons">
