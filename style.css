@@ -10,7 +10,9 @@
 body {
   background-color: var(--bg);
 }
-
+p {
+  color: var(--text-color);
+}
 .home{
     display: flex;
     align-items: center;
@@ -589,6 +591,9 @@ no {
 
 /* css des boutons sur le popup */
 .modal .buttons {
+  position: absolute;
+  margin: 10px;
+  bottom: 0;
   display: flex;
   justify-content: center;
   align-items: center;

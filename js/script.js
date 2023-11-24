@@ -37,15 +37,46 @@ prev.onclick = function(){
 
 
 
-function openlearn(url, matiere){
+function openlearn(){
     sessionStorage.setItem('iframeurl', 'card.html')
-    sessionStorage.setItem('api', url)
-    sessionStorage.setItem('matiere', matiere)
     location.href = 'learn'
 }
 function openlib(url, matiere){
     sessionStorage.setItem('iframeurl', 'library.html')
-    sessionStorage.setItem('api', url)
+    apilink(url)
     sessionStorage.setItem('matiere', matiere)
     location.href = 'learn'
+}
+function setuplearn(api, matiere) {
+    sessionStorage.setItem('api', api)
+    sessionStorage.setItem('matiere', matiere)
+    const jsonUrl = './api/' + sessionStorage.getItem('api') + '.json';
+fetch(jsonUrl).then(response => response.json()).then(data => {
+  var values = [];
+  for (var key in data) {
+    values.push(data[key].seqname);
+  }
+  var set = new Set(values);
+  var uniqueValues = Array.from(set);
+  function createOption(value) {
+    var option = document.createElement("option");
+    option.value = value;
+    option.text = value;
+    return option;
+  }
+  function createSelect(values) {
+    var select = document.getElementById("seqname");
+    select.appendChild(createOption("Tout"));
+    select.setAttribute('id', 'seqname')
+    for (var i = 0; i < values.length; i++) {
+      select.appendChild(createOption(values[i]));
+    }
+    return select;
+  }
+  var select = createSelect(uniqueValues);
+
+}).catch(error => console.error('Error fetching cards:', error));
+
+    document.getElementById('modal2').classList.add('active')
+    document.getElementById('overlay').classList.add('active')
 }

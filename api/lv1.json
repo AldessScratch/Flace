@@ -5,10 +5,7 @@
         "content": "<strong>Bend over</strong> <br><strong>Exemple:</strong> James dropped his pen, so he bent over to pick it up. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0001"
     },
     {
@@ -17,10 +14,7 @@
         "content": "<strong>Blow out</strong> <br><strong>Exemple:</strong> She blew out all the candles. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0002"
     },{
         "type": "Vocabulaire",
@@ -28,10 +22,7 @@
         "content": "<strong>Break in </strong> <br><strong>Exemple:</strong> Thieves broke in and raided the safe. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0003"
     },
     {
@@ -40,10 +31,7 @@
         "content": "<strong>Breathe in </strong> <br><strong>Exemple:</strong> Don´t breathe in: there may be toxic fumes in the air. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0004"
         
     },
@@ -53,10 +41,7 @@
         "content": "<strong>Breathe out </strong> <br><strong>Exemple:</strong> The doctor asked the patient to breathe out slowly. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0005"
     },
     {
@@ -65,10 +50,7 @@
         "content": "<strong>Bring back</strong> <br><strong>Exemple:</strong> The teacher asked him to bring back the homework. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0006"
     },
      {
@@ -77,10 +59,7 @@
         "content": "<strong>Bump into</strong> <br><strong>Exemple:</strong> I bumped into him while walking to school. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0007"
      },
       {
@@ -89,10 +68,7 @@
         "content": "<strong>Burst into</strong> <br><strong>Exemple:</strong> My friend burst into tears after finding out his last history grade. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0008"
       },
        {
@@ -101,10 +77,7 @@
         "content": "<strong>Call back</strong> <br><strong>Exemple:</strong> I´ll call back when I can. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0009"
       },
        {
@@ -113,10 +86,7 @@
         "content": "<strong>Call off</strong> <br><strong>Exemple:</strong> The town´s annual picnic was called off due to rain. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0010" 
        },
        {
@@ -125,10 +95,7 @@
         "content": "<strong>Call on</strong> <br><strong>Exemple:</strong> John called on his friends for support. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0011" 
        },
         {
@@ -137,10 +104,7 @@
         "content": "<strong>Call round</strong> <br><strong>Exemple:</strong> Peter said that he would call round sometime this afternoon. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0012" 
        },
        {
@@ -149,10 +113,7 @@
         "content": "<strong>Care about</strong> <br><strong>Exemple:</strong> I care about the issue of global warming. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0013" 
        },
        {
@@ -161,10 +122,7 @@
         "content": "<strong>Care for</strong> <br><strong>Exemple:</strong> Juliana still cares for Simon after all these years. ",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0014" 
        },
        {
@@ -173,10 +131,7 @@
         "content": "<strong>Carry on</strong> <br><strong>Exemple:</strong> She carried on as if nothing had happened.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0015" 
        },
        {
@@ -185,10 +140,7 @@
         "content": "<strong>Chase after</strong> <br><strong>Exemple:</strong> The police chased after the burglar and caught him in my neighbour´s garden.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0016" 
        },
        {
@@ -197,10 +149,7 @@
         "content": "<strong>Chase away</strong> <br><strong>Exemple:</strong> Chase away that dog before it eats your food.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0017" 
        },
        {
@@ -209,10 +158,7 @@
         "content": "<strong>Check in</strong> <br><strong>Exemple:</strong> What time may we check in to our hotel room?",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0018" 
        },
        {
@@ -221,10 +167,7 @@
         "content": "<strong>Check out</strong> <br><strong>Exemple:</strong> The inspector checked out the suspect´s alibi by questioning his friends.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0019" 
        },
        {
@@ -233,10 +176,7 @@
         "content": "<strong>Check over</strong> <br><strong>Exemple:</strong> I always check over the engine carefully before a long car journey.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0020" 
        },
        {
@@ -245,10 +185,7 @@
         "content": "<strong>Clear off</strong> <br><strong>Exemple:</strong> I´m busy now - clear off!",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0021" 
        },
        {
@@ -257,10 +194,7 @@
         "content": "<strong>Clear out</strong> <br><strong>Exemple:</strong> Anita cleared out all the closets in preparation for the move.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0022" 
        },
        {
@@ -269,10 +203,7 @@
         "content": "<strong>Climb over</strong> <br><strong>Exemple:</strong> Even if you manage to climb over the prison fence, the dogs will be waiting on the other side.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0023" 
        },
        {
@@ -281,10 +212,7 @@
         "content": "<strong>Cloud over</strong> <br><strong>Exemple:</strong> The day started fine and sunny, but by midday it began to cloud over, and by late afternoon it was raining hard.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0024" 
        },
        {
@@ -293,10 +221,7 @@
         "content": "<strong>Come around</strong> <br><strong>Exemple:</strong> The patient came around soon after his operation.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0025" 
        },
        {
@@ -305,10 +230,7 @@
         "content": "<strong>Come back</strong> <br><strong>Exemple:</strong> I came back from the office at about 6.30pm.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0026" 
        },
        {
@@ -317,10 +239,7 @@
         "content": "<strong>Come in</strong> <br><strong>Exemple:</strong> Please come in; the door is open.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0027" 
        },
        {
@@ -329,10 +248,7 @@
         "content": "<strong>Come off</strong> <br><strong>Exemple:</strong> Once they are firmly stuck on, the labels won´t come off.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0028" 
        },
        {
@@ -341,10 +257,7 @@
         "content": "<strong>Come out</strong> <br><strong>Exemple:</strong> Did you ask your mom if you can come out and play?",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0029" 
        },
        {
@@ -353,10 +266,7 @@
         "content": "<strong>Come over</strong> <br><strong>Exemple:</strong> If you come over this evening we´ll watch a movie together.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0030" 
        },
        {
@@ -365,10 +275,7 @@
         "content": "<strong>Come to</strong> <br><strong>Exemple:</strong> When he came to, he was in hospital.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0031" 
        },
        {
@@ -377,10 +284,7 @@
         "content": "<strong>Cross off</strong> <br><strong>Exemple:</strong> Make a list of things to do and cross off each item once you have completed it.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0032" 
        },
        {
@@ -389,10 +293,7 @@
         "content": "<strong>Cross out</strong> <br><strong>Exemple:</strong> With a pencil you can erase; with a pen you have to cross out your mistakes. Cross out the wrong answers.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0033" 
        },
        {
@@ -401,10 +302,7 @@
         "content": "<strong>Cross over</strong> <br><strong>Exemple:</strong> I want to cross over the river.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0034" 
        },
        {
@@ -413,10 +311,7 @@
         "content": "<strong>Cry out</strong> <br><strong>Exemple:</strong> Laura cried out in pain when she twisted her ankle.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0035" 
        },
        {
@@ -425,10 +320,7 @@
         "content": "<strong>Cut off</strong> <br><strong>Exemple:</strong> His leg was so badly damaged, the doctors had to cut it off.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0036" 
        },
        {
@@ -437,10 +329,7 @@
         "content": "<strong>Cut out</strong> <br><strong>Exemple:</strong> When I was little, I loved cutting out pictures from magazines.",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Phrasal verb",
-            "Tout"
-        ],
+        "seqname": "Phrasal verb",
         "id": "ANG-PHV-0037" 
        },
        {
@@ -449,10 +338,7 @@
         "content": "<strong>A LOT</strong> (adverb)<br>plenty, numerous, countless, a great deal, a large amount",
         "theme": "",
         "img": "",
-        "seqname": [
-            "Boring word",
-            "Tout"
-        ],
+        "seqname": "Boring word",
         "id": "ANG-BGW-0001" 
        }
 ]

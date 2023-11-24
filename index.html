@@ -44,7 +44,7 @@
                     </div>  
                     <div class="back">
                         <h5>Que voulez vous faire ?</h5>
-                        <button class="learn" onclick="openlearn('math', 'Mathématiques')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="learn" onclick="setuplearn('math', 'Mathématiques')"><i class="bx bx-book-open"></i> S'entrainer</button>
                         <button class="lib" onclick="openlib('math', 'Mathématiques')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
                     </div>
                 </div>
@@ -59,7 +59,7 @@
                     </div>  
                     <div class="back">
                         <h5>Que voulez vous faire ?</h5>
-                        <button class="learn" onclick="openlearn('lv1', 'Anglais')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="learn" onclick="setuplearn('lv1', 'Anglais')"><i class="bx bx-book-open"></i> S'entrainer</button>
                         <button class="lib" onclick="openlib('lv1', 'Anglais')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
                     </div>
                 </div>
@@ -85,12 +85,20 @@
             </div>
             <div class="modal-body">
                 <div class="optiongrid">
-                    <div class="option">
+                    <div class="option" id="selectcontainer">
                         <h5>Thème des flashcards</h5>
                         <h6>Thème des flashcards affichées lors de l'entrainement</h6>
-                        <select name="seqname" id="seqname">
-                            <option value="Tout">Tout</option>
-                        </select>
+                        <select name="seqname" id="seqname"></select>
+                        <script>
+                             sessionStorage.setItem("seqname", 'Tout')
+                             function initselector(){
+                                const seqname = document.getElementById('seqname')
+                                seqname.addEventListener("change", () => {
+                                    sessionStorage.setItem("seqname", seqname.value)
+                                });
+                             }
+                             initselector()
+                        </script>
                     </div>
                     <div class="option">
                         <h5>Nombre de flashcard</h5>
@@ -99,7 +107,7 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <button class="modalbutton" id="reussi">Débuter l'entrainement</button>
+                    <button class="modalbutton" onclick="openlearn()" id="reussi">Débuter l'entrainement</button>
                   </div>
             </div>
           </div>  
@@ -118,6 +126,14 @@
           </div>
           
     </div>
+    <!-- Créer un élément select avec un identifiant -->
+<script>
+
+// code généré par bingai lol
+
+
+</script>
+
     <!-- Script pour l'heure -->
     <script>
                 const timeElement = document.querySelector(".time");

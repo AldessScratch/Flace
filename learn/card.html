@@ -140,17 +140,20 @@
         const jsonUrl = '../api/' + sessionStorage.getItem('api') + '.json';
         fetch(jsonUrl).then(response => response.json()).then(data => {
           // randomize l'ordre des cards
-          for (let i = data.length - 1; i > 0; i--) {
-              let j = Math.floor(Math.random() * (i + 1));
-              [data[i], data[j]] = [data[j], data[i]];
-            }     
+
 
           const cardscontainer = document.getElementById('cardscontainer');
           const cardslider = document.getElementById('cardslider');
           const rendercards = (cards) => {
             // quand il a recup les données, il crée des flashcards
+            if (sessionStorage.getItem('seqname') !== 'Tout'){
+              cards = cards.filter(card => card.seqname === sessionStorage.getItem('seqname'));
+            }
+            let counter = 0
+
+
             cards.forEach(cards => {
-              
+
               const flashcard = document.createElement('div');
               const innerflashcard = document.createElement('div');
               const flashtype = document.createElement('h2');
@@ -159,7 +162,7 @@
               const flashseqname = document.createElement('h4');
               
               flashseq.innerHTML = cards.theme
-              flashseqname.innerHTML = cards.seqname[0]
+              flashseqname.innerHTML = cards.seqname
               flashcard.classList.add('flashcard')
               flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
               flashcard.setAttribute('id', cards.id)
