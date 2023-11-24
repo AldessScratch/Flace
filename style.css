@@ -101,6 +101,8 @@ button, i, .brandname {
   font-size: 30px;
   transition: all 0.3s ease;
   transform: rotate(0deg);
+  animation-name: fadeIn;
+  animation-duration: 1.5s;
 }
 .home #develop.active{
   transform: rotate(180deg);
@@ -213,10 +215,10 @@ button, i, .brandname {
 .front h2 {
   position: absolute;
   text-align: center;
-  color: #fff;
+  color: #000;
   font-weight: 500;
-  font-size: 25px;
-  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+  font-size: 30px;
+  
 }
 .back h5 {
   margin: 10px;
@@ -639,7 +641,7 @@ button#reussi {
 }
 .shape{
   mix-blend-mode: multiply;
-  filter: blur(60px);
+  filter: blur(80px);
 }
 
 .shapes .shape.color2{
@@ -716,6 +718,10 @@ button#reussi {
   margin-top: 20px;
 }
 .optiongrid .option {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 250px;
   width: 370px;
   margin: 10px;
@@ -724,3 +730,36 @@ button#reussi {
   box-shadow: 4px 3px 8px 1px #42424233;
   -webkit-box-shadow: 4px 3px 8px 1px #42424233;
 }
+
+.option h5 {
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 20px;
+}
+.option h6 {
+  text-align: center;
+  margin: 10px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 13px;
+}
+.option select {
+  text-align: center;
+  width: 80%;
+  border-radius: 20px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 4px 3px 8px 1px #96969633;
+  -webkit-box-shadow: 4px 3px 8px 1px #96969633;
+}
+.option input {
+  text-align: center;
+  width: 80%;
+  border-radius: 20px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 4px 3px 8px 1px #96969633;
+  -webkit-box-shadow: 4px 3px 8px 1px #96969633;
+}
+

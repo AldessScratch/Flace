@@ -29,7 +29,7 @@
     </div>
     
     <div class="home" id="home">
-        <h1>Bienvenue sur Flace 😃</h1>
+        <h1>Bienvenue sur Flace</h1>
         <i onclick="document.getElementById('desc').classList.toggle('active');document.getElementById('develop').classList.toggle('active')" class="bx bxs-chevron-down" id="develop"></i>
         <p id="desc">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</p>
         <!-- Slider by lundev -->
@@ -39,7 +39,7 @@
             <div class="item" >
                 <div class="inner">
                     <div class="front">
-                        <img src="./img/logo.png">
+                        <img src="./img/texture.png">
                         <h2>Mathématiques</h2>
                     </div>  
                     <div class="back">
@@ -54,7 +54,7 @@
             <div class="item" >
                 <div class="inner">
                     <div class="front">
-                        <img src="./img/logo.png">
+                        <img src="./img/texture.png">
                         <h2>Anglais</h2>
                     </div>  
                     <div class="back">
@@ -85,11 +85,21 @@
             </div>
             <div class="modal-body">
                 <div class="optiongrid">
-                    <div class="option"></div>
-                    <div class="option"></div>
+                    <div class="option">
+                        <h5>Thème des flashcards</h5>
+                        <h6>Thème des flashcards affichées lors de l'entrainement</h6>
+                        <select name="seqname" id="seqname">
+                            <option value="Tout">Tout</option>
+                        </select>
+                    </div>
+                    <div class="option">
+                        <h5>Nombre de flashcard</h5>
+                        <h6>Le nombre de flashcards affichées lors de l'entrainement</h6>
+                        <input type="number" name="" id="">
+                    </div>
                 </div>
                 <div class="buttons">
-                    <button class="modalbutton" id="reussi">Débuter l'entrainement libre</button>
+                    <button class="modalbutton" id="reussi">Débuter l'entrainement</button>
                   </div>
             </div>
           </div>  
