@@ -160,6 +160,17 @@ i{
       transform: translateY(0);
     }
   }
+  @keyframes rgb_anim {
+    from {
+      filter: hue-rotate(0deg);
+    }
+    50% {
+      filter: hue-rotate(360deg);
+    }
+    to {
+      filter: hue-rotate(0deg);
+    }
+  }
   .slider{
     display: flex;
     position: relative;
@@ -661,7 +672,9 @@ button#reussi {
   display: flex;
   align-items: end;
   gap: 5rem;
-  z-index: -5;
+  z-index: -10;
+  mix-blend-mode: multiply;
+  filter: blur(80px);
 }
 .shape{
   mix-blend-mode: multiply;
@@ -669,30 +682,33 @@ button#reussi {
 }
 
 .shapes .shape.color2{
+  
+  animation-iteration-count: infinite;
+	animation-duration: 40s;
+	animation-name: rgb_anim;
   height: 23rem;
   width: 100px;
   background-color: #2411f1;
-  z-index: -1;
-  animation-name: fadeIn;
-  animation-duration: 20s;
+  z-index: -10;
 }
 
 .shapes .shape.color3{
+  animation-iteration-count: infinite;
+	animation-duration: 40s;
+	animation-name: rgb_anim;
   background-color: #8600e0;
   height: 17rem;
   width: 80px;
-  z-index: -1;
-  animation-name: fadeIn;
-  animation-duration: 10s;
+  z-index: -10;
 }
 .shapes .shape.color1{
-    
+  animation-iteration-count: infinite;
+	animation-duration: 40s;
+	animation-name: rgb_anim;
     background-color: #0065e0;
     height: 30rem;
     width: 80px;
-    z-index: -1;
-    animation-name: fadeIn;
-    animation-duration: 30s;
+    z-index: -10;
   }
 
 
@@ -834,7 +850,7 @@ select {
 }
 
 
-
+/* decorations noel */
 .lightrope {
   text-align: center;
   white-space: nowrap;
