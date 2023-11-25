@@ -23,7 +23,7 @@ p {
     width: 100%;
 }
 /* logique */
-button, i, .brandname {
+button, i, .brand {
   cursor: pointer;
 }
 
