@@ -763,6 +763,8 @@ button#reussi {
 }
 .option select {
   -webkit-appearance: none;
+  background-color: #fff;
+  color: #000;
   text-align: center;
   width: 80%;
   border-radius: 20px;
