@@ -39,7 +39,7 @@ button, i, .brandname {
         --bg: #171717;
         --text-color: #fff;
     }
-    .navbar .time, i, .brandname, .matiere {
+    .navbar .time, .navbar i, .brandname, .matiere {
       filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
     }
   }
@@ -64,8 +64,10 @@ button, i, .brandname {
 }
 
 .navbar img {
-    height: 45px;
-    width: 45px;
+  filter: brightness(95%);
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
 }
 .navbar .right {
   position: absolute;
@@ -73,12 +75,19 @@ button, i, .brandname {
     align-items: center;
     display: flex;
 }
-.navbar .time, i, .brandname{
+.navbar .time, .brandname{
    display: flex;
-    margin-right: 30px;
-    font-size: 20px;
+   margin-right: 30px;
+   font-size: 20px;
     font-weight: 600;
     color: var(--text-color);
+}
+.navbar i {
+  margin-right: 30px;
+}
+i{
+  font-size: 20px;
+  color: var(--text-color);
 }
 .question {
   margin-top: 3px
@@ -411,7 +420,7 @@ button, i, .brandname {
 }
 
 .modal-header .close-button {
-  right: 10px;
+  right: 20px;
   position: absolute;
   cursor: pointer;
   border: none;
@@ -514,13 +523,7 @@ button, i, .brandname {
 .searchcard:not(:hover){
   transition-duration: .5s;
 }
-.searchcard i {
-  position: absolute;
-  left: 0;
-  margin-left: 20px;
-  font-size: 15px;
-  color: #fff;
-}
+
 
 /* flashcards random de la page math.html */
 .flashcard {
@@ -610,6 +613,13 @@ no {
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   transition: all 0.2s ease-in-out;
   transform: scale(1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modalbutton i {
+  color: #fff;
+  font-size: 20px;
 }
 .buttons button:not(:hover){
   transition-delay: .1s;
@@ -741,7 +751,7 @@ button#reussi {
 .option h5 {
   text-align: center;
   color: #000000;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 20px;
 }
 .option h6 {
@@ -752,6 +762,7 @@ button#reussi {
   font-size: 13px;
 }
 .option select {
+  -webkit-appearance: none;
   text-align: center;
   width: 80%;
   border-radius: 20px;
@@ -760,6 +771,7 @@ button#reussi {
   box-shadow: 4px 3px 8px 1px #96969633;
   -webkit-box-shadow: 4px 3px 8px 1px #96969633;
 }
+
 .option input {
   text-align: center;
   width: 80%;
@@ -779,13 +791,11 @@ button#reussi {
   padding-left: 10%;
   padding-right: 10%;
   font-size: 16px;
+  color: var(--text-color);
 }
-.infologo {
-  margin: 20px;
-  height: 100px;
-  width: auto;
-}
+
 .version {
+  color: var(--text-color);
   text-align: center;
   font-weight: 500;
   font-size: 20px;
@@ -799,7 +809,7 @@ button#reussi {
 .card h8 {
   text-align: center;
   color: #000000;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 21px;
 }
 .card h6 {
@@ -817,4 +827,7 @@ button#reussi {
   border: 0;
   box-shadow: 4px 3px 8px 1px #96969633;
   -webkit-box-shadow: 4px 3px 8px 1px #96969633;
+}
+.card i {
+  color: #000;
 }

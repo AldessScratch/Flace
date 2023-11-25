@@ -6,18 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Flace | Accueil</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="manifest" href="manifest.json">
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta property="og:image" content="/img/logo.png">
     <meta content="#ffffff" data-react-helmet="true" name="theme-color">
     <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
 </head>
 <body>
+    
     <!-- navbar -->
     <div class="navbar">
         <div class="brand">
-            <!-- <img src="" alt="flacelogo"> -->
+            <img src="img/favicon.png" alt="flacelogo">
             <div onclick="location.href = './'" class="brandname">Fla<div class="question">?</div>e <sup>Beta</sup></div>
         </div>
         <div class="right">
@@ -115,7 +117,7 @@
                     </div>
                 </div>
                 <div class="buttons">
-                    <button class="modalbutton" onclick="openlearn()" id="reussi">Débuter l'entrainement</button>
+                    <button class="modalbutton" onclick="openlearn()" id="reussi"><i class="bx bx-play"></i> Débuter l'entrainement</button>
                   </div>
             </div>
           </div>  
