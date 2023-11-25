@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./img/logo.png">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards préparées aux préalable dans toutes les matières. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
+</head>
+<body>
+     <!-- navbar -->
+     <div class="navbar">
+      <div class="brand">
+          <!-- <img src="" alt="flacelogo"> -->
+          <div onclick="location.href = './'" class="brandname">Fla<div class="question">?</div>e <sup>Beta</sup></div>
+      </div>
+      <div class="right">
+          <i onclick="location.href = './'" class='bx bx-home'></i>
+          <i onclick="location.href = 'st.html'" class='bx bx-cog'></i>
+          <i onclick="location.href = 'info.html'" class='bx bxs-info-circle'></i>
+          <div class="time">00:00</div>
+      </div>
+  </div>
+    <div class="home">
+        <img class="infologo" src="./img/logo.png">
+        <div class="info">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</div>
+        <div class="info"><strong>Attention:</strong> Flace ne remplace en aucun cas votre cahier de cours !</div>
+        <div class="info">Idée de A. 19<br>Developpé par A. H.<br>Contributeurs: L. D. et T. H-L.</div>
+        <div class="version">Beta v23.1125</div>
+    </div>
+     <!-- Script pour l'heure -->
+
+
+
+     <script>
+        const timeElement = document.querySelector(".time");
+    function formatTime(date) {
+      const hours12 = date.getHours() % 24 || 24;
+      const minutes = date.getMinutes();
+      return `${hours12.toString().padStart(2, "0")}:${minutes
+        .toString()
+        .padStart(2, "0")}`;
+    }
+    setInterval(() => {
+      const now = new Date();
+      timeElement.textContent = formatTime(now);
+    }, 200);
+    
+        </script>
+</body>
+</html>

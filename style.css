@@ -13,6 +13,7 @@ body {
 p {
   color: var(--text-color);
 }
+
 .home{
     display: flex;
     align-items: center;
@@ -218,7 +219,7 @@ button, i, .brandname {
   position: absolute;
   text-align: center;
   color: #000;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 30px;
   
 }
@@ -233,7 +234,8 @@ button, i, .brandname {
 
 /* les truc pour controler le slide */
 .slider #next i, #prev i {
-  margin: 40px;
+  margin-top: 100px;
+  margin-left: 40px;
   text-align: center;
   height: 100vh;
   color: var(--text-color);
@@ -247,7 +249,7 @@ button, i, .brandname {
   background-color: transparent;
   z-index: 5;
   position: absolute;
-  top: 40%;
+  top: 20%;
   left: 50px;
   display: flex;
   justify-content: center;
@@ -768,3 +770,51 @@ button#reussi {
   -webkit-box-shadow: 4px 3px 8px 1px #96969633;
 }
 
+
+/* css pour la page info */
+
+.info {
+  text-align: center;
+  margin: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 16px;
+}
+.infologo {
+  margin: 20px;
+  height: 100px;
+  width: auto;
+}
+.version {
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* css paramètres */ 
+
+.card h8 {
+  text-align: center;
+  color: #000000;
+  font-weight: 500;
+  font-size: 21px;
+}
+.card h6 {
+  text-align: center;
+  margin: 10px;
+  color: #000000;
+  font-weight: 400;
+  font-size: 15px;
+}
+.card select {
+  text-align: center;
+  width: 80%;
+  border-radius: 20px;
+  padding: 5px;
+  border: 0;
+  box-shadow: 4px 3px 8px 1px #96969633;
+  -webkit-box-shadow: 4px 3px 8px 1px #96969633;
+}

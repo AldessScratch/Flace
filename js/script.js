@@ -35,8 +35,6 @@ prev.onclick = function(){
     loadShow();
 }
 
-
-
 function openlearn(){
     if (sessionStorage.getItem('number')==='0'){
         sessionStorage.setItem('number', 9999)
@@ -44,9 +42,9 @@ function openlearn(){
     sessionStorage.setItem('iframeurl', 'card.html')
     location.href = 'learn'
 }
-function openlib(url, matiere){
+function openlib(api, matiere){
     sessionStorage.setItem('iframeurl', 'library.html')
-    apilink(url)
+    sessionStorage.setItem('api', api)
     sessionStorage.setItem('matiere', matiere)
     location.href = 'learn'
 }

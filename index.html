@@ -11,10 +11,10 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta property="og:image" content="/img/logo.png">
     <meta content="#ffffff" data-react-helmet="true" name="theme-color">
-    <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
+    <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
 </head>
 <body>
-    
+    <!-- navbar -->
     <div class="navbar">
         <div class="brand">
             <!-- <img src="" alt="flacelogo"> -->
@@ -22,9 +22,9 @@
         </div>
         <div class="right">
             <i onclick="location.href = './'" class='bx bxs-home'></i>
-            <i onclick="location.href = ''" class='bx bx-cog'></i>
-            <i onclick="location.href = ''" class='bx bx-info-circle'></i>
-            <div class="time"></div>
+            <i onclick="location.href = 'st.html'" class='bx bx-cog'></i>
+            <i onclick="location.href = 'info.html'" class='bx bx-info-circle'></i>
+            <div class="time">00:00</div>
         </div>
     </div>
     
@@ -73,10 +73,6 @@
             
         </div>
 
-        <!-- footer -->
-        <div class="footer">
-            <div class="footer-text">Flace/main</div>
-        </div>
 
 
         <!-- popup pour les options -->
@@ -107,7 +103,7 @@
                         <h6>Le nombre de flashcards affichées lors de l'entrainement</h6>
                         <input type="number" name="number" id="number">
                         <script>
-                            sessionStorage.setItem("number", 0)
+                            sessionStorage.setItem("number", 9999)
                             function initinput(){
                                 let number = document.getElementById('number')
                                 number.addEventListener("input", () => {
