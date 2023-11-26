@@ -208,7 +208,8 @@ i{
 }
 
 .front img {
-  height: auto;
+  filter: grayscale(100%) brightness(110%);
+  height: 100%;
   width: 100%;
 }
 
@@ -691,10 +692,9 @@ no {
 .end #qsp{
   display: flex;
   color: var(--text-color);
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 50px;
   margin: 10px;
-  color: rgb(136, 213, 223);
+  color: rgb(147, 240, 252);
   font-family: 'Caveat', cursive;
   font-style: italic;
 }
@@ -775,10 +775,7 @@ button#reussi {
 
 .shapes{
   opacity: .7;
-  animation-duration: 10s;
-  animation-name: smoothopacity;
-  transition: all 0.2s ease-in-out;
-  animation-iteration-count: infinite;
+  
   position: fixed;
   right: 30%;
   top: 30%;
@@ -797,16 +794,28 @@ button#reussi {
   height: 23rem;
   width: 100px;
   background-color: #2411f1;
+  animation-duration: 10s;
+  animation-name: smoothopacity;
+  transition: all 0.2s ease-in-out;
+  animation-iteration-count: infinite;
   z-index: -10;
 }
 
 .shapes .shape.color3{
+  animation-duration: 15s;
+  animation-name: smoothopacity;
+  transition: all 0.2s ease-in-out;
+  animation-iteration-count: infinite;
   background-color: #8600e0;
   height: 17rem;
   width: 80px;
   z-index: -10;
 }
 .shapes .shape.color1{
+  animation-duration: 5s;
+  animation-name: smoothopacity;
+  transition: all 0.2s ease-in-out;
+  animation-iteration-count: infinite;
     background-color: #0065e0;
     height: 30rem;
     width: 80px;
@@ -1138,7 +1147,7 @@ select {
       opacity: 0;
   }
   50%{
-    opacity: 1;
+    opacity: .8;
     
   }
   to {
