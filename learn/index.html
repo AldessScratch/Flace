@@ -80,6 +80,20 @@
 }
     }
     </style>
+    <!--intro chargement-->
+    <div class="intro" id="introloading">
+      <div class="lds-dual-ring"></div>
+      <script>
+        document.addEventListener("DOMContentLoaded", function() {
+          document.getElementById('introloading').classList.add('loaded')
+          setTimeout(() => {
+            document.getElementById('introloading').style.display = 'none'
+          }, 900);
+          
+  });
+      </script>
+    </div>
+
     <!-- noel -->
     <ul class="lightrope">
       <li></li>

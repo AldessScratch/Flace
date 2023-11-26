@@ -376,7 +376,53 @@ i{
   }
   
 }
-
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100vh;
+  background-color: var(--bg);
+}
+.intro.loaded {
+  transition: all 0.2s ease-in-out;
+    animation-name: fadeout;
+    animation-duration: 1s;
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid var(--text-color);
+  border-color: var(--text-color) transparent var(--text-color) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
 /* css des flashcards */
 .cards {
