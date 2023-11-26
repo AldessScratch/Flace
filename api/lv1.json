@@ -340,6 +340,42 @@
         "img": "",
         "seqname": "Boring word",
         "id": "ANG-BGW-0001" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Really",
+        "content": "<strong>REALLY</strong> (adverb)<br>genuinely, truly, honestly, undoubtedly, certainly, remarkably, incredibly, downright, unquestionably, extremely",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0002" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Very",
+        "content": "<strong>VERY</strong> (adverb)<br>extremely, exceedingly, exceptionally, immensely, tremendously, abundantly, particularly, remarkably, overly",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0003" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Afraid",
+        "content": "<strong>AFRAID</strong> (adjective)<br>scared, frightened, terrified, petrified, startled, alarmed, shocked, horrified, panicked, apprehensive",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0004" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Angry",
+        "content": "<strong>ANGRY</strong> (adjective)<br>cross (en colère), annoyed (contrarié), irritated, fuming / irate (furieux), exasperated",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0005" 
        }
 ]
     
