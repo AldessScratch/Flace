@@ -39,14 +39,12 @@ function openlearn(){
     if (sessionStorage.getItem('number')==='0'){
         sessionStorage.setItem('number', 9999)
     }
-    sessionStorage.setItem('iframeurl', 'card.html')
     location.href = 'learn'
 }
 function openlib(api, matiere){
-    sessionStorage.setItem('iframeurl', 'library.html')
     sessionStorage.setItem('api', api)
     sessionStorage.setItem('matiere', matiere)
-    location.href = 'learn'
+    location.href = 'learn/library.html'
 }
 function setuplearn(api, matiere) {
     sessionStorage.setItem('api', api)

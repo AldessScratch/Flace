@@ -39,9 +39,6 @@ button, i, .brand {
         --bg: #171717;
         --text-color: #fff;
     }
-    .navbar .time, .navbar i, .brandname, .matiere {
-      filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
-    }
   }
 /* css navbar */
 .navbar {
@@ -52,8 +49,8 @@ button, i, .brand {
     width: 100%;
     height: 60px;
     justify-content: center;
-    backdrop-filter: blur(50px);
-    -webkit-backdrop-filter: blur(50px);
+    background-color: var(--bg);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .navbar .brand {
   margin-left: 30px;
@@ -160,17 +157,7 @@ i{
       transform: translateY(0);
     }
   }
-  @keyframes rgb_anim {
-    from {
-      filter: hue-rotate(0deg);
-    }
-    50% {
-      filter: hue-rotate(360deg);
-    }
-    to {
-      filter: hue-rotate(0deg);
-    }
-  }
+
   .slider{
     display: flex;
     position: relative;
@@ -267,7 +254,7 @@ i{
   width: 25%;
   border: 0;
   background-color: transparent;
-  z-index: 5;
+  z-index: 2;
   position: absolute;
   top: 20%;
   left: 50px;
@@ -673,8 +660,6 @@ button#reussi {
   align-items: end;
   gap: 5rem;
   z-index: -10;
-  mix-blend-mode: multiply;
-  filter: blur(80px);
 }
 .shape{
   mix-blend-mode: multiply;
@@ -682,10 +667,6 @@ button#reussi {
 }
 
 .shapes .shape.color2{
-  
-  animation-iteration-count: infinite;
-	animation-duration: 40s;
-	animation-name: rgb_anim;
   height: 23rem;
   width: 100px;
   background-color: #2411f1;
@@ -693,18 +674,12 @@ button#reussi {
 }
 
 .shapes .shape.color3{
-  animation-iteration-count: infinite;
-	animation-duration: 40s;
-	animation-name: rgb_anim;
   background-color: #8600e0;
   height: 17rem;
   width: 80px;
   z-index: -10;
 }
 .shapes .shape.color1{
-  animation-iteration-count: infinite;
-	animation-duration: 40s;
-	animation-name: rgb_anim;
     background-color: #0065e0;
     height: 30rem;
     width: 80px;
@@ -855,7 +830,7 @@ select {
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   margin: 50px 0 0 0;
   padding: 0;

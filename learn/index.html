@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards préparées aux préalable dans toutes les matières. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
+</head>
+<body>
+    <style>
+      /* code pour s'adapter au petit ecrans/ telephone */
+    @media screen and (max-width: 650px) {
+      .flashcard {
+        width: 320px;
+        height: 180px;
+        left: calc(50% - 160px);
+      }
+  .slider i {
+    font-size: 50px;
+  }
+  .modal img {
+  position: absolute;
+  height: auto;
+  width: 100%;
+}
+.flashcard h2 {
+  font-style: italic;
+  font-size: 20px;
+  margin-left: 10px;
+  color: #000;
+  font-weight: 400;
+}
+.flashcard h5 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+}
+.flashcard h3 {
+  position: absolute;
+  margin: 20px;
+  top: 0;
+  font-size: 10px;
+  color: #000;
+  font-weight: 400;
+}
+.flashcard h4 {
+  position: absolute;
+  margin: 20px;
+  top: 0;
+  right: 0;
+  font-size: 10px;
+  color: #000;
+  font-weight: 500;
+  text-decoration: underline;
+}
+    }
+    @media screen and (max-width: 450px) {
+.modal-header .title {
+  width: 300px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+.content {
+  width: 90%;
+  position: absolute;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 20px;
+  text-align: center;
+  margin: 20px;
+}
+    }
+    </style>
+    <!-- noel -->
+    <ul class="lightrope">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  <!--navbar-->
+  <div class="navbar">
+      <div class="brand">
+          <img onclick="location.href = '../'" src="../img/favicon.png" alt="flacelogo">
+          <div onclick="location.href = '../'" class="brandname">Fla<div class="question">?</div>e <sup>Beta</sup></div>
+      </div>
+      <div class="center">
+          <div class="matiere" id="matiere"></div>
+      </div>
+      <div class="right">
+          <i onclick="location.href = '../'" class='bx bx-home'></i>
+        <i onclick="location.href = '../st.html'" class='bx bx-cog'></i>
+        <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
+          <div class="time">00:00</div>
+      </div>
+  </div>
+    <div class="home">
+      <h5 class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>
+        <!-- container des flashcards random en grande-->
+        <div id="cardslider" class="slider">
+        </div>
+        
+     </div>
+     <div id="end" class="end" style="display: none;">
+      <h1>Vous avez obtenu un score de <div id="reussiscore" class="var"></div>/<div id="cardsnumber" class="var"></div></h1>
+      <a href="../"><h7>Retourner à l'accueil</h7></a>
+  </div>
+    </div>
+
+    <!-- popup -->
+    <div class="modal" id="modal">
+        <div class="modal-header">
+          <div id="popuptitle" class="title"></div>
+        </div>
+        <div class="modal-body">
+            <div id="popupcontent" class="content">
+        
+            </div>
+            <img id="popupimg" src="">
+          <div class="buttons">
+            <button class="modalbutton" id="reussi">✓ J'ai réussi</button>
+            <button class="modalbutton" id="rate">✗ Je n'ai pas réussi</button>
+          </div>
+        </div>
+      </div>   
+    <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
+    <div id="overlay2" class="overlay"></div>
+     <div id="overlay" class="overlay"></div>
+
+
+
+
+
+<!-- taches d'encre stylé -->
+     <div class="shapes">
+      <div class="shape color1"></div>
+      <div class="shape color2"></div>
+      <div class="shape color3"></div>
+    </div>
+
+
+
+
+
+
+
+    <script>
+        function setuppopup(popuptitle, popupcontent, img){
+            document.getElementById('popuptitle').innerHTML = popuptitle
+            document.getElementById('popupcontent').innerHTML = popupcontent
+            document.getElementById('popupimg').src = img
+              document.getElementById('modal').classList.add('active')
+              document.getElementById('overlay2').classList.add('active')
+        }
+    </script>
+    <!-- code pour fetch le json et creer une flashcard -->
+    <script>
+        // Le code recupère les données depuis le .json
+        const jsonUrl = '../api/' + sessionStorage.getItem('api') + '.json';
+        fetch(jsonUrl).then(response => response.json()).then(data => {
+          // randomize l'ordre des cards
+          for (let i = data.length - 1; i > 0; i--) {
+              let j = Math.floor(Math.random() * (i + 1));
+              [data[i], data[j]] = [data[j], data[i]];
+            }     
+
+          const cardscontainer = document.getElementById('cardscontainer');
+          const cardslider = document.getElementById('cardslider');
+          const rendercards = (cards) => {
+            // quand il a recup les données, il crée des flashcards
+            if (sessionStorage.getItem('seqname') !== 'Tout'){
+              cards = cards.filter(card => card.seqname === sessionStorage.getItem('seqname'));
+            }
+            let counter = 0
+
+
+            cards.forEach(cards => {
+            if (counter < sessionStorage.getItem('number')) {
+              const flashcard = document.createElement('div');
+              const innerflashcard = document.createElement('div');
+              const flashtype = document.createElement('h2');
+              const flashtitle = document.createElement('h5');
+              const flashseq = document.createElement('h3');
+              const flashseqname = document.createElement('h4');
+              
+              flashseq.innerHTML = cards.theme
+              flashseqname.innerHTML = cards.seqname
+              flashcard.classList.add('flashcard')
+              flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
+              flashcard.setAttribute('id', cards.id)
+              innerflashcard.classList.add('innerflashcard')
+              flashtitle.innerHTML = cards.title.toUpperCase()
+              flashtype.innerHTML = cards.type + ' :'
+
+              cardslider.appendChild(flashcard);
+              flashcard.appendChild(innerflashcard);
+              innerflashcard.appendChild(flashseq);
+              innerflashcard.appendChild(flashseqname);
+              innerflashcard.appendChild(flashtype);
+              innerflashcard.appendChild(flashtitle);
+
+              counter++;
+
+              // Le code du slider
+              let items = document.querySelectorAll('.slider .flashcard');
+let active = 0;
+sessionStorage.setItem('cardsnumber', items.length)
+document.getElementById('restant').innerHTML = items.length - active
+sessionStorage.setItem('reussi', 0)
+window.parent.document.getElementById('cardsnumber').innerHTML = items.length
+function loadShow(){
+    items[active].style.transform = `none`;
+    items[active].style.zIndex = 1;
+    items[active].style.filter = 'none';
+    items[active].style.opacity = 1;
+    // show after
+    let stt = 0;
+    for(var i = active + 1; i < items.length; i ++){
+        stt++;
+        items[i].style.transform = `translateX(${0*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(-1deg)`;
+        items[i].style.zIndex = -stt;
+        items[i].style.filter = 'blur(5px)';
+        items[i].style.opacity = stt > 2 ? 0 : 0.6;
+    }
+     stt = 0;
+    for(var i = (active - 1); i >= 0; i --){
+        stt++;
+        items[i].style.transform = `translateX(${0*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(1deg)`;
+        items[i].style.zIndex = -stt;
+        items[i].style.filter = 'blur(5px)';
+        items[i].style.opacity = stt > 2 ? 0 : 0.6;
+    }
+}
+loadShow();
+let rate = document.getElementById('rate');
+let reussi = document.getElementById('reussi');
+rate.onclick = function(){
+  if (items.length === active + 1){
+    setTimeout(() => {
+
+      document.getElementById('reussiscore').innerHTML = sessionStorage.getItem('reussi')
+  document.getElementById('end').style.display = 'flex'
+  document.getElementById('iframe').style.display = 'none'
+
+}, 500);
+   }
+   const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
+   active = active + 1 < items.length ?  active + 1 : active;
+   document.getElementById('restant').innerHTML = items.length - active
+   loadShow();
+   
+}
+
+reussi.onclick = function(){
+  if (items.length === active + 1){ 
+setTimeout(() => {
+  document.getElementById('reussiscore').innerHTML = sessionStorage.getItem('reussi')
+  document.getElementById('end').style.display = 'flex'
+  document.getElementById('iframe').style.display = 'none'
+}, 500);
+    
+   }
+   const modals = document.querySelectorAll('.modal.active')
+  modals.forEach(modal => {
+    closeModal(modal)
+  })
+   const reussi = parseInt(sessionStorage.getItem("reussi"));
+   const newreussi = reussi + 1;
+
+   sessionStorage.setItem('reussi', newreussi)
+   
+   active = active + 1 < items.length ?  active + 1 : active;
+   document.getElementById('restant').innerHTML = items.length - active
+   loadShow();
+   
+}}
+
+            });
+            
+          };
+          rendercards(data);
+          
+        }).catch(error => console.error('Error fetching cards:', error));
+        
+      </script>
+       <!-- script pour l'heure -->
+      <script>
+        const timeElement = document.querySelector(".time");
+    function formatTime(date) {
+      const hours12 = date.getHours() % 24 || 24;
+      const minutes = date.getMinutes();
+      return `${hours12.toString().padStart(2, "0")}:${minutes
+        .toString()
+        .padStart(2, "0")}`;
+    }
+    setInterval(() => {
+      const now = new Date();
+      timeElement.textContent = formatTime(now);
+    }, 200);
+    
+        </script>
+      <!-- js du popup -->
+    <script src="../js/modal.js"></script>
+</body>
+</html>
