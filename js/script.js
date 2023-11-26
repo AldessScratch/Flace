@@ -72,7 +72,7 @@ fetch(jsonUrl).then(response => response.json()).then(data => {
     }
     return select;
   }
-  var select = createSelect(uniqueValues);
+  createSelect(uniqueValues);
 
 }).catch(error => console.error('Error fetching cards:', error));
 

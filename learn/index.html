@@ -16,6 +16,7 @@
       /* code pour s'adapter au petit ecrans/ telephone */
     @media screen and (max-width: 650px) {
       .flashcard {
+        margin-top: 100px;
         width: 320px;
         height: 180px;
         left: calc(50% - 160px);
@@ -134,14 +135,14 @@
           <div class="matiere" id="matiere"></div>
       </div>
       <div class="right">
-          <i onclick="location.href = '../'" class='bx bx-home'></i>
+        <i onclick="location.href = '../'" class='bx bx-home'></i>
         <i onclick="location.href = '../st.html'" class='bx bx-cog'></i>
         <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
-          <div class="time">00:00</div>
+        <div class="time">00:00</div>
       </div>
   </div>
     <div class="home">
-      <h5 class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>
+      <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>
         <!-- container des flashcards random en grande-->
         <div id="cardslider" class="slider">
         </div>
@@ -149,6 +150,7 @@
      </div>
      <div id="end" class="end" style="display: none;">
       <h1>Vous avez obtenu un score de <div id="reussiscore" class="var"></div>/<div id="cardsnumber" class="var"></div></h1>
+      <div id="qsp"></div>
       <a href="../"><h7>Retourner à l'accueil</h7></a>
   </div>
     </div>
@@ -191,10 +193,11 @@
 
 
     <script>
-        function setuppopup(popuptitle, popupcontent, img){
+        function setuppopup(popuptitle, popupcontent, img, id){
             document.getElementById('popuptitle').innerHTML = popuptitle
             document.getElementById('popupcontent').innerHTML = popupcontent
             document.getElementById('popupimg').src = img
+            sessionStorage.setItem('cardsid', id)
               document.getElementById('modal').classList.add('active')
               document.getElementById('overlay2').classList.add('active')
         }
@@ -232,7 +235,7 @@
               flashseq.innerHTML = cards.theme
               flashseqname.innerHTML = cards.seqname
               flashcard.classList.add('flashcard')
-              flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
+              flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}', '${cards.id}')`)
               flashcard.setAttribute('id', cards.id)
               innerflashcard.classList.add('innerflashcard')
               flashtitle.innerHTML = cards.title.toUpperCase()
@@ -283,11 +286,13 @@ let reussi = document.getElementById('reussi');
 rate.onclick = function(){
   if (items.length === active + 1){
     setTimeout(() => {
-
+      if (sessionStorage.getItem('reussi')==='0'){
+        document.getElementById('qsp').innerHTML = "Que s'est-il passé ?"
+      }
       document.getElementById('reussiscore').innerHTML = sessionStorage.getItem('reussi')
   document.getElementById('end').style.display = 'flex'
-  document.getElementById('iframe').style.display = 'none'
-
+  document.getElementById('score').style.display = 'none'
+  document.getElementById('cardslider').style.display = 'none'
 }, 500);
    }
    const modals = document.querySelectorAll('.modal.active')
@@ -305,7 +310,8 @@ reussi.onclick = function(){
 setTimeout(() => {
   document.getElementById('reussiscore').innerHTML = sessionStorage.getItem('reussi')
   document.getElementById('end').style.display = 'flex'
-  document.getElementById('iframe').style.display = 'none'
+  document.getElementById('score').style.display = 'none'
+  document.getElementById('cardslider').style.display = 'none'
 }, 500);
     
    }
@@ -334,6 +340,7 @@ setTimeout(() => {
       </script>
        <!-- script pour l'heure -->
       <script>
+        document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')
         const timeElement = document.querySelector(".time");
     function formatTime(date) {
       const hours12 = date.getHours() % 24 || 24;

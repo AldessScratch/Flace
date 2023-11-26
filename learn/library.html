@@ -228,6 +228,7 @@
       </script>
        <!-- script pour l'heure -->
       <script>
+        document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')
         const timeElement = document.querySelector(".time");
     function formatTime(date) {
       const hours12 = date.getHours() % 24 || 24;

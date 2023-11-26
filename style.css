@@ -314,7 +314,7 @@ i{
     left: 0px;
   }
   .modal .buttons.homepopup {
-    position: fixed;
+    position: sticky;
     margin: 10px;
     bottom: 0;
     display: flex;
@@ -332,6 +332,47 @@ i{
   }
   .matiere {
     display: none;
+  }
+  .item{
+    margin-top: 70px;
+    position: absolute;
+      width: 320px;
+      height: 180px;
+      border-radius: 10px;
+      transition: 0.5s;
+      left: calc(50% - 160px);
+      top: 0;
+      overflow: hidden;
+      box-shadow: 4px 3px 8px 1px #42424233;
+      -webkit-box-shadow: 4px 3px 8px 1px #42424233;
+  }
+  
+  .back button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+    border: 0;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 10px;
+    color: #fff;
+    font-size: 10px;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1);
+  }
+  .front h2 {
+    position: absolute;
+    text-align: center;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .back h5 {
+    margin: 10px;
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
   }
   
 }
@@ -588,6 +629,8 @@ strong {
 no {
   text-decoration: line-through;
 }
+
+/* ecran de score */
 .end {
   display: flex;
   justify-content: center;
@@ -595,9 +638,33 @@ no {
   flex-direction: column;
   width: 100%;
   height: 100vh;
-  position: absolute;
-  z-index: 1;
+  top: 0;
+  position: fixed;
 }
+.end #qsp{
+  display: flex;
+  color: var(--text-color);
+  font-size: 30px;
+  font-weight: 500;
+  margin: 10px;
+  color: #00ffff;
+  font-family: monospace;
+  font-style: italic;
+}
+.end h1{
+  display: flex;
+  color: var(--text-color);
+  font-size: 40px;
+  font-weight: 600;
+}
+.end h7{
+  font-weight: 400;
+  font-size: 17px;
+  display: flex;
+  color: var(--text-color);
+  text-decoration: underline;
+}
+
 
 /* css des boutons sur le popup */
 .modal .buttons {
@@ -653,8 +720,8 @@ button#reussi {
 
 .shapes{
   position: fixed;
-  right: 20rem;
-  top: 5rem;
+  right: 30%;
+  top: 30%;
   transform: rotate(-45deg);
   display: flex;
   align-items: end;
@@ -832,7 +899,7 @@ select {
   overflow: hidden;
   position: fixed;
   z-index: 2;
-  margin: 50px 0 0 0;
+  margin: 44px 0 0 0;
   padding: 0;
   pointer-events: none;
   width: 100%;
