@@ -87,12 +87,13 @@
                     <option value="1">Anglais</option>
                 </select>
                 <script>
-                    localStorage.setItem("matierepref", 0)
                     function initselector(){
+                        const currentmatiere = localStorage.getItem("matierepref") || 1;
                        const matiereselect = document.getElementById('matiereselect')
                        matiereselect.addEventListener("change", () => {
                            localStorage.setItem("matierepref", matiereselect.value)
                        });
+                       matiereselect.value = currentmatiere;
                     }
                     initselector()
                </script>
