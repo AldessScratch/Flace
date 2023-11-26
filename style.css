@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -693,15 +694,23 @@ no {
   font-size: 30px;
   font-weight: 500;
   margin: 10px;
-  color: #00ffff;
-  font-family: monospace;
+  color: rgb(136, 213, 223);
+  font-family: 'Caveat', cursive;
   font-style: italic;
 }
 .end h1{
+  text-align: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: var(--text-color);
   font-size: 40px;
   font-weight: 600;
+}
+.flex{
+  display: flex;
+  text-align: center;
 }
 .end h7{
   font-weight: 400;
@@ -765,6 +774,11 @@ button#reussi {
 /* taches dencre */
 
 .shapes{
+  opacity: .7;
+  animation-duration: 10s;
+  animation-name: smoothopacity;
+  transition: all 0.2s ease-in-out;
+  animation-iteration-count: infinite;
   position: fixed;
   right: 30%;
   top: 30%;
@@ -875,11 +889,11 @@ button#reussi {
 
 
 .option input {
+  border: 2px solid #000;
   text-align: center;
   width: 80%;
   border-radius: 20px;
   padding: 5px;
-  border: 0;
   box-shadow: 4px 3px 8px 1px #96969633;
   -webkit-box-shadow: 4px 3px 8px 1px #96969633;
 }
@@ -926,6 +940,7 @@ button#reussi {
   font-size: 15px;
 }
 select {
+  border: 2px solid #000;
   -webkit-appearance: none;
   background-color: #fff;
   color: #000;
@@ -1045,4 +1060,88 @@ select {
     background: rgba(247, 0, 148, 0.4);
     box-shadow: 0px 4.6666666667px 24px 3px rgba(247, 0, 148, 0.2);
  }
+}
+
+/* setup flace */ 
+.diapo {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.diapo .innerdiapo {
+  margin-left: 5%;
+}
+.diapo h1 {
+  display: flex;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 40px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.diapo h5 {
+  display: flex;
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+}
+.diapo button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
+  border: 0;
+  padding: 8px;
+  border-radius: 12px;
+  margin: 20px;
+  color: #fff;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+.diapo button:hover {
+  transform: scale(1.1);
+}
+.diapo button:not(:hover){
+  transition-delay: .1s;
+}
+.diapo i {
+  color: #fff;
+  margin-left: 5px;
+}
+.diapo input {
+  margin-top: 20px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 5px;
+  border: 2px solid #000;
+  box-shadow: 4px 3px 8px 1px #96969633;
+  -webkit-box-shadow: 4px 3px 8px 1px #96969633;
+}
+.diapo select {
+  margin-top: 20px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 5px;
+  border: 2px solid #000;
+  box-shadow: 4px 3px 8px 1px #96969633;
+  -webkit-box-shadow: 4px 3px 8px 1px #96969633;
+}
+
+@keyframes smoothopacity {
+  from {
+      opacity: 0;
+  }
+  50%{
+    opacity: 1;
+    
+  }
+  to {
+    opacity: 0;
+}
 }

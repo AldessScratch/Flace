@@ -1,5 +1,5 @@
 let items = document.querySelectorAll('.slider .item');
-let active = 0;
+let active = parseInt(localStorage.getItem('matierepref'));
 function loadShow(){
     items[active].style.transform = `none`;
     items[active].style.zIndex = 1;

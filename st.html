@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Flace | Paramètres</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" type="image/x-icon" href="./img/faviconcolor-fixed.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="msapplication-TileColor" content="#FFFFFF">
-    <meta name="description" content="Flace(cards) est un site d’apprentissage fondé sur l’utilisation de flashcards préparées aux préalable dans toutes les matières. Le site s’adapte à ses utilisateurs via un système de piles inspiré de la méthode Leitner, permettant un apprentissage durable (prouvé scientifiquement). FlaceCards, Long-term learning.">
+    <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
 </head>
 <body>
     <!-- noel -->
@@ -80,9 +80,23 @@
                 </select>
             </div>
             <div class="card">
-                
+                <h8><i class='bx bx-book-open'></i> Matière préféré</h8>
+                <h6>Change la première matière affichée dans l'accueil</h6>
+                <select name="select" id="matiereselect">
+                    <option value="0">Mathématiques</option>
+                    <option value="1">Anglais</option>
+                </select>
+                <script>
+                    localStorage.setItem("matierepref", 0)
+                    function initselector(){
+                       const matiereselect = document.getElementById('matiereselect')
+                       matiereselect.addEventListener("change", () => {
+                           localStorage.setItem("matierepref", matiereselect.value)
+                       });
+                    }
+                    initselector()
+               </script>
             </div>
-            
         </div>
     </div>
      <!-- Script pour l'heure -->

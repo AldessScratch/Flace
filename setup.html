@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./img/faviconcolor-fixed.png">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
+</head>
+<body>
+    <!-- noel -->
+    <ul class="lightrope">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="brand">
+            <img src="img/faviconcolor-fixed.png" alt="flacelogo">
+            <div class="brandname">Fla<div class="question">?</div>e <sup>Beta</sup></div>
+        </div>
+        <div class="right">
+            <div class="time">00:00</div>
+        </div>
+    </div>
+     <!-- taches d'encre stylé -->
+     <div class="shapes">
+        <div class="shape color1"></div>
+        <div class="shape color2"></div>
+        <div class="shape color3"></div>
+      </div>
+      
+      <div class="diapo" id="diapo1">
+        <div class="innerdiapo">
+            <h1>Bienvenue sur Flace</h1>
+            <h5>Veuillez entrer votre nom d'utilisateur</h5>
+            <input type="text" id="username">
+            <script>
+                function initinput(){
+                    let userinput = document.getElementById('username')
+                    userinput.addEventListener("input", () => {
+                    localStorage.setItem("username", userinput.value)
+                })
+                }
+                initinput()
+            </script>
+            <button onclick="document.getElementById('diapo1').style.display = 'none';document.getElementById('diapo2').style.display = 'flex'" id="reussi">Suivant <i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+      </div>
+      <div class="diapo" id="diapo2" style="display: none;">
+        <div class="innerdiapo">
+            <h1>Bienvenue sur Flace</h1>
+            <h5>Quelle matière souhaitez-vous réviser le plus ?</h5>
+            <select name="select" id="matiereselect">
+                <option value="0">Mathématiques</option>
+                <option value="1">Anglais</option>
+            </select>
+            <script>
+                localStorage.setItem("matierepref", 0)
+                function initselector(){
+                   const matiereselect = document.getElementById('matiereselect')
+                   matiereselect.addEventListener("change", () => {
+                       localStorage.setItem("matierepref", matiereselect.value)
+                   });
+                }
+                initselector()
+           </script>
+            <button id="reussi" onclick="localStorage.setItem('first', '1');location.href = './'">Terminer <i class='bx bx-right-arrow-alt'></i></button>
+        </div>
+      </div>
+       <!-- Script pour l'heure -->
+
+
+
+     <script>
+        const timeElement = document.querySelector(".time");
+    function formatTime(date) {
+      const hours12 = date.getHours() % 24 || 24;
+      const minutes = date.getMinutes();
+      return `${hours12.toString().padStart(2, "0")}:${minutes
+        .toString()
+        .padStart(2, "0")}`;
+    }
+    setInterval(() => {
+      const now = new Date();
+      timeElement.textContent = formatTime(now);
+    }, 200);
+    
+        </script>
+</body>
+</html>
