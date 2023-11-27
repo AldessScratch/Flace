@@ -859,7 +859,7 @@ button#reussi {
 .shapes .shape.color2{
   height: 23rem;
   width: 100px;
-  background-color: #94C1C7;
+  background-color: #2411f1;
   animation-duration: 10s;
   animation-name: smoothopacity;
   transition: all 0.2s ease-in-out;
@@ -872,7 +872,7 @@ button#reussi {
   animation-name: smoothopacity;
   transition: all 0.2s ease-in-out;
   animation-iteration-count: infinite;
-  background-color: #C8DA9A;
+  background-color: #8600e0;
   height: 17rem;
   width: 80px;
   z-index: -10;
@@ -882,7 +882,7 @@ button#reussi {
   animation-name: smoothopacity;
   transition: all 0.2s ease-in-out;
   animation-iteration-count: infinite;
-    background-color: #99B2BE;
+    background-color: #0065e0;
     height: 30rem;
     width: 80px;
     z-index: -10;
@@ -1213,7 +1213,7 @@ select {
       opacity: 0;
   }
   50%{
-    opacity: 1;
+    opacity: .8;
     
   }
   to {
