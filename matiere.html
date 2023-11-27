@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flace | Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/faviconcolor-fixed.png">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <meta property="og:image" content="/img/faviconcolor-fixed.png">
+    <meta content="#ffffff" data-react-helmet="true" name="theme-color">
+    <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
+</head>
+<body>
+    <!-- noel -->
+    <ul class="lightrope">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="brand">
+            <img onclick="location.href = './'" src="img/faviconcolor-fixed.png" alt="flacelogo">
+            <div onclick="location.href = './'" class="brandname">Fla<div class="question">?</div>e <sup>Beta</sup></div>
+        </div>
+        <div class="right">
+            <i onclick="location.href = './'" class='bx bx-home'></i>
+            <i onclick="location.href = 'matiere.html'" class="bx bxs-grid-alt"></i>
+            <i onclick="location.href = 'st.html'" class='bx bx-cog'></i>
+            <i onclick="location.href = 'info.html'" class='bx bx-info-circle'></i>
+            <div class="time">00:00</div>
+        </div>
+    </div>
+    
+    <div class="home" id="home">
+        <!-- Slider by lundev -->
+  
+        <div class="slider">
+             <!-- Début d'une slide -->
+            <div class="item" >
+                <div class="inner">
+                    <div class="front">
+                        <img src="./img/0.png">
+                        <h2>Mathématiques</h2>
+                    </div>  
+                    <div class="back">
+                        <h5>Que voulez vous faire ?</h5>
+                        <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('math', 'Mathématiques')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="lib" onclick="openlib('math', 'Mathématiques')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin d'une slide -->
+            <!-- Début d'une slide -->
+            <div class="item" >
+                <div class="inner">
+                    <div class="front">
+                        <img src="./img/1.png">
+                        <h2>Anglais</h2>
+                    </div>  
+                    <div class="back">
+                        <h5>Que voulez vous faire ?</h5>
+                        <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('lv1', 'Anglais')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="lib" onclick="openlib('lv1', 'Anglais')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin d'une slide -->
+            <!-- Début d'une slide -->
+            <div class="item" >
+                <div class="inner">
+                    <div class="front">
+                        <img src="./img/1.png">
+                        <h2>Vocabulaire d'anglais</h2>
+                    </div>  
+                    <div class="back">
+                        <h5>Que voulez vous faire ?</h5>
+                        <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('voclv1', 'Vocabulaire anglais')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="lib" onclick="openlib('voclv1', 'Vocabulaire anglais')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin d'une slide -->
+            <!-- Début d'une slide -->
+            <div class="item" >
+                <div class="inner">
+                    <div class="front">
+                        <img src="./img/texture.png">
+                        <h2>SVT</h2>
+                    </div>  
+                    <div class="back">
+                        <h5>Que voulez vous faire ?</h5>
+                        <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('svt', 'SVT')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="lib" onclick="openlib('svt', 'SVT')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin d'une slide -->
+            <!-- Début d'une slide -->
+            <div class="item" >
+                <div class="inner">
+                    <div class="front">
+                        <img src="./img/texture.png">
+                        <h2>Espagnol</h2>
+                    </div>  
+                    <div class="back">
+                        <h5>Que voulez vous faire ?</h5>
+                        <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('lv2', 'Espagnol')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                        <button class="lib" onclick="openlib('lv2', 'Espagnol')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Fin d'une slide -->
+            <button id="next"><i class='bx bx-right-arrow-alt'></i></button>
+            <button id="prev"><i class='bx bx-left-arrow-alt'></i></button>
+            
+        </div>
+
+
+
+        <!-- popup pour les options -->
+        <div class="modal" id="modal2">
+            <div class="modal-header">
+              <div class="title">Option de l'entrainement</div>
+              <i data-close-button class="bx bx-x close-button"></i>
+            </div>
+            <div class="modal-body">
+                <div class="optiongrid">
+                    <div class="option" id="selectcontainer">
+                        <h5>Thème des flashcards</h5>
+                        <h6>Thème des flashcards affichées lors de l'entrainement</h6>
+                        <select name="seqname" id="seqname">
+                            <option id="selectoption"></option>
+                        </select>
+                        <script>
+                            
+                             sessionStorage.setItem("seqname", 'Tout')
+                             function initselector(){
+                                const seqname = document.getElementById('seqname')
+                                seqname.addEventListener("change", () => {
+                                    sessionStorage.setItem("seqname", seqname.value)
+                                });
+                             }
+
+                                initselector()
+                             
+                        </script>
+                    </div>
+                    <div class="option">
+                        <h5>Nombre de flashcard</h5>
+                        <h6>Le nombre de flashcards affichées lors de l'entrainement</h6>
+                        <input type="number" name="number" id="number">
+                        <script>
+                            sessionStorage.setItem("number", 9999)
+                            function initinput(){
+                                let number = document.getElementById('number')
+                                number.addEventListener("input", () => {
+                                sessionStorage.setItem("number", number.value)
+                            })
+                            }
+                            initinput()
+                        </script>
+                    </div>
+                </div>
+                <div class="buttons homepopup">
+                    <button class="modalbutton" onclick="openlearn()" id="reussi"><i class="bx bx-play"></i> Débuter l'entrainement</button>
+                  </div>
+            </div>
+          </div>  
+
+          <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
+    <div id="overlay" class="overlay"></div>
+
+
+
+
+        <!-- taches d'encre stylé -->
+        <div class="shapes">
+            <div class="shape color1"></div>
+            <div class="shape color2"></div>
+            <div class="shape color3"></div>
+          </div>
+          
+    </div>
+
+    <!-- Script pour l'heure -->
+    <script>
+                const timeElement = document.querySelector(".time");
+function formatTime(date) {
+  const hours12 = date.getHours() % 24 || 24;
+  const minutes = date.getMinutes();
+
+  return `${hours12.toString().padStart(2, "0")}:${minutes
+    .toString()
+    .padStart(2, "0")}`;
+}
+
+
+setInterval(() => {
+  const now = new Date();
+
+  timeElement.textContent = formatTime(now);
+ 
+}, 200);
+
+    </script>
+    <script src="js/script.js"></script>
+    <script src="js/modal.js"></script>
+</body>
+</html>

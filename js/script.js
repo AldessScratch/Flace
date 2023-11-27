@@ -51,6 +51,7 @@ function setuplearn(api, matiere) {
     sessionStorage.setItem('matiere', matiere)
     const jsonUrl = './api/' + sessionStorage.getItem('api') + '.json';
 fetch(jsonUrl).then(response => response.json()).then(data => {
+  
   var values = [];
   for (var key in data) {
     values.push(data[key].seqname);
@@ -61,6 +62,7 @@ fetch(jsonUrl).then(response => response.json()).then(data => {
     var option = document.createElement("option");
     option.value = value;
     option.text = value;
+    option.setAttribute('id', 'selectoption')
     return option;
   }
   function createSelect(values) {
@@ -78,4 +80,5 @@ fetch(jsonUrl).then(response => response.json()).then(data => {
 
     document.getElementById('modal2').classList.add('active')
     document.getElementById('overlay').classList.add('active')
+    
 }

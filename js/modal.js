@@ -34,4 +34,5 @@ function closeModal(modal) {
   modal.classList.remove('active')
   overlay.classList.remove('active')
   overlay2.classList.remove('active')
+  
 }
