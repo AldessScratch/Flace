@@ -47,6 +47,7 @@ function openlib(api, matiere){
     location.href = 'learn/library.html'
 }
 function setuplearn(api, matiere) {
+    document.getElementById('seqname').innerHTML = ''
     sessionStorage.setItem('api', api)
     sessionStorage.setItem('matiere', matiere)
     const jsonUrl = './api/' + sessionStorage.getItem('api') + '.json';
