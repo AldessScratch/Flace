@@ -16,8 +16,7 @@ Attention le dossier de l'api a été move a /api au lieu de learn/api
 - [ ] Plus de paramètres
 - [ ] Possibilité de choisir plusieurs séquences d'une matière
 
-Fla?e | Made by students, for students*
-
+# Fla?e | Made by students, for students*
  
 Flace est un site d’apprentissage basé sur l’utilisation de flashcards.
 Le site est accessible sur téléphone, tablette, ordinateur, frigo interactif, TV, Tesla ou votre Nest Hub. Il peut être ajouté à l’écran d’accueil et agira comme une application.
