@@ -841,8 +841,6 @@ button#reussi {
 /* taches dencre */
 
 .shapes{
-  opacity: .7;
-  
   position: fixed;
   right: 30%;
   top: 30%;
@@ -854,7 +852,7 @@ button#reussi {
 }
 .shape{
   mix-blend-mode: multiply;
-  filter: blur(80px);
+  filter: blur(70px);
 }
 
 .shapes .shape.color2{
