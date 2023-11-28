@@ -332,14 +332,14 @@
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0037" 
        },
-       {
+    {
         "type": "Vocabulaire",
         "title": "Décoller (sens propre et figuré)",
         "content": "<strong>Take off</strong> <br><strong>Exemples:</strong> The new product really took off and everybody wanted it. / The plane took off after a short delay.",
         "theme": "",
         "img": "",
-        "seqname": "Phrasal verb take",
-        "id": "ANG-PHV-0038" 
+        "seqname": "Voc 15",
+        "id": "ANG-V15-0001" 
        },
        {
         "type": "Vocabulaire",
@@ -347,8 +347,8 @@
         "content": "<strong>Take after</strong> <br><strong>Exemple:</strong> Many people say that Maria takes after her grandmother.",
         "theme": "",
         "img": "",
-        "seqname": "Phrasal verb take",
-        "id": "ANG-PHV-0039" 
+        "seqname": "Voc 15",
+        "id": "ANG-V15-0002" 
        },
        {
         "type": "Vocabulaire",
@@ -356,8 +356,8 @@
         "content": "<strong>Take up</strong> <br><strong>Exemples:</strong> He took up woodworking after inheriting his grandfather´s tools. / You´ll do the work for just £20? Great - I´ll take you up on that offer!",
         "theme": "",
         "img": "",
-        "seqname": "Phrasal verb take",
-        "id": "ANG-PHV-0040" 
+        "seqname": "Voc 15",
+        "id": "ANG-V15-0003" 
        },
        {
         "type": "Vocabulaire",
@@ -365,8 +365,8 @@
         "content": "<strong>Take over</strong> <br><strong>Exemple:</strong> Take over the meeting for me, I´ll be back in a moment.",
         "theme": "",
         "img": "",
-        "seqname": "Phrasal verb take",
-        "id": "ANG-PHV-0041" 
+        "seqname": "Voc 15",
+        "id": "ANG-V15-0004" 
        },
        {
         "type": "Vocabulaire",
@@ -374,8 +374,8 @@
         "content": "<strong>Take back</strong> <br><strong>Exemples:</strong> I wish I could take back what I said in anger. / You can never really take back an insult once you´ve made it.",
         "theme": "",
         "img": "",
-        "seqname": "Phrasal verb take",
-        "id": "ANG-PHV-0042" 
+        "seqname": "Voc 15",
+        "id": "ANG-V15-0005" 
        },
        {
         "type": "Vocabulaire",
