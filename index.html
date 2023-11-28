@@ -76,11 +76,11 @@
     </div>
     
     <div class="home" id="home">
-        <h1>Bienvenue sur Flace</h1>
+        <h1 id="h1">Bienvenue sur Flace</h1>
         <i onclick="document.getElementById('desc').classList.toggle('active');document.getElementById('desc2').classList.toggle('active');document.getElementById('develop').classList.toggle('active')" class="bx bxs-chevron-down" id="develop"></i>
         <p id="desc">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</p>
         <p id="desc2"><strong>Attention:</strong> Flace ne remplace en aucun cas votre cahier de cours !</p>
-        
+        <br>
         <a href="matiere.html">Accéder aux matières</a>
 
         <!-- taches d'encre stylé -->
@@ -95,6 +95,7 @@
         if (localStorage.getItem('first')===null){
             location.href = 'setup.html'
         }
+        document.getElementById('h1').innerHTML = 'Bienvenue sur Flace, ' + localStorage.getItem('username')
     </script>
 
     <!-- Script pour l'heure -->

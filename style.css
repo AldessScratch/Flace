@@ -174,7 +174,7 @@ i{
   position: absolute;
     width: 480px;
     height: 290px;
-    border-radius: 10px;
+    border-radius: 5px;
     transition: 0.5s;
     left: calc(50% - 240px);
     top: 0;
@@ -279,7 +279,7 @@ i{
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
   padding: 8px;
-  border-radius: 12px;
+  border-radius: 10px;
   margin: 10px;
   color: #fff;
   font-size: 15px;
@@ -445,7 +445,7 @@ i{
   background-image: url('./img/texture.png');
   height: 190px;
   width: 320px;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
     margin: 10px;
@@ -630,7 +630,7 @@ i{
   position: absolute;
   width: 640px;
   height: 360px;
-  border-radius: 10px;
+  border-radius: 5px;
   transition: 0.5s;
   left: calc(50% - 320px);
   top: 0;
@@ -734,7 +734,7 @@ no {
 .modal .buttons button {
   border: 0;
   padding: 8px;
-  border-radius: 12px;
+  border-radius: 10px;
   margin: 10px;
   color: #fff;
   font-size: 15px;
@@ -806,7 +806,7 @@ button#reussi {
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
   padding: 8px;
-  border-radius: 12px;
+  border-radius: 10px;
   margin: 20px;
   color: #fff;
   background-color: #7dade8;
@@ -1171,7 +1171,7 @@ select {
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
   padding: 8px;
-  border-radius: 12px;
+  border-radius: 10px;
   margin: 20px;
   color: #fff;
   font-size: 15px;
