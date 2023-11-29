@@ -128,7 +128,7 @@
           <div class="time">00:00</div>
       </div>
   </div>
-    <div class="home">
+    <div class="home" id="homecontainer">
        <!-- searchbar -->
       <div class="searchsection">
             <div class="searchcard">
@@ -212,10 +212,31 @@
         // Le code recupère les données depuis le .json
         const jsonUrl = '../api/' + sessionStorage.getItem('api') + '.json';
         fetch(jsonUrl).then(response => response.json()).then(data => {
-          const cardscontainer = document.getElementById('cardscontainer');
+          var values = [];
+  for (var key in data) {
+    values.push(data[key].seqname);
+  }
+  var set = new Set(values);
+  var uniqueValues = Array.from(set);
+  function creatediv(value) {
+    var div = document.createElement("div");
+    div.classList.add('cards')
+    div.setAttribute('id', value)
+    return div;
+  }
+  function createhomecontainer(values) {
+    var homecontainer = document.getElementById("homecontainer");
+    for (var i = 0; i < values.length; i++) {
+      homecontainer.appendChild(creatediv(values[i]));
+    }
+    return homecontainer;
+  }
+  createhomecontainer(uniqueValues);
+          
           const rendercards = (cards) => {
             // quand il a recup les données, il crée des flashcards
             cards.forEach(cards => {
+              const cardscontainer = document.getElementById(cards.seqname);
               const card = document.createElement('div');
               const innercard = document.createElement('div');
               const type = document.createElement('h2');
