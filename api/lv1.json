@@ -421,6 +421,141 @@
         "img": "",
         "seqname": "Boring word",
         "id": "ANG-BGW-0005" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Bad",
+        "content": "<strong>BAD</strong> (adjective)<br>unacceptable, unsuitable (inapproprié), undesirable, absurd, appalling (épouvantable ), awkward (étrange, maladroit, bizarre),evil (malfaisant), false, foolish, groundless (sans fondement), harmful (nuisible, nocif), unfortunate (fâcheux), serious, useless, hopeless, awful, dreadful, inconvenient (inopportune, gênant), critical, wretched (misérable, pitoyable), loathsome (répugnant, détestable)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0006" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Beautiful",
+        "content": "<strong>BEAUTIFUL</strong> (adjective)<br>stunning / dazzling (éblouissant), magnificent, lovely, charming, gorgeous, radiant (resplendissant), exquisite, ravishing (ravissant), bewitching (enchanteur, charmeur)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0007" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Big",
+        "content": "<strong>BIG</strong> (adjective)<br>huge, enormous, large, outstanding (remarquable, marquant), tremendous (énorme, formidable), significant, fantastic, gigantic,massive",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0008" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Difficult",
+        "content": "<strong>DIFFICULT</strong> (adjective)<br>challenging (ardu, exigeant), arduous, strenuous (éprouvant, fatigant), laborious, grueling (exténuant), demanding (exigeant), severe (extreme, violent, rude), burdensome (pesant, pénible).",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0009" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Easy",
+        "content": "<strong>EASY</strong> (adjective)<br>effortless, simple, smooth (sans pb), straightforward (simple, franc), uncomplicated, painless (sans effort), accessible, basic, elementary",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0010" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Funny",
+        "content": "<strong>FUNNY</strong> (adjective)<br>comical, ludicrous (grotesque), amusing, droll, entertaining (divertissant) , hilarious, whimsical (fantaisiste), witty (plein d’esprit), humorous",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0011" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Good",
+        "content": "<strong>GOOD</strong> (adjective)<br>fine, positive, appropriate, convenient, satisfactory, suitable (qui convient, approprié), attractive, convincing (convainquant), powerful (puissant), competent, admirable, reliable (fiable), well-grounded (argument fondé, qui s’y connaît), efficient (efficace), relevant (pertinent), acceptable",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0012" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Happy",
+        "content": "<strong>HAPPY</strong> (adjective)<br>cheerful, delighted, pleased, content (satisfait), amused, thrilled (très heureux, surexcité), elated / ecstatic (fou de joie), overjoyed",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0013" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Important",
+        "content": "<strong>IMPORTANT</strong> (adjective)<br>major, significant (significative), decisive, crucial, essential, paramount (primordial, capital), capital, fundamental, vital, notable, meaningful",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0014" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Interesting",
+        "content": "<strong>INTERESTING</strong> (adjective)<br>captivating, curious, exciting, fascinating, stimulating, thought-provoking, appealing, gripping, engaging, enticing (attirant, séduisant), intriguing",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0015" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Necessary",
+        "content": "<strong>NECESSARY</strong> (adjective)<br>basic, compulsory (obligatoire), essential, vital, urgent, a matter of life and death, indispensable, imperative, unavoidable (inévitable)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0016" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "New",
+        "content": "<strong>NEW</strong> (adjective)<br>unused, fresh, pristine (pur, immaculé), modern, contemporary, latest (le plus recent), emerging, state-of-the-art (dernier cri)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0018" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Nice",
+        "content": "<strong>NICE</strong> (adjective)<br>lovely, satisfying, amiable / friendly / charming (aimable), delightful / pleasant / congenial / agreeable (agréable)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0019" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Sad",
+        "content": "<strong>SAD</strong> (adjective)<br>miserable (malheureux), gloomy (maussade), devastated, distraught (bouleversé, désemparé), distressed (bouleversé, ébranlé), dispirited (démoralisé), sorrowful, downcast, desolate, forlorn (triste, mélancolique)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0020" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Small",
+        "content": "<strong>SMALL</strong> (adjective)<br>insignificant, limited, minor, tiny (minuscule), weak (faible)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0021" 
        }
 ]
     
