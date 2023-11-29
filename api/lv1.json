@@ -556,6 +556,33 @@
         "img": "",
         "seqname": "Boring word",
         "id": "ANG-BGW-0021" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Idea",
+        "content": "<strong>IDEA</strong> (noun)<br>an aim, an ambition, an aspiration, a goal, a notion, an opinion, a belief, a conviction, a feeling, a (point of) view, an impression, an objective, a guess, an outlook (un point de vue, une perspective), a concept",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0022" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Problem",
+        "content": "<strong>PROBLEM</strong> (noun)<br>a dilemma, an issue, a puzzle, a difficulty, a critical/awkward/hopeless situation",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0023" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To eat",
+        "content": "<strong>TO EAT</strong> (verb)<br>to chomp (mâcher bruyamment), to gulp (engloutir), to crunch, to devour",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0024" 
        }
 ]
     
