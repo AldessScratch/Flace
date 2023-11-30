@@ -10,6 +10,7 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="description" content="S'entrainer sur Flace">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=Juqz9NAJ"></script>
 </head>
 <body>
     <style>
@@ -206,10 +207,15 @@
 
 
 
-
+    <script>
+      function readtext(){
+        responsiveVoice.speak(localStorage.getItem('popupcontent'), 'French Male')
+      }
+    </script>
     <script>
         function setuppopup(popuptitle, popupcontent, img, id){
             document.getElementById('popuptitle').innerHTML = popuptitle
+            localStorage.setItem('popupcontent', popupcontent)
             document.getElementById('popupcontent').innerHTML = popupcontent
             document.getElementById('popupimg').src = img
             sessionStorage.setItem('cardsid', id)
@@ -247,11 +253,13 @@
               const flashseq = document.createElement('h3');
               const flashseqname = document.createElement('h4');
               
+
               flashseq.innerHTML = cards.theme
               flashseqname.innerHTML = cards.seqname
               flashcard.classList.add('flashcard')
-              flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}', '${cards.id}')`)
+              flashcard.setAttribute('onclick', `setuppopup('${cards.title} <i id="readtext" onclick="readtext()" class="bx bx-volume-full"></i>', '${cards.content}', '${cards.img}', '${cards.id}')`)
               flashcard.setAttribute('id', cards.id)
+
               innerflashcard.classList.add('innerflashcard')
               flashtitle.innerHTML = cards.title.toUpperCase()
               flashtype.innerHTML = cards.type + ' :'
