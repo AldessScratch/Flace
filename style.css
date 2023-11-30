@@ -32,7 +32,7 @@ button, i, .brand {
 /* variable couleur */
 
 :root {
-    --bg: #fff;
+    --bg: #fcfcfc;
     --text-color: #000;
   }
   /* thème sombre */
@@ -1218,4 +1218,8 @@ select {
   to {
     opacity: 0;
 }
+}
+
+red {
+  color: #ff0000;
 }

@@ -39,7 +39,7 @@ function openlearn(){
     if (sessionStorage.getItem('number')==='0'){
         sessionStorage.setItem('number', 9999)
     }
-    location.href = 'learn'
+    location.href = './learn/index.html'
 }
 function openlib(api, matiere){
     sessionStorage.setItem('api', api)
