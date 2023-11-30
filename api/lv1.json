@@ -28,7 +28,7 @@
     {
         "type": "Vocabulaire",
         "title": "Inspirer ",
-        "content": "<strong>Breathe in </strong> <br><strong>Exemple:</strong> Don´t breathe in: there may be toxic fumes in the air. ",
+        "content": "<strong>Breathe in </strong> <br><strong>Exemple:</strong> Don’t breathe in: there may be toxic fumes in the air. ",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
@@ -74,7 +74,7 @@
        {
         "type": "Vocabulaire",
         "title": "Rappeler ",
-        "content": "<strong>Call back</strong> <br><strong>Exemple:</strong> I´ll call back when I can. ",
+        "content": "<strong>Call back</strong> <br><strong>Exemple:</strong> I’ll call back when I can. ",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
@@ -83,7 +83,7 @@
        {
         "type": "Vocabulaire",
         "title": "Annuler ",
-        "content": "<strong>Call off</strong> <br><strong>Exemple:</strong> The town´s annual picnic was called off due to rain. ",
+        "content": "<strong>Call off</strong> <br><strong>Exemple:</strong> The town’s annual picnic was called off due to rain. ",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
@@ -118,7 +118,7 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "S´occuper de / aimer",
+        "title": "S’occuper de / aimer",
         "content": "<strong>Care for</strong> <br><strong>Exemple:</strong> Juliana still cares for Simon after all these years. ",
         "theme": "",
         "img": "",
@@ -137,7 +137,7 @@
        {
         "type": "Vocabulaire",
         "title": "Courrir après",
-        "content": "<strong>Chase after</strong> <br><strong>Exemple:</strong> The police chased after the burglar and caught him in my neighbour´s garden.",
+        "content": "<strong>Chase after</strong> <br><strong>Exemple:</strong> The police chased after the burglar and caught him in my neighbour’s garden.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
@@ -154,7 +154,7 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Se présenter à<br>l´enregistrement / la réception",
+        "title": "Se présenter à<br>l’enregistrement / la réception",
         "content": "<strong>Check in</strong> <br><strong>Exemple:</strong> What time may we check in to our hotel room?",
         "theme": "",
         "img": "",
@@ -164,7 +164,7 @@
        {
         "type": "Vocabulaire",
         "title": "Régler sa note / regarder",
-        "content": "<strong>Check out</strong> <br><strong>Exemple:</strong> The inspector checked out the suspect´s alibi by questioning his friends.",
+        "content": "<strong>Check out</strong> <br><strong>Exemple:</strong> The inspector checked out the suspect’s alibi by questioning his friends.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
@@ -182,7 +182,7 @@
        {
         "type": "Vocabulaire",
         "title": "Dégager / Filer",
-        "content": "<strong>Clear off</strong> (familier) <br><strong>Exemple:</strong> I´m busy now - clear off!",
+        "content": "<strong>Clear off</strong> (familier) <br><strong>Exemple:</strong> I’m busy now - clear off!",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
@@ -208,7 +208,7 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Se couvrir / s´assombrir",
+        "title": "Se couvrir / s’assombrir",
         "content": "<strong>Cloud over</strong> <br><strong>Exemple:</strong> The day started fine and sunny, but by midday it began to cloud over, and by late afternoon it was raining hard.",
         "theme": "",
         "img": "",
@@ -217,7 +217,7 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Venir / Reprendre connaissance / se raviser (changer d´avis)",
+        "title": "Venir / Reprendre connaissance / se raviser (changer d’avis)",
         "content": "<strong>Come around</strong> <br><strong>Exemple:</strong> The patient came around soon after his operation.",
         "theme": "",
         "img": "",
@@ -245,7 +245,7 @@
        {
         "type": "Vocabulaire",
         "title": "Se détacher",
-        "content": "<strong>Come off</strong> <br><strong>Exemple:</strong> Once they are firmly stuck on, the labels won´t come off.",
+        "content": "<strong>Come off</strong> <br><strong>Exemple:</strong> Once they are firmly stuck on, the labels won’t come off.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
@@ -263,7 +263,7 @@
        {
         "type": "Vocabulaire",
         "title": "Venir",
-        "content": "<strong>Come over</strong> <br><strong>Exemple:</strong> If you come over this evening we´ll watch a movie together.",
+        "content": "<strong>Come over</strong> <br><strong>Exemple:</strong> If you come over this evening we’ll watch a movie together.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb",
@@ -332,51 +332,37 @@
         "seqname": "Phrasal verb",
         "id": "ANG-PHV-0037" 
        },
-    {
+       {
         "type": "Vocabulaire",
-        "title": "Décoller (sens propre et figuré)",
-        "content": "<strong>Take off</strong> <br><strong>Exemples:</strong> The new product really took off and everybody wanted it. / The plane took off after a short delay.",
+        "title": "Suivre",
+        "content": "<strong>To keen up with</strong>",
         "theme": "",
         "img": "",
-        "seqname": "Voc 15",
-        "id": "ANG-V15-0001" 
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0038" 
        },
        {
         "type": "Vocabulaire",
-        "title": "Tenir de quelqu´un ou ressembler à",
-        "content": "<strong>Take after</strong> <br><strong>Exemple:</strong> Many people say that Maria takes after her grandmother.",
+        "title": "Faire ses débuts",
+        "content": "<strong>To start out</strong>",
         "theme": "",
         "img": "",
-        "seqname": "Voc 15",
-        "id": "ANG-V15-0002" 
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0039" 
        },
        {
         "type": "Vocabulaire",
-        "title": "Se mettre à / Accepter",
-        "content": "<strong>Take up</strong> <br><strong>Exemples:</strong> He took up woodworking after inheriting his grandfather´s tools. / You´ll do the work for just £20? Great - I´ll take you up on that offer!",
+        "title": "Préparer",
+        "content": "<strong>Make up</strong>",
         "theme": "",
         "img": "",
-        "seqname": "Voc 15",
-        "id": "ANG-V15-0003" 
+        "seqname": "Phrasal verb",
+        "id": "ANG-PHV-0040" 
        },
-       {
-        "type": "Vocabulaire",
-        "title": "Prendre la relève / Prendre le contrôle de",
-        "content": "<strong>Take over</strong> <br><strong>Exemple:</strong> Take over the meeting for me, I´ll be back in a moment.",
-        "theme": "",
-        "img": "",
-        "seqname": "Voc 15",
-        "id": "ANG-V15-0004" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Retirer ce que (j´ai) dit",
-        "content": "<strong>Take back</strong> <br><strong>Exemples:</strong> I wish I could take back what I said in anger. / You can never really take back an insult once you´ve made it.",
-        "theme": "",
-        "img": "",
-        "seqname": "Voc 15",
-        "id": "ANG-V15-0005" 
-       },
+
+
+
+        
        {
         "type": "Vocabulaire",
         "title": "A lot",
@@ -583,6 +569,311 @@
         "img": "",
         "seqname": "Boring word",
         "id": "ANG-BGW-0024" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To get",
+        "content": "<strong>TO GET</strong> (verb)<br>to acquire, to obtain, to receive, to gain, to earn (gagner de l’argent en travaillant), to gather (rassembler), to collect, to purchase, to attain, to score",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0025" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To give",
+        "content": "<strong>TO GIVE</strong> (verb)<br>to grant (accorder), to donate, to hand out (distribuer), to present, to provide (fournir), to deliver, to hand over (remettre), to offer, to award, to bestow (accorder), to bequeath (léguer, transmettre)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0026" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To go",
+        "content": "<strong>TO GO</strong> (verb)<br>to move, to proceed (advancer), to advance, to progress, to travel, to walk, to journey, to depart, to flee",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0027" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To have",
+        "content": "<strong>TO HAVE</strong> (verb)<br>to keep, to own, to possess, to retain (garder, conserver), to enjoy, to manage, to experience",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0028" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To look",
+        "content": "<strong>TO LOOK</strong> (verb)<br>to peek / to glimpse / to peer / to glance (jeter un coup d’oeil), to stare / to gaze (regarder fixement), to observe, to examine, to eye, to inspect, to watch",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0029" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To make",
+        "content": "<strong>TO make</strong> (verb)<br>to cause, to create, to produce, to concoct, to assemble, to fabricate, to engineer",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0030" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To say",
+        "content": "<strong>TO SAY</strong> (verb)<br>to admit, to add, to announce, to answer, to ask sb, to declare, to demand (exiger), to deny (nier), to enquire (se renseigner, s’informer), to explain, to mention, to offer (proposer), to promise, to remind sb (rappeler à qqn), to repeat, to reply (répondre), to retort (rétorquer), to cry, to moan (rouspéter, maugréer), to scream, to shout, to yell (hurler), to grumble (grommeler), to mumble (marmonner), to murmur, to mutter (grommeler), to whisper (chuchoter), boast (se vanter), to complain, to confess, to deplore, to insist, to maintain (soutenir), to object, to threaten (menacer), to whine (se plaindre)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0031" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To see",
+        "content": "<strong>TO SEE</strong> (verb)<br>to perceive, to notice, to catch a glimpse of entrevoir), to catch sight of (entrevoir), to detect, to discern, to lay eyes on poser les yeux sur), to regard",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0032" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To think",
+        "content": "<strong>TO THINK</strong> (verb)<br>to believe, to assume, to feel, to imagine, to picture, to suppose, to admit, to consider, to ponder (réfléchir), to conceive, to contemplate (envisager)",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0033" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "To understand",
+        "content": "<strong>TO UNDERSTAND</strong> (verb)<br>to figure out, to realize, to interpret, to see",
+        "theme": "",
+        "img": "",
+        "seqname": "Boring word",
+        "id": "ANG-BGW-0034" 
+       },
+
+
+
+       {   
+        "type": "Vocabulaire",
+        "title": "Décoller (sens propre et figuré)",
+        "content": "<strong>Take off</strong> <br><strong>Exemples:</strong> The new product really took off and everybody wanted it. / The plane took off after a short delay.",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 15 (Take)",
+        "id": "ANG-V15-0001" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Tenir de quelqu’un ou ressembler à",
+        "content": "<strong>Take after</strong> <br><strong>Exemple:</strong> Many people say that Maria takes after her grandmother.",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 15 (Take)",
+        "id": "ANG-V15-0002" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se mettre à / Accepter",
+        "content": "<strong>Take up</strong> <br><strong>Exemples:</strong> He took up woodworking after inheriting his grandfather’s tools. / You’ll do the work for just £20? Great - I’ll take you up on that offer!",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 15 (Take)",
+        "id": "ANG-V15-0003" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Prendre la relève / Prendre le contrôle de",
+        "content": "<strong>Take over</strong> <br><strong>Exemple:</strong> Take over the meeting for me, I’ll be back in a moment.",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 15 (Take)",
+        "id": "ANG-V15-0004" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Retirer ce que (j’ai) dit",
+        "content": "<strong>Take back</strong> <br><strong>Exemples:</strong> I wish I could take back what I said in anger. / You can never really take back an insult once you’ve made it.",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 15 (Take)",
+        "id": "ANG-V15-0005" 
+       },
+
+
+
+
+       
+       {
+        "type": "Vocabulaire",
+        "title": "Une bonne affaire",
+        "content": "<strong>A bargain</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0001" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Un centre commercial",
+        "content": "<strong>A mall</strong> (US)",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0002" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Un vendeur",
+        "content": "<strong>An assistant</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0003" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Avancer / ici jouer avec le jeu",
+        "content": "<strong>To go along</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0004" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Difficile",
+        "content": "<strong>Tricky</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0005" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Comprendre (understand)",
+        "content": "<strong>To get one’s head round it</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0006" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Classer / ici résoudre, régler",
+        "content": "<strong>To sort</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0007" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Renforcer",
+        "content": "<strong>To strengthen</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0008" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Prendre la peine de",
+        "content": "<strong>To bother</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0009" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "La vue (landscape)",
+        "content": "<strong>Scenery</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0010" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Douloureux (painful)",
+        "content": "<strong>To be sore</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0011" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Abandonner (to give up)",
+        "content": "<strong>To quit</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0012" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Avoir mal (to hurt)",
+        "content": "<strong>To ache</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0013" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Sage",
+        "content": "<strong>Wise</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0014" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Améliorer (improve)",
+        "content": "<strong>To enhance</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0015" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Continuer quelque chose (to continue)",
+        "content": "<strong>To keep V+ing</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0016" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Assurer l’entretien de",
+        "content": "<strong>To maintain the garden</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0017" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Un macareux",
+        "content": "<strong>A puffin</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0018" 
        }
 ]
     

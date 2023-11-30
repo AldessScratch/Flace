@@ -170,7 +170,7 @@
     },
     {
         "type": "Propriété (admise)",
-        "title": "Signe d´un quotient",
+        "title": "Signe d’un quotient",
         "content": "a) Le quotien de deux nombres relatifs de <strong>signes contraires est négatif</strong>. La distance à zéro de ce quotient est le quotient des distances à zéro.<br>b) Le quotient de deux nombres relatifs de <strong>même signe est positif</strong>. La distance à zéro de ce quotient est le quotient des distances à zéro.",
         "theme": "T1S2",
         "img": "",
@@ -203,7 +203,7 @@
     {
         "type": "Définition",
         "title": "Ecriture scientifique",
-        "content": "Un nombre décimal peut s´écrire à l´aide d´une puissance de 10 de l´exposant entier.<br>L´écriture scientifique est de la forme a x 10<sup>n</sup> avec a un nombre décimal avec un seul chiffre différent de 0 avant la virgule et n un nombre entier relatif.",
+        "content": "Un nombre décimal peut s’écrire à l’aide d’une puissance de 10 de l’exposant entier.<br>L’écriture scientifique est de la forme a x 10<sup>n</sup> avec a un nombre décimal avec un seul chiffre différent de 0 avant la virgule et n un nombre entier relatif.",
         "theme": "T1S3",
         "img": "",
         "seqname": "Les puissances",
@@ -223,8 +223,8 @@
     },
     {
         "type": "Définition",
-        "title": "Image d´une fonction",
-        "content": "A un nombre x, une fonction f associe un seul nombre, noté f(x). On dit que f(x) est <strong>l´image</strong> de x par la fonction f.",
+        "title": "Image d’une fonction",
+        "content": "A un nombre x, une fonction f associe un seul nombre, noté f(x). On dit que f(x) est <strong>l’image</strong> de x par la fonction f.",
         "theme": "T2S1",
         "img": "",
         "seqname": "Fonctions générales",
@@ -232,8 +232,8 @@
     },
     {
         "type": "Définition",
-        "title": "Antécédant d´une fonction",
-        "content": "Lorsque l´image d´un nombre x par une fonction f est un nombre y, c´est-à-dire f(x)=y, on dit que x est un <strong>antécédant</strong> de y par la fonction f.",
+        "title": "Antécédant d’une fonction",
+        "content": "Lorsque l’image d’un nombre x par une fonction f est un nombre y, c’est-à-dire f(x)=y, on dit que x est un <strong>antécédant</strong> de y par la fonction f.",
         "theme": "T2S1",
         "img": "",
         "seqname": "Fonctions générales",
@@ -241,8 +241,8 @@
     },
     {
         "type": "Définition",
-        "title": "Représentation graphique<br>d´une fonction",
-        "content": "Dans un repère, la représentation graphiques d´une fonction f est <strong>l´ensemble des points de coordonnées (x; f(x))</strong>. Cette représentation graphique est également appelé courbe représentative de la fonction f.",
+        "title": "Représentation graphique<br>d’une fonction",
+        "content": "Dans un repère, la représentation graphiques d’une fonction f est <strong>l’ensemble des points de coordonnées (x; f(x))</strong>. Cette représentation graphique est également appelé courbe représentative de la fonction f.",
         "theme": "T2S1",
         "img": "",
         "seqname": "Fonctions générales",
@@ -285,7 +285,7 @@
     {
         "type": "Propriété",
         "title": "Réduire une expression",
-        "content": "<strong>Réduire</strong> une expression revient à l´écrire avec le moins de termes possibles.",
+        "content": "<strong>Réduire</strong> une expression revient à l’écrire avec le moins de termes possibles.",
         "theme": "T1S4",
         "img": "",
         "seqname": "Calcul littéral",
@@ -295,10 +295,19 @@
     {
         "type": "Propriété",
         "title": "Ordonner une expression",
-        "content": "<strong>Ordonner</strong> une expression revient à l´écrire mettant en premier les termes avec des lettres, du plus grand exposant au plus petit, puis les nombres.",
+        "content": "<strong>Ordonner</strong> une expression revient à l’écrire mettant en premier les termes avec des lettres, du plus grand exposant au plus petit, puis les nombres.",
         "theme": "T1S4",
         "img": "",
         "seqname": "Calcul littéral",
         "id": "MAT-CAL-0005"
+    },
+    {
+        "type": "Définition",
+        "title": "Équation",
+        "content": "Une <strong>équation</strong> est une égalité comportant un ou plusieurs nombres inconnus désignés par des lettres. Ces nombres désignés par des lettres sont appelés les <strong>inconnues</strong> de l’équation",
+        "theme": "T1S5",
+        "img": "",
+        "seqname": "Équation partie 1",
+        "id": "MAT-EQU-0001"
     }
 ]
