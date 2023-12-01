@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Flace | Paramètres</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" id="themestyle" href="themes/auto.css">
     <link rel="icon" type="image/x-icon" href="./img/faviconcolor-fixed.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="msapplication-TileColor" content="#FFFFFF">
@@ -77,8 +78,31 @@
                 <h8><i class='bx bx-paint'></i> Thème du site</h8>
                 <h6>Change l'apparence de Flace</h6>
                 <select name="themeselect" id="themeselect">
-                    <option value="default">Default</option>
+                    <option value="auto">Auto</option>
+                    <option value="light">Clair</option>
+                    <option value="dark">Sombre</option>
                 </select>
+                <script>
+                    function initThemeSelector () {
+                    const themeSelect = document.getElementById("themeselect")
+                    const themestyle = document.getElementById("themestyle")
+                    const currentTheme = localStorage.getItem("theme") || "auto";
+    
+                    function activateTheme(cssname) {
+                        themestyle.setAttribute("href", `themes/${cssname}.css`);
+                    }
+    
+                    themeSelect.addEventListener("change", () => {
+                        activateTheme(themeSelect.value);
+                        localStorage.setItem("theme", themeSelect.value)
+                    });
+    
+                    themeSelect.value = currentTheme;
+    
+                    activateTheme(currentTheme)
+                    }
+                    initThemeSelector();
+                 </script>
             </div>
             <div class="card">
                 <h8><i class='bx bx-book-open'></i> Matière préférée</h8>
@@ -101,6 +125,12 @@
                </script>
             </div>
         </div>
+         <!-- taches d'encre stylé -->
+     <div class="shapes">
+        <div class="shape color1"></div>
+        <div class="shape color2"></div>
+        <div class="shape color3"></div>
+      </div>
     </div>
      <!-- Script pour l'heure -->
 

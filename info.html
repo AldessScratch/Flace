@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Flace | Infos</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" id="themestyle" href="themes/auto.css">
     <link rel="icon" type="image/x-icon" href="./img/faviconcolor-fixed.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="msapplication-TileColor" content="#FFFFFF">
@@ -76,7 +77,7 @@
         <div class="info">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</div>
         <div class="info"><strong>Attention:</strong> Flace ne remplace en aucun cas votre cahier de cours !</div>
         <div class="info">Idée de A. 19<br>Developpé par A. H.<br>Contributeurs: L. D. et T. H-L.</div>
-        <div class="version">Beta v23.1130</div>
+        <div class="version">Beta v23.1201</div>
         <div class="info" onclick="document.getElementById('contact').classList.toggle('active')"><strong>Effectuer une suggestion ou report un problème</strong></div>
         <div class="Contact" id="contact">
           <textarea maxlength ="2000" id="InputField" placeholder="Votre message ici"></textarea>
@@ -149,6 +150,7 @@ function send(){
     }, 200);
     
         </script>
+        <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
        <script src="js/main.js"></script>
 </body>
 </html>

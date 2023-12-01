@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Flace | Bibliothèque</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" id="themestyle" href="../themes/auto.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="icon" type="image/x-icon" href="../img/faviconcolor-fixed.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
@@ -319,6 +320,7 @@
       .catch((error) => console.error(error));
   
         </script>
+        <script>document.getElementById("themestyle").setAttribute("href", `../themes/${localStorage.getItem("theme")}.css`);</script>
       <!-- js du modal -->
     <script src="../js/modal.js"></script>
     <script src="../js/script.js"></script>

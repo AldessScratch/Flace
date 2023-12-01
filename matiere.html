@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Flace | Accueil</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" id="themestyle" href="themes/auto.css">
     <link rel="icon" type="image/x-icon" href="./img/faviconcolor-fixed.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="manifest" href="manifest.json">
@@ -218,6 +219,7 @@ setInterval(() => {
 }, 200);
 
     </script>
+    <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
    <script src="js/main.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modal.js"></script>
