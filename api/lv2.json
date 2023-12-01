@@ -1,56 +1,56 @@
 [
     {
-        "type": "Connjugaisons",
-        "title": "Hablar au subjonctif ",
+        "type": "Conjugaison",
+        "title": "Hablar",
         "content": "habl-<strong>e</strong><br>habl-<strong>e-s</strong><br>habl-<strong>e</strong><br>habl-<strong>e-mos</strong><br>habl-<strong>é-is</strong><br>habl-<strong>e-n</strong>",
         "theme": "",
         "img": "",
-        "seqname": " Définitions",
+        "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0001"
     },
     {
-        "type": "Conjugaisons",
-        "title": "Comer au subjonctif",
+        "type": "Conjugaison",
+        "title": "Comer",
         "content": "com-<strong>a</strong><br>com-<strong>a-s</strong><br>com-<strong>a</strong><br>com-<strong>a-mos</strong><br>com-<strong>á-is</strong><br>com-<strong>a-n</strong>",
         "theme": "",
         "img": "",
-        "seqname": "Définitions",
+        "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0002"
     },
     {
-        "type": "Conjugaison ",
-        "title": "Vivir au subjonctif",
+        "type": "Conjugaison",
+        "title": "Vivir",
         "content": "viv-<strong>a</strong><br>viv-<strong>a-s</strong><br>viv-<strong>a</strong><br>viv-<strong>a-mos</strong><br>viv-<strong>á-is</strong><br>viv-<strong>a-n</strong>",
         "theme": "",
         "img": "",
-        "seqname": "Définitions",
+        "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0003"
     },
     {
         "type": "Conjugaison",
-        "title": "Querer au subjonctif",
+        "title": "Querer",
         "content": "qu<red>ie</red>r-<strong>a</strong><br>qu<red>ie</red>r-<strong>a-s</strong><br>qu<red>ie</red>r-<strong>a</strong><br>quer-<strong>a-mos</strong><br>quer-<strong>á-is</strong><br>qu<red>ie</red>r-<strong>a-n</strong>",
         "theme": "",
         "img": "",
-        "seqname": "Définitions ",
+        "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0004"
     },
     {
         "type": "Conjugaison",
-        "title": "Volver au subjonctif",
+        "title": "Volver",
         "content": "v<red>ue</red>lv-<strong>a</strong><br>v<red>ue</red>lv-<strong>a-s</strong><br>v<red>ue</red>lv-<strong>a</strong><br>volv-<strong>a-mos</strong><br>volv-<strong>á-is</strong><br>v<red>ue</red>lv-<strong>a-n</strong>",
         "theme": "",
         "img": "",
-        "seqname": "Définitions",
+        "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0005"
     },
     {
         "type": "Conjugaison",
-        "title": "Dormir au subjonctif",
+        "title": "Dormir",
         "content": "d<red>ue</red>rm-<strong>a</strong><br>d<red>ue</red>rm-<strong>a-s</strong><br>d<red>ue</red>rm-<strong>a</strong><br>d<red>u</red>rm-<strong>a-mos</strong><br>d<red>u</red>rm-<strong>á-is</strong><br>d<red>ue</red>rm-<strong>a-n</strong>",
         "theme": "",
         "img": "",
-        "seqname": "Définitions",
+        "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0006"
     }
 ]
