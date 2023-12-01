@@ -154,12 +154,13 @@
         <i onclick="location.href = '../'" class='bx bx-home'></i>
         <i onclick="location.href = '../matiere.html'" class="bx bx-grid-alt"></i>
         <i onclick="location.href = '../st.html'" class='bx bx-cog'></i>
-<h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>        <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
+        <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
+
         <div class="time">00:00</div>
       </div>
   </div>
     <div class="home">
-      
+        <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>        
         <!-- container des flashcards random en grande-->
         <div id="cardslider" class="slider">
         </div>
@@ -219,6 +220,30 @@
         function setuppopup(popuptitle, popupcontent, img, id){
             document.getElementById('popuptitle').innerHTML = popuptitle
             localStorage.setItem('popupcontent', popupcontent)
+            function removeHtmlTagsFromLocalStorage(key) {
+  // Get the value from localStorage
+  let storedValue = localStorage.getItem(key);
+
+  // Check if the value is not null or undefined
+  if (storedValue !== null && storedValue !== undefined) {
+    // Create a temporary element
+    const tempElement = document.createElement('div');
+
+    // Set the HTML content to the stored value
+    tempElement.innerHTML = storedValue;
+
+    // Retrieve the text content (removing HTML tags)
+    const textContent = tempElement.textContent || tempElement.innerText;
+
+    // Update the value in localStorage
+    localStorage.setItem(key, textContent);
+  }
+}
+
+// Example usage:
+removeHtmlTagsFromLocalStorage('popupcontent');
+
+
             document.getElementById('popupcontent').innerHTML = popupcontent
             document.getElementById('popupimg').src = img
             sessionStorage.setItem('cardsid', id)
