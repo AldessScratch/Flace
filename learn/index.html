@@ -154,12 +154,12 @@
         <i onclick="location.href = '../'" class='bx bx-home'></i>
         <i onclick="location.href = '../matiere.html'" class="bx bx-grid-alt"></i>
         <i onclick="location.href = '../st.html'" class='bx bx-cog'></i>
-        <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
+<h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>        <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
         <div class="time">00:00</div>
       </div>
   </div>
     <div class="home">
-      <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>
+      
         <!-- container des flashcards random en grande-->
         <div id="cardslider" class="slider">
         </div>
@@ -210,7 +210,9 @@
 
     <script>
       function readtext(){
-        responsiveVoice.speak(`${localStorage.getItem('popupcontent')}`, 'French Male')
+        responsiveVoice.speak(`${
+          
+          localStorage.getItem('popupcontent')}`, 'French Female')
       }
     </script>
     <script>

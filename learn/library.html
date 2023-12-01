@@ -135,9 +135,14 @@
             <div class="searchcard">
                 <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Rechercher une flashcard...">
             </div>
+            
         </div>
+        
         <!-- container des flashcards -->
-        <div class="cards" id="cardscontainer"></div>
+    
+        <div class="cards" id="cardscontainer">
+          <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>
+        </div>
     
     </div>
 
@@ -259,6 +264,8 @@
               innercard.appendChild(seq);
               innercard.appendChild(type);
               innercard.appendChild(title);
+              let items = document.querySelectorAll('.cards .card');
+              document.getElementById('restant').innerHTML = items.length
              
         })};
           rendercards(data);

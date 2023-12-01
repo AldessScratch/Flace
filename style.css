@@ -333,9 +333,6 @@ i{
   .searchcard {
     width: 80vw;
   }
-  .matiere {
-    display: none;
-  }
   .item{
     margin-top: 70px;
     position: absolute;
@@ -349,7 +346,6 @@ i{
       box-shadow: 4px 3px 8px 1px #42424233;
       -webkit-box-shadow: 4px 3px 8px 1px #42424233;
   }
-  
   .back button {
     display: flex;
     justify-content: center;
@@ -377,8 +373,17 @@ i{
     font-weight: 500;
     font-size: 15px;
   }
-  
 }
+  @media screen and (max-width: 600px) {
+    .matiere {
+      display: none;
+    }
+  }
+  
+  
+
+  
+
 .intro {
   display: flex;
   justify-content: center;
