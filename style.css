@@ -103,7 +103,7 @@ button, i, .brand {
   color: var(--bg);
   border-radius: 15px;
 }
-.navbar .time, .brandname{
+.navbar .brandname{
    display: flex;
    margin-right: 30px;
    font-size: 20px;
@@ -111,6 +111,10 @@ button, i, .brand {
     color: var(--text-color);
 }
 .time {
+  margin-right: 30px;
+   font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color);
   display: flex;
   justify-content: center;
   margin-left: 10px;
