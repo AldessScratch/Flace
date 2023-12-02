@@ -164,7 +164,7 @@ i{
     text-align: center;
     margin-top: 60px;
 }
-.home button.start {
+button.start {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -179,10 +179,10 @@ i{
   background-color: #5bc06e6f;
   
 }
-.home button.start:hover {
+button.start:hover {
   transform: scale(1.1);
 }
-.home button.start:not(:hover){
+button.start:not(:hover){
   transition-delay: .1s;
 }
 .home #develop {
@@ -379,7 +379,7 @@ i{
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 10px;
   color: #fff;
   font-size: 15px;
@@ -462,7 +462,7 @@ i{
     filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
     border: 0;
     padding: 5px;
-    border-radius: 6px;
+    border-radius: 20px;
     margin: 10px;
     color: #fff;
     font-size: 10px;
@@ -882,7 +882,7 @@ no {
 .modal .buttons button {
   border: 0;
   padding: 8px;
-  border-radius: 10px;
+  border-radius: 20px;
   margin: 10px;
   color: #fff;
   font-size: 15px;
