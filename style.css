@@ -74,6 +74,11 @@ button, i, .brand {
     align-items: center;
     display: flex;
 }
+.right i.hover{
+  background-color: #5bc06eac ;
+  color: var(--bg);
+  border-radius: 10px;
+}
 .navbar .time, .brandname{
    display: flex;
    margin-right: 30px;
@@ -81,8 +86,18 @@ button, i, .brand {
     font-weight: 600;
     color: var(--text-color);
 }
+.time {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  border: solid 1px var(--text-color);
+  border-radius: 50px;
+  padding: 5px;
+  width: 75px;
+}
 .navbar i {
-  margin-right: 30px;
+  margin: 5px;
+  padding: 10px;
 }
 i{
   font-size: 20px;

@@ -53,6 +53,7 @@
   font-weight: 400;
 }
 .flashcard h4 {
+  text-align: right;
   position: absolute;
   margin: 20px;
   top: 0;
@@ -61,6 +62,26 @@
   color: #000;
   font-weight: 500;
   text-decoration: underline;
+}
+.modal{
+  overflow-y: scroll;
+}
+.content {
+  position: sticky;
+  width: 90%;
+  font-weight: 400;
+  color: var(--text-color);
+  font-size: 15px;
+  text-align: left;
+  margin: 20px;
+}
+.modal .buttons {
+  position: sticky;
+  margin: 10px;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
     }
     @media screen and (max-width: 450px) {
@@ -71,15 +92,7 @@
   font-weight: 600;
   color: var(--text-color);
 }
-.content {
-  width: 90%;
-  position: absolute;
-  font-weight: 400;
-  color: var(--text-color);
-  font-size: 20px;
-  text-align: center;
-  margin: 20px;
-}
+
     }
     </style>
     <!--intro chargement-->
@@ -211,9 +224,13 @@
 
     <script>
       function readtext(){
-        responsiveVoice.speak(`${
-          
-          localStorage.getItem('popupcontent')}`, 'French Female')
+        
+          if (sessionStorage.getItem('api')==='lv1'){
+            responsiveVoice.speak(`${localStorage.getItem('popupcontent')}`)
+          }
+          else{
+            responsiveVoice.speak(`${localStorage.getItem('popupcontent')}`, 'French Female')
+          }
       }
     </script>
     <script>
@@ -286,7 +303,7 @@ removeHtmlTagsFromLocalStorage('popupcontent');
               flashseqname.innerHTML = cards.seqname
               flashcard.classList.add('flashcard')    
               flashcard.setAttribute('id', cards.id)
-              if (sessionStorage.getItem('api')==='math'){
+              if (sessionStorage.getItem('api')==='math' || sessionStorage.getItem('api')==='hg' || sessionStorage.getItem('api')==='lv1'){
                 flashcard.setAttribute('onclick', `setuppopup('${cards.title} <i id="readtext" onclick="readtext()" class="bx bx-volume-full"></i>', '${cards.content}', '${cards.img}', '${cards.id}')`)
               }else{
                 flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}', '${cards.id}')`)
