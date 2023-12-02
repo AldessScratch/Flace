@@ -1,0 +1,13 @@
+:root {
+    --bg: #171717;
+    --text-color: #fff;
+    --navbar: #2a2a2a;
+}
+body {
+    background-image: url('../img/background.gif');
+    background-size: cover;
+    backdrop-filter: blur(15px) ;
+}
+.shapes {
+    display: none;
+}

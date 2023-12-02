@@ -1,0 +1,14 @@
+[
+    {
+        "name" : "Auto",
+        "id" : "auto"
+    },
+    {
+        "name" : "Clair",
+        "id" : "light"
+    },
+    {
+        "name" : "Sombre",
+        "id" : "dark"
+    }
+]
