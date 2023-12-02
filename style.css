@@ -140,6 +140,20 @@ i{
   font-weight: 500;
   color: var(--text-color);
 }
+.homething{
+  box-shadow: 4px 3px 8px 1px #42424233;
+  	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
+    border-radius: 20px;
+  margin-top: 80px;
+  width: calc(100% - 60px);
+  height: calc(100vh - 120px);
+  background-color: transparent;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-color: rgba(120, 120, 120, 0.078);
+}
 .home h1 {
   display: flex;
   color: var(--text-color);
@@ -149,6 +163,27 @@ i{
     animation-duration: 1.5s;
     text-align: center;
     margin-top: 60px;
+}
+.home button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 10px;
+  color: #fff;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+  background-color: #5bc06e6f;
+  
+}
+.home button:hover {
+  transform: scale(1.1);
+}
+.home button:not(:hover){
+  transition-delay: .1s;
 }
 .home #develop {
   color: var(--text-color);
@@ -170,7 +205,6 @@ i{
     animation-duration: 1.5s;
     width: 700px;
     text-align: center;
-    display: none;
 }
 .home p.active {
   display: block;;
@@ -520,6 +554,10 @@ i{
   align-items: center;
   flex-wrap: wrap;
   margin-bottom: 20px;
+}
+.cards.st{
+  animation-name: fadeIn;
+    animation-duration: 1.5s;
 }
 .cards .card {
   display: flex;
@@ -1307,4 +1345,11 @@ select {
 
 red {
   color: #ff0000;
+}
+
+
+/* animations */ 
+.home.infopage{
+  animation-name: fadeIn;
+    animation-duration: 1.5s;
 }
