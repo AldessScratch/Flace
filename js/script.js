@@ -34,7 +34,23 @@ prev.onclick = function(){
     active = active - 1 >= 0 ? active -1 : active;
     loadShow();
 }
+// Function to be called when mouse wheel scrolling occurs
+function handleWheel(event) {
+  // Get the deltaY property to determine the direction of the scroll
+  var deltaY = event.deltaY;
 
+  // Check if the user is scrolling up or down
+  if (deltaY < 0) {
+    active = active + 1 < items.length ?  active + 1 : active;
+   loadShow();
+  } else if (deltaY > 0) {
+    active = active - 1 >= 0 ? active -1 : active;
+    loadShow();
+  }
+}
+
+// Attach the handleWheel function to the wheel event
+window.addEventListener('wheel', handleWheel);
 function openlearn(){
     if (sessionStorage.getItem('number')==='0'){
         sessionStorage.setItem('number', 9999)
