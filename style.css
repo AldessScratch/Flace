@@ -437,7 +437,7 @@ button.start:not(:hover){
     display: none;
   }
   .navbar .right {
-   margin-right: 10px;
+   margin-right: 20px;
   }
   .searchcard {
     width: 80vw;
