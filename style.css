@@ -39,10 +39,10 @@ button, i, .brand {
   /* thème sombre */
   @media (prefers-color-scheme: dark){
     :root {
-        --bg: #171717;
-        --text-color: #fff;
-        --navbar: #f9fff9;
-    }
+    --bg: #171717;
+    --text-color: #fff;
+    --navbar: #2a2a2a;
+}
   }
 /* css navbar */
 .navbar {
