@@ -90,9 +90,9 @@ button, i, .brand {
   display: flex;
   justify-content: center;
   margin-left: 10px;
-  border: solid 1px var(--text-color);
+  border: solid 2px var(--text-color);
   border-radius: 50px;
-  padding: 5px;
+  padding: 3px;
   width: 75px;
 }
 .navbar i {
