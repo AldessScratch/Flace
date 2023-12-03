@@ -44,7 +44,7 @@ button, i, .brand {
   /* thème sombre */
   @media (prefers-color-scheme: dark){
     :root {
-        --bg: #171717;
+      --bg: #060606;
         --text-color: #fff;
         --main: #5bc06e;
         --navbar: #232323;
