@@ -129,7 +129,6 @@
           <i onclick="location.href = '../matiere.html'" class="bx bx-grid-alt"></i>
         <i onclick="location.href = '../st.html'" class='bx bx-cog'></i>
         <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
-          <div class="time">00:00</div>
       </div>
   </div>
     <div class="home" id="homecontainer">
@@ -255,23 +254,7 @@
           rendercards(data);
         }).catch(error => console.error('Error fetching cards:', error));
       </script>
-       <!-- script pour l'heure -->
-      <script>
-        document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')
-        const timeElement = document.querySelector(".time");
-    function formatTime(date) {
-      const hours12 = date.getHours() % 24 || 24;
-      const minutes = date.getMinutes();
-      return `${hours12.toString().padStart(2, "0")}:${minutes
-        .toString()
-        .padStart(2, "0")}`;
-    }
-    setInterval(() => {
-      const now = new Date();
-      timeElement.textContent = formatTime(now);
-    }, 200);
-    
-        </script>
+       
         <script>
           const payload = {
 "content": "",

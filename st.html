@@ -14,51 +14,6 @@
     <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
 </head>
 <body>
-    <!-- noel -->
-    <ul class="lightrope" id="lightrope">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
      <!-- navbar -->
      <div class="navbar">
         <div class="brand">
@@ -70,7 +25,6 @@
             <i onclick="location.href = 'matiere.html'" class="bx bx-grid-alt"></i>
             <i onclick="location.href = 'st.html'" class='bx hover bx-cog'></i>
             <i onclick="location.href = 'info.html'" class='bx bx-info-circle'></i>
-            <div class="time">00:00</div>
         </div>
     </div>
     <div class="home">
@@ -128,25 +82,7 @@
             </div>
         </div>
     </div>
-     <!-- Script pour l'heure -->
-
-
-
-     <script>
-        const timeElement = document.querySelector(".time");
-    function formatTime(date) {
-      const hours12 = date.getHours() % 24 || 24;
-      const minutes = date.getMinutes();
-      return `${hours12.toString().padStart(2, "0")}:${minutes
-        .toString()
-        .padStart(2, "0")}`;
-    }
-    setInterval(() => {
-      const now = new Date();
-      timeElement.textContent = formatTime(now);
-    }, 200);
-    
-        </script>
+     
        <script src="js/main.js"></script>
 </body>
 </html>
