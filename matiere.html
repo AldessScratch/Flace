@@ -221,27 +221,7 @@
         // Call the function to load and process the JSON file
         loadJSON();
       </script>
-    <!-- Script pour l'heure -->
-    <script>
-                const timeElement = document.querySelector(".time");
-function formatTime(date) {
-  const hours12 = date.getHours() % 24 || 24;
-  const minutes = date.getMinutes();
-
-  return `${hours12.toString().padStart(2, "0")}:${minutes
-    .toString()
-    .padStart(2, "0")}`;
-}
-
-
-setInterval(() => {
-  const now = new Date();
-
-  timeElement.textContent = formatTime(now);
- 
-}, 200);
-
-    </script>
+    
     <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
    <script src="js/main.js"></script>
     <script src="js/script.js"></script>
