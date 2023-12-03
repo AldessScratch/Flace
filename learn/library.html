@@ -61,10 +61,13 @@
       <div class="lds-dual-ring"></div>
       <script>
         document.addEventListener("DOMContentLoaded", function() {
-          document.getElementById('introloading').classList.add('loaded')
+          setTimeout(() => {
+            document.getElementById('introloading').classList.add('loaded')
+          }, 1100);
+          
           setTimeout(() => {
             document.getElementById('introloading').style.display = 'none'
-          }, 900);
+          }, 2000);
           
   });
       </script>
@@ -78,6 +81,7 @@
       <div class="center">
           <div class="matiere" id="matiere"></div>
       </div>
+      <script>document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')</script>
       <div class="right">
           <i onclick="location.href = '../'" class='bx bx-home'></i>
           <i onclick="location.href = '../matiere.html'" class="bx bx-grid-alt"></i>
@@ -89,6 +93,7 @@
        <!-- searchbar -->
       <div class="searchsection">
             <div class="searchcard">
+              <i class="bx bx-search"></i>
                 <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Rechercher une flashcard...">
             </div>
             

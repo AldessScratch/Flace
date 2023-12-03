@@ -94,10 +94,13 @@
       <div class="lds-dual-ring"></div>
       <script>
         document.addEventListener("DOMContentLoaded", function() {
-          document.getElementById('introloading').classList.add('loaded')
+          setTimeout(() => {
+            document.getElementById('introloading').classList.add('loaded')
+          }, 1100);
+          
           setTimeout(() => {
             document.getElementById('introloading').style.display = 'none'
-          }, 900);
+          }, 2000);
           
   });
       </script>
@@ -279,7 +282,7 @@ function loadShow(){
     let stt = 0;
     for(var i = active + 1; i < items.length; i ++){
         stt++;
-        items[i].style.transform = `translateX(${0*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(-1deg)`;
+        items[i].style.transform = `translateX(${100*stt}px) scale(${1 - 0.2*stt}) perspective(30px) rotateY(-1deg)`;
         items[i].style.zIndex = -stt;
         items[i].style.filter = 'blur(5px)';
         items[i].style.opacity = stt > 2 ? 0 : 0.6;
@@ -351,22 +354,8 @@ setTimeout(() => {
         }).catch(error => console.error('Error fetching cards:', error));
         
       </script>
-       <!-- script pour l'heure -->
       <script>
         document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')
-        const timeElement = document.querySelector(".time");
-    function formatTime(date) {
-      const hours12 = date.getHours() % 24 || 24;
-      const minutes = date.getMinutes();
-      return `${hours12.toString().padStart(2, "0")}:${minutes
-        .toString()
-        .padStart(2, "0")}`;
-    }
-    setInterval(() => {
-      const now = new Date();
-      timeElement.textContent = formatTime(now);
-    }, 200);
-    
         </script>
         <script>
           const payload = {
