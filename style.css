@@ -89,10 +89,6 @@ button, i, .brand {
 }
 .navbar .brandname{
    display: none;
-   margin-right: 30px;
-   font-size: 20px;
-    font-weight: 600;
-    color: var(--text-color);
 }
 .time {
   rotate: 90deg;
@@ -109,7 +105,7 @@ button, i, .brand {
 .navbar i {
   height: 30px;
   width: 55px;
-  font-size: 25px;
+  font-size: 20px;
   color: var(--text-color);
   display: flex;
   justify-content: center;
@@ -126,9 +122,6 @@ button, i, .brand {
 }
 i{
   color: var(--text-color);
-}
-.question {
-  margin-top: 3px
 }
 .navbar .matiere{
   position: absolute;
@@ -769,18 +762,18 @@ button.start:not(:hover){
 }
 
 ::placeholder{
-  color: #fff;
+  color: var(--text-color);
   background-color: transparent;
   text-align: center;
 }
 
  #searchInput {
-  background-color: rgba(255, 255, 255, 0);
+  background-color: transparent;
   font-family: inherit;
   border: 0;
   outline: 0;
   font-size: 15px;
-   color: #fff;
+   color: var(--text-color);
    width: 300px;
    text-align: center;
  }
@@ -790,22 +783,13 @@ button.start:not(:hover){
   align-items: center;
   height: 40px;
   width: 350px;
-  border-radius: 10px;
-  background-color: #55555571;
+  border-radius: 25px;
+  background-color: var(--navbar);
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
   backdrop-filter: blur(5px);
   animation-name: fadeIn;
   animation-duration: 1.5s;
-  -webkit-backdrop-filter: blur(5px);
-}
-.searchcard:hover {
-  width: 550px;
-  transition: ease-in-out;
-  transition-duration: .5s;
-}
-.searchcard:not(:hover){
-  transition-duration: .5s;
 }
 
 

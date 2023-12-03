@@ -18,16 +18,8 @@
     @media screen and (max-width: 700px) {
       .searchcard {
     height: 40px;
-    width: 70%;
+    width: 90%;
   }
-  .searchcard:hover {
-  width: 90%;
-  transition: ease-in-out;
-  transition-duration: .5s;
-}
-.searchcard:not(:hover){
-  transition-duration: .5s;
-}
 .modal img {
   position: absolute;
   height: auto;
@@ -149,6 +141,7 @@
        <!-- searchbar -->
       <div class="searchsection">
             <div class="searchcard">
+              <i class="bx bx-search"></i>
                 <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Rechercher une flashcard...">
             </div>
             
