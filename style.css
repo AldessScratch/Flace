@@ -28,6 +28,9 @@ p {
     min-height: 100vh;
     width: 100%;
 }
+.home.max {
+  height: 100vh;
+}
 /* logique */
 button, i, .brand {
   cursor: pointer;
@@ -177,11 +180,11 @@ button, i, .brand {
 .item{
   margin-top: 50px;
   position: absolute;
-    width: 480px;
-    height: 290px;
+    width: 500px;
+    height: 300px;
     border-radius: 15px;
     transition: 0.5s;
-    left: calc(50% - 240px);
+    left: calc(50% - 260px);
     top: 0;
     overflow: hidden;
     box-shadow: 4px 3px 8px 1px #42424233;
@@ -347,16 +350,7 @@ button.start:not(:hover){
   .home p {
     width: 80%;
   }
-  #next {
-    right: 0px;
-    margin-top: 100px;
-    margin-right: 50px;
-  }
-  #prev {
-    margin-top: 100px;
-    margin-left: 50px;
-    left: 0px;
-  }
+ 
   .modal .buttons.homepopup {
     position: sticky;
     margin: 10px;
@@ -371,6 +365,16 @@ button.start:not(:hover){
 }
 
 @media screen and (max-width: 500px) {
+  #next {
+    right: 0px;
+    margin-top: 100px;
+    margin-right: 50px;
+  }
+  #prev {
+    margin-top: 100px;
+    margin-left: 50px;
+    left: 0px;
+  }
   .navbar {
     width: 90%;
   }
@@ -641,6 +645,7 @@ button.start:not(:hover){
    text-align: center;
  }
  .searchcard {
+  
   display: flex;
   justify-content: center;
   align-items: center;
