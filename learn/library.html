@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,42 +11,44 @@
     <link rel="icon" type="image/x-icon" href="../img/faviconcolor-fixed.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="description" content="Bibliothèque de flashcards de Flace">
-</head>
-<body>
+  </head>
+  <body>
     <style>
       /* code pour s'adapter au petit ecrans/ telephone */
-    @media screen and (max-width: 700px) {
-      .searchcard {
-    height: 40px;
-    width: 90%;
-  }
-.modal img {
-  position: absolute;
-  height: auto;
-  width: 100%;
-}
-.modal{
-  overflow-y: scroll;
-}
-.content {
-  position: sticky;
-  width: 90%;
-  font-weight: 400;
-  font-size: 15px;
-  text-align: left;
-  margin: 20px;
-}
-  }
-  @media screen and (max-width: 450px) {
-.modal-header .title {
-  width: 300px;
-  text-align: center;
-  font-size: 15px;
-  font-weight: 600;
+      @media screen and (max-width: 700px) {
+        .searchcard {
+          height: 40px;
+          width: 90%;
+        }
 
-}
+        .modal img {
+          position: absolute;
+          height: auto;
+          width: 100%;
+        }
 
-    }
+        .modal {
+          overflow-y: scroll;
+        }
+
+        .content {
+          position: sticky;
+          width: 90%;
+          font-weight: 400;
+          font-size: 15px;
+          text-align: left;
+          margin: 20px;
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        .modal-header .title {
+          width: 300px;
+          text-align: center;
+          font-size: 15px;
+          font-weight: 600;
+        }
+      }
     </style>
     <!--intro chargement-->
     <div class="intro" id="introloading">
@@ -57,11 +59,9 @@
           setTimeout(() => {
             document.getElementById('introloading').style.display = 'none'
           }, 900);
-          
-  });
+        });
       </script>
     </div>
-
     <!-- noel -->
     <ul class="lightrope">
       <li></li>
@@ -107,220 +107,206 @@
       <li></li>
       <li></li>
     </ul>
-  <!--navbar-->
-  <div class="navbar" id="navbar">
+    <!--navbar-->
+    <div class="navbar" id="navbar">
       <div class="brand">
-          <img onclick="location.href = '../'" src="../img/faviconcolor-fixed.png" alt="flacelogo">
-          <div onclick="location.href = '../'" class="brandname">Fla<div class="question">?</div>e</div>
+        <img onclick="location.href = '../'" src="../img/faviconcolor-fixed.png" alt="flacelogo">
+        <div onclick="location.href = '../'" class="brandname">Fla <div class="question">?</div>e </div>
       </div>
       <div class="center">
-          <div class="matiere" id="matiere"></div>
+        <div class="matiere" id="matiere"></div>
       </div>
       <div class="right">
         <div onclick="location.href = '../'" class="navbaricon">
-            <img src="../img/faviconcolor-fixed.png" alt="flacelogo">
-            <div class="icontitle">Accueil</div>
+          <img src="../img/faviconcolor-fixed.png" alt="flacelogo">
+          <div class="icontitle">Accueil</div>
         </div>
         <div onclick="location.href = '../matiere.html'" class="navbaricon">
-            <i class="bx bx-grid-alt"></i>
-            <div class="icontitle">Matières</div>
+          <i class="bx bx-grid-alt"></i>
+          <div class="icontitle">Matières</div>
         </div>
-        <div  onclick="location.href = '../st.html'" class="navbaricon">
-            <i class='bx bx-cog'></i>
-            <div class="icontitle">Réglages</div>
+        <div onclick="location.href = '../st.html'" class="navbaricon">
+          <i class='bx bx-cog'></i>
+          <div class="icontitle">Réglages</div>
         </div>
         <div onclick="location.href = '../info.html'" class="navbaricon">
-            <i class='bx bx-info-circle'></i>
-            <div class="icontitle">Infos</div>
+          <i class='bx bx-info-circle'></i>
+          <div class="icontitle">Infos</div>
         </div>
         <div class="time">00:00</div>
+      </div>
     </div>
-  </div>
     <div class="home" id="homecontainer">
       <i id="navbaricon" class="hamburger bx bx-menu-alt-left" onclick="document.getElementById('navbar').classList.toggle('active');document.getElementById('navbaricon').classList.toggle('active')"></i>
-       <!-- searchbar -->
+      <!-- searchbar -->
       <div class="searchsection">
-            <div class="searchcard">
-              <i class="bx bx-search"></i>
-                <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Rechercher une flashcard...">
-            </div>
-            
+        <div class="searchcard">
+          <i class="bx bx-search"></i>
+          <input type="text" id="searchInput" onkeyup="searchFunction()" placeholder="Rechercher une flashcard...">
         </div>
-        
-        <!-- container des flashcards -->
-    
-        <div class="cards" id="cardscontainer">
-          <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>
-        </div>
-    
+      </div>
+      <!-- container des flashcards -->
+      <div class="cards" id="cardscontainer">
+        <h5 id="score" class="restant">
+          <div id="restant">Chargement des flashcards</div>
+          <i class="bx bx-grid-alt"></i>
+        </h5>
+      </div>
     </div>
-
     <!-- popup -->
-      
-      <div class="modal" id="modal">
-        <div class="modal-header">
-          <div id="popuptitle" class="title"></div>
-          <i id="closebutton" data-close-button class="bx bx-x close-button"></i>
-        </div>
-        <div class="modal-body">
-            <div id="popupcontent" class="content">
-        
-            </div>
-            <img id="popupimg" src="">
-    
-        </div>
-      </div>  
-
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div id="popuptitle" class="title"></div>
+        <i id="closebutton" data-close-button class="bx bx-x close-button"></i>
+      </div>
+      <div class="modal-body">
+        <div id="popupcontent" class="content"></div>
+        <img id="popupimg" src="">
+      </div>
+    </div>
+    <!-- taches d'encre stylé -->
+    <div class="shapes">
+      <div class="shape color1"></div>
+      <div class="shape color2"></div>
+      <div class="shape color3"></div>
+    </div>
     <!-- overlay du popup pour le flou et pour detecter le clique dehors -->
     <div id="overlay" class="overlay"></div>
     <script>
-        function setuppopup(popuptitle, popupcontent, img){
-            document.getElementById('popuptitle').innerHTML = popuptitle
-            document.getElementById('popupcontent').innerHTML = popupcontent
-            document.getElementById('popupimg').src = img
-              document.getElementById('modal').classList.add('active')
-              document.getElementById('overlay').classList.add('active')
-        }
+      function setuppopup(popuptitle, popupcontent, img) {
+        document.getElementById('popuptitle').innerHTML = popuptitle
+        document.getElementById('popupcontent').innerHTML = popupcontent
+        document.getElementById('popupimg').src = img
+        document.getElementById('modal').classList.add('active')
+        document.getElementById('overlay').classList.add('active')
+      }
     </script>
     <script>
       function searchFunction() {
-          let input = document.getElementById('searchInput');
-          let filter = input.value.toUpperCase();
-          let cards = document.getElementsByClassName('card');
-          for (i = 0; i < cards.length; i++) {
-              let title = cards[i].getElementsByTagName('h5')[0];
-              let type = cards[i].getElementsByTagName('h2')[0];
-              let seq = cards[i].getElementsByTagName('h3')[0];
-              let txtValue = title.textContent || title.innerText;
-              let typeValue = type.textContent || type.innerText;
-              let seqnameValue = seq.textContent || seq.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1 || typeValue.toUpperCase().indexOf(filter) > -1 || seqnameValue.toUpperCase().indexOf(filter) > -1) {
-                  cards[i].style.display = "";
-                } else {
-                    cards[i].style.display = "none";
-                }
+        let input = document.getElementById('searchInput');
+        let filter = input.value.toUpperCase();
+        let cards = document.getElementsByClassName('card');
+        for (i = 0; i < cards.length; i++) {
+          let title = cards[i].getElementsByTagName('h5')[0];
+          let type = cards[i].getElementsByTagName('h2')[0];
+          let seq = cards[i].getElementsByTagName('h3')[0];
+          let txtValue = title.textContent || title.innerText;
+          let typeValue = type.textContent || type.innerText;
+          let seqnameValue = seq.textContent || seq.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1 || typeValue.toUpperCase().indexOf(filter) > -1 || seqnameValue.toUpperCase().indexOf(filter) > -1) {
+            cards[i].style.display = "";
+          } else {
+            cards[i].style.display = "none";
           }
-        
+        }
       }
-          </script>
+    </script>
     <!-- code pour fetch le json et creer une flashcard -->
     <script>
-        // Le code recupère les données depuis le .json
-        const jsonUrl = '../api/' + sessionStorage.getItem('api') + '.json';
-        fetch(jsonUrl).then(response => response.json()).then(data => {
-          var values = [];
-  for (var key in data) {
-    values.push(data[key].seqname);
-  }
-  var set = new Set(values);
-  var uniqueValues = Array.from(set);
-  function creatediv(value) {
-    var div = document.createElement("div");
-    div.classList.add('cards')
-    div.setAttribute('id', value)
-    return div;
-  }
-  function createhomecontainer(values) {
-    var homecontainer = document.getElementById("homecontainer");
-    for (var i = 0; i < values.length; i++) {
-      homecontainer.appendChild(creatediv(values[i]));
-    }
-    return homecontainer;
-  }
-  createhomecontainer(uniqueValues);
-          
-          const rendercards = (cards) => {
-            // quand il a recup les données, il crée des flashcards
-            cards.forEach(cards => {
-              const cardscontainer = document.getElementById(cards.seqname);
-              const card = document.createElement('div');
-              const innercard = document.createElement('div');
-              const type = document.createElement('h2');
-              const title = document.createElement('h5');
-              const seq = document.createElement('h3');
+      // Le code recupère les données depuis le .json
+      const jsonUrl = '../api/' + sessionStorage.getItem('api') + '.json';
+      fetch(jsonUrl).then(response => response.json()).then(data => {
+        var values = [];
+        for (var key in data) {
+          values.push(data[key].seqname);
+        }
+        var set = new Set(values);
+        var uniqueValues = Array.from(set);
 
-              
-              title.innerHTML = cards.title.toUpperCase()
-              type.innerHTML = cards.type + ' :'
-              seq.innerHTML = cards.seqname
-              card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
-              card.classList.add('card');
-              card.setAttribute('id', cards.id)
-              innercard.classList.add('innercard');
-              
+        function creatediv(value) {
+          var div = document.createElement("div");
+          div.classList.add('cards')
+          div.setAttribute('id', value)
+          return div;
+        }
 
-              cardscontainer.appendChild(card)
-              card.appendChild(innercard);
-              innercard.appendChild(seq);
-              innercard.appendChild(type);
-              innercard.appendChild(title);
-              let items = document.querySelectorAll('.cards .card');
-              document.getElementById('restant').innerHTML = items.length
-             
-        })};
-          rendercards(data);
-        }).catch(error => console.error('Error fetching cards:', error));
-      </script>
-       <!-- script pour l'heure -->
-      <script>
-        document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')
-        const timeElement = document.querySelector(".time");
-    function formatTime(date) {
-      const hours12 = date.getHours() % 24 || 24;
-      const minutes = date.getMinutes();
-      return `${hours12.toString().padStart(2, "0")}:${minutes
+        function createhomecontainer(values) {
+          var homecontainer = document.getElementById("homecontainer");
+          for (var i = 0; i < values.length; i++) {
+            homecontainer.appendChild(creatediv(values[i]));
+          }
+          return homecontainer;
+        }
+        createhomecontainer(uniqueValues);
+        const rendercards = (cards) => {
+          // quand il a recup les données, il crée des flashcards
+          cards.forEach(cards => {
+            const cardscontainer = document.getElementById(cards.seqname);
+            const card = document.createElement('div');
+            const innercard = document.createElement('div');
+            const type = document.createElement('h2');
+            const title = document.createElement('h5');
+            const seq = document.createElement('h3');
+            title.innerHTML = cards.title.toUpperCase()
+            type.innerHTML = cards.type + ' :'
+            seq.innerHTML = cards.seqname
+            card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
+            card.classList.add('card');
+            card.setAttribute('id', cards.id)
+            innercard.classList.add('innercard');
+            cardscontainer.appendChild(card)
+            card.appendChild(innercard);
+            innercard.appendChild(seq);
+            innercard.appendChild(type);
+            innercard.appendChild(title);
+            let items = document.querySelectorAll('.cards .card');
+            document.getElementById('restant').innerHTML = items.length
+          })
+        };
+        rendercards(data);
+      }).catch(error => console.error('Error fetching cards:', error));
+    </script>
+    <!-- script pour l'heure -->
+    <script>
+      document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')
+      const timeElement = document.querySelector(".time");
+
+      function formatTime(date) {
+        const hours12 = date.getHours() % 24 || 24;
+        const minutes = date.getMinutes();
+        return `${hours12.toString().padStart(2, "0")}:${minutes
         .toString()
         .padStart(2, "0")}`;
-    }
-    setInterval(() => {
-      const now = new Date();
-      timeElement.textContent = formatTime(now);
-    }, 200);
-    
-        </script>
-        <script>
-          const payload = {
-"content": "",
-"tts": false,
-"embeds": [
-{
-  "color": 11908533,
-  "fields": [
-    {
-      "name": "Nom d'utilisateur",
-      "value": localStorage.getItem('username'),
-      "inline": true
-    },
-    {
-      "name": "Bibliothèque",
-      "value": sessionStorage.getItem('api'),
-      "inline": true
-    },
-    
-  ],
-}
-
-],
-"components": [],
-"actions": {},
-"username": "FlaceBot",
-};
-
-    fetch("https://discord.com/api/webhooks/1178779338292867114/7i7717028JqfI_0iYegSbQEWfaUF9D-th-tmfAnKJu65nK3XasvcJqYU34YWZauG-nos", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    })
-      .then((response) => console.log(response))
-      .catch((error) => console.error(error));
-  
-        </script>
-        <script>document.getElementById("themestyle").setAttribute("href", `../themes/${localStorage.getItem("theme")}.css`);</script>
-      <!-- js du modal -->
+      }
+      setInterval(() => {
+        const now = new Date();
+        timeElement.textContent = formatTime(now);
+      }, 200);
+    </script>
+    <script>
+      const payload = {
+        "content": "",
+        "tts": false,
+        "embeds": [{
+          "color": 11908533,
+          "fields": [{
+            "name": "Nom d'utilisateur",
+            "value": localStorage.getItem('username'),
+            "inline": true
+          }, {
+            "name": "Bibliothèque",
+            "value": sessionStorage.getItem('api'),
+            "inline": true
+          }, ],
+        }],
+        "components": [],
+        "actions": {},
+        "username": "FlaceBot",
+      };
+      fetch("https://discord.com/api/webhooks/1178779338292867114/7i7717028JqfI_0iYegSbQEWfaUF9D-th-tmfAnKJu65nK3XasvcJqYU34YWZauG-nos", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(payload),
+      }).then((response) => console.log(response)).catch((error) => console.error(error));
+    </script>
+    <script>
+      document.getElementById("themestyle").setAttribute("href", `../themes/${localStorage.getItem("theme")}.css`);
+    </script>
+    <!-- js du modal -->
     <script src="../js/modal.js"></script>
     <script src="../js/script.js"></script>
-   <script src="../js/main.js"></script>
-</body>
+    <script src="../js/main.js"></script>
+  </body>
 </html>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,98 +12,96 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
-</head>
-<body>
+  </head>
+  <body>
     <!-- noel -->
     <ul class="lightrope">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-     <!-- taches d'encre stylé -->
-     <div class="shapes">
-        <div class="shape color1"></div>
-        <div class="shape color2"></div>
-        <div class="shape color3"></div>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+    <!-- taches d'encre stylé -->
+    <div class="shapes">
+      <div class="shape color1"></div>
+      <div class="shape color2"></div>
+      <div class="shape color3"></div>
+    </div>
+    <div class="diapo" id="diapo1">
+      <div class="innerdiapo">
+        <h1>Bienvenue sur Flace</h1>
+        <h5>Veuillez entrer votre nom d'utilisateur</h5>
+        <input type="text" id="username">
+        <script>
+          function initinput() {
+            let userinput = document.getElementById('username')
+            userinput.addEventListener("input", () => {
+              localStorage.setItem("username", userinput.value)
+            })
+          }
+          initinput()
+        </script>
+        <button id="reussi" onclick="localStorage.setItem('matierepref', 0);localStorage.setItem('first', '1');location.href = './'">Terminer <i class='bx bx-right-arrow-alt'></i>
+        </button>
       </div>
-      
-      <div class="diapo" id="diapo1">
-        <div class="innerdiapo">
-            <h1>Bienvenue sur Flace</h1>
-            <h5>Veuillez entrer votre nom d'utilisateur</h5>
-            <input type="text" id="username">
-            <script>
-                function initinput(){
-                    let userinput = document.getElementById('username')
-                    userinput.addEventListener("input", () => {
-                    localStorage.setItem("username", userinput.value)
-                })
-                }
-                initinput()
-            </script>
-            <button id="reussi" onclick="localStorage.setItem('matierepref', 0);localStorage.setItem('first', '1');location.href = './'">Terminer <i class='bx bx-right-arrow-alt'></i></button>
-        </div>
-      </div>
-      
-       <!-- Script pour l'heure -->
+    </div>
+    <!-- Script pour l'heure -->
+    <script>
+      const timeElement = document.querySelector(".time");
 
-
-
-     <script>
-        const timeElement = document.querySelector(".time");
-    function formatTime(date) {
-      const hours12 = date.getHours() % 24 || 24;
-      const minutes = date.getMinutes();
-      return `${hours12.toString().padStart(2, "0")}:${minutes
+      function formatTime(date) {
+        const hours12 = date.getHours() % 24 || 24;
+        const minutes = date.getMinutes();
+        return `${hours12.toString().padStart(2, "0")}:${minutes
         .toString()
         .padStart(2, "0")}`;
-    }
-    setInterval(() => {
-      const now = new Date();
-      timeElement.textContent = formatTime(now);
-    }, 200);
-    
-        </script>
-        <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
-       <script src="js/main.js"></script>
-</body>
+      }
+      setInterval(() => {
+        const now = new Date();
+        timeElement.textContent = formatTime(now);
+      }, 200);
+    </script>
+    <script>
+      document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);
+    </script>
+    <script src="js/main.js"></script>
+  </body>
 </html>
