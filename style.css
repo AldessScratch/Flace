@@ -122,13 +122,13 @@ button, i, .brand {
   width: 75px;
 }
 .navbar i {
+  font-size: 20px;
   margin: 5px;
   padding: 10px;
   color: var(--text-color);
 }
 i{
   color: var(--text-color);
-  font-size: 20px;
 }
 .question {
   margin-top: 3px
@@ -140,6 +140,7 @@ i{
   color: var(--text-color);
 }
 .homething{
+
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
     border-radius: 20px;
@@ -158,6 +159,7 @@ i{
   color: var(--text-color);
   font-weight: 600;
   font-size: 40px;
+  padding: 5px;
   animation-name: fadeIn;
     animation-duration: 1.5s;
     text-align: center;
@@ -377,7 +379,7 @@ button.start:not(:hover){
   align-items: center;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
-  padding: 8px;
+  padding: 8px 10px 8px 10px;
   border-radius: 20px;
   margin: 10px;
   color: #fff;
@@ -429,9 +431,6 @@ button.start:not(:hover){
 }
 
 @media screen and (max-width: 500px) {
-  button i{
-    font-size: 15px;
-  }
   .navbar .time {
     display: none;
   }
@@ -830,14 +829,21 @@ no {
 
 /* ecran de score */
 .end {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  height: 100vh;
   top: 0;
+  margin-left: 30px;
   position: fixed;
+  box-shadow: 4px 3px 8px 1px #42424233;
+  	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
+    border-radius: 20px;
+  margin-top: 80px;
+  width: calc(100% - 60px);
+  min-height: calc(100vh - 120px);
+  background-color: transparent;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   background-color: rgba(120, 120, 120, 0.078);
 }
 .end #qsp{
   display: flex;
@@ -1309,6 +1315,7 @@ select {
   margin-left: 5%;
 }
 .diapo h1 {
+
   display: flex;
   color: var(--text-color);
   font-weight: 600;
