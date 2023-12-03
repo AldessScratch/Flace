@@ -41,11 +41,12 @@ function handleWheel(event) {
 
   // Check if the user is scrolling up or down
   if (deltaY < 0) {
-    active = active + 1 < items.length ?  active + 1 : active;
-   loadShow();
-  } else if (deltaY > 0) {
     active = active - 1 >= 0 ? active -1 : active;
     loadShow();
+    
+  } else if (deltaY > 0) {
+    active = active + 1 < items.length ?  active + 1 : active;
+   loadShow();
   }
 }
 

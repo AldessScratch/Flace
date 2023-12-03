@@ -90,32 +90,10 @@
                 }
                 initinput()
             </script>
-            <button onclick="document.getElementById('diapo1').style.display = 'none';document.getElementById('diapo2').style.display = 'flex'" id="reussi">Suivant <i class='bx bx-right-arrow-alt'></i></button>
+            <button id="reussi" onclick="localStorage.setItem('matierepref', 0);localStorage.setItem('first', '1');location.href = './'">Terminer <i class='bx bx-right-arrow-alt'></i></button>
         </div>
       </div>
-      <div class="diapo" id="diapo2" style="display: none;">
-        <div class="innerdiapo">
-            <h1>Bienvenue sur Flace</h1>
-            <h5>Quelle matière souhaitez-vous réviser le plus ?</h5>
-            <select name="select" id="matiereselect">
-                <option value="0">Mathématiques</option>
-                <option value="1">Anglais</option>
-                <option value="2">Espagnol</option>
-                <option value="3">Histoire</option>
-            </select>
-            <script>
-                localStorage.setItem("matierepref", 0)
-                function initselector(){
-                   const matiereselect = document.getElementById('matiereselect')
-                   matiereselect.addEventListener("change", () => {
-                       localStorage.setItem("matierepref", matiereselect.value)
-                   });
-                }
-                initselector()
-           </script>
-            <button id="reussi" onclick="localStorage.setItem('first', '1');location.href = './'">Terminer <i class='bx bx-right-arrow-alt'></i></button>
-        </div>
-      </div>
+      
        <!-- Script pour l'heure -->
 
 
