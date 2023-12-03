@@ -28,9 +28,6 @@ p {
     min-height: 100vh;
     width: 100%;
 }
-.home.max {
-  height: 100vh;
-}
 /* logique */
 button, i, .brand {
   cursor: pointer;
@@ -201,7 +198,7 @@ button, i, .brand {
 
 
   .inner:hover{
-    transform: rotateY(180deg);
+    transform: rotateX(180deg) rotate(180deg);
   }
 
 .front, .back {
@@ -226,7 +223,7 @@ button, i, .brand {
   background-image: url('./img/texture.png');
   background-color: #ffffff;
   color: #000000;
-  transform: rotateY(180deg);
+  transform: rotateX(180deg) rotate(180deg); 
 }
 
 .front h2 {
