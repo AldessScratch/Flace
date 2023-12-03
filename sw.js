@@ -20,9 +20,12 @@ const urlsToCache = [
   '/img/math/MAT-ARI-0011.png',
   '/img/0.png',
   '/img/1.png',
+  '/img/2.png',
+  '/img/3.png',
   '/api/math.json',
   '/api/lv1.json',
-  '/api/lv2.json'
+  '/api/lv2.json',
+  '/api/hg.json'
 ];
 
 self.addEventListener('install', (event) => {
