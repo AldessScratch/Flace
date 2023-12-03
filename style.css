@@ -203,6 +203,9 @@ button.start:not(:hover){
   display: block;;
 }
 .home h5.restant {
+  background-color: #5bc06eac;
+  border-radius: 25px;
+  padding: 5px 12px 5px 12px;
   color: var(--text-color);
   font-size: 20px;
   font-weight: 500;
@@ -625,9 +628,9 @@ button.start:not(:hover){
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-image: url('./img/texture.png');
-  height: 190px;
-  width: 320px;
+  background-color: var(--navbar);
+  height: 200px;
+  width: 280px;
   border-radius: 15px;
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
@@ -650,9 +653,10 @@ button.start:not(:hover){
   text-decoration: underline;
 }
 .card h5 {
-  text-align: center;
+  text-align: left;
+  margin-left: 10px;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 17px;
   color: #000;
 }
 
@@ -663,13 +667,13 @@ button.start:not(:hover){
 #modal {
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: calc(50% + 30px);
   transform: translate(-50%, -50%) scale(0);
   visibility: hidden;
   transition: 200ms ease-in-out;
   border-radius: 10px;
   z-index: 10;
-  background-color: var(--bg);
+  background-color: var(--navbar);
   max-width: 90%;
   height: 500px;
   width: 800px;
@@ -795,7 +799,7 @@ button.start:not(:hover){
 
 /* flashcards random de la page math.html */
 .flashcard {
-  background-image: url('./img/texture.png');
+  background-color: var(--navbar);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -818,21 +822,23 @@ button.start:not(:hover){
   font-style: italic;
   font-size: 25px;
   margin-left: 10px;
-  color: #000;
+  color: var(--text-color);
   font-weight: 400;
 }
 .flashcard h5 {
-  text-align: center;
+  text-align: left;
+  position: absolute;
+  margin-left: 10px;
   font-weight: 700;
   font-size: 32px;
-  color: #000;
+  color: var(--text-color);
 }
 .flashcard h3 {
   position: absolute;
   margin: 20px;
   top: 0;
   font-size: 20px;
-  color: #000;
+  color: var(--text-color);
   font-weight: 400;
 }
 .flashcard h4 {
@@ -841,7 +847,7 @@ button.start:not(:hover){
   top: 0;
   right: 0;
   font-size: 20px;
-  color: #000;
+  color: var(--text-color);
   font-weight: 500;
   text-align: right;
   text-decoration: underline;
@@ -861,9 +867,10 @@ no {
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
     border-radius: 20px;
-  margin-top: 80px;
-  width: calc(100% - 60px);
-  min-height: calc(100vh - 120px);
+    margin-top: 30px;
+    margin-left: 110px;
+  width: calc(100% - 140px);
+  height: calc(100vh - 60px);
   background-color: transparent;
   display: flex;
     align-items: center;
@@ -1088,7 +1095,7 @@ button#reussi {
 #modal2 {
   position: fixed;
   top: 50%;
-  left: 50%;
+  left: calc(50% + 30px);
   transform: translate(-50%, -50%) scale(0);
   visibility: hidden;
   transition: 200ms ease-in-out;
