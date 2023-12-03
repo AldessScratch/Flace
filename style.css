@@ -34,7 +34,7 @@
      --text-color: #000;
      --navbar: #f9fff9;
      --main: #84d393;
-     
+     --color: #292929;
 }
 /* thème sombre */
  @media (prefers-color-scheme: dark){
@@ -113,14 +113,14 @@
      height: 30px;
      width: 55px;
      font-size: 20px;
-     color: var(--text-color);
+     color: var(--color);
      display: flex;
      justify-content: center;
      flex-direction: column;
      align-items: center;
 }
  .navbar .navbaricon{
-     color: var(--text-color);
+     color: var(--color);
      margin-bottom: 20px;
      display: flex;
      justify-content: center;
