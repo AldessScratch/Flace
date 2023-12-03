@@ -49,7 +49,24 @@ function handleWheel(event) {
    loadShow();
   }
 }
+let touchStartX;
 
+  document.getElementById('slider').addEventListener('touchstart', function(event) {
+    touchStartX = event.touches[0].clientX;
+  });
+
+  document.getElementById('slider').addEventListener('touchend', function(event) {
+    const touchEndX = event.changedTouches[0].clientX;
+    const swipeDistance = touchEndX - touchStartX;
+
+    if (swipeDistance > 0) {
+      active = active - 1 >= 0 ? active -1 : active;
+    loadShow();
+    } else if (swipeDistance < 0) {
+      active = active + 1 < items.length ?  active + 1 : active;
+   loadShow();
+    }
+  });
 // Attach the handleWheel function to the wheel event
 window.addEventListener('wheel', handleWheel);
 function openlearn(){
