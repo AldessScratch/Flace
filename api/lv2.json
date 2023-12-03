@@ -56,11 +56,38 @@
     {
         "type": "Conjugaison",
         "title": "Caer",
-        "content": "<red>caig</red><strong>a</strong><br><red>caig</red><strong>a-s</strong><br><red>caig</red><strong>a</strong><br><red>caig</red><strong>a-mos</strong><br><red>caig</red><strong>á-is</strong><br><red>caig</red><strong>a-n</strong>",
+        "content": "<red>caig</red>-<strong>a</strong><br><red>caig</red>-<strong>a-s</strong><br><red>caig</red>-<strong>a</strong><br><red>caig</red>-<strong>a-mos</strong><br><red>caig</red>-<strong>á-is</strong><br><red>caig</red>-<strong>a-n</strong>",
         "theme": "",
         "img": "",
         "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0007"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Conocer",
+        "content": "<red>conozc</red>-<strong>a</strong><br><red>conozc</red>-<strong>a-s</strong><br><red>conozc</red>-<strong>a</strong><br><red>conozc</red>-<strong>a-mos</strong><br><red>conozc</red>-<strong>á-is</strong><br><red>conozc</red>-<strong>a-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0008"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Dar",
+        "content": "d<red>é</red><br>d<strong>e-s</strong><br>d<red>é</red><br>d<strong>e-mos</strong><br>d<strong>e-is</strong><br>d<strong>e-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0009"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Decir",
+        "content": "<red>dig</red>-<strong>a</strong><br><red>dig</red>-<strong>a-s</strong><br><red>dig</red>-<strong>a</strong><br><red>dig</red>-<strong>a-mos</strong><br><red>dig</red>-<strong>á-is</strong><br><red>dig</red>-<strong>a-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0010"
     }
 ]
     
