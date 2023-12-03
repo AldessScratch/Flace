@@ -149,7 +149,7 @@
       <li></li>
     </ul>
   <!--navbar-->
-  <div class="navbar">
+  <div class="navbar" id="navbar">
       <div class="brand">
           <img onclick="location.href = '../'" src="../img/faviconcolor-fixed.png" alt="flacelogo">
           <div onclick="location.href = '../'" class="brandname">Fla<div class="question">?</div>e</div>
@@ -158,27 +158,46 @@
           <div class="matiere" id="matiere"></div>
       </div>
       <div class="right">
-        <i onclick="location.href = '../'" class='bx bx-home'></i>
-        <i onclick="location.href = '../matiere.html'" class="bx bx-grid-alt"></i>
-        <i onclick="location.href = '../st.html'" class='bx bx-cog'></i>
-        <i onclick="location.href = '../info.html'" class='bx bx-info-circle'></i>
-
+        <div onclick="location.href = '../'" class="navbaricon">
+            <img src="../img/faviconcolor-fixed.png" alt="flacelogo">
+            <div class="icontitle">Accueil</div>
+        </div>
+        <div onclick="location.href = '../matiere.html'" class="navbaricon">
+            <i class="bx bx-grid-alt"></i>
+            <div class="icontitle">Matières</div>
+        </div>
+        <div  onclick="location.href = '../st.html'" class="navbaricon">
+            <i class='bx bx-cog'></i>
+            <div class="icontitle">Réglages</div>
+        </div>
+        <div onclick="location.href = '../info.html'" class="navbaricon">
+            <i class='bx bx-info-circle'></i>
+            <div class="icontitle">Infos</div>
+        </div>
         <div class="time">00:00</div>
-      </div>
+    </div>
   </div>
     <div class="home">
+      <i id="navbaricon" class="hamburger bx bx-menu-alt-left" onclick="document.getElementById('navbar').classList.toggle('active');document.getElementById('navbaricon').classList.toggle('active')"></i>
         <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>        
         <!-- container des flashcards random en grande-->
         <div id="cardslider" class="slider">
         </div>
         
      </div>
-     <div id="end" class="end" style="display: none;">
-      <h1>Vous avez obtenu un score de <div class="flex"><div id="reussiscore" class="var"></div>/<div id="cardsnumber" class="var"></div></div></h1>
-      <div id="qsp"></div>
-      <button class="start" onclick="location.href = '../'">Retourner à l'accueil</button>
+      <div id="end" class="end" style="display: none;">
+        <h1>Vous avez obtenu un score de <div class="flex"><div id="reussiscore" class="var"></div>/<div id="cardsnumber" class="var"></div></div></h1>
+        <div id="qsp"></div>
+        <button class="start" onclick="location.href = '../'">Retourner à l'accueil</button>
+        <!-- taches d'encre stylé -->
+       <div class="shapes">
+        <div class="shape color1"></div>
+        <div class="shape color2"></div>
+        <div class="shape color3"></div>
+      </div>
+     </div>
+     
   </div>
-    </div>
 
     <!-- popup -->
     <div class="modal" id="modal">

@@ -21,8 +21,10 @@ p {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-height: 100vh;
-    width: 100%;
+    margin-top: 30px;
+    min-height: calc(100vh - 30px);
+    width: calc(100% - 80px);
+    margin-left: 80px;
 }
 /* logique */
 button, i, .brand {
@@ -46,86 +48,81 @@ button, i, .brand {
   }
 /* css navbar */
 .navbar {
-    z-index: 2;
+    z-index: 100;
+    top: 0;
     position: fixed;
     display: flex;
-    align-items: center;
-    width: 100%;
-    height: 60px;
+    width: 80px;
+    height: 100vh;
     justify-content: center;
     background-color: var(--navbar);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
-.navbar::before {
-  content: "";
-  position: absolute;
-  border-top-left-radius: 25px;
-  box-shadow: 0 -25px 0 0 var(--navbar);
-  background-color: transparent;
-  left: 0;
-  top: 60px;
-  height: 50px;
-  width: 25px;
-}
-.navbar::after {
-  content: "";
-  position: absolute;
-  border-top-right-radius: 25px;
-  box-shadow: 0 -25px 0 0 var(--navbar);
-  background-color: transparent;
-  right: 0;
-  top: 60px;
-  height: 50px;
-  width: 25px;
+.hamburger.bx-menu-alt-left {
+  display: none;
 }
 .navbar .brand {
-  margin-left: 30px;
-  display: flex;
-  align-items: center;
+  display: none;
   position: absolute;
-  left: 0;
+  top: 0;
+  margin-top: 20px;
+}
+.icontitle {
+  font-size: 10px;
+  font-style: normal;
 }
 
 .navbar img {
-  filter: brightness(95%);
-    height: 25px;
-    width: 25px;
-    margin-right: 10px;
+  height: 30px;
+  width: 30px;
 }
 .navbar .right {
-  position: absolute;
-  right: 0;
+  margin-top: 30px;
+  flex-direction: column;
     align-items: center;
     display: flex;
 }
 .right i.hover{
   background-color: #5bc06eac ;
   color: var(--bg);
-  border-radius: 15px;
+  border-radius: 50px;
 }
 .navbar .brandname{
-   display: flex;
+   display: none;
    margin-right: 30px;
    font-size: 20px;
     font-weight: 600;
     color: var(--text-color);
 }
 .time {
-  margin-right: 30px;
-   font-size: 20px;
-    font-weight: 600;
-    color: var(--text-color);
+  rotate: 90deg;
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text-color);
   display: flex;
   justify-content: center;
-  margin-left: 10px;
   border-radius: 50px;
-  width: 75px;
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 50px;
 }
 .navbar i {
-  font-size: 20px;
-  margin: 5px;
-  padding: 10px;
+  height: 30px;
+  width: 55px;
+  font-size: 25px;
   color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.navbar .navbaricon{
+  color: var(--text-color);
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 i{
   color: var(--text-color);
@@ -134,19 +131,21 @@ i{
   margin-top: 3px
 }
 .navbar .matiere{
+  position: absolute;
+  top: 0;
   margin-right: 30px;
   font-size: 20px;
   font-weight: 500;
   color: var(--text-color);
+  display: none;
 }
 .homething{
 
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
     border-radius: 20px;
-  margin-top: 80px;
   width: calc(100% - 60px);
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 40px);
   background-color: transparent;
   display: flex;
     align-items: center;
@@ -428,15 +427,58 @@ button.start:not(:hover){
     justify-content: center;
     align-items: center;
   }
+  .hamburger.hamburger.bx-menu-alt-left {
+    transition: 0.5s ease-in-out;
+    transform: translateX(0);
+    display: flex;
+    font-size: 30px;
+    color: var(--text-color);
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+  }
+  .hamburger.hamburger.bx-menu-alt-left.active {
+    transition: 0.5s ease-in-out;
+    transform: translateX(100%);
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    width: 0px;
+    transition: 0.5s ease-in-out;
+    .right{
+      display: none;
+    }
+    .time{
+      display: none;
+    }
+  }
+  .navbar.active{
+    display: flex;
+    width: 80px;
+    transition: 0.5s ease-in-out;
+    .right{
+      display: flex;
+    }
+    .time{
+      display: flex;
+    }
+  }
+  .home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 500px) {
-  .navbar .time {
-    display: none;
-  }
-  .navbar .right {
-   margin-right: 20px;
-  }
+  
   .searchcard {
     width: 80vw;
   }
@@ -1201,12 +1243,13 @@ select {
 
 /* decorations noel */
 .lightrope {
+  top: 0;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
   position: fixed;
   z-index: 2;
-  margin: 44px 0 0 0;
+  margin: 0;
   padding: 0;
   pointer-events: none;
   width: 100%;
