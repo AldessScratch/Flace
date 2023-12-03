@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,118 +14,120 @@
     <meta property="og:image" content="/img/faviconcolor-fixed.png">
     <meta content="#ffffff" data-react-helmet="true" name="theme-color">
     <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
-  </head>
-  <body>
+
+</head>
+<body>
     <!-- noel -->
     <ul class="lightrope">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     <!-- navbar -->
-    <div class="navbar" id="navbar">
-      <div class="brand">
-        <img onclick="location.href = './'" src="img/faviconcolor-fixed.png" alt="flacelogo">
-        <div onclick="location.href = './'" class="brandname">Fla <div class="question">?</div>e </div>
-      </div>
-      <div class="right">
-        <div onclick="location.href = './'" class="navbaricon">
-            <i class="bx bx-home hover"></i>
-          <div class="icontitle">Accueil</div>
+    <div class="navbar">
+        <div class="brand">
+            <img onclick="location.href = './'" src="img/faviconcolor-fixed.png" alt="flacelogo">
+            <div onclick="location.href = './'" class="brandname">Fla<div class="question">?</div>e</div>
         </div>
-        <div onclick="location.href = 'matiere.html'" class="navbaricon">
-          <i class="bx bx-grid-alt"></i>
-          <div class="icontitle">Matières</div>
+        <div class="center">
+            <div class="matiere">Accueil</div>
         </div>
-        <div onclick="location.href = 'st.html'" class="navbaricon">
-          <i class='bx bx-cog'></i>
-          <div class="icontitle">Réglages</div>
+        <div class="right">
+            <i onclick="location.href = './'" class='bx bx-home hover'></i>
+            <i onclick="location.href = 'matiere.html'" class="bx bx-grid-alt"></i>
+            <i onclick="location.href = 'st.html'" class='bx bx-cog'></i>
+            <i onclick="location.href = 'info.html'" class='bx bx-info-circle'></i>
+            <div class="time">00:00</div>
         </div>
-        <div onclick="location.href = 'info.html'" class="navbaricon">
-          <i class='bx bx-info-circle'></i>
-          <div class="icontitle">Infos</div>
-        </div>
-      </div>
-      <div class="time">00 00</div>
     </div>
-    </div>
+    
     <div class="home" id="home">
-      <i id="navbaricon" class="hamburger bx bx-menu-alt-left" onclick="document.getElementById('navbar').classList.toggle('active');document.getElementById('navbaricon').classList.toggle('active')"></i>
-      <div class="homething">
-        <h1 on id="h1">Bienvenue sur Flace</h1>
-        <p id="desc">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning. </p>
-        <p id="desc2">
-          <strong>Attention:</strong> Flace ne remplace en aucun cas votre cahier de cours !
-        </p>
+            <h1 on id="h1" >Bienvenue sur Flace</h1>
+        <p id="desc">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</p>
+        <p id="desc2"><strong>Attention:</strong> Flace ne remplace en aucun cas votre cahier de cours !</p>
         <br>
         <button class="start" onclick="location.href = 'matiere.html'">Accéder à la page des matières</button>
-      </div>
+        
+
+        <!-- taches d'encre stylé -->
+        <div class="shapes">
+            <div class="shape color1"></div>
+            <div class="shape color2"></div>
+            <div class="shape color3"></div>
+          </div>
+          
     </div>
     <script>
-      if (localStorage.getItem('first') === null) {
-        location.href = 'setup.html'
-      }
-      document.getElementById('h1').innerHTML = 'Bienvenue sur Flace, ' + localStorage.getItem('username')
+        if (localStorage.getItem('first')===null){
+            location.href = 'setup.html'
+        }
+        document.getElementById('h1').innerHTML = 'Bienvenue sur Flace, ' + localStorage.getItem('username')
     </script>
-    <script></script>
+<script>
+
+
+</script>
     <!-- Script pour l'heure -->
     <script>
-      const timeElement = document.querySelector(".time");
+                const timeElement = document.querySelector(".time");
+function formatTime(date) {
+  const hours12 = date.getHours() % 24 || 24;
+  const minutes = date.getMinutes();
 
-      function formatTime(date) {
-        const hours12 = date.getHours() % 24 || 24;
-        const minutes = date.getMinutes();
-        return `${hours12.toString().padStart(2, "0")}:${minutes
+  return `${hours12.toString().padStart(2, "0")}:${minutes
     .toString()
     .padStart(2, "0")}`;
-      }
-      setInterval(() => {
-        const now = new Date();
-        timeElement.textContent = formatTime(now);
-      }, 200);
+}
+
+
+setInterval(() => {
+  const now = new Date();
+
+  timeElement.textContent = formatTime(now);
+ 
+}, 200);
+
     </script>
-    <script>
-      document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);
-    </script>
-    <script src="js/main.js"></script>
-  </body>
+    <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
+   <script src="js/main.js"></script>
+</body>
 </html>

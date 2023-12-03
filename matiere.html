@@ -62,101 +62,78 @@
         <li></li>
       </ul>
     <!-- navbar -->
-    <div class="navbar" id="navbar">
+    <div class="navbar">
         <div class="brand">
             <img onclick="location.href = './'" src="img/faviconcolor-fixed.png" alt="flacelogo">
             <div onclick="location.href = './'" class="brandname">Fla<div class="question">?</div>e</div>
         </div>
+        <div class="center">
+            <div class="matiere">Matières</div>
+        </div>
         <div class="right">
-            <div onclick="location.href = './'" class="navbaricon">
-                <i class="bx bx-home "></i>
-                <div class="icontitle">Accueil</div>
-            </div>
-            <div onclick="location.href = 'matiere.html'" class="navbaricon">
-                <i class="bx hover bx-grid-alt"></i>
-                <div class="icontitle">Matières</div>
-            </div>
-            <div  onclick="location.href = 'st.html'" class="navbaricon">
-                <i class='bx bx-cog'></i>
-                <div class="icontitle">Réglages</div>
-            </div>
-            <div onclick="location.href = 'info.html'" class="navbaricon">
-                <i class='bx bx-info-circle'></i>
-                <div class="icontitle">Infos</div>
-            </div>
+            <i onclick="location.href = './'" class='bx bx-home'></i>
+            <i onclick="location.href = 'matiere.html'" class="bx hover bx-grid-alt"></i>
+            <i onclick="location.href = 'st.html'" class='bx bx-cog'></i>
+            <i onclick="location.href = 'info.html'" class='bx bx-info-circle'></i>
             <div class="time">00:00</div>
         </div>
     </div>
     
     <div class="home" id="home">
-        <i id="navbaricon" class="hamburger bx bx-menu-alt-left" onclick="document.getElementById('navbar').classList.toggle('active');document.getElementById('navbaricon').classList.toggle('active')"></i>
         <!-- Slider by lundev -->
   
         <div class="slider" id="slider">
-             <!-- Début d'une slide -->
-            <div class="item" >
-                <div class="inner">
-                    <div class="front">
-                        <img src="./img/0.png">
-                        
-                    </div>  
-                    <div class="back">
-                        <h5>Que voulez vous faire ?</h5>
-                        <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('math', 'Mathématiques')"><i class="bx bx-book-open"></i> S'entrainer</button>
-                        <button class="lib" onclick="openlib('math', 'Mathématiques')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
-                    </div>
-                </div>
-                <div class="bottomcard">
-                    <h2>Mathématiques</h2>
-                    <div id="1" class="flashcardsnumber"></div>
-                </div>
-            </div>
-            <!-- Fin d'une slide -->
-            <!-- Début d'une slide -->
-            <div class="item" >
-                <div class="inner">
-                    <div class="front">
-                        <img src="./img/1.png">
-                        
-                    </div>  
-                    <div class="back">
-                        <h5>Que voulez vous faire ?</h5>
-                        <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('lv1', 'Anglais')"><i class="bx bx-book-open"></i> S'entrainer</button>
-                        <button class="lib" onclick="openlib('lv1', 'Anglais')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
-                    </div>
-                </div>
-                <div class="bottomcard">
-                    <h2>Anglais</h2>
-                    <div id="2" class="flashcardsnumber"></div>
-                </div>
-            </div>
-            <!-- Fin d'une slide -->
-           <!-- Début d'une slide -->
-           <div class="item" >
-            <div class="inner">
-                <div class="front">
-                    <img src="./img/2.png">
-                    
-                </div>  
-                <div class="back">
-                    <h5>Que voulez vous faire ?</h5>
-                    <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('lv2', 'Espagnol')"><i class="bx bx-book-open"></i> S'entrainer</button>
-                    <button class="lib" onclick="openlib('lv2', 'Espagnol')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
-                </div>
-            </div>
-            <div class="bottomcard">
-                <h2>Espagnol</h2>
-                <div id="3" class="flashcardsnumber"></div>
-            </div>
-
+  <!-- Début d'une slide -->
+  <div class="item" >
+    <div class="inner">
+        <div class="front">
+            <img src="./img/0.png">
+            <h2>Mathématiques</h2>
+        </div>  
+        <div class="back">
+            <h5>Que voulez vous faire ?</h5>
+            <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('math', 'Mathématiques')"><i class="bx bx-book-open"></i> S'entrainer</button>
+            <button class="lib" onclick="openlib('math', 'Mathématiques')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
         </div>
-        <!-- Fin d'une slide -->
+    </div>
+</div>
+<!-- Fin d'une slide -->
+<!-- Début d'une slide -->
+<div class="item" >
+    <div class="inner">
+        <div class="front">
+            <img src="./img/1.png">
+            <h2>Anglais</h2>
+        </div>  
+        <div class="back">
+            <h5>Que voulez vous faire ?</h5>
+            <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('lv1', 'Anglais')"><i class="bx bx-book-open"></i> S'entrainer</button>
+            <button class="lib" onclick="openlib('lv1', 'Anglais')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
+        </div>
+    </div>
+</div>
+<!-- Fin d'une slide -->
+<!-- Début d'une slide -->
+<div class="item" >
+<div class="inner">
+    <div class="front">
+        <img src="./img/texture.png">
+        <h2>Espagnol</h2>
+    </div>  
+    <div class="back">
+        <h5>Que voulez vous faire ?</h5>
+        <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('lv2', 'Espagnol')"><i class="bx bx-book-open"></i> S'entrainer</button>
+        <button class="lib" onclick="openlib('lv2', 'Espagnol')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
+    </div>
+</div>
+</div>
+<!-- Fin d'une slide -->
         <!-- Début d'une slide -->
         <div class="item" >
             <div class="inner">
                 <div class="front">
-                    <img src="./img/3.png">
-                    
+                    <img src="./img/texture.png">
+                    <h2>Histoire</h2>
                 </div>  
                 <div class="back">
                     <h5>Que voulez vous faire ?</h5>
@@ -164,11 +141,6 @@
                     <button class="lib" onclick="openlib('hg', 'Histoire')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
                 </div>
             </div>
-            <div class="bottomcard">
-                <h2>Histoire</h2>
-                <div id="4" class="flashcardsnumber"></div>
-            </div>
-            
             
         </div>
         <!-- Fin d'une slide -->
@@ -211,7 +183,7 @@
                     <div class="option">
                         <h5>Nombre de flashcard</h5>
                         <h6>Le nombre de flashcards affichées lors de l'entrainement</h6>
-                        <input type="number" name="number" id="number" placeholder="Nombre de flashcards">
+                        <input type="number" name="number" id="number">
                         <script>
                             sessionStorage.setItem("number", 9999)
                             function initinput(){
