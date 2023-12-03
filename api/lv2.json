@@ -52,6 +52,15 @@
         "img": "",
         "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0006"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Caer",
+        "content": "<red>caig</red><strong>a</strong><br><red>caig</red><strong>a-s</strong><br><red>caig</red><strong>a</strong><br><red>caig</red><strong>a-mos</strong><br><red>caig</red><strong>á-is</strong><br><red>caig</red><strong>a-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0007"
     }
 ]
     
