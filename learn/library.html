@@ -18,16 +18,8 @@
     @media screen and (max-width: 700px) {
       .searchcard {
     height: 40px;
-    width: 70%;
+    width: 90%;
   }
-  .searchcard:hover {
-  width: 90%;
-  transition: ease-in-out;
-  transition-duration: .5s;
-}
-.searchcard:not(:hover){
-  transition-duration: .5s;
-}
 .modal img {
   position: absolute;
   height: auto;
@@ -56,22 +48,22 @@
 
     }
     </style>
-    <!--intro chargement-->
-    <div class="intro" id="introloading">
-      <div class="lds-dual-ring"></div>
-      <script>
-        document.addEventListener("DOMContentLoaded", function() {
-          setTimeout(() => {
-            document.getElementById('introloading').classList.add('loaded')
-          }, 1100);
-          
-          setTimeout(() => {
-            document.getElementById('introloading').style.display = 'none'
-          }, 2000);
-          
-  });
-      </script>
-    </div>
+       <!--intro chargement-->
+       <div class="intro" id="introloading">
+        <div class="lds-dual-ring"></div>
+        <script>
+          document.addEventListener("DOMContentLoaded", function() {
+            setTimeout(() => {
+              document.getElementById('introloading').classList.add('loaded')
+            }, 1100);
+            
+            setTimeout(() => {
+              document.getElementById('introloading').style.display = 'none'
+            }, 2000);
+            
+    });
+        </script>
+      </div>
   <!--navbar-->
   <div class="navbar">
       <div class="brand">
