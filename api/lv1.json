@@ -1207,6 +1207,33 @@
         "img": "",
         "seqname": "Voc 16 (Mock exam)",
         "id": "ANG-V16-0056" 
+       },
+    {
+        "type": "Vocabulaire",
+        "title": "Se produire",
+        "content": "<strong>To give a performance</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0057" 
+       },
+    {
+        "type": "Vocabulaire",
+        "title": "Attirer l'attention",
+        "content": "<strong>To attract attention</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0058" 
+       },
+    {
+        "type": "Vocabulaire",
+        "title": "Aquérir de l'expérience",
+        "content": "<strong>To gain experience</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0059" 
        }
 ]
     
