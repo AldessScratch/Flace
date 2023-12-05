@@ -230,11 +230,10 @@ removeHtmlTagsFromLocalStorage('popupcontent');
             if (sessionStorage.getItem('seqname') !== 'Tout'){
               cards = cards.filter(card => card.seqname === sessionStorage.getItem('seqname'));
             }
-            let counter = 0
+
 
 
             cards.forEach(cards => {
-            if (counter < sessionStorage.getItem('number')) {
               const flashcard = document.createElement('div');
               const innerflashcard = document.createElement('div');
               const flashtype = document.createElement('h2');
@@ -264,7 +263,6 @@ removeHtmlTagsFromLocalStorage('popupcontent');
               innerflashcard.appendChild(flashtype);
               innerflashcard.appendChild(flashtitle);
 
-              counter++;
 
               // Le code du slider
               let items = document.querySelectorAll('.slider .flashcard');
@@ -346,7 +344,7 @@ setTimeout(() => {
    
 }}
 
-            });
+            );
             
           };
           rendercards(data);
