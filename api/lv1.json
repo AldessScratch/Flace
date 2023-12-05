@@ -742,7 +742,7 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Avancer / ici jouer avec le jeu",
+        "title": "Avancer / ici jouer le jeu",
         "content": "<strong>To go along</strong>",
         "theme": "",
         "img": "",
@@ -1245,6 +1245,153 @@
         "id": "ANG-V16-0059" 
        },
 
+
+
+
+       {
+        "type": "Vocabulaire",
+        "title": "Absorber",
+        "content": "<strong>To soak up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0001" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Supporter",
+        "content": "<strong>To put up with</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0002" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se mettre dans",
+        "content": "<strong>To get oneself into</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0003" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Repousser",
+        "content": "<strong>To block out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0004" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se propager rapidement / balayer",
+        "content": "<strong>To sweep across</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0005" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Couronner",
+        "content": "<strong>To top off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0006" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se retrouver / finir",
+        "content": "<strong>To end up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0007" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Descendre",
+        "content": "<strong>To get off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0008" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Dépasser",
+        "content": "<strong>To stick out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0009" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Prendre de la vitesse",
+        "content": "<strong>To pick up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0010" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Fouetter",
+        "content": "<strong>To whip by</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0011" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Défiler",
+        "content": "<strong>To rush past</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0012" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S'approcher",
+        "content": "<strong>To come up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0013" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Trouver / imaginer / inventer",
+        "content": "<strong>To come up with</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0014" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Organiser / Monter",
+        "content": "<strong>To set up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0015" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Intensifier / augmenter / accroître",
+        "content": "<strong>To step up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0016" 
+       },
 
 
 
