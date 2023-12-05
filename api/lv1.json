@@ -136,7 +136,7 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Courir après",
+        "title": "Courrir après",
         "content": "<strong>Chase after</strong> <br><strong>Exemple:</strong> The police chased after the burglar and caught him in my neighbour’s garden.",
         "theme": "",
         "img": "",
@@ -1208,6 +1208,15 @@
         "seqname": "Voc 16 (Mock exam)",
         "id": "ANG-V16-0056" 
        },
+       {
+        "type": "Vocabulaire",
+        "title": "Se plaindre",
+        "content": "<strong>To complain</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0056" 
+       },
     {
         "type": "Vocabulaire",
         "title": "Se produire",
@@ -1234,6 +1243,203 @@
         "img": "",
         "seqname": "Voc 16 (Mock exam)",
         "id": "ANG-V16-0059" 
-       }
+       },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       {
+        "type": "Vocabulaire",
+        "title": "S’occuper de / traiter de",
+        "content": "<strong>Deal with</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0041"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se débarasser / supprimer",
+        "content": "<strong>Do away with</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0042"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se passer de",
+        "content": "<strong>Do without</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0043"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Passer",
+        "content": "<strong>Drop by</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0044"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Déposer / laisser",
+        "content": "<strong>Drop off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0045"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Faire face à",
+        "content": "<strong>Face up to</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0046"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "S’éffondrer",
+        "content": "<strong>Fall appart</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0047"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Tomber",
+        "content": "<strong>Fall off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0048"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Tomber / se brouiller",
+        "content": "<strong>Fall out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0049"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Tomber / trébucher sur",
+        "content": "<strong>Fall over</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0050"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se défendre",
+        "content": "<strong>Fight back</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0051"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Comprendre / calculer",
+        "content": "<strong>Figure out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0052"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Remplir / boucher",
+        "content": "<strong>Fill in</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0053"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Remplir",
+        "content": "<strong>Fill out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0054"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Remplir",
+        "content": "<strong>Fill up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0055"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se renseigner / découvrir",
+        "content": "<strong>Find out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0056"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Terminer / finir",
+        "content": "<strong>Finish off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0057"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Éteindre",
+        "content": "<strong>Flick off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0058"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Allumer",
+        "content": "<strong>Flick on</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0059"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Feuilleter",
+        "content": "<strong>Flip through</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0060"
+    }
 ]
     
