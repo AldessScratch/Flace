@@ -1244,6 +1244,24 @@
         "seqname": "Voc 16 (Mock exam)",
         "id": "ANG-V16-0059" 
        },
+       {
+        "type": "Vocabulaire",
+        "title": "Premier rôle",
+        "content": "<strong>A lead role</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0060" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "(Se) fixer l'objectif",
+        "content": "<strong>To set (oneself) the goal</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0061" 
+       },
 
 
 
