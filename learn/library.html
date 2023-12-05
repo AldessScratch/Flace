@@ -95,6 +95,7 @@
     
         <div class="cards" id="cardscontainer">
           <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>
+          
         </div>
     
     </div>
@@ -167,6 +168,10 @@
   function createhomecontainer(values) {
     var homecontainer = document.getElementById("homecontainer");
     for (var i = 0; i < values.length; i++) {
+      var seqname = document.createElement('div')
+      seqname.classList.add('seqname')
+      seqname.innerHTML = values[i]
+      homecontainer.appendChild(seqname)
       homecontainer.appendChild(creatediv(values[i]));
     }
     return homecontainer;

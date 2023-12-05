@@ -54,12 +54,12 @@ button, i, .brand {
 .navbar {
   top: 0;
   margin-top: 10px;
-  border-radius: 15px;
+  border-radius: 20px;
     z-index: 2;
     position: fixed;
     display: flex;
     align-items: center;
-    width: 70%;
+    width: 60%;
     height: 60px;
     justify-content: center;
     background-color: var(--navbar);
@@ -142,6 +142,9 @@ button, i, .brand {
 }
 
 .home h5.restant {
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  background-color: var(--main);
   color: var(--text-color);
   font-size: 20px;
   font-weight: 500;
@@ -958,7 +961,7 @@ button#reussi {
   background-color: #fff;
   max-width: 90%;
   height: 450px;
-  width: 800px;
+  width: 420px;
   filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.4));
   
 }
@@ -1170,4 +1173,10 @@ select {
 
 red {
   color: #ff0000;
+}
+
+.seqname {
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 20px;
 }
