@@ -7,6 +7,26 @@
         "img": "",
         "seqname": "Les 3èmes mènent l'enquête.",
         "id": "SVT-XXX-0001"
+    },
+    {
+        "type": "Définition",
+        "title": "Caractère héréditaire",
+        "content": "Caractère qui se transmet de génération en génération avec possibilité de saut de génération.",
+        "theme": "Chapitre 1",
+        "img": "",
+        "seqname": "Les 3èmes mènent l'enquête.",
+        "id": "SVT-XXX-0002"
+    },
+    {
+        "type": "Définition",
+        "title": "Phénotype",
+        "content": "Ensemble des caractères observables d'un individu au sein d'une population dans un environnement donné.",
+        "theme": "Chapitre 1",
+        "img": "",
+        "seqname": "Les 3èmes mènent l'enquête.",
+        "id": "SVT-XXX-0003"
     }
+        
+
 ]
     
