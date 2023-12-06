@@ -1072,7 +1072,7 @@
 
 
 
-    
+
     {
         "type": "Vocabulaire",
         "title": "Absorber",
@@ -1769,6 +1769,24 @@
         "img": "",
         "seqname": "Voc 16 (Mock exam)",
         "id": "ANG-V16-0061" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S’inscrire (register)",
+        "content": "<strong>To enroll in</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0062" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Gamme / éventail",
+        "content": "<strong>A range</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0063" 
        }
 
 ]
