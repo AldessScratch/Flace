@@ -34,8 +34,47 @@
         "img": "",
         "seqname": "Les 3èmes mènent l’enquête.",
         "id": "SVT-CH1-0004"
+    },
+    
+    {
+        "type": "Définition",
+        "title": "Caryotype",
+        "content": "Ensemble des chromosomes d’une cellule.",
+        "theme": "Chapitre 1",
+        "img": "",
+        "seqname": "Les 3èmes mènent l’enquête.",
+        "id": "SVT-CH1-0005"
+    },
+    
+    {
+        "type": "Définition",
+        "title": "Gène",
+        "content": "Portion d’un chromosome qui porte une information génétique responsable de la réalisation d’un caractère.",
+        " theme": "Chapitre 1",
+        "img": "",
+        "seqname": "Les 3èmes mènent l’enquête.",
+        "id": "SVT-CH1-0006"
+    },
+    
+    {
+        "type": "Définition",
+        "title": "Allèle",
+        "content": "Version d’un gène.",
+        " theme": "Chapitre 1",
+        "img": "",
+        "seqname": "Les 3èmes mènent l’enquête.",
+        "id": "SVT-CH1-0007"
+    },
+    
+    {
+        "type": "Définition",
+        "title": "Génotype",
+        "content": "Ensemble des gènes et des allèles d’un individu.",
+        " theme": "Chapitre 1",
+        "img": "",
+        "seqname": "Les 3èmes mènent l’enquête.",
+        "id": "SVT-CH1-0008"
     }
-        
 
 ]
     
