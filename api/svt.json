@@ -2,7 +2,7 @@
     {
         "type": "Définition",
         "title": "Caractère",
-        "content": "Particularité observable directement ou indirectement et pouvant être décrite très précisément.",
+        "content": "<strong>Particularité</strong> observable directement ou indirectement et pouvant être décrite très précisément.",
         "theme": "Chapitre 1",
         "img": "",
         "seqname": "Les 3èmes mènent l’enquête.",
@@ -11,7 +11,7 @@
     {
         "type": "Définition",
         "title": "Caractère héréditaire",
-        "content": "Caractère qui se transmet de génération en génération avec possibilité de saut de génération.",
+        "content": "<strong>Caractère</strong> qui se transmet de génération en génération avec possibilité de saut de génération.",
         "theme": "Chapitre 1",
         "img": "",
         "seqname": "Les 3èmes mènent l’enquête.",
@@ -20,7 +20,7 @@
     {
         "type": "Définition",
         "title": "Phénotype",
-        "content": "Ensemble des caractères observables d’un individu au sein d’une population dans un environnement donné.",
+        "content": "<strong>Ensemble des caractères observables</strong> d’un individu au sein d’une population dans un environnement donné.",
         "theme": "Chapitre 1",
         "img": "",
         "seqname": "Les 3èmes mènent l’enquête.",
@@ -29,7 +29,7 @@
     {
         "type": "Définition",
         "title": "Chromosome",
-        "content": "Structure visible dans le noyau d’une cellule au moment de la division cellulaire et formée d’une molécule d’ADN.",
+        "content": "<strong>Structure visible dans le noyau d’une cellule</strong> au moment de la <strong>division cellulaire</strong> et formée d’une molécule d’ADN.",
         "theme": "Chapitre 1",
         "img": "",
         "seqname": "Les 3èmes mènent l’enquête.",
@@ -49,7 +49,7 @@
     {
         "type": "Définition",
         "title": "Gène",
-        "content": "Portion d’un chromosome qui porte une information génétique responsable de la réalisation d’un caractère.",
+        "content": "<strong>Portion d’un chromosome</strong> qui porte une <strong>information génétique</strong> responsable de la réalisation d’un caractère.",
         " theme": "Chapitre 1",
         "img": "",
         "seqname": "Les 3èmes mènent l’enquête.",
@@ -82,7 +82,7 @@
     {
         "type": "Définition",
         "title": "Mitose",
-        "content": "La mitose est composée de quatre étapes qui sont dans l’ordre chronologique la prophase, la métaphase, l’anaphase et la télophase.",
+        "content": "La <strong>mitose</strong> est composée de 4 étapes qui sont dans l’ordre chronologique la prophase, la métaphase, l’anaphase et la télophase.",
         "theme": "Chapitre 2",
         "img": "",
         "seqname": "La mitose et la méiose.",
