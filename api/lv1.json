@@ -636,7 +636,7 @@
        {
         "type": "Vocabulaire",
         "title": "To see",
-        "content": "<strong>TO SEE</strong> (verb)<br>to perceive, to notice, to catch a glimpse of entrevoir), to catch sight of (entrevoir), to detect, to discern, to lay eyes on poser les yeux sur), to regard",
+        "content": "<strong>TO SEE</strong> (verb)<br>to perceive, to notice, to catch a glimpse of (entrevoir), to catch sight of (entrevoir), to detect, to discern, to lay eyes on poser les yeux sur), to regard",
         "theme": "",
         "img": "",
         "seqname": "Boring word",
@@ -708,7 +708,515 @@
         "seqname": "Voc 15 (Take)",
         "id": "ANG-V15-0005" 
        },
+       {
+        "type": "Vocabulaire",
+        "title": "S’occuper de / traiter de",
+        "content": "<strong>Deal with</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0041"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se débarasser / supprimer",
+        "content": "<strong>Do away with</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0042"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se passer de",
+        "content": "<strong>Do without</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0043"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Passer",
+        "content": "<strong>Drop by</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0044"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Déposer / laisser",
+        "content": "<strong>Drop off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0045"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Faire face à",
+        "content": "<strong>Face up to</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0046"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "S’éffondrer",
+        "content": "<strong>Fall appart</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0047"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Tomber",
+        "content": "<strong>Fall off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0048"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Tomber / se brouiller",
+        "content": "<strong>Fall out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0049"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Tomber / trébucher sur",
+        "content": "<strong>Fall over</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0050"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se défendre",
+        "content": "<strong>Fight back</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0051"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Comprendre / calculer",
+        "content": "<strong>Figure out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0052"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Remplir / boucher",
+        "content": "<strong>Fill in</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0053"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Remplir",
+        "content": "<strong>Fill out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0054"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Remplir",
+        "content": "<strong>Fill up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0055"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se renseigner / découvrir",
+        "content": "<strong>Find out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0056"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Terminer / finir",
+        "content": "<strong>Finish off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0057"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Éteindre",
+        "content": "<strong>Flick off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0058"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Allumer",
+        "content": "<strong>Flick on</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0059"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Feuilleter",
+        "content": "<strong>Flip through</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0060"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "S’envoler",
+        "content": "<strong>Fly away</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0061"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "S’échapper / partir / s’en aller",
+        "content": "<strong>Get away</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0062"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Rentrer / récuperer / reculer",
+        "content": "<strong>Get back</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0063"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Entrer / monter",
+        "content": "<strong>Get in</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0064"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Descendre (de)",
+        "content": "<strong>Get off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0065"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Monter dans / s’entendre",
+        "content": "<strong>Get on</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0065"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Sortir / descendre",
+        "content": "<strong>Get out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0066"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Céder",
+        "content": "<strong>Give in</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0067"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Distribuer",
+        "content": "<strong>Give out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0068"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Partir",
+        "content": "<strong>Go away</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0069"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Retourner / rentrer",
+        "content": "<strong>Go back</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0070"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Entrer",
+        "content": "<strong>Go in</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0071"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Exploser / sonner / partir / tourner",
+        "content": "<strong>Go off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0072"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Continuer / se passer",
+        "content": "<strong>Go on</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0073"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Sortir / s’éteinder",
+        "content": "<strong>Go out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0074"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Couler",
+        "content": "<strong>Go under</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0075"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Se passer de",
+        "content": "<strong>Go without</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0076"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Rendre",
+        "content": "<strong>Hand in</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0077"
+    },
+    {
+        "type": "Vocabulaire",
+        "title": "Distribuer",
+        "content": "<strong>Hand out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 2",
+        "id": "ANG-PHV-0078"
+    },
 
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    {
+        "type": "Vocabulaire",
+        "title": "Absorber",
+        "content": "<strong>To soak up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0001" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Supporter",
+        "content": "<strong>To put up with</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0002" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se mettre dans",
+        "content": "<strong>To get oneself into</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0003" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Repousser",
+        "content": "<strong>To block out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0004" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se propager rapidement / balayer",
+        "content": "<strong>To sweep across</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0005" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Couronner",
+        "content": "<strong>To top off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0006" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se retrouver / finir",
+        "content": "<strong>To end up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0007" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Descendre",
+        "content": "<strong>To get off</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0008" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Dépasser",
+        "content": "<strong>To stick out</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0009" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Prendre de la vitesse",
+        "content": "<strong>To pick up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0010" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Fouetter",
+        "content": "<strong>To whip by</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0011" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Défiler",
+        "content": "<strong>To rush past</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0012" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S’approcher",
+        "content": "<strong>To come up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0013" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Trouver / imaginer / inventer",
+        "content": "<strong>To come up with</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0014" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Organiser / Monter",
+        "content": "<strong>To set up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0015" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Intensifier / augmenter / accroître",
+        "content": "<strong>To step up</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb (Mock exam)",
+        "id": "ANG-PHM-0016" 
+       },
 
 
 
@@ -1261,350 +1769,7 @@
         "img": "",
         "seqname": "Voc 16 (Mock exam)",
         "id": "ANG-V16-0061" 
-       },
+       }
 
-
-
-
-       {
-        "type": "Vocabulaire",
-        "title": "Absorber",
-        "content": "<strong>To soak up</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0001" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Supporter",
-        "content": "<strong>To put up with</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0002" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Se mettre dans",
-        "content": "<strong>To get oneself into</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0003" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Repousser",
-        "content": "<strong>To block out</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0004" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Se propager rapidement / balayer",
-        "content": "<strong>To sweep across</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0005" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Couronner",
-        "content": "<strong>To top off</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0006" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Se retrouver / finir",
-        "content": "<strong>To end up</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0007" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Descendre",
-        "content": "<strong>To get off</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0008" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Dépasser",
-        "content": "<strong>To stick out</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0009" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Prendre de la vitesse",
-        "content": "<strong>To pick up</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0010" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Fouetter",
-        "content": "<strong>To whip by</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0011" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Défiler",
-        "content": "<strong>To rush past</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0012" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "S’approcher",
-        "content": "<strong>To come up</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0013" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Trouver / imaginer / inventer",
-        "content": "<strong>To come up with</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0014" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Organiser / Monter",
-        "content": "<strong>To set up</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0015" 
-       },
-       {
-        "type": "Vocabulaire",
-        "title": "Intensifier / augmenter / accroître",
-        "content": "<strong>To step up</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb (Mock exam)",
-        "id": "ANG-PHM-0016" 
-       },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-       {
-        "type": "Vocabulaire",
-        "title": "S’occuper de / traiter de",
-        "content": "<strong>Deal with</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0041"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Se débarasser / supprimer",
-        "content": "<strong>Do away with</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0042"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Se passer de",
-        "content": "<strong>Do without</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0043"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Passer",
-        "content": "<strong>Drop by</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0044"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Déposer / laisser",
-        "content": "<strong>Drop off</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0045"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Faire face à",
-        "content": "<strong>Face up to</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0046"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "S’éffondrer",
-        "content": "<strong>Fall appart</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0047"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Tomber",
-        "content": "<strong>Fall off</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0048"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Tomber / se brouiller",
-        "content": "<strong>Fall out</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0049"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Tomber / trébucher sur",
-        "content": "<strong>Fall over</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0050"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Se défendre",
-        "content": "<strong>Fight back</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0051"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Comprendre / calculer",
-        "content": "<strong>Figure out</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0052"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Remplir / boucher",
-        "content": "<strong>Fill in</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0053"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Remplir",
-        "content": "<strong>Fill out</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0054"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Remplir",
-        "content": "<strong>Fill up</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0055"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Se renseigner / découvrir",
-        "content": "<strong>Find out</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0056"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Terminer / finir",
-        "content": "<strong>Finish off</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0057"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Éteindre",
-        "content": "<strong>Flick off</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0058"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Allumer",
-        "content": "<strong>Flick on</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0059"
-    },
-    {
-        "type": "Vocabulaire",
-        "title": "Feuilleter",
-        "content": "<strong>Flip through</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 2",
-        "id": "ANG-PHV-0060"
-    }
 ]
     
