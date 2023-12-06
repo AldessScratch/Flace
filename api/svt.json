@@ -74,6 +74,20 @@
         "img": "",
         "seqname": "Les 3èmes mènent l’enquête.",
         "id": "SVT-CH1-0008"
+    },
+
+
+
+
+    
+    {
+        "type": "Définition",
+        "title": "Mitose",
+        "content": "La mitose est composée de quatre étapes qui sont dans l’ordre chronologique la prophase, la métaphase, l’anaphase et la télophase.",
+        "theme": "Chapitre 2",
+        "img": "",
+        "seqname": "La mitose et la méiose.",
+        "id": "SVT-CH2-0001"
     }
 
 ]
