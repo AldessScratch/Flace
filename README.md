@@ -24,23 +24,15 @@ Le site est accessible sur téléphone, tablette et ordinateur. Il peut être aj
 
 ## Matières actuellement disponibles :
 * Mathématiques
-- Tout et mis à jour régulièrement
-
 * Anglais
-- Phrasal verbs
-- Quelques Boring words, le reste sera ajouté petit à petit
-- Vocabulaire
-
 * Espagnol
-- Verbes au subjonctif
-
+* SVT (définitions)
 * Histoire
-- Définitions
-- Synthèses
+
 
 ## Matières disponibles prochainement:
 * Physique Chimie (Flashcards des 3C)
-* SVT (définitions)
+
 
 ⚠️ Attention, Flace est toujours en phase Beta, ce qui veut dire qu’il peut y avoir des bugs et des erreurs.
 
