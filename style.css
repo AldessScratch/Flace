@@ -441,6 +441,7 @@ button.start:not(:hover){
   align-items: center;
   position: absolute;
   z-index: 10;
+  top: 0;
   width: 100%;
   height: 100vh;
   background-color: var(--bg);
@@ -1175,8 +1176,30 @@ red {
   color: #ff0000;
 }
 
-.seqname {
-  color: var(--text-color);
-  font-weight: 600;
-  font-size: 20px;
+
+/* filtre dans la biblio */
+
+.filters {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 20px;
+  flex-wrap: wrap;
+}
+.filters .filter {
+  padding: 5px 10px 5px 10px;
+  margin: 8px;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #908f8f78;
+  box-shadow: 4px 3px 8px 1px #42424233;
+  	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
+}
+.test {
+  position: absolute;
+  top: 0;
+  height: 100px;
+  width: 100%;
 }

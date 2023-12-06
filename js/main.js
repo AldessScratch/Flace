@@ -9,4 +9,15 @@ if (navigator.serviceWorker){
       location.href = './'
     }
 
-  
+// Script voice
+
+
+function readtext(){
+        
+  if (sessionStorage.getItem('api')==='lv1'){
+    responsiveVoice.speak(`${localStorage.getItem('popupcontent')}`)
+  }
+  else{
+    responsiveVoice.speak(`${localStorage.getItem('popupcontent')}`, 'French Female')
+  }
+}

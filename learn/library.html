@@ -11,6 +11,7 @@
     <link rel="icon" type="image/x-icon" href="../img/faviconcolor-fixed.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="description" content="Bibliothèque de flashcards de Flace">
+    <script src="https://code.responsivevoice.org/responsivevoice.js?key=Juqz9NAJ"></script>
 </head>
 <body>
     <style>
@@ -82,7 +83,8 @@
       </div>
   </div>
     <div class="home" id="homecontainer">
-       <!-- searchbar -->
+      <div class="test"></div>
+      <!-- searchbar -->
       <div class="searchsection">
             <div class="searchcard">
               <i class="bx bx-search"></i>
@@ -90,12 +92,12 @@
             </div>
             
         </div>
-        
         <!-- container des flashcards -->
-    
         <div class="cards" id="cardscontainer">
-          <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>
-          
+          <h5 id="score" class="restant"><div id="restant">Chargement des flashcards</div> <i class="bx bx-grid-alt"></i></h5>  
+        </div>
+        <!-- container des filtres -->
+        <div class="filters" id="filter">
         </div>
     
     </div>
@@ -120,6 +122,31 @@
     <div id="overlay" class="overlay"></div>
     <script>
         function setuppopup(popuptitle, popupcontent, img){
+          localStorage.setItem('popupcontent', popupcontent)
+            function removeHtmlTagsFromLocalStorage(key) {
+  // Get the value from localStorage
+  let storedValue = localStorage.getItem(key);
+
+  // Check if the value is not null or undefined
+  if (storedValue !== null && storedValue !== undefined) {
+    // Create a temporary element
+    const tempElement = document.createElement('div');
+
+    // Set the HTML content to the stored value
+    tempElement.innerHTML = storedValue;
+
+    // Retrieve the text content (removing HTML tags)
+    const textContent = tempElement.textContent || tempElement.innerText;
+
+    // Update the value in localStorage
+    localStorage.setItem(key, textContent);
+  }
+}
+
+// Example usage:
+removeHtmlTagsFromLocalStorage('popupcontent');
+
+
             document.getElementById('popuptitle').innerHTML = popuptitle
             document.getElementById('popupcontent').innerHTML = popupcontent
             document.getElementById('popupimg').src = img
@@ -168,10 +195,11 @@
   function createhomecontainer(values) {
     var homecontainer = document.getElementById("homecontainer");
     for (var i = 0; i < values.length; i++) {
-      var seqname = document.createElement('div')
-      seqname.classList.add('seqname')
-      seqname.innerHTML = values[i]
-      homecontainer.appendChild(seqname)
+      var filter = document.createElement('div')
+      filter.classList.add('filter')
+      filter.setAttribute('onclick', `location.href = '#${values[i]}'`)
+      filter.innerHTML = values[i]
+      document.getElementById('filter').appendChild(filter)
       homecontainer.appendChild(creatediv(values[i]));
     }
     return homecontainer;
@@ -192,7 +220,12 @@
               title.innerHTML = cards.title.toUpperCase()
               type.innerHTML = cards.type + ' :'
               seq.innerHTML = cards.seqname
-              card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}')`)
+              if (sessionStorage.getItem('api')==='math' || sessionStorage.getItem('api')==='hg' || sessionStorage.getItem('api')==='lv1'){
+                card.setAttribute('onclick', `setuppopup('${cards.title} <i id="readtext" onclick="readtext()" class="bx bx-volume-full"></i>', '${cards.content}', '${cards.img}', '${cards.id}')`)
+              }else{
+                card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}', '${cards.id}')`)
+              }
+
               card.classList.add('card');
               card.setAttribute('id', cards.id)
               innercard.classList.add('innercard');
@@ -209,7 +242,17 @@
         })};
           rendercards(data);
         }).catch(error => console.error('Error fetching cards:', error));
+
       </script>
+
+
+
+
+
+
+
+
+
 
         <script>
           const payload = {

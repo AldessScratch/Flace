@@ -165,18 +165,6 @@
      <div id="overlay" class="overlay"></div>
 
 
-
-    <script>
-      function readtext(){
-        
-          if (sessionStorage.getItem('api')==='lv1'){
-            responsiveVoice.speak(`${localStorage.getItem('popupcontent')}`)
-          }
-          else{
-            responsiveVoice.speak(`${localStorage.getItem('popupcontent')}`, 'French Female')
-          }
-      }
-    </script>
     <script>
         function setuppopup(popuptitle, popupcontent, img, id){
             document.getElementById('popuptitle').innerHTML = popuptitle
