@@ -7,11 +7,15 @@
 - [ ] Système de piles
 - [ ] Posibilité de réviser les flashcards raté à la fin d'un entrainement
 - [x] Posibilité de choisir le nombre de question et les sequences questionnés
-- [x] Améliorer le design
+- [ ] Améliorer le design... Hell naw
 - [x] Ajouter des thèmes
 - [ ] Plus de paramètres
 - [ ] Possibilité de choisir plusieurs séquences d'une matière
-- [x] Interface like materialUI
+- [ ] Objectif: Tout pour le brevet
+- [ ] Rajouter toutes les matières
+- [x] Système de filtre
+- [ ] Verbe espagnol
+- [ ] Anglais VOC 16, Phrasal verbs 2, nn eft tt le voc ever
  
 Flace est un site d’apprentissage basé sur l’utilisation de flashcards.
 Le site est accessible sur téléphone, tablette et ordinateur. Il peut être ajouté à l’écran d’accueil et agira comme une application.
