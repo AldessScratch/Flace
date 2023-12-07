@@ -1403,8 +1403,8 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Courtaud",
-        "content": "<strong>A squat body</strong>",
+        "title": "Agripper",
+        "content": "<strong>To grip</strong>",
         "theme": "",
         "img": "",
         "seqname": "Voc 16 (Mock exam)",
@@ -1716,15 +1716,6 @@
         "seqname": "Voc 16 (Mock exam)",
         "id": "ANG-V16-0056" 
        },
-       {
-        "type": "Vocabulaire",
-        "title": "Se plaindre",
-        "content": "<strong>To complain</strong>",
-        "theme": "",
-        "img": "",
-        "seqname": "Voc 16 (Mock exam)",
-        "id": "ANG-V16-0056" 
-       },
     {
         "type": "Vocabulaire",
         "title": "Se produire",
@@ -1787,7 +1778,69 @@
         "img": "",
         "seqname": "Voc 16 (Mock exam)",
         "id": "ANG-V16-0063" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Une bosse",
+        "content": "<strong>A hump</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0064" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Garder",
+        "content": "<strong>To store</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0065" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "L’ouïe fine",
+        "content": "<strong>Sharp hearing</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0066" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Bâtons de ski",
+        "content": "<strong>Ski poles</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0067" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Pantalon",
+        "content": "<strong>Pants</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0068" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Grogner",
+        "content": "<strong>To groan</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0069" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Un télésiège",
+        "content": "<strong>A ski lift</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 16 (Mock exam)",
+        "id": "ANG-V16-0070" 
        }
-
 ]
     
