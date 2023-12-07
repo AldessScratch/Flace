@@ -234,7 +234,7 @@ removeHtmlTagsFromLocalStorage('popupcontent');
               flashseqname.innerHTML = cards.seqname
               flashcard.classList.add('flashcard')    
               flashcard.setAttribute('id', cards.id)
-              if (sessionStorage.getItem('api')==='math' || sessionStorage.getItem('api')==='hg' || sessionStorage.getItem('api')==='lv1'){
+              if (sessionStorage.getItem('api')==='math' || sessionStorage.getItem('api')==='hg' || sessionStorage.getItem('api')==='lv1' || sessionStorage.getItem('api')==='svt'){
                 flashcard.setAttribute('onclick', `setuppopup('${cards.title} <i id="readtext" onclick="readtext()" class="bx bx-volume-full"></i>', '${cards.content}', '${cards.img}', '${cards.id}')`)
               }else{
                 flashcard.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}', '${cards.id}')`)

@@ -19,7 +19,30 @@ body {
 p {
   color: var(--text-color);
 }
-
+button.start {
+  background-color: var(--main);
+  border: 1.5px solid var(--darker-main);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  padding: 10px 15px;
+  border-radius: 50px;
+  margin: 10px 0;
+  color: #fff;
+  font-size: 15px;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+.homebuttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+button.gray {
+  border: 0;
+  background-color: #7a7a7a;
+  margin-left: 10px;
+}
 .home{
     display: flex;
     align-items: center;
@@ -39,6 +62,7 @@ button, i, .brand {
     --bg: #fcfcfc;
     --text-color: #000;
     --main: #84d393;
+    --darker-main: #89c094;
     --navbar: #ffffff;
   }
   /* thème sombre */
@@ -48,18 +72,19 @@ button, i, .brand {
         --text-color: #fff;
         --main: #5bc06e;
         --navbar: #232323;
+        --darker-main: #84d393;
     }
   }
 /* css navbar */
 .navbar {
   top: 0;
   margin-top: 10px;
-  border-radius: 20px;
+  border-radius: 50px;
     z-index: 2;
     position: fixed;
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 85%;
     height: 60px;
     justify-content: center;
     background-color: var(--navbar);
@@ -103,6 +128,28 @@ button, i, .brand {
   justify-content: center;
   padding: 10px;
 }
+.accueil {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.accueil  .lefttext {
+  margin-left: 10%;
+  width: 50%;
+  height: auto;
+}
+.accueil .flacelogo {
+  margin: 20px 10%;
+  height: 20vh;
+  width: auto;
+  transition: all 0.2s ease-in-out;
+  transform: scale(1);
+}
+.flacelogo:hover{
+  transform: scale(1.2);
+  rotate: 360deg;
+}
 .right i.hover{
   background-color: #5bc06eac ;
   color: var(--bg);
@@ -119,25 +166,23 @@ button, i, .brand {
   color: var(--text-color);
 }
 .home h1 {
+  text-overflow: clip;
   display: flex;
   color: var(--text-color);
   font-weight: 600;
   font-size: 40px;
   animation-name: fadeIn;
     animation-duration: 1.5s;
-    text-align: center;
     margin-top: 60px;
 }
 
 .home p {
   color: var(--text-color);
-  margin: 10px;
+  margin: 20px 0;
   font-weight: 400;
   font-size: 13px;
   animation-name: fadeIn;
     animation-duration: 1.5s;
-    width: 700px;
-    text-align: center;
     display: block;
 }
 
@@ -294,22 +339,6 @@ button, i, .brand {
     left: unset;
     right: 50px;
 }
-
-button.start {
-  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: 0;
-  padding: 10px;
-  border-radius: 15px;
-  margin: 10px;
-  color: #fff;
-  font-size: 15px;
-  transition: all 0.2s ease-in-out;
-  transform: scale(1);
-  background-color: var(--main);
-}
 .start i {
   margin-right: 5px;
 }
@@ -324,10 +353,9 @@ button.start:not(:hover){
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
-  padding: 8px;
-  border-radius: 15px;
+  padding: 10px 15px;
+  border-radius: 50px;
   margin: 10px;
   color: #fff;
   font-size: 15px;
@@ -352,6 +380,12 @@ button.start:not(:hover){
 }
 
 @media screen and (max-width: 880px) {
+  .accueil  .lefttext {
+    width: 500px;
+  }
+  .accueil .flacelogo {
+    display: none;
+  }
   #modal2{
     overflow-y: scroll;
   }
@@ -407,18 +441,8 @@ button.start:not(:hover){
   }
   
   .back button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
-    border: 0;
-    padding: 5px;
-    border-radius: 6px;
-    margin: 10px;
-    color: #fff;
+    padding: 6px 10px;
     font-size: 10px;
-    transition: all 0.2s ease-in-out;
-    transform: scale(1);
   }
   .front h2 {
     position: absolute;
@@ -660,7 +684,7 @@ button.start:not(:hover){
   align-items: center;
   height: 40px;
   width: 350px;
-  border-radius: 15px;
+  border-radius: 50px;
   background-color: #55555571;
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
@@ -822,8 +846,6 @@ button#reussi {
 }
 /* contact */
 .Contact{
-  animation-name: fadeIn;
-    animation-duration: 1.5s;
   display: none;
   justify-content: center;
   flex-direction: column;
@@ -838,13 +860,14 @@ button#reussi {
   width: 50vw;
   height: 400px;
   border: none;
-  border-radius: 20px;
-  box-shadow: 4px 3px 8px 1px #42424233;
-  -webkit-box-shadow: 4px 3px 8px 1px #42424233;
+  border-radius: 10px;
   font-size: 1em;
   padding: 20px;
   border: none;
   outline: none;
+  box-shadow: 4px 3px 8px 1px #42424233;
+  -webkit-box-shadow: 4px 3px 8px 1px #42424233;
+  background-color: var(--navbar);
 }
 #InputField::placeholder {
   color: var(--text-color);
@@ -857,14 +880,13 @@ button#reussi {
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
-  border: 0;
-  padding: 8px;
-  border-radius: 10px;
+  padding: 10px 15px;
+  border-radius: 50px;
   margin: 20px;
   color: #fff;
-  background-color: #7dade8;
   font-size: 15px;
+  background-color: #7dade8;
+  border: 0;
   transition: all 0.2s ease-in-out;
 }
 #MessageSent{
@@ -1086,14 +1108,10 @@ select {
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 .innerdiapo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  margin-left: 10%;
 }
 
 .diapo h1 {
@@ -1103,7 +1121,7 @@ select {
   color: var(--text-color);
   font-weight: 600;
   font-size: 40px;
-  text-align: center;
+  text-align: left;
   margin-bottom: 10px;
 }
 .diapo h5 {
@@ -1113,19 +1131,20 @@ select {
   color: var(--text-color);
   font-weight: 400;
   font-size: 20px;
-  text-align: center;
+  text-align: left;
 }
 .diapo button {
   position: absolute;
   right: 0;
   bottom: 0;
+  background-color: var(--main);
+  border: 1.5px solid var(--darker-main);
   display: flex;
   justify-content: center;
   align-items: center;
-  filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   border: 0;
-  padding: 8px;
-  border-radius: 15px;
+  padding: 10px 15px;
+  border-radius: 50px;
   margin: 20px;
   color: #fff;
   font-size: 15px;

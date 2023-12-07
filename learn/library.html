@@ -220,7 +220,7 @@ removeHtmlTagsFromLocalStorage('popupcontent');
               title.innerHTML = cards.title.toUpperCase()
               type.innerHTML = cards.type + ' :'
               seq.innerHTML = cards.seqname
-              if (sessionStorage.getItem('api')==='math' || sessionStorage.getItem('api')==='hg' || sessionStorage.getItem('api')==='lv1'){
+              if (sessionStorage.getItem('api')==='math' || sessionStorage.getItem('api')==='hg' || sessionStorage.getItem('api')==='lv1' || sessionStorage.getItem('api')==='svt'){
                 card.setAttribute('onclick', `setuppopup('${cards.title} <i id="readtext" onclick="readtext()" class="bx bx-volume-full"></i>', '${cards.content}', '${cards.img}', '${cards.id}')`)
               }else{
                 card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}', '${cards.id}')`)
