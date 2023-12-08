@@ -31,7 +31,6 @@ button.start {
   color: #fff;
   font-size: 15px;
   transition: all 0.2s ease-in-out;
-  transform: scale(1);
 }
 .homebuttons {
   display: flex;
@@ -359,7 +358,7 @@ button, i, .brand {
 }
 button:hover {
   background-color: var(--lighter);
-  border: 0;
+  border: var(--lighter) 1px solid;
 }
 
 .back button {
@@ -373,7 +372,6 @@ button:hover {
   color: #fff;
   font-size: 15px;
   transition: all 0.2s ease-in-out;
-  transform: scale(1);
 }
 .back button i {
   color: #fff;
@@ -831,7 +829,6 @@ no {
   font-size: 15px;
   filter: drop-shadow(1px 1px 2px rgb(0 0 0 / 0.4));
   transition: all 0.2s ease-in-out;
-  transform: scale(1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -840,12 +837,8 @@ no {
   color: #fff;
   font-size: 20px;
 }
-.buttons button:not(:hover){
-  transition-delay: .1s;
-}
 .buttons button:hover {
-  transition-duration: .1s;
-  transform: scale(1.1);
+  
 }
 button#rate {
   background-color: #cd5c5c;
