@@ -25,8 +25,7 @@ button.start {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0;
-  padding: 10px 15px;
+  padding: 8px 10px;
   border-radius: 50px;
   margin: 10px 0;
   color: #fff;
@@ -64,6 +63,7 @@ button, i, .brand {
     --main: #84d393;
     --darker-main: #89c094;
     --navbar: #ffffff;
+    --lighter: #bababa;
   }
   /* thème sombre */
   @media (prefers-color-scheme: dark){
@@ -73,6 +73,7 @@ button, i, .brand {
         --main: #5bc06e;
         --navbar: #232323;
         --darker-main: #84d393;
+        --lighter: #414141;
     }
   }
 /* css navbar */
@@ -88,6 +89,7 @@ button, i, .brand {
     height: 60px;
     justify-content: center;
     background-color: var(--navbar);
+    border: 1px solid var(--lighter);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 .navbar .brand {
@@ -128,6 +130,20 @@ button, i, .brand {
   justify-content: center;
   padding: 10px;
 }
+.right i:hover {
+  transition: all 0.2s ease-in-out;
+  background-color: var(--lighter) ;
+  color: var(--bg);
+  border-radius: 15px;
+  color: var(--text-color);
+  margin: 5px;
+  font-size: 20px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
 .accueil {
   display: flex;
   align-items: center;
@@ -148,7 +164,6 @@ button, i, .brand {
 }
 .flacelogo:hover{
   transform: scale(1.2);
-  rotate: 360deg;
 }
 .right i.hover{
   background-color: #5bc06eac ;
@@ -308,7 +323,7 @@ button, i, .brand {
   margin: 10px;
   color: #000000;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 
@@ -342,11 +357,9 @@ button, i, .brand {
 .start i {
   margin-right: 5px;
 }
-button.start:hover {
-  transform: scale(1.1);
-}
-button.start:not(:hover){
-  transition-delay: .1s;
+button:hover {
+  background-color: var(--lighter);
+  border: 0;
 }
 
 .back button {
@@ -354,7 +367,7 @@ button.start:not(:hover){
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 10px 15px;
+  padding: 8px 10px;
   border-radius: 50px;
   margin: 10px;
   color: #fff;
@@ -372,12 +385,11 @@ button.start:not(:hover){
 .back button.lib {
   background-color: #5f9fe3;
 }
-.back button:hover {
-  transform: scale(1.1);
+.back button:hover{
+  background-color: var(--lighter);
+  border: 0;
 }
-.back button:not(:hover){
-  transition-delay: .1s;
-}
+
 
 @media screen and (max-width: 880px) {
   .accueil  .lefttext {
@@ -526,6 +538,7 @@ button.start:not(:hover){
   background-image: url('./img/texture.png');
   height: 190px;
   width: 320px;
+  border: 1px solid var(--lighter);
   border-radius: 10px;
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
@@ -1090,7 +1103,6 @@ select {
   -webkit-appearance: none;
   background-color: #fff;
   color: #000;
-  text-align: center;
   width: 80%;
   border-radius: 20px;
   padding: 5px;
@@ -1143,19 +1155,16 @@ select {
   justify-content: center;
   align-items: center;
   border: 0;
-  padding: 10px 15px;
+  padding: 8px 10px;
   border-radius: 50px;
   margin: 20px;
   color: #fff;
   font-size: 15px;
   transition: all 0.2s ease-in-out;
-  transform: scale(1);
 }
 .diapo button:hover {
-  transform: scale(1.1);
-}
-.diapo button:not(:hover){
-  transition-delay: .1s;
+  background-color: var(--lighter);
+  border: 0;
 }
 .diapo i {
   color: #fff;
@@ -1167,14 +1176,15 @@ select {
   background-color: #fff;
   margin-top: 20px;
   width: 80%;
-  border-radius: 10px;
+  border-radius: 50px;
   padding: 5px;
-  border: 2px solid #000;
+  border: 1.5px solid #000;
   box-shadow: 4px 3px 8px 1px #96969633;
   -webkit-box-shadow: 4px 3px 8px 1px #96969633;
 }
 .diapo input::placeholder{
   color: #000;
+  text-align: left;
 }
 
 
@@ -1208,6 +1218,7 @@ red {
   flex-wrap: wrap;
 }
 .filters .filter {
+  cursor: pointer;
   padding: 5px 10px 5px 10px;
   margin: 8px;
   border-radius: 10px;
