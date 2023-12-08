@@ -8,7 +8,11 @@
     text-decoration: none;
     scroll-behavior: smooth;
 }
-
+@font-face {
+  font-family: Anurati;
+  font-weight: bold;
+  src: url("Anurati-Regular.otf") format("opentype");
+}
 body {
   background-color: var(--bg);
   display: flex;
@@ -42,6 +46,7 @@ button.gray {
   margin-left: 10px;
 }
 .gradient{
+  background-color: #3cb371;
   background-image: linear-gradient(60deg, #82c37d, #659c8e);
   background-clip: text;
   color: transparent;
@@ -177,6 +182,7 @@ button, i, .brand {
   background-color: #5bc06eac ;
   color: var(--bg);
   border-radius: 15px;
+  background-image: linear-gradient(60deg, #82c37d, #659c8e);
 }
 
 .question {
@@ -362,7 +368,7 @@ button, i, .brand {
     left: unset;
     right: 50px;
 }
-.start i {
+.start i { transition: ease-in-out .1s;
   margin-right: 5px;
 }
 button:hover {
@@ -550,6 +556,10 @@ button:hover {
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
     margin: 10px;
+    transition: ease-in-out .1s;
+}
+.cards .card:hover{
+  transform: perspective(30px) rotateY(2deg);
 }
 
 .card h2 {
