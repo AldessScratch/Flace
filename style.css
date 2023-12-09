@@ -1070,7 +1070,7 @@ button#reussi {
 
 /* css pour la page info */
 .infoimg {
-  height: 100px;
+  height: 80px;
   width: auto;
   margin: 20px;
 }
@@ -1082,7 +1082,17 @@ button#reussi {
   font-size: 16px;
   color: var(--text-color);
 }
-
+.infologo {
+  display: flex;
+  align-items: center;
+}
+.textinfo{
+  z-index: 10;
+  text-overflow: clip;
+  color: var(--text-color);
+  font-weight: 600;
+  font-size: 40px;
+}
 .version {
   color: var(--text-color);
   text-align: center;
@@ -1242,3 +1252,4 @@ red {
   height: 100px;
   width: 100%;
 }
+
