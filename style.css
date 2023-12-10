@@ -191,7 +191,6 @@ button, i, .brand {
   color: var(--text-color);
 }
 .home h1 {
-  z-index: 10;
   text-overflow: clip;
   color: var(--text-color);
   font-weight: 600;
@@ -554,9 +553,10 @@ button:hover {
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
     margin: 10px;
     transition: ease-in-out .1s;
+    transform: scale(1);
 }
 .cards .card:hover{
-  transform: perspective(30px) rotateY(2deg);
+  transform: scale(1.1);
 }
 
 .card h2 {
@@ -1083,11 +1083,11 @@ button#reussi {
   color: var(--text-color);
 }
 .infologo {
+  margin-top: 70px;
   display: flex;
   align-items: center;
 }
 .textinfo{
-  z-index: 10;
   text-overflow: clip;
   color: var(--text-color);
   font-weight: 600;
@@ -1245,6 +1245,10 @@ red {
   background-color: #908f8f78;
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
+}
+.filters .filter:hover {
+  color: var(--text-color);
+  background-color: var(--main);
 }
 .test {
   position: absolute;
