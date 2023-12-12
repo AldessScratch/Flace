@@ -94,7 +94,7 @@ button, i, .brand {
     position: fixed;
     display: flex;
     align-items: center;
-    width: 85%;
+    width: 700px;
     height: 60px;
     justify-content: center;
     background-color: var(--navbar);
@@ -153,27 +153,9 @@ button, i, .brand {
   justify-content: center;
   padding: 10px;
 }
-.accueil {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100vh;
-}
-.accueil  .lefttext {
-  margin-left: 10%;
-  width: 50%;
-  height: auto;
-}
-.accueil .flacelogo {
-  margin: 20px 10%;
-  height: 20vh;
-  width: auto;
-  transition: all 0.2s ease-in-out;
-  transform: scale(1);
-}
-.flacelogo:hover{
-  transform: scale(1.2);
-}
+
+
+
 .right i.hover{
   background-color: #5bc06eac ;
   color: var(--bg);
@@ -195,6 +177,7 @@ button, i, .brand {
   color: var(--text-color);
   font-weight: 600;
   font-size: 40px;
+  text-align: center;
   animation-name: fadeIn;
     animation-duration: 1.5s;
     margin-top: 60px;
@@ -202,10 +185,12 @@ button, i, .brand {
 }
 
 .home p {
+  width: 70%;
   color: var(--text-color);
   margin: 20px 0;
   font-weight: 400;
   font-size: 13px;
+  text-align: center;
   animation-name: fadeIn;
     animation-duration: 1.5s;
     display: block;
@@ -1139,12 +1124,15 @@ select {
   width: 100%;
   height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .innerdiapo {
-  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
-
 .diapo h1 {
   animation-name: fadeIn;
     animation-duration: 1.5s;
@@ -1152,7 +1140,7 @@ select {
   color: var(--text-color);
   font-weight: 600;
   font-size: 40px;
-  text-align: left;
+  text-align: center;
   margin-bottom: 10px;
 }
 .diapo h5 {
@@ -1162,7 +1150,7 @@ select {
   color: var(--text-color);
   font-weight: 400;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
 }
 .diapo button {
   position: absolute;
