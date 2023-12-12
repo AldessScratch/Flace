@@ -309,5 +309,32 @@
         "img": "",
         "seqname": "Équation partie 1",
         "id": "MAT-EQU-0001"
+    },
+    {
+        "type": "Théorème",
+        "title": "Pythagore",
+        "content": "Si un triangle est rectangle, alors le carré de la longueur de l’hypoténuse est égal à la somme des carrés des longueurs des deux autres cêtés",
+        "theme": "T4S1",
+        "img": "",
+        "seqname": "Le théorème de Pythagore",
+        "id": "MAT-THE-0001"
+    },
+    {
+        "type": "Propriété (admise)",
+        "title": "Réciproque du théorème de Pythagore",
+        "content": "Si dans un triangle, le carré de la longueur du plus grand côté est pas égal à la somme des carrés des longueurs des deux autres côtés, alors ce triangle est rectangle.",
+        "theme": "T4S1",
+        "img": "",
+        "seqname": "Le théorème de Pythagore",
+        "id": "MAT-THE-0002"
+    },
+    {
+        "type": "Propriété (admise)",
+        "title": "Contraposée du théorème de Pythagore",
+        "content": "Si dans un triangle, le carré de la longueur du plus grand côté n’est pas égal à la somme des carrés des longueurs des deux autres côtés, alors ce triangle n’est pas rectangle.",
+        "theme": "T4S1",
+        "img": "",
+        "seqname": "Le théorème de Pythagore",
+        "id": "MAT-THE-0003"
     }
 ]
