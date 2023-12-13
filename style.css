@@ -94,7 +94,7 @@ button, i, .brand {
     position: fixed;
     display: flex;
     align-items: center;
-    width: 700px;
+    width: 70vw;
     height: 60px;
     justify-content: center;
     background-color: var(--navbar);
@@ -481,6 +481,13 @@ button:hover {
     animation-name: fadeout;
     animation-duration: 1s;
 }
+.intro img {
+  position: absolute;
+  width: 100px;
+  height: auto;
+  margin: 50px 20px;
+}
+
 @keyframes fadeout {
   from {
     opacity: 1;
@@ -491,19 +498,36 @@ button:hover {
 }
 .lds-dual-ring {
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 200px;
+  height: 200px;
 }
 .lds-dual-ring:after {
   content: " ";
   display: block;
-  width: 64px;
-  height: 64px;
+  width: 170px;
+  height: 170px;
   margin: 8px;
   border-radius: 50%;
   border: 6px solid var(--text-color);
   border-color: var(--text-color) transparent var(--text-color) transparent;
   animation: lds-dual-ring 1.2s linear infinite;
+}
+.lds-dual-ring2 {
+  position: absolute;
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+}
+.lds-dual-ring2:after {
+  content: " ";
+  display: block;
+  width: 204px;
+  height: 204px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid var(--text-color);
+  border-color: var(--text-color) transparent var(--text-color) transparent;
+  animation: lds-dual-ring2 1.2s linear infinite;
 }
 @keyframes lds-dual-ring {
   0% {
@@ -513,7 +537,14 @@ button:hover {
     transform: rotate(360deg);
   }
 }
-
+@keyframes lds-dual-ring2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
 /* css des flashcards */
 .cards {
   margin-top: 20px;

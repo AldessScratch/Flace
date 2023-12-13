@@ -2155,6 +2155,87 @@
         "img": "",
         "seqname": "Voc 18 (Formation of adjectives)",
         "id": "ANG-V18-0028" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Big",
+        "content": "Enormous, huge",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0001" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Good",
+        "content": "Excellent, fantastic, awesome, wonderful",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0002" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Surprised",
+        "content": "Stunning",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0003" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Angry",
+        "content": "Furious",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0004" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Frightened",
+        "content": "Terrified",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0005" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Attractive",
+        "content": "Stunning, magnificent, gorgeous",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0006" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Bad",
+        "content": "Awful, horrible, terrible",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0007" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Strange",
+        "content": "Weird, creepy, unusual, paranormal",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0008" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Difficult",
+        "content": "Impossible, unbelievable",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 19",
+        "id": "ANG-V19-0009" 
        }
 ]
     

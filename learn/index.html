@@ -12,6 +12,8 @@
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="description" content="S'entrainer sur Flace">
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=Juqz9NAJ"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <style>
@@ -91,7 +93,9 @@
     </style>
     <!--intro chargement-->
     <div class="intro" id="introloading">
-      <div class="lds-dual-ring"></div>
+      <img data-aos="zoom-in" src="../img/logo.png">
+        <div data-aos="zoom-in" class="lds-dual-ring"></div>
+        <div data-aos="zoom-in" class="lds-dual-ring2"></div>
       <script>
         document.addEventListener("DOMContentLoaded", function() {
           setTimeout(() => {
@@ -386,5 +390,8 @@ setTimeout(() => {
       
     <script src="../js/modal.js"></script>
    <script src="../js/main.js"></script>
+   <script>
+    AOS.init();
+  </script>
 </body>
 </html>

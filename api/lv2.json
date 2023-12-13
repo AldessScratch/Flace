@@ -88,6 +88,60 @@
         "img": "",
         "seqname": "Présent du subjonctif",
         "id": "ESP-SUB-0010"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Estar",
+        "content": "est-<red>é</red><br>est-<red>é</red>-<strong>s</strong><br>est-<red>é</red><br>est-<strong>e-mos</strong><br>est-<strong>é-is</strong><br>est-<red>é</red>-<strong>n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0011"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Hacer",
+        "content": "<red>hay</red>-<strong>a</strong><br><red>hay</red>-<strong>a-s</strong><br><red>hay</red>-<strong>a</strong><br><red>hay</red>-<strong>a-mos</strong><br><red>hay</red>-<strong>á-is</strong><br><red>hay</red>-<strong>a-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0012"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Ir",
+        "content": "<red>v-ay</red>-<strong>a</strong><br><red>v-ay</red>-<strong>a-s</strong><br><red>v-ay</red>-<strong>a</strong><br><red>v-ay</red>-<strong>a-mos</strong><br><red>v-ay</red>-<strong>á-is</strong><br><red>v-ay</red>-<strong>a-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0013"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Oir",
+        "content": "<red>oig</red>-<strong>a</strong><br><red>oig</red>-<strong>a-s</strong><br><red>oig</red>-<strong>a</strong><br><red>oig</red>-<strong>a-mos</strong><br><red>oig</red>-<strong>á-is</strong><br><red>oig</red>-<strong>a-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0014"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Poder",
+        "content": "p<red>ue</red>d-<strong>a</strong><br>p<red>ue</red>d-<strong>a-s</strong><br>p<red>ue</red>d-<strong>a</strong><br>pod-<strong>a-mos</strong><br>pod-<strong>á-is</strong><br>p<red>ue</red>d-<strong>a-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0015"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Saber",
+        "content": "<red>sep</red>-<strong>a</strong><br><red>sep</red>-<strong>a-s</strong><br><red>sep</red>-<strong>a</strong><br><red>sep</red>-<strong>a-mos</strong><br><red>sep</red>-<strong>á-is</strong><br><red>sep</red>-<strong>a-n</strong>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "ESP-SUB-0016"
     }
 ]
     

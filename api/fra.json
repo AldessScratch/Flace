@@ -1,0 +1,83 @@
+[
+    {
+        "type": "Conjugaison",
+        "title": "Être",
+        "content": "il faut que je soi<red>s</red><br>il faut que tu soi<red>s</red><br>il faut qu’il soi<red>t</red><br>il faut que nous soy<red>ons</red><br>il faut que vous soy<red>ez</red><br>il faut qu’ils soi<red>ent</red>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "FRA-PSU-0001"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Avoir",
+        "content": "il faut que je ai<red>e</red><br>il faut que tu ai<red>es</red><br>il faut qu’il ai<red>t</red><br>il faut que nous ay<red>ons</red><br>il faut que vous ay<red>ez</red><br>il faut qu’ils ai<red>ent</red>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "FRA-PSU-0002"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Aller",
+        "content": "il faut que j’aill<red>e</red><br>il faut que tu aill<red>es</red><br>il faut qu’il aill<red>e</red><br>il faut que nous all<red>ions</red><br>il faut que vous all<red>iez</red><br>il faut qu’ils aill<red>ent</red>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "FRA-PSU-0003"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Voir",
+        "content": "il faut que je voi<red>e</red><br>il faut que tu voi<red>es</red><br>il faut qu’il voi<red>e</red><br>il faut que nous voy<red>ions</red><br>il faut que vous voy<red>iez</red><br>il faut qu’ils voi<red>ent</red>",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "FRA-PSU-0004"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Terminaisons à l’exception des auxiliaires",
+        "content": "-e<br>-es<br>-e<br>-ions<br>-iez<br>-ent",
+        "theme": "",
+        "img": "",
+        "seqname": "Présent du subjonctif",
+        "id": "FRA-PSU-0005"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Terminaisons",
+        "content": "-sse<br>-sses<br>-^t<br>-ssions<br>-ssiez<br>-ssent",
+        "theme": "",
+        "img": "",
+        "seqname": "Imparfait du subjonctif",
+        "id": "FRA-ISU-0001"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Être",
+        "content": "il fallait que je fu<red>sse</red><br>il fallait que tu fu<red>sses</red><br>il fallait qu’il f<red>ût</red><br>il fallait que nous fu<red>ssions</red><br>il fallait que vous fu<red>ssiez</red><br>il fallait qu’ils fu<red>ssent</red>",
+        "theme": "",
+        "img": "",
+        "seqname": "Imparfait du subjonctif",
+        "id": "FRA-ISU-0002"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Avoir",
+        "content": "il fallait que j’eu<red>sse</red><br>il fallait que tu eu<red>sses</red><br>il fallait qu’il e<red>ût</red><br>il fallait que nous eu<red>ssions</red><br>il fallait que vous eu<red>ssiez</red><br>il fallait qu’ils eu<red>ssent</red>",
+        "theme": "",
+        "img": "",
+        "seqname": "Imparfait du subjonctif",
+        "id": "FRA-ISU-0003"
+    },
+    {
+        "type": "Conjugaison",
+        "title": "Chanter",
+        "content": "il fallait que je chanta<red>sse</red><br>il fallait que tu chanta<red>sses</red><br>il fallait qu’il chant<red>ât</red><br>il fallait que nous chanta<red>ssions</red><br>il fallait que vous chanta<red>ssiez</red><br>il fallait qu’ils chanta<red>ssent</red>",
+        "theme": "",
+        "img": "",
+        "seqname": "Imparfait du subjonctif",
+        "id": "FRA-ISU-0004"
+    }
+]

@@ -84,23 +84,24 @@
 </div>
 </div>
 <!-- Fin d'une slide -->
-        <!-- Début d'une slide -->
-        <div class="item" >
-            <div class="inner">
-                <div class="front">
-                    <img src="./img/3.png">
-                    <h2>Histoire</h2>
-                    <div class="flashcardsnumber" id="4"></div>
-                </div>  
-                <div class="back">
-                    <h5>Que voulez vous faire ?</h5>
-                    <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('hg', 'Histoire')"><i class="bx bx-book-open"></i> S'entrainer</button>
-                    <button class="lib" onclick="openlib('hg', 'Histoire')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
-                </div>
-            </div>
-            
+ <!-- Début d'une slide -->
+ <div class="item" >
+    <div class="inner">
+        <div class="front">
+            <img src="./img/5.png">
+            <h2>Français</h2>
+            <div class="flashcardsnumber" id="6"></div>
+        </div>  
+        <div class="back">
+            <h5>Que voulez vous faire ?</h5>
+            <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('fra', 'Français')"><i class="bx bx-book-open"></i> S'entrainer</button>
+            <button class="lib" onclick="openlib('fra', 'Français')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
         </div>
-        <!-- Fin d'une slide -->
+    </div>
+    
+</div>
+<!-- Fin d'une slide -->
+        
            <!-- Début d'une slide -->
         <div class="item" >
             <div class="inner">
@@ -113,6 +114,23 @@
                     <h5>Que voulez vous faire ?</h5>
                     <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('svt', 'SVT')"><i class="bx bx-book-open"></i> S'entrainer</button>
                     <button class="lib" onclick="openlib('svt', 'SVT')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
+                </div>
+            </div>
+            
+        </div>
+        <!-- Fin d'une slide -->
+        <!-- Début d'une slide -->
+        <div class="item" >
+            <div class="inner">
+                <div class="front">
+                    <img src="./img/3.png">
+                    <h2>Histoire</h2>
+                    <div class="flashcardsnumber" id="4"></div>
+                </div>  
+                <div class="back">
+                    <h5>Que voulez vous faire ?</h5>
+                    <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('hg', 'Histoire')"><i class="bx bx-book-open"></i> S'entrainer</button>
+                    <button class="lib" onclick="openlib('hg', 'Histoire')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
                 </div>
             </div>
             
@@ -176,67 +194,45 @@
                           document.getElementById('1').innerHTML = '<i class="bx bx-grid-alt"></i>' + `${numberOfObjects} flashcards`;
                         })
                         .catch(error => console.error('Error loading JSON:', error));
-                    }
-                
-                    // Call the function to load and process the JSON file
-                    loadJSON();
-                </script>
-                <script>
-        function loadJSON() {
-                      fetch('./api/lv1.json')
+                        fetch('./api/lv1.json')
                         .then(response => response.json())
                         .then(data => {
                           var numberOfObjects = data.length;
                           document.getElementById('2').innerHTML = '<i class="bx bx-grid-alt"></i>' + `${numberOfObjects} flashcards`;
                         })
                         .catch(error => console.error('Error loading JSON:', error));
-                    }
-                
-                    // Call the function to load and process the JSON file
-                    loadJSON();
-                </script>
-                <script>
-        function loadJSON() {
-                  fetch('./api/lv2.json')
+                        fetch('./api/lv2.json')
                     .then(response => response.json())
                     .then(data => {
                       var numberOfObjects = data.length;
                       document.getElementById('3').innerHTML = '<i class="bx bx-grid-alt"></i>' + `${numberOfObjects} flashcards`;
                     })
                     .catch(error => console.error('Error loading JSON:', error));
-                }
-            
-                // Call the function to load and process the JSON file
-                loadJSON();
-        </script>
-        <script>
-        function loadJSON() {
-          fetch('./api/hg.json')
+                    fetch('./api/hg.json')
             .then(response => response.json())
             .then(data => {
               var numberOfObjects = data.length;
               document.getElementById('4').innerHTML = '<i class="bx bx-grid-alt"></i>' + `${numberOfObjects} flashcards`;
             })
             .catch(error => console.error('Error loading JSON:', error));
-        }
-    
-        // Call the function to load and process the JSON file
-        loadJSON();
-      </script>
-    <script>
-        function loadJSON() {
-          fetch('./api/svt.json')
+            fetch('./api/svt.json')
             .then(response => response.json())
             .then(data => {
               var numberOfObjects = data.length;
               document.getElementById('5').innerHTML = '<i class="bx bx-grid-alt"></i>' + `${numberOfObjects} flashcards`;
             })
             .catch(error => console.error('Error loading JSON:', error));
-        }
-    
-        // Call the function to load and process the JSON file
-        loadJSON();
-      </script>
+                    }
+                    fetch('./api/fra.json')
+            .then(response => response.json())
+            .then(data => {
+              var numberOfObjects = data.length;
+              document.getElementById('6').innerHTML = '<i class="bx bx-grid-alt"></i>' + `${numberOfObjects} flashcards`;
+            })
+            .catch(error => console.error('Error loading JSON:', error));
+                
+                    loadJSON();
+                </script>
     <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
    <script src="js/main.js"></script>
     <script src="js/script.js"></script>
