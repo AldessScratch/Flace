@@ -10,6 +10,8 @@
     <link rel="icon" type="image/x-icon" href="./img/faviconcolor-fixed.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="manifest" href="manifest.json">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta property="og:image" content="/img/faviconcolor-fixed.png">
     <meta content="#ffffff" data-react-helmet="true" name="theme-color">
@@ -35,7 +37,7 @@
     <div class="home" id="home">
         <!-- Slider by lundev -->
   
-        <div class="slider" id="slider">
+        <div  data-aos="zoom-in" class="slider" id="slider">
   <!-- Début d'une slide -->
   <div class="item" >
     <div class="inner">
@@ -233,7 +235,7 @@
                 
                     loadJSON();
                 </script>
-    <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
+    <script>AOS.init();document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
    <script src="js/main.js"></script>
     <script src="js/script.js"></script>
     <script src="js/modal.js"></script>

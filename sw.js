@@ -23,11 +23,13 @@ const urlsToCache = [
   '/img/2.png',
   '/img/3.png',
   '/img/4.png',
+  '/img/5.png',
   '/api/math.json',
   '/api/lv1.json',
   '/api/lv2.json',
   '/api/hg.json',
-  '/api/svt.json'
+  '/api/svt.json',
+  '/api/fra.json'
 ];
 
 self.addEventListener('install', (event) => {

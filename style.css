@@ -178,8 +178,6 @@ button, i, .brand {
   font-weight: 600;
   font-size: 40px;
   text-align: center;
-  animation-name: fadeIn;
-    animation-duration: 1.5s;
     margin-top: 60px;
     
 }
@@ -191,8 +189,6 @@ button, i, .brand {
   font-weight: 400;
   font-size: 13px;
   text-align: center;
-  animation-name: fadeIn;
-    animation-duration: 1.5s;
     display: block;
 }
 
@@ -215,19 +211,9 @@ button, i, .brand {
   text-decoration: underline;
 }
 
-/*  animation stylé idk */
-  @keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(30%);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
 
   .slider{
+    justify-content: center;
     display: flex;
     position: relative;
     width: 100%;
@@ -237,13 +223,14 @@ button, i, .brand {
     
 }
 .item{
+  border: 1.5px solid var(--lighter);
   margin-top: 50px;
   position: absolute;
     width: 500px;
     height: 300px;
     border-radius: 15px;
     transition: 0.5s;
-    left: calc(50% - 260px);
+
     top: 0;
     overflow: hidden;
     box-shadow: 4px 3px 8px 1px #42424233;
@@ -483,7 +470,7 @@ button:hover {
 }
 .intro img {
   position: absolute;
-  width: 100px;
+  width: 80px;
   height: auto;
   margin: 50px 20px;
 }
@@ -568,11 +555,6 @@ button:hover {
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
     margin: 10px;
-    transition: ease-in-out .1s;
-    transform: scale(1);
-}
-.cards .card:hover{
-  transform: scale(1.1);
 }
 
 .card h2 {
@@ -732,8 +714,6 @@ button:hover {
   box-shadow: 4px 3px 8px 1px #42424233;
   	-webkit-box-shadow: 4px 3px 8px 1px #42424233;
   backdrop-filter: blur(5px);
-  animation-name: fadeIn;
-  animation-duration: 1.5s;
   -webkit-backdrop-filter: blur(5px);
 }
 .searchcard i {
@@ -1165,8 +1145,6 @@ select {
   align-items: center;
 }
 .diapo h1 {
-  animation-name: fadeIn;
-    animation-duration: 1.5s;
   display: flex;
   color: var(--text-color);
   font-weight: 600;
@@ -1175,8 +1153,6 @@ select {
   margin-bottom: 10px;
 }
 .diapo h5 {
-  animation-name: fadeIn;
-    animation-duration: 1.5s;
   display: flex;
   color: var(--text-color);
   font-weight: 400;
@@ -1209,7 +1185,6 @@ select {
   margin-left: 5px;
 }
 .diapo input {
-  animation-name: fadeIn;
     animation-duration: 1.5s;
   background-color: #fff;
   margin-top: 20px;

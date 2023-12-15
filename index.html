@@ -11,6 +11,8 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="manifest" href="manifest.json">
     <meta name="msapplication-TileColor" content="#FFFFFF">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta property="og:image" content="/img/faviconcolor-fixed.png">
     <meta content="#ffffff" data-react-helmet="true" name="theme-color">
     <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
@@ -31,11 +33,11 @@
         </div>
     </div>
     <div class="home" id="home">
-                <h1 on id="h1" >Bienvenue sur <span class="gradient">Flace</span></h1>
-                <p id="desc">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</p>
-                <p id="desc2"><strong>Attention:</strong> Flace ne remplace en aucun cas votre cahier de cours !</p>
+                <h1 data-aos="fade-right" id="h1" >Bienvenue sur <span class="gradient">Flace</span></h1>
+                <p data-aos="fade-left" id="desc">Flace est un site d’apprentissage fondé sur l’utilisation de flashcards. <no>Le site s’adapte à ses utilisateurs via un système de piles</no> (pas encore) inspiré de la méthode <a target="_blank" href="https://fr.wikipedia.org/wiki/Système_Leitner">Leitner</a>, permettant un apprentissage durable. Flace, Long-term learning.</p>
+                <p data-aos="fade-left" id="desc2"><strong>Attention:</strong> Flace ne remplace en aucun cas votre cahier de cours !</p>
                 <br>
-                <div class="homebuttons">
+                <div class="homebuttons"  data-aos="zoom-in">
                     <button class="start" onclick="location.href = 'matiere.html'">Accéder à la page des matières</button>
                     <button class="start gray" onclick="location.href = 'info.html'">Infos</button>
                 </div>
@@ -59,7 +61,8 @@
 
 
 
-    <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
+    <script>
+    AOS.init();document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
    <script src="js/main.js"></script>
 </body>
 </html>

@@ -12,6 +12,8 @@
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
      <!-- navbar -->
@@ -30,7 +32,7 @@
     </div>
     <div class="home">
         <div class="cards">
-            <div class="card">
+            <div class="card" data-aos="zoom-in">
                 <h8><i class='bx bx-paint'></i> Thème du site</h8>
                 <h6>Change l'apparence de Flace</h6>
                 <select name="themeselect" id="themeselect">
@@ -60,7 +62,7 @@
                     initThemeSelector();
                  </script>
             </div>
-            <div class="card">
+            <div class="card" data-aos="zoom-in">
                 <h8><i class='bx bx-book-open'></i> Matière préférée</h8>
                 <h6>Change la première matière affichée dans l'accueil</h6>
                 <select name="select" id="matiereselect">
@@ -86,7 +88,7 @@
             </div>
         </div>
     </div>
-     
+        <script>AOS.init();</script>
        <script src="js/main.js"></script>
 </body>
 </html>

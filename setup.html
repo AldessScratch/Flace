@@ -10,6 +10,8 @@
     <link rel="manifest" href="manifest.json">
     <link rel="icon" type="image/x-icon" href="./img/faviconcolor-fixed.png">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <meta name="msapplication-TileColor" content="#FFFFFF">
     <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
 </head>
@@ -32,9 +34,9 @@
       
       <div class="diapo" id="diapo1">
         <div class="innerdiapo">
-            <h1>Bienvenue sur Flace</h1>
-            <h5>Veuillez entrer votre nom d'utilisateur</h5>
-            <input type="text" id="username" placeholder="Nom d'utilisateur">
+            <h1 data-aos="fade-right">Bienvenue sur Flace</h1>
+            <h5 data-aos="fade-left">Veuillez entrer votre nom d'utilisateur</h5>
+            <input data-aos="zoom-in" type="text" id="username" placeholder="Nom d'utilisateur">
             <script>
                 function initinput(){
                     let userinput = document.getElementById('username')
@@ -49,7 +51,7 @@
       </div>
       
 
-        <script>document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
+        <script>AOS.init();document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
        <script src="js/main.js"></script>
 </body>
 </html>

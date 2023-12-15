@@ -297,13 +297,10 @@ removeHtmlTagsFromLocalStorage('popupcontent');
       .catch((error) => console.error(error));
   
         </script>
-        <script>document.getElementById("themestyle").setAttribute("href", `../themes/${localStorage.getItem("theme")}.css`);</script>
+        <script>AOS.init();document.getElementById("themestyle").setAttribute("href", `../themes/${localStorage.getItem("theme")}.css`);</script>
       <!-- js du modal -->
     <script src="../js/modal.js"></script>
     <script src="../js/script.js"></script>
    <script src="../js/main.js"></script>
-   <script>
-    AOS.init();
-  </script>
 </body>
 </html>
