@@ -82,12 +82,25 @@
     {
         "type": "Définition",
         "title": "Mitose",
-        "content": "La <strong>mitose</strong> est composée de 4 étapes qui sont dans l’ordre chronologique la prophase, la métaphase, l’anaphase et la télophase.",
+        "content": "Division cellulaire concernant toutes les cellules sauf les gamètes, conservant le nombre de chromosomes et se réalisant dans tous les organes reproducteurs.",
         "theme": "Chapitre 2",
         "img": "",
         "seqname": "La mitose et la méiose.",
         "id": "SVT-CH2-0001"
+    },
+    {
+        "type": "Définition",
+        "title": "Duplication",
+        "content": "Copie des molécules d’ADN dans une cellule avant la mitose ou la méiose.",
+        "theme": "Chapitre 2",
+        "img": "",
+        "seqname": "La mitose et la méiose.",
+        "id": "SVT-CH2-0002"
     }
+    
+    
+    
+    
 
 ]
     
