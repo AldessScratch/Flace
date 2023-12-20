@@ -74,7 +74,7 @@
     {
         "type": "Définition",
         "title": "Mitose",
-        "content": "Division cellulaire concernant toutes les cellules sauf les gamètes, conservant le nombre de chromosomes et se réalisant dans tous les organes reproducteurs.",
+        "content": "Division cellulaire concernant toutes les cellules sauf les gamètes, conservant le nombre de chromosomes et se réalisant dans tous les organes sauf les organes reproducteurs.",
         "theme": "Chapitre 2",
         "img": "",
         "seqname": "La mitose et la méiose.",
