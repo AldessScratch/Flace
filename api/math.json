@@ -336,5 +336,42 @@
         "img": "",
         "seqname": "Le théorème de Pythagore",
         "id": "MAT-THE-0003"
+    },
+
+    {
+        "type": "Méthode",
+        "title": "SOHCAHTOA",
+        "content": "<strong>Sinus:</strong> côté opposé / hypoténuse<br><strong>Cosinus:</strong> côté adjacent / hypoténuse<br><strong>Tangente:</strong> côté opposé / côté adjacent",
+        "theme": "T4S2",
+        "img": "",
+        "seqname": "Trigonométrie",
+        "id": "MAT-TRI-0001"
+    },
+    {
+        "type": "Méthode",
+        "title": "Cosinus",
+        "content": "Dans un triangle rectangle, le <strong>cosinus</strong> d’un angle aigu est le quotient de la longueur du côté adjacent à l’angle par la longeur de l’hypoténuse.",
+        "theme": "T4S2",
+        "img": "",
+        "seqname": "Trigonométrie",
+        "id": "MAT-TRI-0002"
+    },
+    {
+        "type": "Méthode",
+        "title": "Sinus",
+        "content": "Dans un triangle rectangle, le <strong>sinus</strong> d’un angle aigu est le quotient de la longueur du côté opposé à l’angle par la longeur de l’hypoténuse.",
+        "theme": "T4S2",
+        "img": "",
+        "seqname": "Trigonométrie",
+        "id": "MAT-TRI-0003"
+    },
+    {
+        "type": "Méthode",
+        "title": "Tangente",
+        "content": "Dans un triangle rectangle, le <strong>tangente</strong> d’un angle aigu est le quotient de la longueur du côté opposé à l’angle par la longeur du côté adjacent à l’angle.",
+        "theme": "T4S2",
+        "img": "",
+        "seqname": "Trigonométrie",
+        "id": "MAT-TRI-0004"
     }
 ]
