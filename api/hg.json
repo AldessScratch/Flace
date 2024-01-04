@@ -7,7 +7,7 @@
          "img": "",
          "seqname": "Civils et militaires dans la GM1",
          "id": "HIS-GMT-0001"
-     },
+    },
     {
          "type": "Définition",
          "title": "Triple Entente",
@@ -16,7 +16,7 @@
          "img": "",
          "seqname": "Civils et militaires dans la GM1",
          "id": "HIS-GMT-0002"
-     },
+    },
     {
          "type": "Définition",
          "title": "Guerre totale",
@@ -25,7 +25,7 @@
          "img": "",
          "seqname": "Civils et militaires dans la GM1",
          "id": "HIS-GMT-0003"
-     },
+    },
     {
          "type": "Définition",
          "title": "Pénurie",
@@ -34,7 +34,7 @@
          "img": "",
          "seqname": "Civils et militaires dans la GM1",
          "id": "HIS-GMT-0004"
-     },
+    },
     {
          "type": "Définition",
          "title": "Génocide",
@@ -43,7 +43,52 @@
          "img": "",
          "seqname": "Civils et militaires dans la GM1",
          "id": "HIS-GMT-0005"
-     },
+    },
+    {
+        "type": "Définition",
+        "title": "Propagande",
+        "content": "Moyens utilisés pour répandre une opinion, une idée.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0006"
+    },
+    {
+        "type": "Définition",
+        "title": "Les réparations",
+        "content": "La somme que l’Allemagne doit verser aux vaiqueurs pour réparer les dommages qu’elle a causés sur leur territoire.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0007"
+    },
+    {
+        "type": "Définition",
+        "title": "Société des nations (SDN)",
+        "content": "Organisation internationale créée en 1919 chargée de maintenir la paix dans le monde.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0008"
+    },
+    {
+        "type": "Définition",
+        "title": "Front",
+        "content": "Zone de combats entre deux armées.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0009"
+    },
+    {
+        "type": "Définition",
+        "title": "Les réparations",
+        "content": "La somme que l’Allemagne doit verser aux vaiqueurs pour réparer les dommages qu’elle a causés sur leur territoire.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0007"
+    },
  
  
  
