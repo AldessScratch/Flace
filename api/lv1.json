@@ -2464,7 +2464,7 @@
        {
         "type": "Vocabulaire",
         "title": "Se connecter",
-        "content": "<strong>Log in/on</strong> <br><strong>Exemple:</strong> You have to log in to view your friends' photos on Facebook.",
+        "content": "<strong>Log in/on</strong> <br><strong>Exemple:</strong> You have to log in to view your friends’ photos on Facebook.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2472,8 +2472,8 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "S'occuper de",
-        "content": "<strong>Look after</strong> <br><strong>Exemple:</strong> Who will look after the children while we're away?",
+        "title": "S’occuper de",
+        "content": "<strong>Look after</strong> <br><strong>Exemple:</strong> Who will look after the children while we’re away?",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2482,11 +2482,74 @@
        {
         "type": "Vocabulaire",
         "title": "Regarder",
-        "content": "<strong>Look at</strong> <br><strong>Exemple:</strong> Look at me when I'm talking to you!",
+        "content": "<strong>Look at</strong> <br><strong>Exemple:</strong> Look at me when I’m talking to you!",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
         "id": "ANG-PHV-0104" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Chercher",
+        "content": "<strong>Look for</strong> <br><strong>Exemple:</strong> Some people look for love on the internet. I looked for you, but I couldn’t find you.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0105" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Attendre avec impatience",
+        "content": "<strong>Look forward</strong> <br><strong>Exemple:</strong> We look forward to our summer holiday every year.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0106" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Faire attention",
+        "content": "<strong>Look out</strong> <br><strong>Exemple:</strong> Look out, an earthquake just started!",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0107" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Chercher / s'occuper de",
+        "content": "<strong>Look out for</strong> <br><strong>Exemple:</strong> Jimmy's brothers have looked out for him since their parents died.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0108" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se retourner / regarder / visiter",
+        "content": "<strong>Look round</strong> <br><strong>Exemple:</strong> We went to look round the show homes.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0109" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se retourner / regarder / visiter",
+        "content": "<strong>Look round</strong> <br><strong>Exemple:</strong> We went to look round the show homes.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0110" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Déchiffrer / comprendre",
+        "content": "<strong>Look round</strong> <br><strong>Exemple:</strong> We went to look round the show homes.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0111" 
        }
 ]
     

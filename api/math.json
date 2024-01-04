@@ -348,7 +348,7 @@
         "id": "MAT-TRI-0001"
     },
     {
-        "type": "Méthode",
+        "type": "Définition",
         "title": "Cosinus",
         "content": "Dans un triangle rectangle, le <strong>cosinus</strong> d’un angle aigu est le quotient de la longueur du côté adjacent à l’angle par la longeur de l’hypoténuse.",
         "theme": "T4S2",
@@ -357,7 +357,7 @@
         "id": "MAT-TRI-0002"
     },
     {
-        "type": "Méthode",
+        "type": "Définition",
         "title": "Sinus",
         "content": "Dans un triangle rectangle, le <strong>sinus</strong> d’un angle aigu est le quotient de la longueur du côté opposé à l’angle par la longeur de l’hypoténuse.",
         "theme": "T4S2",
@@ -366,7 +366,7 @@
         "id": "MAT-TRI-0003"
     },
     {
-        "type": "Méthode",
+        "type": "Définition",
         "title": "Tangente",
         "content": "Dans un triangle rectangle, le <strong>tangente</strong> d’un angle aigu est le quotient de la longueur du côté opposé à l’angle par la longeur du côté adjacent à l’angle.",
         "theme": "T4S2",

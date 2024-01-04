@@ -35,6 +35,7 @@
         "seqname": "Les 3èmes mènent l’enquête.",
         "id": "SVT-CH1-0004"
     },
+    
     {
         "type": "Définition",
         "title": "Caryotype",
@@ -44,6 +45,7 @@
         "seqname": "Les 3èmes mènent l’enquête.",
         "id": "SVT-CH1-0005"
     },
+    
     {
         "type": "Définition",
         "title": "Gène",
@@ -53,6 +55,7 @@
         "seqname": "Les 3èmes mènent l’enquête.",
         "id": "SVT-CH1-0006"
     },
+    
     {
         "type": "Définition",
         "title": "Allèle",
@@ -62,6 +65,7 @@
         "seqname": "Les 3èmes mènent l’enquête.",
         "id": "SVT-CH1-0007"
     },
+    
     {
         "type": "Définition",
         "title": "Génotype",
@@ -71,64 +75,19 @@
         "seqname": "Les 3èmes mènent l’enquête.",
         "id": "SVT-CH1-0008"
     },
+
+
+
+
     {
         "type": "Définition",
         "title": "Mitose",
-        "content": "Division cellulaire concernant toutes les cellules (sauf les gamètes), conservant le nombre de chromosomes et se réalisant dans tous les organes sauf les organes reproducteurs.",
+        "content": "La <strong>mitose</strong> est composée de 4 étapes qui sont dans l’ordre chronologique la prophase, la métaphase, l’anaphase et la télophase.",
         "theme": "Chapitre 2",
         "img": "",
         "seqname": "La mitose et la méiose.",
         "id": "SVT-CH2-0001"
-    },
-    {
-        "type": "Définition",
-        "title": "Duplication",
-        "content": "Copie des molécules d’ADN dans une cellule avant la mitose ou la méiose.",
-        "theme": "Chapitre 2",
-        "img": "",
-        "seqname": "La mitose et la méiose.",
-        "id": "SVT-CH2-0002"
-    },
-    {
-        "type": "Définition",
-        "title": "Méiose",
-        "content": "Division cellulaire à l’origine des gamètes, diminuant de moitié le nombre de chromosomes et se réalisant dans les organes reproducteurs.",
-        "theme": "Chapitre 2",
-        "img": "",
-        "seqname": "La mitose et la méiose.",
-        "id": "SVT-CH2-0003"
-    },
-    {
-        "type": "Définition",
-        "title": "Chromosome simple",
-        "content": "Appelé aussi chromatide et formé par une molécule d’ADN.",
-        "theme": "Chapitre 2",
-        "img": "",
-        "seqname": "La mitose et la méiose.",
-        "id": "SVT-CH2-0004"
-    },
-    {
-        "type": "Définition",
-        "title": "Chromosomes doubles",
-        "content": "Structure formée par deux chromosomes simples identiques (deux chromatides identiques) et donc de deux molécules d’ADN identiques.",
-        "theme": "Chapitre 2",
-        "img": "",
-        "seqname": "La mitose et la méiose.",
-        "id": "SVT-CH2-0005"
-    },
-    {
-        "type": "Définition",
-        "title": "Mutation",
-        "content": "Modification d’un gène se faisant au hasard et créant un nouvel allèle.",
-        "theme": "Chapitre 2",
-        "img": "",
-        "seqname": "La mitose et la méiose.",
-        "id": "SVT-CH2-0006"
     }
-    
-    
-    
-    
 
 ]
     

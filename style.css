@@ -34,6 +34,7 @@ button.start {
 }
 .homebuttons {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 button.gray {
@@ -57,7 +58,8 @@ button.gray {
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
-    width: 100%;
+    width: calc(100% - 60px);
+    margin-left: 60px;
 }
 /* logique */
 button, i, .brand {
@@ -87,47 +89,28 @@ button, i, .brand {
   }
 /* css navbar */
 .navbar {
-  top: 0;
-  margin-top: 10px;
-  border-radius: 50px;
+  left: 0;
+  border-radius: 0px 20px 20px 0px;
     z-index: 2;
     position: fixed;
+    top: 0;
+    top: calc(50vh - 150px);
     display: flex;
     align-items: center;
-    width: 70vw;
-    height: 60px;
+    flex-direction: column;
+    height: 300px;
+    width: 60px;
     justify-content: center;
     background-color: var(--navbar);
     border: 1px solid var(--lighter);
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
-.navbar .brand {
-  margin-left: 30px;
-  display: flex;
-  align-items: center;
-  position: absolute;
-  left: 0;
 }
 
 .navbar img {
   filter: brightness(95%);
     height: 25px;
     width: 25px;
-    margin-right: 10px;
-}
-.navbar .right {
-  position: absolute;
-  right: 0;
-  margin-right: 20px;
-    align-items: center;
-    display: flex;
-}
-.navbar .brandname{
-   display: flex;
-   margin-right: 30px;
-   font-size: 20px;
-    font-weight: 600;
-    color: var(--text-color);
+    margin: 20px;
 }
 .navbar i {
   color: var(--text-color);
@@ -139,8 +122,7 @@ button, i, .brand {
   justify-content: center;
   padding: 10px;
 }
-.right i:hover {
-  transition: all 0.2s ease-in-out;
+.navbar i:hover {
   background-color: var(--lighter) ;
   color: var(--bg);
   border-radius: 15px;
@@ -152,11 +134,12 @@ button, i, .brand {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  transition: all 0.2s ease-in-out;
 }
 
 
 
-.right i.hover{
+.navbar i.hover{
   background-color: #5bc06eac ;
   color: var(--bg);
   border-radius: 15px;
@@ -166,10 +149,13 @@ button, i, .brand {
 .question {
   margin-top: 3px
 }
-.navbar .matiere{
-  margin-right: 30px;
+.matiere{
+  margin-left: 60px;
+  margin-top: 30px;
+  position: absolute;
+  top: 0;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--text-color);
 }
 .home h1 {
@@ -394,12 +380,22 @@ button:hover {
     justify-content: center;
     align-items: center;
   }
-  .matiere {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 500px) {
+  .matiere{
+    margin-left: unset;
+    margin-top: 30px;
+    position: absolute;
+    top: 0;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--text-color);
+  }
+  .home{
+    width: 100%;
+    margin-left: unset;
+}
   #next {
     right: 0px;
     margin-top: 100px;
@@ -409,12 +405,6 @@ button:hover {
     margin-top: 100px;
     margin-left: 50px;
     left: 0px;
-  }
-  .navbar {
-    width: 90%;
-  }
-  .navbar .brandname {
-    display: none;
   }
   .searchcard {
     width: 80vw;
@@ -449,6 +439,24 @@ button:hover {
     color: #000000;
     font-weight: 500;
     font-size: 15px;
+  }
+  .navbar {
+    border-radius: 20px 20px 0px 0px ;
+      z-index: 2;
+      position: fixed;
+      bottom: 0;
+      top: unset;
+      left: unset;
+      margin-top: 0;
+      display: flex;
+      align-items: center;
+      height: 60px;
+      flex-direction: unset;
+      width: 300px;
+      justify-content: center;
+      background-color: var(--navbar);
+      border: 1px solid var(--lighter);
+      box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
   
 }
@@ -1248,6 +1256,6 @@ red {
   position: absolute;
   top: 0;
   height: 100px;
-  width: 100%;
+  width: calc(100% - 60px);
 }
 

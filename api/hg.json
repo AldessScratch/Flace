@@ -1,61 +1,61 @@
 [
-   {
-        "type": "Définition",
-        "title": "Triple Alliance",
-        "content": "Système d’alliance du début du 20e siècle composé de l’Allemagne, de l’Autriche Hongrie et de l’Italie.",
-        "theme": "T1S1",
-        "img": "",
-        "seqname": "Civils et militaires dans la GM1",
-        "id": "HIS-GMT-0001"
-    },
-   {
-        "type": "Définition",
-        "title": "Triple Entente",
-        "content": "Système d’alliance du début du 20e siècle composé de la France, le RU et la Russie.",
-        "theme": "T1S1",
-        "img": "",
-        "seqname": "Civils et militaires dans la GM1",
-        "id": "HIS-GMT-0002"
-    },
-   {
-        "type": "Définition",
-        "title": "Guerre totale",
-        "content": "Guerre qui mobilise à la fois les combattants et les civils.",
-        "theme": "T1S1",
-        "img": "",
-        "seqname": "Civils et militaires dans la GM1",
-        "id": "HIS-GMT-0003"
-    },
-   {
-        "type": "Définition",
-        "title": "Pénurie",
-        "content": "Le manque de ce qui est nécessaire.",
-        "theme": "T1S1",
-        "img": "",
-        "seqname": "Civils et militaires dans la GM1",
-        "id": "HIS-GMT-0004"
-    },
-   {
-        "type": "Définition",
-        "title": "Génocide",
-        "content": "Extermination volontaire et systématique de tout un peuple.",
-        "theme": "T1S1",
-        "img": "",
-        "seqname": "Civils et militaires dans la GM1",
-        "id": "HIS-GMT-0005"
-    },
-
-
-
-    
     {
-        "type": "Définition",
-        "title": "Un régime totalitaire",
-        "content": "Un régime politique dans lequel l’État et un <strong>parti unique</strong> imposent une <strong>idéologie par la propagande, l’encadrement de la population et la répression de l’opposition.</strong>",
-        "theme": "T1S2",
-        "img": "",
-        "seqname": "Démocratie fragilisée et experiences totalitaires dans l’Europe de l’entre 2 guerres",
-        "id": "HIS-TOT-0001"
-    }
-    
-]
+         "type": "Définition",
+         "title": "Triple Alliance",
+         "content": "Système d’alliance du début du 20e siècle composé de l’Allemagne, de l’Autriche Hongrie et de l’Italie.",
+         "theme": "T1S1",
+         "img": "",
+         "seqname": "Civils et militaires dans la GM1",
+         "id": "HIS-GMT-0001"
+     },
+    {
+         "type": "Définition",
+         "title": "Triple Entente",
+         "content": "Système d’alliance du début du 20e siècle composé de la France, le RU et la Russie.",
+         "theme": "T1S1",
+         "img": "",
+         "seqname": "Civils et militaires dans la GM1",
+         "id": "HIS-GMT-0002"
+     },
+    {
+         "type": "Définition",
+         "title": "Guerre totale",
+         "content": "Guerre qui mobilise à la fois les combattants et les civils.",
+         "theme": "T1S1",
+         "img": "",
+         "seqname": "Civils et militaires dans la GM1",
+         "id": "HIS-GMT-0003"
+     },
+    {
+         "type": "Définition",
+         "title": "Pénurie",
+         "content": "Le manque de ce qui est nécessaire.",
+         "theme": "T1S1",
+         "img": "",
+         "seqname": "Civils et militaires dans la GM1",
+         "id": "HIS-GMT-0004"
+     },
+    {
+         "type": "Définition",
+         "title": "Génocide",
+         "content": "Extermination volontaire et systématique de tout un peuple.",
+         "theme": "T1S1",
+         "img": "",
+         "seqname": "Civils et militaires dans la GM1",
+         "id": "HIS-GMT-0005"
+     },
+ 
+ 
+ 
+     
+     {
+         "type": "Définition",
+         "title": "Un régime totalitaire",
+         "content": "Un régime politique dans lequel l’État et un <strong>parti unique</strong> imposent une <strong>idéologie par la propagande, l’encadrement de la population et la répression de l’opposition.</strong>",
+         "theme": "T1S2",
+         "img": "",
+         "seqname": "Démocratie fragilisée et experiences totalitaires dans l’Europe de l’entre 2 guerres",
+         "id": "HIS-TOT-0001"
+     }
+     
+ ]
