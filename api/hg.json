@@ -82,13 +82,23 @@
     },
     {
         "type": "Définition",
-        "title": "Les réparations",
-        "content": "La somme que l’Allemagne doit verser aux vaiqueurs pour réparer les dommages qu’elle a causés sur leur territoire.",
+        "title": "Mutinerie",
+        "content": "Dans l’armée, le refus d’obéir à un ordre ou une révolte.",
         "theme": "T1S1",
         "img": "",
         "seqname": "Civils et militaires dans la GM1",
-        "id": "HIS-GMT-0007"
+        "id": "HIS-GMT-0010"
     },
+    {
+        "type": "Définition",
+        "title": "Tranchée",
+        "content": "Fossé creusé dans le sol destiné à abriter les soldats au front.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0011"
+    },
+    
  
  
  
