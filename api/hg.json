@@ -107,6 +107,15 @@
         "seqname": "Civils et militaires dans la GM1",
         "id": "HIS-GMT-0012"
     },
+    {
+        "type": "Définition",
+        "title": "Guerre de position",
+        "content": "Type de guerre durant laquelle les armées sont face à face, enterrées dans les tranchées et où la ligne de front ne change pas.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0013"
+    },
  
  
  
