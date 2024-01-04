@@ -98,7 +98,15 @@
         "seqname": "Civils et militaires dans la GM1",
         "id": "HIS-GMT-0011"
     },
-    
+    {
+        "type": "Définition",
+        "title": "Offensive",
+        "content": "Opération militaire de grande envergure dans le but d’obtenir un avantage décisif sur l’ennemi.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0012"
+    },
  
  
  
