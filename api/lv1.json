@@ -2454,15 +2454,6 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Enfermer dehors",
-        "content": "<strong>Lock out</strong> <br><strong>Exemple:</strong> I started banging on the door when I realised, he had locked me out.",
-        "theme": "",
-        "img": "",
-        "seqname": "Phrasal verb 3",
-        "id": "ANG-PHV-0101" 
-       },
-       {
-        "type": "Vocabulaire",
         "title": "Se connecter",
         "content": "<strong>Log in/on</strong> <br><strong>Exemple:</strong> You have to log in to view your friends’ photos on Facebook.",
         "theme": "",
@@ -2500,7 +2491,7 @@
        {
         "type": "Vocabulaire",
         "title": "Attendre avec impatience",
-        "content": "<strong>Look forward</strong> <br><strong>Exemple:</strong> We look forward to our summer holiday every year.",
+        "content": "<strong>Look forward to</strong> <br><strong>Exemple:</strong> We look forward to our summer holiday every year.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2535,8 +2526,8 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Se retourner / regarder / visiter",
-        "content": "<strong>Look round</strong> <br><strong>Exemple:</strong> We went to look round the show homes.",
+        "title": "Déchiffrer / comprendre / prétendre",
+        "content": "<strong>Make out</strong> <br><strong>Exemple:</strong> I can't make out the sign from this far away.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2544,12 +2535,75 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Déchiffrer / comprendre",
-        "content": "<strong>Look round</strong> <br><strong>Exemple:</strong> We went to look round the show homes.",
+        "title": "Faire l'imbécile / s'amuser / toucher à",
+        "content": "<strong>Mess around</strong> <br><strong>Exemple:</strong> Stop messing around and let's discuss this seriously.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
         "id": "ANG-PHV-0111" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Omettre / sauter",
+        "content": "<strong>Miss out</strong> <br><strong>Exemple:</strong> Are you sure you don't want to come? I wouldn't want you to miss out.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0112" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Laisser passer / louper",
+        "content": "<strong>Miss out on</strong> <br><strong>Exemple:</strong> Milly was laid up with the flu, so she had to miss out on the party.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0113" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se vanter / parler à tort et à travers",
+        "content": "<strong>Mouth of</strong> <br><strong>Exemple:</strong> He got in trouble again for mouthing off to his teacher.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0114" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Avancer",
+        "content": "<strong>Move forward</strong> <br><strong>Exemple:</strong> Put the car in gear so you can move forward.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0115" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Emménager",
+        "content": "<strong>Move in</strong> <br><strong>Exemple:</strong> I've found a new flat, and I'm moving in next week.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0116" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se mettre en route",
+        "content": "<strong>Move off</strong> <br><strong>Exemple:</strong> He put the car in gear and moved off down the highway.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0117" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Déménager",
+        "content": "<strong>Move out</strong> <br><strong>Exemple:</strong> Although I got on well with my parents, I couldn't wait to move out.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 3",
+        "id": "ANG-PHV-0118" 
        }
 ]
     
