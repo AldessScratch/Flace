@@ -24,12 +24,18 @@
         <i onclick="location.href = 'st.html'" class='bx bx-cog hover'></i>
         <i onclick="location.href = 'info.html'" class=' bx bx-info-circle'></i>
 </div>
-<div class="matiere">Paramètres</div>
+<div class="matiere">
+    <i onclick="history.back()" class="bx bx-left-arrow-alt"></i>
+   <p>Réglages</p> 
+    <i onclick="location.reload()" class="bx bx-refresh"></i>
+</div>
     <div class="home">
-        <div class="cards">
-            <div class="card" data-aos="zoom-in">
-                <h8><i class='bx bx-paint'></i> Thème du site</h8>
-                <h6>Change l'apparence de Flace</h6>
+        <div class="stcont">
+            <div class="st">
+                <div class="left">
+                    <h8><i class='bx bx-paint'></i> Thème du site</h8>
+                    <h6>Change l'apparence de Flace</h6>
+                </div>
                 <select name="themeselect" id="themeselect">
                     <option value="auto">Auto</option>
                     <option value="light">Clair</option>
@@ -57,9 +63,12 @@
                     initThemeSelector();
                  </script>
             </div>
-            <div class="card" data-aos="zoom-in">
-                <h8><i class='bx bx-book-open'></i> Matière préférée</h8>
-                <h6>Change la première matière affichée dans l'accueil</h6>
+            <div class="separator"></div>
+            <div class="st">
+                <div class="left">
+                    <h8><i class='bx bx-book-open'></i> Matière préférée</h8>
+                    <h6>Change la première matière affichée dans l'accueil</h6>
+                </div> 
                 <select name="select" id="matiereselect">
                     <option value="0">Mathématiques</option>
                     <option value="1">Anglais</option>

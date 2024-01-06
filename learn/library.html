@@ -77,7 +77,11 @@
     <i onclick="location.href = '../st.html'" class='bx bx-cog'></i>
     <i onclick="location.href = '../info.html'" class=' bx bx-info-circle'></i>
 </div>
-<div class="matiere" id="matiere"></div><script>document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')</script>
+<div class="matiere">
+  <i onclick="history.back()" class="bx bx-left-arrow-alt"></i>
+   <p id="matiere"></p> 
+    <i onclick="location.reload()" class="bx bx-refresh"></i>
+</div><script>document.getElementById('matiere').innerHTML = sessionStorage.getItem('matiere')</script>
     <div class="home" id="homecontainer">
       <!-- searchbar -->
       <div class="searchsection">
@@ -96,7 +100,7 @@
         </div>
     
     </div>
-
+    <br><br>
     <!-- popup -->
       
       <div class="modal" id="modal">
