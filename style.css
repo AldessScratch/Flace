@@ -417,9 +417,7 @@ button:hover {
     margin-left: 50px;
     left: 0px;
   }
-  .searchcard {
-    width: 80vw;
-  }
+
   .item{
     margin-top: 70px;
     position: absolute;
@@ -458,7 +456,7 @@ button:hover {
       bottom: 0;
       top: unset;
       left: unset;
-      margin-top: 0;
+      margin-top: unset;
       display: flex;
       align-items: center;
       height: 60px;
@@ -470,15 +468,14 @@ button:hover {
       box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   }
   .matiere{
-    width: 80vw;
     margin-left: unset;
-    margin-top: 30px;
     position: absolute;
     top: 0;
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color);
   }
+
 }
 .intro {
   display: flex;
@@ -562,13 +559,12 @@ button:hover {
 }
 /* css des flashcards */
 .cards {
-  margin-top: 20px;
+  margin-bottom: 20px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 20px;
 }
 .cards .card {
   display: flex;
@@ -1294,4 +1290,11 @@ select {
   height: 1px;
   background-color: var(--lighter);
   width: 100%;
+}
+h7 {
+  color: var(--text-color);
+  font-size: 25px;
+  font-weight: 400;
+ margin: 20px;
+  text-align: center;
 }
