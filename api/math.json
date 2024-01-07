@@ -162,7 +162,7 @@
     {
         "type": "Propriété (admise)",
         "title": "Multiplier plusieurs nombres relatifs",
-        "content": "Pour <strong>multiplier plusieurs nombres relatifs</strong>, il faut déterminer le signe du produit et callculer le produit des distances à zéro. Pour déterminer le signe du produit, on distingue deux cas :<br><br>a) Si le nombre de facteurs négatifs est un nombre <strong>pair</strong>, alors le signe du produit est <strong>positif</strong>.<br>b) Si le nombre de facteurs négatifs est un nombre <strong>impair</strong>, alors le signe du produit est <strong>négatif</strong>.",
+        "content": "Pour <strong>multiplier plusieurs nombres relatifs</strong>, il faut déterminer le signe du produit et calculer le produit des distances à zéro. Pour déterminer le signe du produit, on distingue deux cas :<br><br>a) Si le nombre de facteurs négatifs est un nombre <strong>pair</strong>, alors le signe du produit est <strong>positif</strong>.<br>b) Si le nombre de facteurs négatifs est un nombre <strong>impair</strong>, alors le signe du produit est <strong>négatif</strong>.",
         "theme": "T1S2",
         "img": "",
         "seqname": "Nombres relatifs et fractions",
@@ -368,7 +368,7 @@
     {
         "type": "Définition",
         "title": "Tangente",
-        "content": "Dans un triangle rectangle, le <strong>tangente</strong> d’un angle aigu est le quotient de la longueur du côté opposé à l’angle par la longeur du côté adjacent à l’angle.",
+        "content": "Dans un triangle rectangle, la <strong>tangente</strong> d’un angle aigu est le quotient de la longueur du côté opposé à l’angle par la longeur du côté adjacent à l’angle.",
         "theme": "T4S2",
         "img": "",
         "seqname": "Trigonométrie",
