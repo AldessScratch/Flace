@@ -16,7 +16,9 @@
     <meta name="description" content="Flace est un site d’apprentissage fondé sur l’utilisation de flashcards.">
 </head>
 <body>
-<div class="matiere">Setup</div>
+<div class="matiere"><i onclick="history.back()" class="bx bx-left-arrow-alt"></i>
+  <p>Setup</p> 
+   <i onclick="location.reload()" class="bx bx-redo"></i></div>
     
      <!-- taches d'encre stylé -->
      <div class="shapes">
@@ -45,6 +47,5 @@
       
 
         <script>AOS.init();document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
-       <script src="js/main.js"></script>
 </body>
 </html>

@@ -67,7 +67,7 @@
             <div class="st">
                 <div class="left">
                     <h8><i class='bx bx-book-open'></i> Matière préférée</h8>
-                    <h6>Change la première matière affichée dans l'accueil</h6>
+                    <h6>Change la première matière affichée dans la page des matières</h6>
                 </div> 
                 <select name="select" id="matiereselect">
                     <option value="0">Mathématiques</option>
@@ -89,6 +89,14 @@
                     }
                     initselector()
                </script>
+            </div>
+            <div class="separator"></div>
+            <div class="st">
+                <h8>Autres actions</h8>
+                <div class="buttons">
+                    <button onclick="localStorage.clear();location.href = 'setup.html'">Effacer les données local</button>
+                    <button onclick="location.href = 'setup.html'">Changer son nom d'utilisateur</button>
+                </div>
             </div>
         </div>
     </div>

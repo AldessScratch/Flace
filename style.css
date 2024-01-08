@@ -858,8 +858,8 @@ no {
 }
 .modal .buttons button {
   border: 0;
-  padding: 8px 10px;
-  border-radius: 25px;
+  padding: 7px 20px;
+  border-radius: 15px;
   margin: 10px;
   color: #fff;
   font-size: 15px;
@@ -1268,7 +1268,8 @@ select {
   border-radius: 20px;
   padding: 5px;
   border: 0;
-  -webkit-box-shadow: 1px 1px 1px 1px rgb(0, 0, 0);
+  -webkit-box-shadow: 0 0 0 1px var(--lighter);
+  text-align: center;
 }
 .stcont{
   width: 90%;
@@ -1297,4 +1298,12 @@ h7 {
   font-weight: 400;
  margin: 20px;
   text-align: center;
+}
+.st button {
+  padding: 5px 20px;
+  border-radius: 15px;
+  border: var(--lighter) 1px solid;
+  color: var(--text-color);
+  background-color: var(--bg);
+  margin: 5px;
 }

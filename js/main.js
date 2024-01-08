@@ -21,3 +21,6 @@ function readtext(){
     responsiveVoice.speak(`${localStorage.getItem('popupcontent')}`, 'French Female')
   }
 }
+if (localStorage.getItem('first')===null){
+            location.href = 'setup.html'
+        }
