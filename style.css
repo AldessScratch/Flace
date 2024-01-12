@@ -69,31 +69,20 @@ button, i, .brand {
 /* variable couleur */
 
 :root {
-    --bg: #fcfcfc;
-    --text-color: #000;
-    --main: #84d393;
-    --darker-main: #89c094;
-    --navbar: #ffffff;
-    --lighter: #bababa;
-  }
-  /* thème sombre */
-  @media (prefers-color-scheme: dark){
-    :root {
-      --bg: #060606;
-        --text-color: #fff;
-        --main: #5bc06e;
-        --navbar: #232323;
-        --darker-main: #84d393;
-        --lighter: #414141;
-    }
-  }
+  --bg: #060606;
+    --text-color: #fff;
+    --main: #5bc06e;
+    --navbar: #232323;
+    --darker-main: #84d393;
+    --lighter: #414141;
+}
 /* css navbar */
 .navbar {
   left: 0;
-  border-radius: 0px 20px 20px 0px;
+  border-radius: 20px;
     z-index: 2;
     position: fixed;
-    top: 0;
+    left: 10px;
     top: calc(50vh - 150px);
     display: flex;
     align-items: center;
@@ -107,7 +96,6 @@ button, i, .brand {
 }
 
 .navbar img {
-  filter: brightness(95%);
     height: 25px;
     width: 25px;
     margin: 20px;
@@ -290,6 +278,7 @@ button, i, .brand {
 
 /* les truc pour controler le slide */
 .slider #next i, #prev i{
+  filter: drop-shadow(2px 2px 5px rgb(0 0 0 / 0.4));
   margin-top: 100px;
   text-align: center;
   height: 100vh;
@@ -377,7 +366,7 @@ button:hover {
 .matiere{
   margin-left: 60px;
   position: absolute;
-  top: 0;
+  top: 10px;
   width: auto;
   height: 50px;
   display: flex;
@@ -389,15 +378,14 @@ button:hover {
   font-size: 20px;
   font-weight: 600;
   color: var(--text-color);
-  background-color: var(--navbar);
-    border: 1px solid var(--lighter);
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+  letter-spacing: 5px;
 }
 .matiere p {
   margin: 10px;
   text-align: center;
 }
 .matiere i {
+  display: none;
   font-size: 25px;
   margin: 10px;
 }
@@ -450,10 +438,10 @@ button:hover {
     font-size: 15px;
   }
   .navbar {
-    border-radius: 20px 20px 0px 0px ;
+    border-radius: 20px;
       z-index: 2;
       position: fixed;
-      bottom: 0;
+      bottom: 10px;
       top: unset;
       left: unset;
       margin-top: unset;

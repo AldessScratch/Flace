@@ -84,23 +84,6 @@
 </div>
 </div>
 <!-- Fin d'une slide -->
- <!-- Début d'une slide -->
- <div class="item" >
-    <div class="inner">
-        <div class="front">
-            <img src="./img/5.png">
-            <h2>Français</h2>
-            <div class="flashcardsnumber" id="6"></div>
-        </div>  
-        <div class="back">
-            <h5>Que voulez vous faire ?</h5>
-            <button class="learn" onclick="document.getElementById('selectoption').remove();setuplearn('fra', 'Français')"><i class="bx bx-book-open"></i> S'entrainer</button>
-            <button class="lib" onclick="openlib('fra', 'Français')"><i class="bx bx-grid-alt"></i> Bibliothèque</button>
-        </div>
-    </div>
-    
-</div>
-<!-- Fin d'une slide -->
         
            <!-- Début d'une slide -->
         <div class="item" >
@@ -223,14 +206,6 @@
             })
             .catch(error => console.error('Error loading JSON:', error));
                     }
-                    fetch('./api/fra.json')
-            .then(response => response.json())
-            .then(data => {
-              var numberOfObjects = data.length;
-              document.getElementById('6').innerHTML = '<i class="bx bx-grid-alt"></i>' + `${numberOfObjects} flashcards`;
-            })
-            .catch(error => console.error('Error loading JSON:', error));
-                
                     loadJSON();
                 </script>
     <script>AOS.init();document.getElementById("themestyle").setAttribute("href", `themes/${localStorage.getItem("theme")}.css`);</script>
