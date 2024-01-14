@@ -2508,8 +2508,8 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Chercher / s'occuper de",
-        "content": "<strong>Look out for</strong> <br><strong>Exemple:</strong> Jimmy's brothers have looked out for him since their parents died.",
+        "title": "Chercher / s’occuper de",
+        "content": "<strong>Look out for</strong> <br><strong>Exemple:</strong> Jimmy’s brothers have looked out for him since their parents died.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2527,7 +2527,7 @@
        {
         "type": "Vocabulaire",
         "title": "Déchiffrer / comprendre / prétendre",
-        "content": "<strong>Make out</strong> <br><strong>Exemple:</strong> I can't make out the sign from this far away.",
+        "content": "<strong>Make out</strong> <br><strong>Exemple:</strong> I can’t make out the sign from this far away.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2535,8 +2535,8 @@
        },
        {
         "type": "Vocabulaire",
-        "title": "Faire l'imbécile / s'amuser / toucher à",
-        "content": "<strong>Mess around</strong> <br><strong>Exemple:</strong> Stop messing around and let's discuss this seriously.",
+        "title": "Faire l’imbécile / s’amuser / toucher à",
+        "content": "<strong>Mess around</strong> <br><strong>Exemple:</strong> Stop messing around and let’s discuss this seriously.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2545,7 +2545,7 @@
        {
         "type": "Vocabulaire",
         "title": "Omettre / sauter",
-        "content": "<strong>Miss out</strong> <br><strong>Exemple:</strong> Are you sure you don't want to come? I wouldn't want you to miss out.",
+        "content": "<strong>Miss out</strong> <br><strong>Exemple:</strong> Are you sure you don’t want to come? I wouldn’t want you to miss out.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2581,7 +2581,7 @@
        {
         "type": "Vocabulaire",
         "title": "Emménager",
-        "content": "<strong>Move in</strong> <br><strong>Exemple:</strong> I've found a new flat, and I'm moving in next week.",
+        "content": "<strong>Move in</strong> <br><strong>Exemple:</strong> I’ve found a new flat, and I’m moving in next week.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
@@ -2599,11 +2599,237 @@
        {
         "type": "Vocabulaire",
         "title": "Déménager",
-        "content": "<strong>Move out</strong> <br><strong>Exemple:</strong> Although I got on well with my parents, I couldn't wait to move out.",
+        "content": "<strong>Move out</strong> <br><strong>Exemple:</strong> Although I got on well with my parents, I couldn’t wait to move out.",
         "theme": "",
         "img": "",
         "seqname": "Phrasal verb 3",
         "id": "ANG-PHV-0118" 
+       },
+
+
+
+
+       {
+        "type": "Vocabulaire",
+        "title": "Renforcé / plus intense",
+        "content": "Heightened",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 20",
+        "id": "ANG-V20-0001" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Gâteries, attentions",
+        "content": "Pampering",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 20",
+        "id": "ANG-V20-0002" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Comparer",
+        "content": "To liken",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 20",
+        "id": "ANG-V20-0003" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Clément / indulgent",
+        "content": "Lenient",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 20",
+        "id": "ANG-V20-0004" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Un enfant gâté",
+        "content": "A spoiled child",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 20",
+        "id": "ANG-V20-0005" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Viser / chercher à atteindre",
+        "content": "To shrive for",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 20",
+        "id": "ANG-V20-0006" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Compter sur quelqu’un / quelque chose",
+        "content": "To rely on someone / something",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 20",
+        "id": "ANG-V20-0007" 
+       },
+
+
+
+
+
+
+       {
+        "type": "Vocabulaire",
+        "title": "Valloir le coup, en avoir pour son argent",
+        "content": "Worth the money",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0001" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Bon rapport qualité-prix",
+        "content": "Good value for money",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0002" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Une perte d’argent",
+        "content": "A waste of money",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0003" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Une bonne affaire",
+        "content": "A bargain",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0004" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Avoir plus d’argent que de bon sens",
+        "content": "To have more money than sense",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0005" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Joindre l’acte à la parole, tenir ses promesses",
+        "content": "To put your money where your mouth is",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0006" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Être à court d’argent",
+        "content": "To be short of money",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0007" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "L’argent ne pousse pas sur les arbres",
+        "content": "Money doesn’t grow on trees",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0008" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Avoir de l’argent à perdre",
+        "content": "To have money to burn",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0009" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Être très riche",
+        "content": "To be worth a fortune",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0010" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Être plein aux as",
+        "content": "To be made of money",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0011" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "L’argent mène le monde",
+        "content": "Money makes the world go around",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0012" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Vivre selon ses moyens",
+        "content": "To live within your means",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0013" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Avoir des dettes",
+        "content": "To be in debt",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0014" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Vivre avec un budget serré",
+        "content": "To live on a tight budget",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0015" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Donner son argent",
+        "content": "To give money away",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0016" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Un niveau de vie",
+        "content": "A standard of living",
+        "theme": "",
+        "img": "",
+        "seqname": "Voc 21 (Money)",
+        "id": "ANG-V21-0017" 
        }
 ]
     

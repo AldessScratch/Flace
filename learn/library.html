@@ -154,10 +154,12 @@ removeHtmlTagsFromLocalStorage('popupcontent');
               let title = cards[i].getElementsByTagName('h5')[0];
               let type = cards[i].getElementsByTagName('h2')[0];
               let seq = cards[i].getElementsByTagName('h3')[0];
+              let content = cards[i].getElementsByTagName('p')[0];
               let txtValue = title.textContent || title.innerText;
               let typeValue = type.textContent || type.innerText;
               let seqnameValue = seq.textContent || seq.innerText;
-                if (txtValue.toUpperCase().indexOf(filter) > -1 || typeValue.toUpperCase().indexOf(filter) > -1 || seqnameValue.toUpperCase().indexOf(filter) > -1) {
+              let contentValue = content.textContent || content.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1 || typeValue.toUpperCase().indexOf(filter) > -1 || contentValue.toUpperCase().indexOf(filter) > -1 || seqnameValue.toUpperCase().indexOf(filter) > -1) {
                   cards[i].style.display = "";
                 } else {
                     cards[i].style.display = "none";
@@ -200,8 +202,8 @@ removeHtmlTagsFromLocalStorage('popupcontent');
       filter.setAttribute('onclick', `location.href = '#${values[i]}'`)
       filter.innerHTML = values[i]
       document.getElementById('filter').appendChild(filter)
-      homecontainer.appendChild(createtitle(values[i]));
       homecontainer.appendChild(creatediv(values[i]));
+      document.getElementById(values[i]).appendChild(createtitle(values[i]));
       
     }
     return homecontainer;
@@ -218,8 +220,9 @@ removeHtmlTagsFromLocalStorage('popupcontent');
               const type = document.createElement('h2');
               const title = document.createElement('h5');
               const seq = document.createElement('h3');
+              const content = document.createElement('p');
 
-              
+              content.innerHTML = cards.content
               title.innerHTML = cards.title.toUpperCase()
               type.innerHTML = cards.type + ' :'
               seq.innerHTML = cards.seqname
@@ -228,7 +231,7 @@ removeHtmlTagsFromLocalStorage('popupcontent');
               }else{
                 card.setAttribute('onclick', `setuppopup('${cards.title}', '${cards.content}', '${cards.img}', '${cards.id}')`)
               }
-
+              content.classList.add('content')
               card.classList.add('card');
               card.setAttribute('id', cards.id)
               innercard.classList.add('innercard');
@@ -239,7 +242,7 @@ removeHtmlTagsFromLocalStorage('popupcontent');
               innercard.appendChild(seq);
               innercard.appendChild(type);
               innercard.appendChild(title);
-             
+              innercard.appendChild(content)
         })};
           rendercards(data);
         }).catch(error => console.error('Error fetching cards:', error));
