@@ -322,7 +322,7 @@
     {
         "type": "Propriété (admise)",
         "title": "Réciproque du théorème de Pythagore",
-        "content": "Si dans un triangle, le carré de la longueur du plus grand côté est pas égal à la somme des carrés des longueurs des deux autres côtés, alors ce triangle est rectangle.",
+        "content": "Si dans un triangle, le carré de la longueur du plus grand côté est égal à la somme des carrés des longueurs des deux autres côtés, alors ce triangle est rectangle.",
         "theme": "T4S1",
         "img": "",
         "seqname": "Le théorème de Pythagore",
