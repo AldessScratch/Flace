@@ -134,7 +134,26 @@
         "seqname": "Civils et militaires dans la GM1",
         "id": "HIS-GMT-0015"
     },
- 
+    {
+        "type": "Date",
+        "title": "28 juin 1914",
+        "content": "Assassinat de l’archiduc François Ferdinand à Saravejo, en Bosnie.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0016"
+    },
+    {
+        "type": "Date",
+        "title": "28 juillet 1914",
+        "content": "Déclaration de guerre de l’Autriche-Hongrie à la Bosnie.",
+        "theme": "T1S1",
+        "img": "",
+        "seqname": "Civils et militaires dans la GM1",
+        "id": "HIS-GMT-0016"
+    },
+   
+    
  
  
      {
