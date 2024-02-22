@@ -51,7 +51,7 @@
         "theme": "T1S1",
         "img": "",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0005"
+        "id": "MAT-ARI-0006"
     },
     {
         "type": "Méthode",
@@ -60,7 +60,7 @@
         "theme": "T1S1",
         "img": "",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0006"
+        "id": "MAT-ARI-0007"
     }
     ,
     {
@@ -70,7 +70,7 @@
         "theme": "T1S1",
         "img": "",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0007"
+        "id": "MAT-ARI-0008"
     },
     {
         "type": "Définition",
@@ -79,7 +79,7 @@
         "theme": "T1S1",
         "img": "",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0008"
+        "id": "MAT-ARI-0009"
     },
     {
         "type": "Liste",
@@ -88,7 +88,7 @@
         "theme": "T1S1",
         "img": "",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0009"
+        "id": "MAT-ARI-0010"
     },
     {
         "type": "Méthode",
@@ -97,7 +97,7 @@
         "theme": "T1S1",
         "img": "",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0010"
+        "id": "MAT-ARI-0011"
     },
     {
         "type": "Méthode",
@@ -106,7 +106,7 @@
         "theme": "T1S1",
         "img": "../img/math/MAT-ARI-0011.png",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0011"
+        "id": "MAT-ARI-0012"
     },
     {
         "type": "Définition",
@@ -115,16 +115,16 @@
         "theme": "T1S1",
         "img": "",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0012"
+        "id": "MAT-ARI-0013"
     },
     {
         "type": "Définition",
         "title": "Fractions irréductibles",
-        "content": "Une fraction A sur B est <strong>irréductible</strong> si les nombre entier A et B sont <strong>entier entre eux.</strong>",
+        "content": "Une fraction A sur B est <strong>irréductible</strong> si les nombre entier A et B sont <strong>premiers entre eux.</strong>",
         "theme": "T1S1",
         "img": "",
         "seqname": "Arithmétique",
-        "id": "MAT-ARI-0013"
+        "id": "MAT-ARI-0014"
     },
 
 
@@ -255,7 +255,7 @@
     {
         "type": "Définition",
         "title": "Une expression littérale",
-        "content": "Une expression litterale est une expression dans laquelle <strong>un ou plusieurs nombre</strong> sont designés par des lettres.",
+        "content": "Une expression litterale est une expression dans laquelle <strong>un ou plusieurs nombres</strong> sont designés par des lettres.",
         "theme": "T1S4",
         "img": "",
         "seqname": "Calcul littéral",
@@ -322,7 +322,7 @@
     {
         "type": "Propriété (admise)",
         "title": "Réciproque du théorème de Pythagore",
-        "content": "Si dans un triangle, le carré de la longueur du plus grand côté est égal à la somme des carrés des longueurs des deux autres côtés, alors ce triangle est rectangle.",
+        "content": "Si dans un triangle, le carré de la longueur du plus grand côté est pas égal à la somme des carrés des longueurs des deux autres côtés, alors ce triangle est rectangle.",
         "theme": "T4S1",
         "img": "",
         "seqname": "Le théorème de Pythagore",
@@ -373,5 +373,15 @@
         "img": "",
         "seqname": "Trigonométrie",
         "id": "MAT-TRI-0004"
+    },
+
+    {
+        "type": "Définition",
+        "title": "Théorème de Thalès",
+        "content": "Si deux droites (BM) et (CN) sont sécantes en A, et si les droites (BC) et (MN) sont parallèles, alors AM/AB = AN/AC = MN/BC.",
+        "theme": "T4S3",
+        "img": "",
+        "seqname": "Le théorème de Thalès",
+        "id": "MAT-THA-0001"
     }
 ]

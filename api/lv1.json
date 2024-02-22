@@ -73,7 +73,7 @@
       },
        {
         "type": "Vocabulaire",
-        "title": "Rappeler ",
+        "title": "Rappeler (téléphone)",
         "content": "<strong>Call back</strong> <br><strong>Exemple:</strong> I’ll call back when I can. ",
         "theme": "",
         "img": "",
@@ -2830,6 +2830,370 @@
         "img": "",
         "seqname": "Voc 21 (Money)",
         "id": "ANG-V21-0017" 
+       },
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       
+       {
+        "type": "Vocabulaire",
+        "title": "Se pousser",
+        "content": "<strong>Move over</strong> <br><strong>Exemple:</strong> The rude man refused to move over to let me pass.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0119" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Noter",
+        "content": "<strong>Note down</strong> <br><strong>Exemple:</strong> Hold on, I'll just note that down.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0120" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se séparer de",
+        "content": "<strong>Part with</strong> <br><strong>Exemple:</strong> I just couldn't part with my childhood teddy bear.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0121" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se faire passer pour",
+        "content": "<strong>Pass for</strong> <br><strong>Exemple:</strong> He could easily pass for his brother; they look so much alike.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0122" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Transmettre",
+        "content": "<strong>Pass on</strong> <br><strong>Exemple:</strong> The house and all its belongings were passed on to her.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0123" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S'évanouir / distribuer",
+        "content": "<strong>Pass out</strong> <br><strong>Exemple:</strong> The priest is passing out the communion wafers. / I took one look at the bloody cut on my arm and passed out. ",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0124" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Rembourser",
+        "content": "<strong>Pay back</strong> <br><strong>Exemple:</strong> I can't afford to pay back the fifty pounds he lent me.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0125" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Payer",
+        "content": "<strong>Pay for</strong> <br><strong>Exemple:</strong> He paid for his dinner when the bill came.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0126" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Détacher",
+        "content": "<strong>Peel off</strong> <br><strong>Exemple:</strong> I peeled off the skin of the apple, then cored it and cut it into wedges.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0127" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Rappeler (téléphone)",
+        "content": "<strong>Phone back</strong> <br><strong>Exemple:</strong> I missed your call, but I’ll phone you back as soon as I can.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0128" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S'en prendre à / harceler",
+        "content": "<strong>Pick on</strong> <br><strong>Exemple:</strong> Please don't pick on me because I'm small!",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0129" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Brancher",
+        "content": "<strong>Plug in</strong> <br><strong>Exemple:</strong> He plugged in the television and switched it on.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0130" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Montrer / faire remarquer",
+        "content": "<strong>Point out</strong> <br><strong>Exemple:</strong> The tour guide pointed out the historical monuments as the bus drove past them.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0131" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Passer",
+        "content": "<strong>Pop in</strong> <br><strong>Exemple:</strong> Whenever you're in the neighbourhood, you're welcome to pop in.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0132" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Prendre la tête",
+        "content": "<strong>Pull ahead</strong> <br><strong>Exemple:</strong> It was slow at first, but we’re starting to pull ahead of the competition.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0133" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S'arrêter",
+        "content": "<strong>Pull in</strong> <br><strong>Exemple:</strong> When her dad's car pulled in beside the house, she ran out to greet him.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0134" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Arracher / retirer",
+        "content": "<strong>Pull out</strong> <br><strong>Exemple:</strong> The dentist pulled out the infected tooth.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0135" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Se ranger / se garer sur le côté",
+        "content": "<strong>Pull over</strong> <br><strong>Exemple:</strong> When he saw the flashing lights in the rear-view mirror, he pulled over.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0136" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S'en sortir",
+        "content": "<strong>Pull through</strong> <br><strong>Exemple:</strong> After her terrible accident, we weren't sure if she would pull through, but she did, thank God!",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0137" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Faire un effort",
+        "content": "<strong>Pull together</strong> <br><strong>Exemple:</strong> Everyone pulled together to make the concert a success.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0138" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Resquiller",
+        "content": "<strong>Push in</strong> <br><strong>Exemple:</strong> I hate people who push in; they have no manners.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0139" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Ranger",
+        "content": "<strong>Put away</strong> <br><strong>Exemple:</strong> My dad told me to put away my clothes.",
+        "theme": "",
+        "img": "",
+        "seqname": "wPhrasal verb 4",
+        "id": "ANG-PHV-0140" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Remettre",
+        "content": "<strong>Put back</strong> <br><strong>Exemple:</strong> When you've finished the book, please put it back on the shelf.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0141" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Remettre à plus tard / dissuader / dégoûter / déranger / éteindre",
+        "content": "<strong>Put off</strong> <br><strong>Exemple:</strong> I don't want to put you off, but that make of car you're thinking of buying is very hard to maintain.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0142" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Éteindre / tendre / sortir / déranger",
+        "content": "<strong>Put out</strong> <br><strong>Exemple:</strong> Quickly! Someone please put out the fire!",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0143" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Monter",
+        "content": "<strong>Put together</strong> <br><strong>Exemple:</strong> Can you help me put this bookcase together, please?",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0145" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Tendre la main",
+        "content": "<strong>Reach out</strong> <br><strong>Exemple:</strong> The interviewer reached out to shake Neil's hand.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0146" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Lire à haute voix",
+        "content": "<strong>Read out</strong> <br><strong>Exemple:</strong> She read the letter out to me over the phone.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0147" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Compter sur",
+        "content": "<strong>Rely on</strong> <br><strong>Exemple:</strong> Can you rely on that car?",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0148" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Rentrer de",
+        "content": "<strong>Return from</strong> <br><strong>Exemple:</strong> When I returned from my vacation, I had a serious sun burn.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0149" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Revenir / retourner à",
+        "content": "<strong>Return to</strong> <br><strong>Exemple:</strong> I often return to the town I grew up in.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0150" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Rappeler",
+        "content": "<strong>Ring back</strong> <br><strong>Exemple:</strong> I missed a call from my friend, so I need to ring her back.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0151" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Effacer",
+        "content": "<strong>Rub out</strong> <br><strong>Exemple:</strong> If you write in pencil, it's easier to rub out your mistakes.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0152" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Exclure",
+        "content": "<strong>Rule out</strong> <br><strong>Exemple:</strong> The police ruled out the obvious suspect because he had an alibi for the time of the murder.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0153" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S'enfuir",
+        "content": "<strong>Run away</strong> <br><strong>Exemple:</strong> He ran away before the police could catch him.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0154" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "S'épuiser",
+        "content": "<strong>Run out</strong> <br><strong>Exemple:</strong> Can you go and buy milk? We've completely run out.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0155" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Renverser / écraser",
+        "content": "<strong>Run over</strong> <br><strong>Exemple:</strong> I'm so sorry; I accidentally ran over your cat!",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0156" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Faire fuir / effrayer",
+        "content": "<strong>Scare away</strong> <br><strong>Exemple:</strong> The scarecrows in the garden did nothing to scare away the rabbits.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0157" 
+       },
+       {
+        "type": "Vocabulaire",
+        "title": "Chercher",
+        "content": "<strong>Search for</strong> <br><strong>Exemple:</strong> He is searching for his keys.",
+        "theme": "",
+        "img": "",
+        "seqname": "Phrasal verb 4",
+        "id": "ANG-PHV-0158" 
        }
 ]
     
